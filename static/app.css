@@ -3136,7 +3136,7 @@ main >.inner {
   justify-content: center;
   line-height: 1.4;
   margin-top: 0.625rem;
-  overflow: hidden;
+  overflow: scroll;
   text-align: center;
   white-space: nowrap;
 }
