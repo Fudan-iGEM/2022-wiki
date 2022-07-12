@@ -45,7 +45,7 @@ def markdown1(page):
     page = render_template(context={'body' : html, 'toc': md.toc})
 return render_template(str(Path('markdown') / (page.lower() + '.html')))
 
-def pages(page)
+def pages(page):
     return render_template(markdown1(page) ,context={'body': markdown1(page)} )
 
 # Main Function, Runs at http://0.0.0.0:8080
