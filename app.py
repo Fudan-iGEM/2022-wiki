@@ -43,7 +43,7 @@ def markdown1(page):
     )
     html = md.convert(text)
     page = render_template(context={'body' : html, 'toc': md.toc})
-return render_template(str(Path('markdown') / (page.lower() + '.html')))
+    return render_template(str(Path('markdown') / (page.lower() + '.html')))
 
 def pages(page):
     return render_template(markdown1(page) ,context={'body': markdown1(page)} )
