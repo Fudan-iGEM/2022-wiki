@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+body{
+    margin: 0;
+    font-family: Arapey;
+}
+
+menu{
+    position: absolute;
+    left: 5%;
+    top: 0;
+    bottom: 0;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30%;
+}
+
+section{
+    padding: 3em;
+    height: 130vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+blockquote{
+    font-size: 2em;
+    width: 30%;
+    margin-top: 17%;
+    position: absolute;
+    z-index: 100;
+}
+
+span{
+    width: 200%;
+    background: #618567;
+    display: block;
+    height: 5px;
+    margin-top: 20px;
+}
+
+#orange{
+    position: absolute;
+    background: #f18f4b;
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-top: 30%;
+    margin-left: 55%;
+}
+#darkgreen{
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    display: block;
+    margin-left: 60%;
+    margin-top: 100px;
+    margin-right: 200px;
+    background: #3e856d
+}
+#lightgreen{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin-top: 30%;
+    margin-left: 37%;
+    background: #618567;
+}
+#yellow{
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    display: block;
+    margin-top: 5%;
+    margin-left: 20%;
+    background: #edd15e;
+}
+section:nth-child(even){
+    background: #ffffff;
+}
+section:nth-child(odd){
+    background: #faf5e5;
+}
+#heading{
+    height: 100vh !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+#headinglogo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("./logo_rectangle.jpg") no-repeat center;
+    background-size: 40%;
+    opacity: 60%;
+    z-index: 1000;
+    height: 40%;
+}
