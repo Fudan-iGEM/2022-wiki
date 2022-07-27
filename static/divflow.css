@@ -93,12 +93,7 @@ span{
     margin-left: 20%;
     background: #edd15e;
 }
-section:nth-child(even){
-    background: #ffffff;
-}
-section:nth-child(odd){
-    background: #faf5e5;
-}
+
 #heading{
     height: 100vh !important;
     align-items: center !important;
