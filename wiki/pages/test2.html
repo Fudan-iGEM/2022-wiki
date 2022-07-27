@@ -1,10 +1,14 @@
+
+{% extends "layout.html" %}
+
+{% block page_content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>divflow</title>
-    <link rel="stylesheet" src="static/divflow.css">
-    <link rel="stylesheet" src="static/wheelmenu.css">
+    <link rel="stylesheet" href="static/divflow.css">
+    <link rel="stylesheet" href="static/wheel-menu.css">
 </head>
 
 <body>
@@ -63,7 +67,7 @@
     </div>
 </section>
 
-<section class="animation">
+<section id="animation">
     <blockquote>
         This is an animation for testing.
         <span></span>
@@ -78,25 +82,25 @@
 
 </section>
 
-<section>
+<section id="animation1">
     <div id="lightgreen">
 
     </div>
 </section>
 
-<section>
+<section id="animation2">
     <div id="darkgreen1">
 
     </div>
 </section>
 
-<section>
+<section id="animation3">
     <div id="orange2">
 
     </div>
 </section>
 
-<section>
+<section id="animation4">
     <div id="orange3">
 
     </div>
@@ -124,3 +128,5 @@
 <script src="static/wheelmenu.js"></script>
 </body>
 </html>
+
+{% endblock %}
