@@ -12,11 +12,7 @@ menu{
     bottom: 0;
 }
 
-h1{
-    font-size: 2em;
-    text-align: center;
-    margin-top: 30%;
-}
+
 
 section{
     padding: 3em;
@@ -142,4 +138,9 @@ section:nth-child(odd){
 }
 #animation3{
     background: #ffffff;
+}
+#bottom{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30%;
 }
