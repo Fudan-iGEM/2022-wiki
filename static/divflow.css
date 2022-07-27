@@ -12,15 +12,6 @@ menu{
     bottom: 0;
 }
 
-
-
-section{
-    padding: 3em;
-    height: 130vh;
-    position: relative;
-    box-sizing: border-box;
-}
-
 blockquote{
     font-size: 2em;
     width: 30%;
@@ -126,18 +117,38 @@ section:nth-child(odd){
 }
 #animation{
     background: #faf5e5;
+    padding: 3em;
+    height: 130vh;
+    position: relative;
+    box-sizing: border-box;
 }
 #animation2{
     background: #faf5e5;
+    padding: 3em;
+    height: 130vh;
+    position: relative;
+    box-sizing: border-box;
 }
 #animation4{
-    background: #faf5e5;
+    background: #faf5e5;    
+    padding: 3em;
+    height: 130vh;
+    position: relative;
+    box-sizing: border-box;
 }
 #animation1{
-    background: #ffffff;
+    background: #ffffff;    
+    padding: 3em;
+    height: 130vh;
+    position: relative;
+    box-sizing: border-box;
 }
 #animation3{
-    background: #ffffff;
+    background: #ffffff;    
+    padding: 3em;
+    height: 130vh;
+    position: relative;
+    box-sizing: border-box;
 }
 #bottom{
     font-size: 2em;
