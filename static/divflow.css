@@ -142,5 +142,6 @@ section:nth-child(odd){
 #bottom{
     font-size: 2em;
     text-align: center;
+    justify-content: center;
     margin-top: 30%;
 }
