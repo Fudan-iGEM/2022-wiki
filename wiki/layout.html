@@ -12,7 +12,7 @@
 
     <!-- Custom CSS -->
     <!-- <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet"> -->
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'app.css') }}">
+
 
     <title>{% block title %}{% endblock %} | Fudan - iGEM 2022</title>
 
@@ -46,8 +46,7 @@
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="{{ url_for('static', filename = 'bootstrap.bundle.min.js') }}"></script>
-  <script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
-  <script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
-  <script src="{{url_for('static' , filename = 'app.js') }}"></script>
+
+
 </body>
 </html>
