@@ -1,106 +1,99 @@
-*
-{
-     margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.menu
-{
-    width: 300px;
-    height: 300px;
+.menu {
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1500;
     position: sticky;
+    position: -webkit-sticky;
 }
-.menuitem
-{
-    width: 60px;
-    height: 60px;
+
+.menuitem {
+    width: 40px;
+    height: 40px;
     position: absolute;
+    left: 0;
     justify-content: center;
     align-items: center;
     list-style: none;
-    left: 0;
-    transform-origin: 150px;
+    transform-origin: 100px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
-    transform: rotate(0deg) translateX(120px);
+    transform: rotate(0deg) translateX(80px);
+    z-index: 1400;
 }
-.toggle1{
+
+.toggle1 {
     top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     transition: transform 1.25s;
-    z-index: 2000;
-}
-.menu a{
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: white;
-}
-.menu.active .menuitem
-{
-    transform: rotate(calc(360deg / 8 * var(--i)));
-}
-.menuitem.active li{
-    transform: rotate(0deg) translateX(50px);
-    transform: rotate(calc(360deg / 5 * var(--j)));
-}
-.menuitem li
-{
-    position: absolute;
-    list-style: none;
-    top: 0;
-    left: 0;
-    transform-origin: 150px;
-    transition: 0.5s;
-    transition-delay: calc(0.1s * var(--i));
-}
-.toggle{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 4px rgba(0,0,0,0.15);
-    font-size: 3em;
-    z-index: 5000;
-    transition: transform 1.25s;
-}
-.menu.active .toggle{
-    transform: rotate(315deg);
-}
-.cancel{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 4px rgba(0,0,0,0.15);
-    font-size: 3em;
     z-index: 2000;
 }
 
+.menu a {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+}
+
+.menu.active .menuitem {
+    transform: rotate(calc(360deg / 8 * var(--i)));
+}
+
+.menuitem.active li {
+    transform: rotate(0deg) translateX(50px);
+    transform: rotate(calc(360deg / 5 * var(--j)));
+}
+
+.menuitem li {
+    position: absolute;
+    list-style: none;
+    top: 0;
+    left: 0;
+    transform-origin: 100px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.toggle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    font-size: 2em;
+    z-index: 5000;
+    transition: transform 1.25s;
+}
+
+.menu.active .toggle {
+    transform: rotate(315deg);
+}
