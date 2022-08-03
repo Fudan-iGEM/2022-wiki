@@ -2,7 +2,9 @@ let toggle = document.querySelector('.toggle')
 let menu = document.querySelector('.menu')
 let toggle1 = document.querySelector('.toggle1')
 let menuitem = document.querySelector('.menuitem')
-toggle.onclick = function () {
+let oldpositionx ;
+let oldpositiony ;
+toggle.onclick = function () {if (oldpositiony === menu.style.top && oldpositionx === menu.style.left){
     if (menuitem.classList.contains('active')) {
 
 
@@ -17,10 +19,14 @@ toggle.onclick = function () {
 
     }
 }
+}
+
 toggle1.onclick = function () {
     menu.classList.toggle('active');
     menuitem.classList.toggle('active');
 }
+
+
 
 
 
@@ -49,11 +55,15 @@ const mouseDown = (e) => {
         offsetY = e.clientY - menu.getBoundingClientRect().top;
         offsetX = e.clientX - menu.getBoundingClientRect().left;
         window.addEventListener("mousemove", move);
+        oldpositionx = menu.style.left;
+        oldpositiony = menu.style.top;
         e.preventDefault()
     } else {
         offsetY = e.touches[0].clientY - menu.getBoundingClientRect().top;
         offsetX = e.touches[0].clientX - menu.getBoundingClientRect().left;
         window.addEventListener("touchmove", move);
+        oldpositionx = menu.style.left;
+        oldpositiony = menu.style.top;
         e.preventDefault()
     }
 
