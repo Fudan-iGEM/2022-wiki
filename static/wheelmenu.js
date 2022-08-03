@@ -25,34 +25,88 @@ toggle1.onclick = function () {
 
 
 
-    // getting HTML elements
+let offsetX = 0, offsetY = 0;
 
+const move = (e) => {
+    if (!menu.classList.contains("active")) {
+        if (e.type === "touchmove") {
+            console.log(e)
+            menu.style.top = e.touches[0].clientY - offsetY + "px";
+            menu.style.left = e.touches[0].clientX - offsetX + "px";
+            e.preventDefault()
+        } else {
+            menu.style.top = e.clientY - offsetY + "px";
+            menu.style.left = e.clientX - offsetX + "px";
+            e.preventDefault()
+        }
+    }
+};
 
+const mouseDown = (e) => {
+    console.log("mouse down ");
 
+    if (e.type === "mousedown") {
+        offsetY = e.clientY - menu.getBoundingClientRect().top;
+        offsetX = e.clientX - menu.getBoundingClientRect().left;
+        window.addEventListener("mousemove", move);
+        e.preventDefault()
+    } else {
+        offsetY = e.touches[0].clientY - menu.getBoundingClientRect().top;
+        offsetX = e.touches[0].clientX - menu.getBoundingClientRect().left;
+        window.addEventListener("touchmove", move);
+        e.preventDefault()
+    }
 
-    // js code to make draggable nav
-    function onDrag({movementY}) { //movementY gets mouse vertical value
-    const navStyle = window.getComputedStyle(menu), //getting all css style of nav
-    navTop = parseInt(navStyle.top), // getting nav top value & convert it into string
-    navHeight = parseInt(navStyle.height), // getting nav height value & convert it into string
-    windHeight = window.innerHeight; // getting window height
+    menu.style.transition = "none";
+};
 
-    menu.style.top = navTop > 0 ? `${navTop + movementY}px` : "1px";
-    if(navTop > windHeight - navHeight){
-    menu.style.top = `${windHeight - navHeight}px`;
-}
-}
+const mouseUp = (e) => {
+    console.log("mouse up");
+    if (e.type === "mouseup") {
+        window.removeEventListener("mousemove", move);
+        offsetX = 0, offsetY = 0;
+        e.preventDefault()
+    } else {
+        window.removeEventListener("touchmove", move);
+        offsetX = 0, offsetY = 0;
+        e.preventDefault()
+    }
+    menu.style.transition = "0.3s ease-in-out left";
+};
 
-    //this function will call when user click mouse's button and  move mouse on nav
-    menu.addEventListener("mousedown", () =>{
-    menu.addEventListener("mousemove", onDrag);
-});
+const snapToSide = (e) => {
+    const wrapperElement = document.getElementById('main-wrapper');
+    const windowWidth = window.innerWidth;
+    let currPositionX, currPositionY;
+    if (e.type === "touchend") {
+        currPositionX = e.changedTouches[0].clientX;
+        currPositionY = e.changedTouches[0].clientY;
+    } else {
+        currPositionX = e.clientX;
+        currPositionY = e.clientY;
+    }
+    if (currPositionY < 50) {
+        menu.style.top = 50 + "px";
+    }
+    if (currPositionY > wrapperElement.clientHeight - 50) {
+        menu.style.top = (wrapperElement.clientHeight - 50) + "px";
+    }
+    if (currPositionX < windowWidth / 2) {
+        menu.style.left = 30 + "px";
+        menu.classList.remove('right');
+        menu.classList.add('left');
+    } else {
+        menu.style.left = windowWidth - 30 + "px";
+        menu.classList.remove('left');
+        menu.classList.add('right');
+    }
+};
 
-    //these function will call when user relase mouse button and leave mouse from nav
-    menu.addEventListener("mouseup", () =>{
-    menu.removeEventListener("mousemove", onDrag);
-});
-    menu.addEventListener("mouseleave", () =>{
-    menu.removeEventListener("mousemove", onDrag);
-});
+menu.addEventListener("mousedown", mouseDown);
+
+menu.addEventListener("mouseup", mouseUp);
+
+menu.addEventListener("touchstart", mouseDown);
+
+menu.addEventListener("touchend", mouseUp);
 
