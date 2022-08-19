@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1500;
+    z-index: 5000;
     position: sticky;
     position: -webkit-sticky;
 }
@@ -27,7 +27,7 @@
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
     transform: rotate(0deg) translateX(80px);
-    z-index: 1400;
+    z-index: 2500;
 }
 
 .toggle1 {
@@ -44,7 +44,7 @@
     align-items: center;
     border-radius: 50%;
     transition: transform 1.25s;
-    z-index: 2000;
+    z-index: 1450;
 }
 
 .menu a {
@@ -59,13 +59,18 @@
     background: white;
 }
 
-.menu.active .menuitem {
-    transform: rotate(calc(360deg / 8 * var(--i)));
+.menu.active.left .menuitem {
+    transform: translateX(calc(50px * var(--i) + 150px));
+}
+.menu.active.right .menuitem {
+    transform: translateX(calc(-50px * var(--i)));
 }
 
-.menuitem.active li {
-    transform: rotate(0deg) translateX(50px);
-    transform: rotate(calc(360deg / 5 * var(--j)));
+.menuitem.active.left li {
+    transform:  translateY(calc(50px * var(--j)));
+}
+.menuitem.active.right li {
+    transform:  translateY(calc(-50px * var(--j)));
 }
 
 .menuitem li {
@@ -90,7 +95,7 @@
     cursor: pointer;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     font-size: 2em;
-    z-index: 5000;
+    z-index: 4500;
     transition: transform 1.25s;
 }
 

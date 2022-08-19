@@ -4,37 +4,10 @@ let toggle1 = document.querySelector('.toggle1')
 let menuitem = document.querySelector('.menuitem')
 let oldpositionx ;
 let oldpositiony ;
-toggle.onclick = function () {if (oldpositiony === menu.style.top && oldpositionx === menu.style.left){
-    if (menuitem.classList.contains('active')) {
-
-
-        menuitem.classList.toggle('active');
-        menu.classList.toggle('active')
-
-    } else {
-
-
-        menu.classList.toggle('active');
-
-
-    }
-}
-}
-
-toggle1.onclick = function () {
-    menu.classList.toggle('active');
-    menuitem.classList.toggle('active');
-}
-
-
-
-
-
-
 let offsetX = 0, offsetY = 0;
 
 const move = (e) => {
-    if (!menu.classList.contains("active")) {
+    if (!menu.classList.contains("active")&&!menuitem.classList.contains("active")) {
         if (e.type === "touchmove") {
             console.log(e)
             menu.style.top = e.touches[0].clientY - offsetY + "px";
@@ -66,7 +39,6 @@ const mouseDown = (e) => {
         oldpositiony = menu.style.top;
         e.preventDefault()
     }
-
     menu.style.transition = "none";
 };
 
@@ -80,12 +52,13 @@ const mouseUp = (e) => {
         window.removeEventListener("touchmove", move);
         offsetX = 0, offsetY = 0;
         e.preventDefault()
+
     }
+    snapToSide(e)
     menu.style.transition = "0.3s ease-in-out left";
 };
 
 const snapToSide = (e) => {
-    const wrapperElement = document.getElementById('main-wrapper');
     const windowWidth = window.innerWidth;
     let currPositionX, currPositionY;
     if (e.type === "touchend") {
@@ -95,18 +68,16 @@ const snapToSide = (e) => {
         currPositionX = e.clientX;
         currPositionY = e.clientY;
     }
-    if (currPositionY < 50) {
-        menu.style.top = 50 + "px";
-    }
-    if (currPositionY > wrapperElement.clientHeight - 50) {
-        menu.style.top = (wrapperElement.clientHeight - 50) + "px";
-    }
     if (currPositionX < windowWidth / 2) {
-        menu.style.left = 30 + "px";
+        menu.style.left = 0 + "px";
+        menuitem.classList.remove('right');
+        menuitem.classList.add('left');
         menu.classList.remove('right');
         menu.classList.add('left');
     } else {
-        menu.style.left = windowWidth - 30 + "px";
+        menu.style.left = windowWidth - 200 + "px";
+        menuitem.classList.remove('left');
+        menuitem.classList.add('right');
         menu.classList.remove('left');
         menu.classList.add('right');
     }
@@ -119,4 +90,49 @@ menu.addEventListener("mouseup", mouseUp);
 menu.addEventListener("touchstart", mouseDown);
 
 menu.addEventListener("touchend", mouseUp);
+
+toggle.addEventListener("click", (e) =>{
+    if (oldpositionx === menu.style.left&&
+    oldpositiony === menu.style.top){
+        if (menuitem.classList.contains('active')) {
+
+
+            menuitem.classList.toggle('active');
+            menu.classList.toggle('active')
+
+        } else {
+            menu.classList.toggle('active');
+        }
+    }
+})
+
+toggle.addEventListener("touchend", (e) =>{
+    if (oldpositionx === menu.style.left&&
+        oldpositiony === menu.style.top){
+        if (menuitem.classList.contains('active')) {
+            menuitem.classList.toggle('active');
+            menu.classList.toggle('active')
+
+        } else {
+            menu.classList.toggle('active');
+        }
+    }
+})
+
+
+toggle1.addEventListener("click", (e) =>{
+    menu.classList.toggle('active');
+    menuitem.classList.toggle('active');
+})
+toggle1.addEventListener("touchend", (e) =>{
+    menu.classList.toggle('active');
+    menuitem.classList.toggle('active');
+})
+
+
+
+
+
+
+
 
