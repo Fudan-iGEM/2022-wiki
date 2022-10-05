@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>divflow</title>
+    <link rel="stylesheet" href="https://static.igem.wiki/teams/4162/wiki/index/divflow.css">
+    <link rel="stylesheet" href="https://static.igem.wiki/teams/4162/wiki/index/wheel-menu.css">
+    <link rel="stylesheet" href="https://static.igem.wiki/teams/4162/wiki/index/loading.css">
+    <link href="{{ url_for('static', filename = 'bootstrap.min.css') }}" rel="stylesheet">
+    <link href="https://static.igem.wiki/teams/4162/wiki/index/landingpage.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="loader">
+
+    <video autoplay loop muted>
+        <source href="https://static.igem.wiki/teams/4162/wiki/index/mp4.mp4" type="video/mp4">
+    </video>
+
+</div>
+
+<div class="menu">
+
+    <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+    <div class="menuitem" style="--i:0">
+        <div class="toggle1"><ion-icon name="hand-left-outline"></ion-icon></div>
+        <li style="--j:0">
+            <a href="#home"><ion-icon name="arrow-back-outline"></ion-icon></a>
+        </li>
+        <li style="--j:1">
+            <a href="#home"><ion-icon name="arrow-down-outline"></ion-icon></a>
+        </li>
+        <li style="--j:2">
+            <a href="#home"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+        </li>
+        <li style="--j:3">
+            <a href="#home"><ion-icon name="arrow-up-outline"></ion-icon></a>
+        </li>
+        <li style="--j:4">
+            <a href="#home"><ion-icon name="ban-outline"></ion-icon></a>
+        </li>
+    </div>
+    <div class="menuitem" style="--i:1">
+        <a href="#1"><ion-icon name="alert-circle-outline"></ion-icon></a>
+    </div>
+    <div class="menuitem" style="--i:2">
+        <a href="#1"><ion-icon name="airplane-outline"></ion-icon></a>
+    </div>
+    <div class="menuitem" style="--i:3">
+        <a href="#1"><ion-icon name="bandage-outline"></ion-icon></a>
+    </div>
+    <div class="menuitem" style="--i:4">
+        <a href="#1"><ion-icon name="bowling-ball-outline"></ion-icon></a>
+    </div>
+    <div class="menuitem" style="--i:5">
+        <a href="#1"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
+    </div>
+    <div class="menuitem" style="--i:6">
+        <a href="#1"><ion-icon name="cloud-upload-outline"></ion-icon></a>
+    </div>
+    <div class="menuitem" style="--i:7">
+        <a href="#1"><ion-icon name="diamond-outline"></ion-icon></a>
+    </div>
+
+</div>
+
+<nav class="navbar">
+
+    <ul>
+
+        <li>
+            <a href="#animation" class="dot active" data-scroll="animation">
+                <span>animation</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#animation1" class="dot" data-scroll="animation1">
+                <span>animation1</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#animation2" class="dot" data-scroll="animation2">
+                <span>animation2</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#animation3" class="dot" data-scroll="animation3">
+                <span>animation3</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#animation4" class="dot" data-scroll="animation4">
+                <span>animation4</span>
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<section id="heading" class="sec">
+    <div id="headingbackground">
+        <div id="headinglogo">
+
+        </div>
+    </div>
+</section>
+
+<section id="animation" class="sec">
+    <blockquote>
+        This is an animation for testing.
+        <span id="greengrow"></span>
+    </blockquote>
+    <div class="row">
+        <div class="col-md-2"></div>
+    <div id="orange1" class="col-md-4">
+
+    </div>
+    </div>
+    <div id="yellow">
+
+    </div>
+
+
+</section>
+
+<section id="animation1" class="sec">
+    <div class="col-md-2"></div>
+    <div id="lightgreen" class="col-md-3">
+
+    </div>
+</section>
+
+<section id="animation2" class="sec">
+    <div id="darkgreen1">
+
+    </div>
+</section>
+
+<section id="animation3" class="sec">
+    <div id="orange2">
+
+    </div>
+</section>
+
+<section id="animation4" class="sec">
+    <div id="orange3">
+
+    </div>
+    <div id="darkgreen2">
+
+    </div>
+</section>
+
+<section>
+    <h1>
+        Scroll up
+    </h1>
+</section>
+
+
+<script href="https://static.igem.wiki/teams/4162/wiki/index/tweenmax-min.js"></script>
+<script src="https://static.igem.wiki/teams/4162/wiki/index/TimelineMax.min.js"></script>
+<script src="https://static.igem.wiki/teams/4162/wiki/index/ScrollMagic.min.js"></script>
+<script src="https://static.igem.wiki/teams/4162/wiki/index/animation.gsap.min.js"></script>
+<script src="https://static.igem.wiki/teams/4162/wiki/index/divflow.js"></script>
+<script src="{{ url_for('static', filename = 'bootstrap.bundle.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename = 'jquery-2.1.1.min.js') }}"></script>
+<script src="https://static.igem.wiki/teams/4162/wiki/index/landingpage.js"></script>
+
+<script type="module" src="https://static.igem.wiki/teams/4162/wiki/index/ionicons.esm.js"></script>
+<script nomodule src="https://static.igem.wiki/teams/4162/wiki/index/ionicons.js"></script>
+
+<script src="https://static.igem.wiki/teams/4162/wiki/index/wheelmenu.js"></script>
+<script src="https://static.igem.wiki/teams/4162/wiki/index/loading.js"></script>
+</body>
+</html>
