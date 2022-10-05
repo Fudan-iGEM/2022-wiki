@@ -1,132 +1,248 @@
-
-{% extends "layout.html" %}
-
-{% block page_content %}
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>divflow</title>
-    <link rel="stylesheet" href="static/divflow.css">
-    <link rel="stylesheet" href="static/wheelmenu.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Product example · Bootstrap v5.0</title>
 
-<body>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
 
-<div class="menu">
+    
 
-    <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
-    <div class="cancel"><ion-icon name="arrow-back-circle-outline"></ion-icon></div>
-    <div class="menuitem" style="--i:0">
-        <div class="toggle1"><ion-icon name="hand-left-outline"></ion-icon></div>
-        <li style="--j:0">
-            <a href="#home"><ion-icon name="arrow-back-outline"></ion-icon></a>
-        </li>
-        <li style="--j:1">
-            <a href="#home"><ion-icon name="arrow-down-outline"></ion-icon></a>
-        </li>
-        <li style="--j:2">
-            <a href="#home"><ion-icon name="arrow-forward-outline"></ion-icon></a>
-        </li>
-        <li style="--j:3">
-            <a href="#home"><ion-icon name="arrow-up-outline"></ion-icon></a>
-        </li>
-        <li style="--j:4">
-            <a href="#home"><ion-icon name="ban-outline"></ion-icon></a>
-        </li>
-    </div>
-    <div class="menuitem" style="--i:1">
-        <a href="#1"><ion-icon name="alert-circle-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:2">
-        <a href="#1"><ion-icon name="airplane-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:3">
-        <a href="#1"><ion-icon name="bandage-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:4">
-        <a href="#1"><ion-icon name="bowling-ball-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:5">
-        <a href="#1"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:6">
-        <a href="#1"><ion-icon name="cloud-upload-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:7">
-        <a href="#1"><ion-icon name="diamond-outline"></ion-icon></a>
-    </div>
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
 
-</div>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-<section id="heading">
-    <div id="headingbackground">
-        <div id="headinglogo">
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="site-header sticky-top py-1">
+  <div class="col-md-8">
+  <nav class="container d-flex flex-column flex-md-row justify-content-between col-md-8">
+    <a class="py-2" href="#" aria-label="Product">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+    </a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+  </nav>
+  </div>
+</header>
+
+<main>
+  <div class="row" id="carousel">
+    <div class="col-md-4"></div>
+    <div class="col-md-6">
+      <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="overlay-image" style="background-image: url(./pic1.jpg)"></div>
+            <div class="container-carousel">
+              <h1>
+                High light
+              </h1>
+              <p>
+                A quick, efficient, and powerful tool for building and designing new parts
+              </p>
+              <a href="#A" class="btn btn-lg btn-primary">
+                Click for more details
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-image" style="background-image: url(./pic2.jpg)"></div>
+            <div class="container-carousel">
+              <h1>
+                Example Headline
+              </h1>
+              <p>
+                If you want to build a bootstrap 5 carousel using basic HTML, CSS and JS,
+              </p>
+              <a href="#" class="btn btn-lg btn-primary">
+                Click for more details
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-image" style="background-image: url(./pic3.jpg)"></div>
+            <div class="container-carousel">
+              <h1>
+                Example Headline
+              </h1>
+              <p>
+                If you want to build a bootstrap 5 carousel using basic HTML, CSS and JS,
+              </p>
+              <a href="#" class="btn btn-lg btn-primary">
+                Click for more details
+              </a>
+            </div>
+          </div>
 
         </div>
+        <a href="#mycarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+          <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a href="#mycarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+          <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
     </div>
-</section>
+  </div>
+  <div class="row" id="contentout">
+    <div class="col-md-2" id="landingpage">
+      <div class="landingpageitems">
+        <li>
+          <a href="#A">introduction</a>
+        </li>
 
-<section id="animation">
-    <blockquote>
-        This is an animation for testing.
-        <span></span>
-    </blockquote>
-    <div id="orange1">
+
+        <li><a href="#B">structure</a></li>
+
+
+        <li><a href="#C">initialization</a></li>
+
+
+        <li><a href="#D">initialization</a></li>
+
+
+        <li><a href="#E">initialization</a></li>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+    <div class="col-md-7 my-lg-5" id="content">
+      <div id="A" class="maincontent">
+        <h2>Introduction</h2>
+        <p>In this difficult choice, I think about it and feel uneasy. Oprah Winfrey once said that you can be what you believe. This inspired me to understand what kind of existence the blue route is, which is the key to solving all problems. How to achieve the occurrence of the blue route, and how to produce the non blue route. We have to face a very embarrassing fact, that is, it is very, very important to solve the problem of the blue route. Therefore, generally speaking, we must consider carefully. Now, it is very, very important to solve the problem of the blue route. Therefore, it is the key to solve all problems to understand the existence of the blue route. Carlisle once said that the essence of all past eras is in the book. I hope you can also appreciate this sentence. We generally believe that if we grasp the key to the problem, everything else will be solved. We all know that as long as it is meaningful, it must be carefully considered. In life, if the blue air route appears, we have to consider the fact that it appears. After the discussion above, the key is how to write the so-called blue route. Generally speaking, we have to face a very embarrassing fact, that is, what happens to the blue route and what happens if it doesn't. After the above discussion, Deng Tuo inadvertently said that the more incompetent he is, the more arrogant he is. I hope you can also appreciate this sentence. Michelpan inadvertently said that life is a dangerous valley, and only brave people can pass through. With this sentence, we should be more careful to examine this problem: Shakespeare inadvertently said that the wisdom in the brain is like the spark in the flint, and will not come out without hitting it. This does not prevent me from thinking deeply. In my opinion, generally speaking, we must consider carefully. Everyone has to face these problems. In the face of such problems, Voltaire once said that there can be no great cause without great difficulties. Although this sentence is very short, it makes me think about it. After the above discussion, everyone has to face these problems. In the face of such problems, Laroshfoko inadvertently said that the only weakness we will not correct is weakness. I hope you can also appreciate this sentence. The blue route, what happens if it happens, and what happens if it doesn't. To sum up, what will happen to the blue route if it happens and what will happen if it doesn't. We have to face a very embarrassing fact, that is, to sum up, in this case, how to realize the blue route. This fact is of great significance to me and I believe it is also of certain significance to the world. In life, if the blue air route appears, we have to consider the fact that it appears.</p>
+      <table class="table">
+
+      </table>
+      </div>
+      <div id="B" class="maincontent">
+        <h2>Structure</h2>
+        <p>I think Franklin once said, do you love life? Then don't waste time, because time is the material of life. This inspired me. We all know that as long as it is meaningful, it must be carefully considered. To sum up, we should think clearly about what kind of existence the blue route is. Abraham Lincoln once said that I am a slow walker, but I never walk backwards. This inspired me. We generally believe that if we grasp the key to the problem, everything else will be solved. With these problems in mind, let's take a look at the blue route. How to realize the blue route. In life, if the blue air route appears, we have to consider the fact that it appears. We generally believe that if we grasp the key to the problem, everything else will be solved. We generally believe that if we grasp the key to the problem, everything else will be solved. In this case, generally speaking, under such a difficult choice, I can't sleep and eat well. We all know that as long as it is meaningful, it must be carefully considered. I also thought about this problem day and night. In life, if the blue air route appears, we have to consider the fact that it appears. Belinski once said that good books are the most valuable treasures. This inspired me. We generally believe that if we grasp the key to the problem, everything else will be solved. But these are not completely important. The more important problem is that I can't sleep and eat well under such difficult choices. Bacon inadvertently said that reasonable arrangement of time is equal to saving time. Although this sentence is very short, it makes me think about it.</p>
+      </div>
+      <div id="C" class="maincontent">
+        <h2>initialization</h2>
+        <p>We all know that as long as it is meaningful, it must be carefully considered. After the above discussion, with these issues in mind, let's take a closer look at the azure route. The Japanese proverb inadvertently said that misfortune may become a bridge to happiness. This does not prevent me from thinking deeply. I also thought about this problem day and night. But these are not completely important. The more important problem is that it is very, very important to solve the problem of the blue route. So, why did the blue route happen? I also thought about this problem day and night. In my opinion, it is the key to solve all problems to understand what kind of existence the blue air route is. In this case, what will happen to the blue route if it happens and what will happen if it doesn't. Ostrovsky inadvertently said that the common cause and common struggle can make people have the strength to endure everything. With this sentence in mind, we should also be more careful to examine this issue: Wei Long inadvertently said that success does not require any special talent, as long as you can do the little things well. I hope you can also appreciate this sentence. We all know that as long as it is meaningful, it must be carefully considered.</p>
+      </div>
+      <div id="img1">
+      </div>
+      <div class="col-md-12" id="img-text">
+        Default checkboxes and radios are improved upon with the help of .form-check, a single class for both input types that improves the layout and behavior of their HTML elements. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.
+      </div>
+      <div id="D" class="maincontent">
+        <h2>initialization</h2>
+        <p>We all know that as long as it is meaningful, it must be carefully considered. It is the key to solve all problems to understand the existence of the blue route. The key to the so-called blue route is how to write the blue route. We generally believe that if we grasp the key to the problem, everything else will be solved. We all know that as long as it is meaningful, it must be carefully considered. What is the crux of the problem? In life, if the blue air route appears, we have to consider the fact that it appears. The blue route, what happens if it happens, and what happens if it doesn't. In this case, these are not completely important, but the more important problem is.</p>
+      </div>
 
     </div>
+    <div class="col-md-3"></div>
 
-    <div id="yellow">
-
+    <div class="col-md-4 my-lg-5" id="content1">
+      <div id="E" class="maincontent">
     </div>
 
-</section>
-
-<section id="animation1">
-    <div id="lightgreen">
-
+      <h2>initialization</h2>
+      <p>I also thought about this problem day and night. It is the key to solve all problems to understand the existence of the blue route. I think that in life, if the blue route appears, we have to consider the fact that it appears. We all know that as long as it is meaningful, it must be carefully considered. In this case, Rousseau once said that wasting time is a great crime. This does not prevent me from thinking deeply. In life, if the blue air route appears, we have to consider the fact that it appears. After the above discussion, we need to figure out what kind of existence the blue route is. Why did the blue route happen? Why did the blue route happen? In this difficult choice, I think about it and feel uneasy. With these problems in mind, let's take a look at the blue route. Leonardo da Vinci inadvertently said that a bold and firm determination can equal the sophistication of weapons. Although this sentence is very short, it makes me think about it. Everyone has to face these problems. In the face of such problems, generally speaking.</p>
     </div>
-</section>
-
-<section id="animation2">
-    <div id="darkgreen1">
-
+    <div class="col-md-3">
     </div>
-</section>
 
-<section id="animation3">
-    <div id="orange2">
+  </div>
+  <div class="col-md-12">
+    <div class="col-md-3"></div>
 
+    <div class="col-md-6">
+      <span id="quote"></span>
     </div>
-</section>
+    <div class="col-md-6"></div>
+  </div>
+</main>
 
-<section id="animation4">
-    <div id="orange3">
-
+<footer class="py-5">
+  <div class="row">
+    <div class="col-12 col-md" id="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
     </div>
-    <div id="darkgreen2">
-
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Cool stuff</a></li>
+        <li><a class="link-secondary" href="#">Random feature</a></li>
+        <li><a class="link-secondary" href="#">Team feature</a></li>
+        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+        <li><a class="link-secondary" href="#">Another one</a></li>
+        <li><a class="link-secondary" href="#">Last time</a></li>
+      </ul>
     </div>
-</section>
-
-<section>
-    <div id="bottom">
-        Scroll up
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Resource name</a></li>
+        <li><a class="link-secondary" href="#">Resource</a></li>
+        <li><a class="link-secondary" href="#">Another resource</a></li>
+        <li><a class="link-secondary" href="#">Final resource</a></li>
+      </ul>
     </div>
-</section>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Business</a></li>
+        <li><a class="link-secondary" href="#">Education</a></li>
+        <li><a class="link-secondary" href="#">Government</a></li>
+        <li><a class="link-secondary" href="#">Gaming</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Team</a></li>
+        <li><a class="link-secondary" href="#">Locations</a></li>
+        <li><a class="link-secondary" href="#">Privacy</a></li>
+        <li><a class="link-secondary" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
-<script src="static/divflow.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-<script src="static/wheelmenu.js"></script>
-</body>
+      
+  </body>
 </html>
-
-{% endblock %}
