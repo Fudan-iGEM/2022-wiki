@@ -31,7 +31,7 @@
     background:#2b7961;
     box-shadow: -20px -20px 0px #598364;
     color: white;
-    line-height: 4;
+    line-height: 3.5;
     font-size: 1.2rem;
 }
 
@@ -80,7 +80,7 @@ footer{
 #img-text{
     margin-bottom: 10rem;
     text-align: center;
-    line-height: 2;
+    line-height: 2.2;
     font-size: 0.9rem;
 }
 span{
