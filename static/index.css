@@ -24,8 +24,9 @@
     background-size: cover;
     opacity: 0.5;
 }
+@media(min-width: 1200px){
 #content{
-    margin: 100px;
+    margin: 26%;
     border: 60px;
     padding: 50px;
     background:#2b7961;
@@ -34,6 +35,8 @@
     line-height: 3.5;
     font-size: 1.2rem;
 }
+}
+
 
 #content1{
     border: 60px;
