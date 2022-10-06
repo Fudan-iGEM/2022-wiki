@@ -117,6 +117,6 @@ span{
     right: 0;
 }
 .navbar{
-    background-color: #2b7961;
     color: aliceblue;
+    background-color: #2b7961 !important;
 }
