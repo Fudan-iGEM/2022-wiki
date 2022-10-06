@@ -4,35 +4,6 @@
 
 {% block page_content %}
 
-    
-  <head>
-    <!-- Bootstrap core CSS -->
-    <link href="{{ url_for('static', filename = 'bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename = 'index.css') }}" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link src="{{ url_for('static', filename = 'product.css') }}">
-  </head>
-  <body>
-
-<main>
   <div class="row" id="carousel">
     <div class="col-md-4"></div>
     <div class="col-md-6">
@@ -163,10 +134,4 @@
     </div>
     <div class="col-md-6"></div>
   </div>
-</main>
-
-    <script src="{{ url_for('static', filename = 'bootstrap.bundle.min.js') }}"></script>
-
-      
-  </body>
 {% endblock %}
