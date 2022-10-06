@@ -39,7 +39,7 @@
     const teamSlug = path[1]
     const page = path[2] === '' ? 'index' : path[2]
 
-    wikiToolsLink.href = `https://tools.igem.org/wiki-tools/${competitionSlug}/${teamSlug}/${page}`
-    wikiToolsRepo.href = `https://gitlab.igem.org/${competitionSlug}/${teamSlug}`
-    wikiToolsPipeline.src = `https://gitlab.igem.org/${competitionSlug}/${teamSlug}/badges/main/pipeline.svg`
+    if (wikiToolsLink !== null ) wikiToolsLink.href = `https://tools.igem.org/wiki-tools/${competitionSlug}/${teamSlug}/${page}`
+    if (wikiToolsRepo !== null ) wikiToolsRepo.href = `https://gitlab.igem.org/${competitionSlug}/${teamSlug}`
+    if (wikiToolsPipeline !== null ) wikiToolsPipeline.src = `https://gitlab.igem.org/${competitionSlug}/${teamSlug}/badges/main/pipeline.svg`
 </script>
