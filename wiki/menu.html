@@ -6,7 +6,7 @@
 
     <!---- SMALL SCREEN MENU ICON ---->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">Menu</span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,9 +55,9 @@
             Parts
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="{{ url_for('pages', page='part-collection') }}">Part Collection</a></li>
-            <li><a class="dropdown-item" href="{{ url_for('pages', page='parts') }}">Parts</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='improve') }}">Improve</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='parts') }}">Parts</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='part-collection') }}">Part Collection</a></li>
           </ul>
         </li>
 
@@ -87,21 +87,13 @@
             <li><a class="dropdown-item" href="{{ url_for('pages', page='sustainable') }}">Sustainable</a></li>
           </ul>
         </li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Test
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="{{ url_for('pages', page='test2') }}">test2</a></li>
-          </ul>
-        </li>
+
       </ul>
     </div>
   </div>
 </nav>
 
 <div class="menu">
-
     <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
     <div class="menuitem" style="--i:0">
       <a href="{{ url_for('index') }}"><ion-icon name="alert-circle-outline"></ion-icon></a>
@@ -116,6 +108,9 @@
         </li>
         <li style="--j:2">
             <a href="{{ url_for('pages', page='collaborations') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+        </li>
+        <li style="--j:3">
+            <a href="{{ url_for('pages', page='heritage') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
     </div>
     <div class="menuitem" style="--i:2">
@@ -147,23 +142,22 @@
         <li style="--j:8">
             <a href="{{ url_for('pages', page='proof-of-concept') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
-        <li style="--j:9">
+        <!-- li style="--j:9">
             <a href="{{ url_for('pages', page='results') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
-        </li>
+        </li -->
     </div>
     <div class="menuitem" style="--i:3">
         <div class="toggle1"><ion-icon name="hand-left-outline"></ion-icon></div>
         <li style="--j:0">
-            <a href="{{ url_for('pages', page='part-collection') }}"><ion-icon name="arrow-back-outline"></ion-icon></a>
+            <a href="{{ url_for('pages', page='improve') }}"><ion-icon name="arrow-back-outline"></ion-icon></a>
         </li>
         <li style="--j:1">
             <a href="{{ url_for('pages', page='parts') }}"><ion-icon name="arrow-down-outline"></ion-icon></a>
         </li>
         <li style="--j:2">
-            <a href="{{ url_for('pages', page='improve') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+            <a href="{{ url_for('pages', page='part-collection') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
     </div>
-
 
     <div class="menuitem" style="--i:2">
         <a href="{{ url_for('pages', page='safety') }}"><ion-icon name="airplane-outline"></ion-icon></a>
@@ -181,32 +175,20 @@
             <a href="{{ url_for('pages', page='entrepreneurship') }}"><ion-icon name="arrow-down-outline"></ion-icon></a>
         </li>
         <li style="--j:2">
-            <a href="{{ url_for('pages', page='hardware') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
-        </li>
-        <li style="--j:3">
             <a href="{{ url_for('pages', page='inclusivity') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
-        <li style="--j:4">
+        <li style="--j:3">
             <a href="{{ url_for('pages', page='measurement') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
-        <li style="--j:5">
+        <li style="--j:4">
             <a href="{{ url_for('pages', page='model') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
-        <li style="--j:6">
-            <a href="{{ url_for('pages', page='plant') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
-        </li>
-        <li style="--j:7">
+        <li style="--j:5">
             <a href="{{ url_for('pages', page='software') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
-        <li style="--j:8">
+        <li style="--j:6">
             <a href="{{ url_for('pages', page='sustainable') }}"><ion-icon name="arrow-forward-outline"></ion-icon></a>
         </li>
     </div>
 
-    <div class="menuitem" style="--i:4">
-        <a href="{{ url_for('pages', page='test2') }}"><ion-icon name="bowling-ball-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:5">
-        <a href="{{ url_for('pages', page='heritage') }}"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
-    </div>
 </div>
