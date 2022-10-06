@@ -42,8 +42,8 @@
     background:#2b7961;
     box-shadow: -20px -20px 0px #598364;
     color: white;
-    line-height: 4;
-    font-size: 0.8rem;
+    line-height: 3.5;
+    font-size: 1.2rem;
 }
 #landingpage{
     background: #ee994d;
@@ -82,6 +82,7 @@ footer{
     text-align: center;
     line-height: 2.2;
     font-size: 0.9rem;
+    color: aliceblue;
 }
 span{
     width: 70%;
