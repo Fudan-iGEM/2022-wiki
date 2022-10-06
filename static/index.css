@@ -108,7 +108,7 @@ footer{
     font-size: 0.9rem;
     color: aliceblue;
 }
-span{
+#spanforfooter{
     width: 70%;
     display: block;
     height: 3px;
