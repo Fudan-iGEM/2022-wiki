@@ -13,62 +13,60 @@
       </div>
       <div class="row">
           <div class="col-lg-2 col-xs-4">
-              <h4>Team</h4>
-              <ul>
-            <li><a href="{{ url_for('pages', page='team') }}">Team</a></li>
-            <li><a href="{{ url_for('pages', page='attributions') }}">Attributions</a></li>
-            <li><a href="{{ url_for('pages', page='collaborations') }}">Collaborations</a></li>
-            <li><a href="{{ url_for('pages', page='heritage') }}">Heritage</a></li>
-              </ul>
-          </div>
-          <div class="col-lg-2 col-xs-4">
               <h4>Project</h4>
               <ul>
-            <li><a href="{{ url_for('pages', page='communication') }}">Communication</a></li>
-            <li><a href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
             <li><a href="{{ url_for('pages', page='description') }}">Description</a></li>
-            <li><a href="{{ url_for('pages', page='engineering') }}">Engineering</a></li>
             <li><a href="{{ url_for('pages', page='experiments') }}">Experiments</a></li>
-            <li><a href="{{ url_for('pages', page='implementation') }}">Implementation</a></li>
-            <li><a href="{{ url_for('pages', page='notebook') }}">Notebook</a></li>
-            <li><a href="{{ url_for('pages', page='partnership') }}">Partnership</a></li>
-            <li><a href="{{ url_for('pages', page='proof-of-concept') }}">Proof of Concept</a></li>
-            <!-- li><a class="dropdown-item" href="{{ url_for('pages', page='results') }}">Results</a></li -->
-              </ul>              
-          </div>
-          <div class="col-lg-2 col-xs-4">
-              <h4>Parts</h4>
-              <ul>
-            <li><a href="{{ url_for('pages', page='improve') }}">Improve</a></li>
-            <li><a href="{{ url_for('pages', page='parts') }}">Parts</a></li>
-            <li><a href="{{ url_for('pages', page='part-collection') }}">Part Collection</a></li>
-              </ul>              
-          </div>
-          <div class="col-lg-2 col-xs-4">
-              <h4>Safety</h4>
-            <li>
-          <a href="{{ url_for('pages', page='safety') }}">Safety</a>
-            </li>
-          </div>
-          <div class="col-lg-2 col-xs-4">
-              <h4>human-practices</h4>            
-            <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('pages', page='human-practices') }}">Human Practices</a>
-            </li>
-          </div>
-          <div class="col-lg-2 col-xs-4">
-              <h4>Judging</h4>
-              <ul>
-            <li><a href="https://old.igem.org/2022_Judging_Form?id=4162" target="_blank">Judging Form</a></li>
-            <li><a href="{{ url_for('pages', page='education') }}">Education</a></li>
-            <li><a href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
-            <li><a href="{{ url_for('pages', page='inclusivity') }}">Inclusivity</a></li>
-            <li><a href="{{ url_for('pages', page='measurement') }}">Measurement</a></li>
-            <li><a href="{{ url_for('pages', page='model') }}">Model</a></li>
+            <li><a href="{{ url_for('pages', page='proof-of-concept') }}">Proof&nbsp;of&nbsp;concept</a></li>
             <li><a href="{{ url_for('pages', page='software') }}">Software</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-xs-4">
+              <h4>&nbsp;&nbsp;</h4>
+              <ul>
+            <li><a href="{{ url_for('pages', page='safety') }}">Safety</a></li>
+            <li><a href="https://video.igem.org/w/5iD5aPZDNkiiezQcNeH42o" target="_blank">Promotion</a></li>
+            <li><a href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
             <li><a href="{{ url_for('pages', page='sustainable') }}">Sustainable</a></li>
               </ul>
-
+          </div>
+          <div class="col-lg-2 col-xs-4">
+              <h4>Results</h4>
+              <ul>
+            <li><a href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
+            <li><a href="{{ url_for('pages', page='implementation') }}">Implementation</a></li>
+            <li><a href="{{ url_for('pages', page='engineering') }}">Engineering</a></li>
+            <li><a href="{{ url_for('pages', page='measurement') }}">Measurement</a></li>
+            <li><a href="{{ url_for('pages', page='model') }}">Modeling</a></li>
+              </ul>              
+          </div>
+          <div class="col-lg-2 col-xs-4">
+              <h4><a href="{{ url_for('pages', page='parts') }}">Parts</a></h4>
+              <ul>
+            <li><a href="http://parts.igem.org/Part:BBa_K4162001" target="_blank">Basic&nbsp;part</a></li>
+            <li><a href="http://parts.igem.org/Part:BBa_K4162001" target="_blank">Composite&nbsp;part</a></li>
+            <li><a href="{{ url_for('pages', page='improvement') }}">Improvement</a></li>
+            <li><a href="{{ url_for('pages', page='part-collection') }}">Part&nbsp;collection</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-xs-4">
+              <h4>Outreach</h4>
+              <ul>
+            <li><a class="nav-link" href="{{ url_for('pages', page='human-practices') }}">Human&nbsp;practices</a></li>
+            <li><a class="nav-link" href="{{ url_for('pages', page='education') }}">Education</a></li>
+            <li><a class="nav-link" href="{{ url_for('pages', page='collaborations') }}">Collaborations</a></li>
+            <li><a class="nav-link" href="{{ url_for('pages', page='inclusivity') }}">Inclusivity</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-xs-4">
+              <h4>Team</h4>
+              <ul>
+            <li><a href="{{ url_for('pages', page='team') }}">Members</a></li>
+            <li><a href="{{ url_for('pages', page='attributions') }}">Attributions</a></li>
+            <li><a href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
+            <li><a href="{{ url_for('pages', page='partnership') }}">Partnership</a></li>
+            <li><a href="{{ url_for('pages', page='heritage') }}">Heritage</a></li>
+              </ul>
           </div>                              
       </div>
     </div>
@@ -77,7 +75,7 @@
     <div class="row mt-4">
       <div class="col">
         <p class="mb-0"><small>© 2022 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
-        <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/templates/wiki-frozen-flask">gitlab.igem.org/templates/wiki-frozen-flask</a>.</small></p>
+        <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/fudan">gitlab.igem.org/2022/fudan</a>.</small></p>
       </div>
     </div>
   </div>
