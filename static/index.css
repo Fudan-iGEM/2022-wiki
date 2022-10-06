@@ -48,7 +48,16 @@
     font-size: 1.2rem;
 }
 }
-
+#content{
+    margin: 20%;
+    border: 60px;
+    padding: 50px;
+    background:#2b7961;
+    box-shadow: -20px -20px 0px #598364;
+    color: white;
+    line-height: 3.5;
+    font-size: 1.2rem;
+}
 
 #content1{
     border: 60px;

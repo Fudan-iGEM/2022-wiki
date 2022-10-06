@@ -78,16 +78,24 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="{{ url_for('pages', page='education') }}">Education</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
-            <li><a class="dropdown-item" href="{{ url_for('pages', page='hardware') }}">Hardware</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='inclusivity') }}">Inclusivity</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='measurement') }}">Measurement</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='model') }}">Model</a></li>
-            <li><a class="dropdown-item" href="{{ url_for('pages', page='plant') }}">Plant</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='software') }}">Software</a></li>
             <li><a class="dropdown-item" href="{{ url_for('pages', page='sustainable') }}">Sustainable</a></li>
           </ul>
         </li>
-
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Test
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='test2') }}">Team</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('pages', page='heritage') }}">Heritage</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -202,11 +210,4 @@
     <div class="menuitem" style="--i:5">
         <a href="{{ url_for('pages', page='heritage') }}"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
     </div>
-    <div class="menuitem" style="--i:6">
-        <a href="#"><ion-icon name="cloud-upload-outline"></ion-icon></a>
-    </div>
-    <div class="menuitem" style="--i:7">
-        <a href="#"><ion-icon name="diamond-outline"></ion-icon></a>
-    </div>
-
 </div>
