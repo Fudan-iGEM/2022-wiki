@@ -1,7 +1,7 @@
 | | | Part Name | Description | Part Type | Designer(s) | Length |
 |----|----|----|----|----|----|----|
-| |  | BBa_K4162001 | StayGold = (n2)oxStayGold(c4)v2.0 | Coding | Weiwen Chen | Length: 711bp | 
-| |  | BBa_K4162002 | linker between BCMO and StayGold, hydrophobic | Coding | Weiwen Chen | Length: 54bp | 
+| |  | BBa_K4162001 | StayGold = (n2)oxStayGold(c4)v2.0 | Coding | Weiwen Chen | Length: 711 bp | 
+| |  | BBa_K4162002 | linker between BCMO and StayGold, hydrophobic | Coding | Weiwen Chen | Length: 54 bp | 
 | |  | BBa_K4162003 | ybbO coding for retinol dehydrogenase, codon optimized for E. coli | Coding | Yujian Song | Length:  810 bp | 
 | |  | BBa_K4162004 | BCMO from uncultured marine bacteria | Coding | Weiwen Chen | Length:  828 bp | 
 | |  | BBa_K4162005 | Hammerhead ribozyme | RNA | Weiwen Chen | Length:  57 bp | 
@@ -25,7 +25,7 @@
 | |  | BBa_K4162023 | ribozyme + T7_RBS + ybbO | DNA | Weiwen Chen | Length:  891 bp | 
 | |  | BBa_K4162024 | ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO | DNA | Weiwen Chen | Length:  1800 bp | 
 | |  | BBa_K4162025 | ribozyme + T7_RBS + ybbO + ribozyme + T7_RBS + BCMO | DNA | Weiwen Chen | Length:  1800 bp | 
-| |  | BBa_K4162026 | ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP | DNA | Weiwen Chen | Length | 
+| |  | BBa_K4162026 | ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP | DNA | Weiwen Chen | Length: 2508 bp | 
 | |  | BBa_K4162027 | ribozyme + T7_RBS + ybbO-tdMCP | DNA | Weiwen Chen | Length:  1599 bp | 
 | |  | BBa_K4162028 | ribozyme + T7_RBS + ybbO-tdMCP-EGFP | DNA | Weiwen Chen | Length:  2340 bp | 
 | |  | BBa_K4162029 | ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP-EGFP | DNA | Weiwen Chen | Length:  3249 bp | 
