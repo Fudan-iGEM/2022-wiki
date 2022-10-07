@@ -5,6 +5,9 @@ from flask import Flask, render_template
 from flask_frozen import Freezer
 ####import markdown
 
+import subprocess
+__build__ = subprocess.check_output(
+              'git describe --tags --always HEAD'.split() ).decode().strip()
 
 template_folder = path.abspath('./wiki')
 
@@ -25,11 +28,11 @@ def serve():
 
 @app.route('/')
 def index():
-    return render_template('pages/index.html')
+    return render_template('pages/index.html', __build__=__build__)
 
 @app.route('/<page>')
 def pages(page):
-    return render_template(str(Path('pages') / (page.lower() + '.html')))
+    return render_template(str(Path('pages') / (page.lower() + '.html')), __build__=__build__)
 
 #@app.route('/<newpage>')
 #
