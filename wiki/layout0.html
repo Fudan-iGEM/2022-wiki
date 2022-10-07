@@ -12,6 +12,7 @@
 
     <!-- Custom CSS -->
     <!-- link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet" -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'divflow.css') }}?v={{ __build__ }}">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'wheel-menu.css') }}?v={{ __build__ }}">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'loading.css') }}?v={{ __build__ }}">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'landingpage.css') }}?v={{ __build__ }}">
@@ -27,15 +28,10 @@
   <!-- Header -->
 
   <!-- Page Content -->
-
     {% block page_content %}{% endblock %}
-
 
   <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
   {% include 'footer.html' %}
-
-  <!-- Wiki Tools: Teams are allowed to remove it -->
-  {% include 'wiki-tools.html' %}
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="{{ url_for('static', filename = 'jquery-2.1.1.min.js') }}"></script>  
@@ -49,6 +45,7 @@
 
   <script src="{{ url_for('static', filename = 'wheelmenu.js') }}?v={{ __build__ }}"></script>
   <script src="{{ url_for('static', filename = 'loading.js') }}?v={{ __build__ }}"></script>
+  <script src="{{ url_for('static', filename = 'divflow.js') }}?v={{ __build__ }}"></script>
   <script src="{{ url_for('static', filename = 'landingpage.js') }}?v={{ __build__ }}"></script>
 </body>
 </html>
