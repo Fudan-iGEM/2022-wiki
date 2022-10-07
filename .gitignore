@@ -6,4 +6,4 @@ venv
 .vscode
 __pycache__
 public
-
+geckodriver.log
