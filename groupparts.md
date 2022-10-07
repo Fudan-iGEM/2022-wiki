@@ -1,7 +1,7 @@
 | | | Part Name | Description | Part Type | Designer(s) | Length |
 |----|----|----|----|----|----|----|
-| |  | BBa_K4162001 | StayGold = (n2)oxStayGold(c4)v2.0 | Coding | Yujian Song | Length | 
-| |  | BBa_K4162002 | linker between BCMO and StayGold, hydrophobic | Coding | Yujian Song | Length | 
+| |  | BBa_K4162001 | StayGold = (n2)oxStayGold(c4)v2.0 | Coding | Weiwen Chen | Length: 711bp | 
+| |  | BBa_K4162002 | linker between BCMO and StayGold, hydrophobic | Coding | Weiwen Chen | Length: 54bp | 
 | |  | BBa_K4162003 | ybbO coding for retinol dehydrogenase, codon optimized for E. coli | Coding | Yujian Song | Length:  810 bp | 
 | |  | BBa_K4162004 | BCMO from uncultured marine bacteria | Coding | Weiwen Chen | Length:  828 bp | 
 | |  | BBa_K4162005 | Hammerhead ribozyme | RNA | Weiwen Chen | Length:  57 bp | 
