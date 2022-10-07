@@ -138,9 +138,9 @@ footer{
     background-color: #ee994d !important;
 
 }
-footer .container{
+footer .footermenu{
     list-style: none;
 }
-footer .container ul li a{
+footer .footermenu ul li a{
     text-decoration: none;
 }
