@@ -138,7 +138,7 @@ footer{
     background-color: #ee994d !important;
 
 }
-footer .footermenu{
+footer .footermenu ul{
     list-style: none;
 }
 footer .footermenu ul li a{
