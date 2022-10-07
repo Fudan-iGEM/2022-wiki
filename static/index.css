@@ -123,14 +123,28 @@ footer{
 footer #fudansk{
     min-width: 90px;
     min-height: 90px;
-    background-image: url("https://static.igem.wiki/teams/4162/wiki/footer/fdusk.png");
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/footer/fduskv1.png");
     background-position: center;
     background-size: cover;
 }
 footer #yunf{
     min-width: 90px;
     min-height: 90px;
-    background-image: url("https://static.igem.wiki/teams/4162/wiki/footer/yf.png");
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/footer/yfv1.png");
+    background-position: center;
+    background-size: cover;
+}
+footer #fdu{
+    min-width: 90px;
+    min-height: 90px;
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/footer/fdu.png");
+    background-position: center;
+    background-size: cover;
+}
+footer #rester{
+    min-width: 90px;
+    min-height: 90px;
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/footer/rester.png");
     background-position: center;
     background-size: cover;
 }
