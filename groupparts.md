@@ -1,4 +1,3 @@
-|----|----|----|----|----|----|----|
 | | | Part Name | Description | Part Type | Designer(s) | Length |
 |----|----|----|----|----|----|----|
 | Deleted |  | BBa_K4162001 | ybbO gene (coding for retinol dehydrogenase) | Coding | Yujian Song | Length:  0 bp | 
@@ -36,4 +35,19 @@
 | |  | BBa_K4162033 | linker between gene ybbO and tdMCP | DNA | Weiwen Chen | Length:  18 bp | 
 | |  | BBa_K4162034 | linker between tdMCP and EGFP | DNA | Weiwen Chen | Length:  18 bp | 
 | |  | BBa_K4162035 | linker between BCMO and StayGold | Coding | Weiwen Chen | Length:  54 bp | 
-|----|----|----|----|----|----|----|
+| |  | BBa_K4162101 | crtIY | Coding | Weiwen Chen | Length:  2796 bp | 
+| |  | BBa_K4162102 | crtEI | Coding | Weiwen Chen | Length:  2556 bp | 
+| |  | BBa_K4162103 | crtBE | Coding | Weiwen Chen | Length:  2007 bp | 
+| |  | BBa_K4162104 | crtEB | Coding | Weiwen Chen | Length:  2007 bp | 
+| |  | BBa_K4162105 | crtYB | Coding | Weiwen Chen | Length:  2247 bp | 
+| |  | BBa_K4162106 | crtIB | Coding | Weiwen Chen | Length:  2577 bp | 
+| |  | BBa_K4162107 | crtEY | Coding | Weiwen Chen | Length:  2226 bp | 
+| |  | BBa_K4162108 | crtEBI | Coding | Weiwen Chen | Length:  3570 bp | 
+| |  | BBa_K4162109 | crtIEB | Coding | Weiwen Chen | Length:  3570 bp | 
+| |  | BBa_K4162110 | crtBEY | Coding | Weiwen Chen | Length:  3240 bp | 
+| |  | BBa_K4162111 | crtBEI | Coding | Weiwen Chen | Length:  3570 bp | 
+| |  | BBa_K4162112 | crtIYB | Coding | Weiwen Chen | Length:  3810 bp | 
+| |  | BBa_K4162113 | crtEBY | Coding | Weiwen Chen | Length:  3240 bp | 
+| |  | BBa_K4162114 | crtYEB | Coding | Weiwen Chen | Length:  3240 bp | 
+| |  | BBa_K4162115 | crtYBE | Coding | Weiwen Chen | Length:  3240 bp | 
+| |  | BBa_K4162116 | crtEIY | Coding | Weiwen Chen | Length:  3789 bp | 

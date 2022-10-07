@@ -11,10 +11,11 @@ driver = webdriver.Chrome() # https://chromedriver.chromium.org/downloads and pl
 from time import sleep
 
 
-z = range(1, 37)
+z = []
+z += range(1, 37)
+z += range(101, 118)
 table_th = ('Part Name', 'Short Description', 'Part Type', 'Designer(s)')
 fff = open('groupparts.md', 'w')
-fff.write('|----|----|----|----|----|----|----|\n')
 fff.write('| | | Part Name | Description | Part Type | Designer(s) | Length |\n')
 fff.write('|----|----|----|----|----|----|----|\n')
 
@@ -64,8 +65,6 @@ for zz in z:
     fff.write('| %s | %s | %s | \n' % (favorited, ' | '.join(td), p3) )
     print('\n\n')
 
-fff.write('|----|----|----|----|----|----|----|\n')
 fff.close()
-
 print('CAUTION: will support update and diff later, right now only for init')
 driver.quit()
