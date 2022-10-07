@@ -136,5 +136,11 @@ footer #yunf{
 }
 footer{
     background-color: #ee994d !important;
-}
 
+}
+footer .container{
+    list-style: none;
+}
+footer .container ul li a{
+    text-decoration: none;
+}
