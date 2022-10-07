@@ -49,4 +49,4 @@
 | |  | BBa_K4162114 | ribozyme+RBS+CDS module: crtYEB | Coding | Weiwen Chen | Length:  3240 bp | 
 | |  | BBa_K4162115 | ribozyme+RBS+CDS module: crtYBE | Coding | Weiwen Chen | Length:  3240 bp | 
 | |  | BBa_K4162116 | ribozyme+RBS+CDS module: crtEIY | Coding | Weiwen Chen | Length:  3789 bp | 
-| |  | BBa_K4162117 | ribozyme+RBS+CDS module: crtYEBI | DNA | Weiwen Chen | Length: 注意这里Y之前是J6_RBS 其余是T7 | 
+| |  | BBa_K4162117 | ribozyme+RBS+CDS module: crtYEBI | DNA | Weiwen Chen | Length: 4836 bp | 
