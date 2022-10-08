@@ -147,3 +147,6 @@ footer .footermenu ul li a{
     text-decoration: none;
     color: white;
 }
+#page_content a {
+    color: #f0f0f0;
+}
