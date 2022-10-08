@@ -24,7 +24,7 @@
     background-size: cover;
     opacity: 0.5;
 }
-@media(max-width: 1200px){
+@media(min-width: 1200px){
 .content{
     margin: 26%;
     border: 60px;
@@ -36,7 +36,7 @@
     font-size: 1.2rem;
 }
 }
-@media(max-width: 768px){
+@media(min-width: 768px){
 .content{
     margin: 10%;
     border: 60px;
@@ -47,6 +47,18 @@
     line-height: 3.5;
     font-size: 1.2rem;
 }
+@media(max-width: 768px){
+.content{
+    margin: 0;
+    border: 60px;
+    padding: 50px;
+    background:#2b7961;
+    box-shadow: -20px -20px 0px #598364;
+    color: white;
+    line-height: 3.5;
+    font-size: 1.2rem;
+}
+
 .content1{ /* test2 */
     margin: 30%;
     border: 60px;
