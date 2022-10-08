@@ -47,27 +47,6 @@
     line-height: 3.5;
     font-size: 1.2rem;
 }
-}
-.content{
-    margin: 30%;
-    border: 60px;
-    padding: 50px;
-    background:#2b7961;
-    box-shadow: -20px -20px 0px #598364;
-    color: white;
-    line-height: 3.5;
-    font-size: 1.2rem;
-}
-.heritage{
-    margin: 15%;
-    border: 60px;
-    padding: 50px;
-    background:#2b7961;
-    box-shadow: -20px -20px 0px #598364;
-    color: white;
-    line-height: 3.5;
-    font-size: 1.2rem;
-}
 .content1{
     margin: 30%;
     border: 60px;
@@ -149,4 +128,7 @@ footer .footermenu ul li a{
 }
 #page_content a {
     color: #f0f0f0;
+}
+#page_content > div > div {
+    background-color: #2b7961;
 }
