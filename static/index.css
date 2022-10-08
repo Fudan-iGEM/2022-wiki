@@ -25,7 +25,7 @@
     opacity: 0.5;
 }
 @media(min-width: 1200px){
-#content{
+.content{
     margin: 26%;
     border: 60px;
     padding: 50px;
@@ -37,7 +37,7 @@
 }
 }
 @media(min-width: 768px){
-#content{
+.content{
     margin: 10%;
     border: 60px;
     padding: 50px;
@@ -48,7 +48,7 @@
     font-size: 1.2rem;
 }
 }
-#content{
+.content{
     margin: 30%;
     border: 60px;
     padding: 50px;
@@ -58,8 +58,17 @@
     line-height: 3.5;
     font-size: 1.2rem;
 }
-
-#content1{
+.heritage{
+    margin: 15%;
+    border: 60px;
+    padding: 50px;
+    background:#2b7961;
+    box-shadow: -20px -20px 0px #598364;
+    color: white;
+    line-height: 3.5;
+    font-size: 1.2rem;
+}
+.content1{
     margin: 30%;
     border: 60px;
     padding: 50px;
