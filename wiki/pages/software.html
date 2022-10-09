@@ -4,6 +4,122 @@
 {% block lead %}Software in iGEM should make synthetic biology based on standard parts easier, faster, better or more accessible to our community.{% endblock %}
 
 {% block page_content %}
+<div class="row" id="carousel">
+    <div class="col-md-4"></div>
+    <div class="col-md-6">
+      <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/test/pic1.jpg)"></div>
+            <div class="container-carousel">
+              <h1>
+                High light
+              </h1>
+              <p>
+                A quick, efficient, and powerful tool for building and designing new parts
+              </p>
+              <a href="#A" class="btn btn-lg btn-primary">
+                Click for more details
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/test/pic2.jpg)"></div>
+            <div class="container-carousel">
+              <h1>
+                Example Headline
+              </h1>
+              <p>
+                If you want to build a bootstrap 5 carousel using basic HTML, CSS and JS,
+              </p>
+              <a href="#" class="btn btn-lg btn-primary">
+                Click for more details
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/test/pic3.jpg)"></div>
+            <div class="container-carousel">
+              <h1>
+                Example Headline
+              </h1>
+              <p>
+                If you want to build a bootstrap 5 carousel using basic HTML, CSS and JS,
+              </p>
+              <a href="#" class="btn btn-lg btn-primary">
+                Click for more details
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <a href="#mycarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+          <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a href="#mycarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+          <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+      <div class="col-md-2" id="landingpage">
+      <div class="landingpageitems">
+        <ul class="first-pannel">
+        <li>
+          <a href="#highlight">Highlight</a>
+        </li>
+
+
+        <li><a href="#introduction">Introduction</a></li>
+
+
+        <li><a href="#try-it-now">Try it now</a></li>
+
+
+        <li><a href="#How to use PartHub">How to use PartHub</a>
+        <ul class="second-pannel">
+            <li>
+                <a href="#for-common-users">For common users</a>
+            </li>
+            <li>
+                <a href="#for-developers">For developers</a>
+            </li>
+        </ul>
+        </li>
+        <li><a href="#contribution-to-the-team">Contribution to the team</a>
+        </li>
+        <li><a href="#design-and-implementation">Design and implementation</a>
+            <ul class="second-pannel">
+            <li>
+                <a href="#web-crawler">Web Crawler</a>
+            </li>
+            <li>
+                <a href="#deployment-of-parthub">Deployment of PartHub</a>
+            </li>
+            <li>
+                <a href="#search-logic">Search logic</a>
+            </li>
+            <li>
+                <a href="#visualization-of-relationship-between-parts">Visualization of relationship between parts</a>
+            </li>
+
+            <li>
+                <a href="#cross-platform-compatibility">Cross-platform compatibility</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+
 
 <h1 id="parthub-improve-your-part-design-with-50000-parts">PartHub: Improve your part design with 50000+ parts</h1>
 <h2 id="highlight">Highlight</h2>
@@ -91,7 +207,7 @@
 <p>Click on a specific part you are interested in and visualize the relationship network of this part. The page is as follows:</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/graph.png" alt="graph.png (2880×1800) (igem.wiki)"></p>
 <p>This relationship network is interactive, you can scroll to zoom the canvas and drag to move the nodes. Click to display the part details and double click to go to the part page. You can drag nodes to change the layout of the canvas. On this page, you can also get the sequence of this part directly.</p>
-<h2 id="for-developers">For developers</h2>
+<h3 id="for-developers">For developers</h3>
 <p>The source code is in our [GitLab]( <a href="https://gitlab.igem.org/2022/software-tools/fudan">2022 Competition / Software Tools / Fudan · GitLab (igem.org)</a> ).</p>
 <p>The system requirements to deploy PartHub are as follows:</p>
 

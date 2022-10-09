@@ -70,16 +70,16 @@
 }
 #landingpage{
     background: #ee994d;
-    top: 15%;
+    top: 10%;
     position: fixed;
     position: -webkit-sticky;
     list-style: none;
-    padding: 5%;
+    padding: 2%;
 }
 #landingpage li a{
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5
 }
 .maincontent{
@@ -136,10 +136,4 @@ footer .footermenu ul{
 footer .footermenu ul li a{
     text-decoration: none;
     color: white;
-}
-#page_content a {
-    color: #f0f0f0;
-}
-#page_content div > div {
-    background-color: #2b7961;
 }
