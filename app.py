@@ -8,6 +8,10 @@ from flask_frozen import Freezer
 import subprocess
 __build__ = subprocess.check_output(
               'git describe --tags --always HEAD'.split() ).decode().strip()
+from datetime import datetime
+now = datetime.now()
+datetime_tag = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+datetime_str = now.strftime("%d/%m/%Y, %H:%M:%S")
 
 template_folder = path.abspath('./wiki')
 
@@ -28,11 +32,13 @@ def serve():
 
 @app.route('/')
 def index():
-    return render_template('pages/index.html', __build__=__build__)
+    return render_template('pages/index.html',
+                           __build__=__build__)
 
 @app.route('/<page>')
 def pages(page):
-    return render_template(str(Path('pages') / (page.lower() + '.html')), __build__=__build__)
+    return render_template(str(Path('pages') / (page.lower() + '.html')),
+                               __build__=__build__, datetime_str=datetime_str, datetime_tag=datetime_tag)
 
 #@app.route('/<newpage>')
 #
