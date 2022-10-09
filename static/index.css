@@ -2,6 +2,47 @@ a{
     color: #ee994d;
     text-decoration: none;
 }
+a:hover{
+    color: #fcf6e6;
+}
+code{
+    background-color: #f4efd1;
+    color: #598364;
+}
+table {
+			max-width: 100%;
+            margin: 10px auto;
+			border-collapse: separate;
+			border: 3px solid #ee994d;
+            padding: 5px;
+			border-radius: 10px;
+			background-color: #fcf6e6;
+            color: black;
+            resize: both; overflow: auto;
+		}
+td {
+			height: 25px;
+			line-height: 25px;
+			text-align: center;
+			border: 3px solid #fcf6e6;
+            resize: both; overflow: auto;
+		}
+tr {
+			background: #fcf6e6;
+			transition: box-shadow 0.8s ease;
+            resize: both; overflow: auto;
+}
+tr:hover {
+			box-shadow:2px 2px 4px #ee994d;
+            resize: both; overflow: auto;
+		}
+.top-bar {
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    resize: both; overflow: auto;
+}
 .carousel{
     padding: 20px;
     margin: 10px;

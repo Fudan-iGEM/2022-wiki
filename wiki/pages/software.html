@@ -23,9 +23,9 @@
             </li>
         </ul>
         </li>
-        <li><a href="#contribution-to-the-team">Contribution to the team</a>
+        <li><a href="#contribution-to-the-team">Contribution to the iGEM community</a>
         </li>
-        <li><a href="#design-and-implementation">Design and implementation</a>
+        <li><a href="#design-and-implementation">Design and Implementation</a>
             <ul class="second-pannel">
             <li>
                 <a href="#web-crawler">Web Crawler</a>
@@ -108,17 +108,42 @@
       </div>
     </div>
   </div>
-<p><img src="https://static.igem.wiki/teams/4162/wiki/software/multi-device.png" alt="multi-device.png (3011×2006) (igem.wiki)" max-width="100%" height="auto"></p>
+<p>img<img src="https://static.igem.wiki/teams/4162/wiki/software/multi-device.png" alt="multi-device.png (3011×2006) (igem.wiki)" max-width="100%" height="auto"></p>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
 <h2 id="introduction">Introduction</h2>
 <p>The research approach of synthetic biology is more like an engineering method than a traditional biological method. In practice, the designs of synthetic biology are focused on biological functions. That is to say that synthetic biology follows the principle of from bottom to top, specifically from parts to devices and finally to system. As is explained above, parts, as the foundation, play an important role.</p>
-<p>The idea of parts standardization was put forward by Drew Endy in 2005. When creating or modifying corresponding biological components, the standardization of parts must carry it out. For the standardized settings of parts, the parts created by one person can be reused by all researchers through standardized settings. And that’s why all teams must submit their parts in the iGem competition.</p>
-<p>Since a great database of standardized parts was provided by the iGEM community, there’s no reason not to make full use of the parts database. A problem was encountered when first collecting information and resources for our parts design this year. Although the parts database is provided, we cannot quickly identify which part is most related to our project from the parts registration page because there is no powerful search tool for us yet.</p>
-<p>Therefore, we decided to develop PartHub for the iGEM competition, as an assistant tool for the parts database. We hope that PartHub can help future teams and researchers design their parts.</p>
+<p>The idea of parts standardization was put forward by Drew Endy in 2005. When creating or modifying corresponding biological components, the standardization of parts must be carried out. For the standardized settings of parts, the parts created by one person can be reused by all researchers through standardized settings. And that’s why all teams must submit their parts in the iGEM competition.</p>
+<p>Since a great database of standardized parts had been provided by the iGEM community, there’s no reason not to make full use of the parts database. A problem was encountered when first collecting information and resources for our parts design this year. Although the parts database is provided, we cannot quickly identify which part is most related to our project from the parts registration page because there is no powerful search tool for us yet.</p>
+<p>Therefore, we decided to develop PartHub for the iGEM community, as an assistant tool for the parts database. We hope that PartHub can help future teams and researchers in their the Design-Build-Test-Learn(DBTL) pipelines.</p>
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
 <h2 id="try-it-now">Try it now</h2>
-<p>balabala</p>
+<div class="writebox" style="float: left">
+		<table colspan="1" width="100%" cellspacing="2" cellpadding="0">
+		<tr width="100%" align="left" colspan="0">
+			<td>
+				<img src="https://static.igem.wiki/teams/4162/wiki/software/searchicon.svg" alt="searchlogo" style="height:27px;"/>
+			</td>
+			<td width="95%">
+				<input id="input_kwd" type="text" autofocus="off" name="s" autocomplete="on" style="width:95%;height:100%;border:0;padding:3px;background:#fff;border-radius:10px;">
+			</td>
+		</tr>
+	</table>
+	</div>
+	<div>
+		<button id="bottom" type="button" onClick="search();">Submit</button>
+	</div>
+	<div>
+		Search by:<br/>
+		<input type="radio" name="searchtype" value="number">ID
+		<input type="radio" name="searchtype" value="name" >Name
+		<input type="radio" name="searchtype" value="sequence">Sequence
+		<input type="radio" name="searchtype" value="designer">
+		Designer
+		<input type="radio" name="searchtype" value="team">
+		Team
+		<input type="radio" name="searchtype" value="contents">Content
+	</div>
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
 <h2 id="how-to-use-parthub">How to use PartHub</h2>
@@ -181,7 +206,7 @@
 </tr>
 </tbody>
 </table><p>All searches here are case-insensitive and support partial match retrieval. In addition, PartHub supports boolean search with multiple search terms (The format of the boolean search with multiple search terms should be xxx AND xxx or xxx OR xxx).</p>
-<p>What’s more, PartHub supports fuzzy search. For example, you want to search for <em>beta AND carotene</em> but you accidentally type in <em>bata AND carotene</em>, PartHub will automatically do the fuzzy search for you and the result will be:</p>
+<p>What’s more, PartHub supports fuzzy search. For example, if you want to search for <em>beta AND carotene</em> but you accidentally type in <em>bata AND carotene</em>, PartHub will automatically do the fuzzy search for you and the result will be:</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/fuzzysearch.png" alt="fuzzysearch.png (2880×1800) (igem.wiki)"></p>
 </li>
 <li>
@@ -246,12 +271,16 @@
 </ol>
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
-<h2 id="contribution-to-the-team">Contribution to the team</h2>
+<h2 id="contribution-to-the-team">Contribution to the iGEM community</h2>
+<p>Since PartHub contains information on almost all of the Registry of Standard Biological Parts from 2004 onwards, PartHub can be useful for teams with multiple tracks. In the Design-Build-Test-Learn(DBTL)  biological engineering pipeline, PartHub can provide support for all iGEMers in every phase.</p>
+<p>During the designing, PartHub can help designers find and focus on sequences, engineering approaches, workflows, componentry, and organisms of interest. In the build phase, PartHub can help you build a combinatorial assembly of DNA-encoded componentry using the previous biobricks of iGEM. You can get some useful protocols in the test phase through PartHub. When organizing and examining data and experiences from the DBT phase to learn, the relationships between the parts that PartHub provides you with can provide you with direction to enlighten the next step of improvement.</p>
+<p>The first users of PartHub were Team Fudan's teammates responsible for the part. They replaced the search engine in the Registry of Standard Biological Parts with PartHub this year, which significantly improved the efficiency of their part search. In addition, we introduced PartHub to the community in slack's iGEM 2022 Global and received positive feedback:</p>
+<img src="https://static.igem.wiki/teams/4162/wiki/software/feedback.png" alt="feedback.png (2880×1800) (igem.wiki)">
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
 <h2 id="design-and-implementation">Design and implementation</h2>
 <h3 id="web-crawler">Web Crawler</h3>
-<p>To get data of parts from Registry of Standard Biological Parts, the Web Crawler based on <a href="https://www.selenium.dev/">selenium</a> framework was developed. The information of the parts in the Registry of Standard Biological Parts is standardized, hence the information can be obtained by crawling through the elements of the fixed XPath. We ended up deploying the Web Crawler on a Windows-based server (Linux is also supported). A high-performance computer is recommended due to the vast number of pages on Registry of Standard Biological Parts(It is not suggested to use personal computer to run the web crawler), and it’s especially recommended for HPC platforms. The following is our computer configuration:</p>
+<p>To get data of parts from Registry of Standard Biological Parts, the Web Crawler based on the <a href="https://www.selenium.dev/">selenium</a> framework was developed. The information of the parts in the Registry of Standard Biological Parts is standardized, hence the information can be obtained by crawling through the elements of the fixed XPath. We ended up deploying the Web Crawler on a Windows-based server (Linux is also supported). A high-performance computer is recommended due to the vast number of pages on Registry of Standard Biological Parts(It is not suggested to use a PC to run the web crawler), and it’s especially recommended for HPC platforms. The following is our computer configuration:</p>
 
 <table>
 <thead>
@@ -285,19 +314,20 @@
 <h3 id="visualization-of-relationship-between-parts">Visualization of relationship between parts</h3>
 <p>Under the structure of Neo4j, we manage to visualize the relationship between parts. Each node stands for a specific iGEM part in the database, while the line between nodes represents the cite and cited relationship or twin parts relationship. The number of citations and publication time of part are directly presented by the size and color of the nodes. The canvas outputs are interactive, allowing the user to zoom, drag nodes, and click nodes, etc. In addition, the necessary information is presented in a table on the side, and if the part is of interest to the user, he can directly access its page in the Registry of Standard Biological Parts or directly obtain its sequence (if it exists).</p>
 <h3 id="cross-platform-compatibility">Cross-platform compatibility</h3>
-<p>In order to ensure a robust cross-platform approach for PartHub, we chose to develop a web-based user interaction module. It is also important to use universal features and interfaces when developing web applications in order to achieve good cross-platform performance. PartHub can be used on a PC (either Windows, Linux or macOS), iPad, iPhone or Android phone. The following browsers have been tested to work (does not mean that the browsers not listed do not work):</p>
+<p>In order to ensure a robust cross-platform approach for PartHub, we chose to develop a web-based user interaction module. It is also important to use universal features and interfaces when developing web applications in order to achieve good cross-platform performance. PartHub can be used on a PC (either Windows, Linux, or macOS), iPad, iPhone, or Android phone. The following browsers have been tested to work (does not mean that the browsers not listed do not work):</p>
 <ul>
-<li>Chrome</li>
-<li>Edge</li>
-<li>Firefox</li>
-<li>Safari</li>
+<li>Chrome<img src="https://static.igem.wiki/teams/4162/wiki/software/chrome.svg" alt="chrome" height="64px" width="64px"></li>
+<li>Edge<img src="https://static.igem.wiki/teams/4162/wiki/software/edge.svg" alt="edge" height="64px" width="64px"></li>
+<li>Firefox<img src="https://static.igem.wiki/teams/4162/wiki/software/firefox.svg" alt="firefox" height="64px" width="64px"></li>
+<li>Safari<img src="https://static.igem.wiki/teams/4162/wiki/software/safari.svg" alt="safari" height="64px" width="64px"></li>
 </ul>
 </div>
 <h2 id="outlook">Outlook</h2>
 <h2 id="acknowledgment">Acknowledgment</h2>
 <ul>
 <li>Sunzhe Kang (<a href="https://gitlab.igem.org/KangSunzhe">@KangSunzhe</a>)</li>
-<li>Shitao Gong (<a href="https://gitlab.igem.org/Tom_GhoST_Smith">@Tom_GhoST_Smith</a>)</li>
+<li>Shitao Gong (<a href="https://gitlab.igem.org/Tom_GhoST_Smith">@Tom_GhoST_Smith</a>), and 2021's <a href="https://2021.igem.org/Team:Fudan/Software">Part Camera</a>
+</li>
 </ul>
 
 
