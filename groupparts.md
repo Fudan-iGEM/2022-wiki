@@ -4,7 +4,7 @@
 | |  | BBa_K4162002 | linker between BCMO and StayGold, hydrophobic | Coding | Weiwen Chen | Length:  54 bp | 
 | |  | BBa_K4162003 | ybbO coding for retinol dehydrogenase, codon optimized for E. coli | Coding | Yujian Song | Length:  810 bp | 
 | |  | BBa_K4162004 | Gene coding for BCMO from uncultured marine bacteria | Coding | Weiwen Chen | Length:  828 bp | 
-| |  | BBa_K4162005 | Hammerhead ribozyme | RNA | Weiwen Chen | Length:  57 bp | 
+| | U | BBa_K4162005 | Hammerhead ribozyme | RNA | Weiwen Chen | Length:  57 bp | 
 | |  | BBa_K4162006 | T7_RBS | RBS | Weiwen Chen | Length:  17 bp | 
 | |  | BBa_K4162007 | MCP | Coding | Weiwen Chen | Length:  336 bp | 
 | |  | BBa_K4162008 | tdMCP | Coding | Weiwen Chen | Length:  690 bp | 
@@ -51,4 +51,5 @@
 | |  | BBa_K4162114 | ribozyme+RBS+CDS module: crtYEB | Coding | Weiwen Chen | Length:  3240 bp | 
 | |  | BBa_K4162115 | ribozyme+RBS+CDS module: crtYBE | Coding | Weiwen Chen | Length:  3240 bp | 
 | |  | BBa_K4162116 | ribozyme+RBS+CDS module: crtEIY | Coding | Weiwen Chen | Length:  3789 bp | 
-| |  | BBa_K4162117 | ribozyme+RBS+CDS module: crtYEBI | DNA | Weiwen Chen | Length:  4836 bp | 
+| | U | BBa_K4162117 | ribozyme+RBS+CDS module: crtYEBI | DNA | Weiwen Chen | Length:  4836 bp | 
+| | U | BBa_K4162118 | ribozyme+RBS+CDS module: crtEBIY | DNA | Weiwen Chen | | 
