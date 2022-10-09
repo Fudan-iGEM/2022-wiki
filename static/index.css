@@ -10,6 +10,7 @@ table {
 			margin: 10px auto;
 			border-collapse: separate;
 			border: 3px solid #ee994d;
+            padding: 5px;
 			border-radius: 10px;
 			background-color: #fcf6e6;
             color: black;
