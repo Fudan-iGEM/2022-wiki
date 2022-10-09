@@ -12,8 +12,8 @@ from time import sleep
 
 
 z = []
-z += range(1, 37)
-z += range(101, 118)
+z += range(1, 40)
+z += range(101, 125)
 table_th = ('Part Name', 'Short Description', 'Part Type', 'Designer(s)')
 fff = open('groupparts.md', 'w')
 fff.write('| | | Part Name | Description | Part Type | Designer(s) | Length |\n')

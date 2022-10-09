@@ -1,0 +1,1005 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Part:BBa_K4162117:Hard Information">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="parts.igem.org (English)">
+    <link title="Creative Commons" type="application/rdf+xml" href="/wiki/index.php?title=Part:BBa_K4162117:Hard Information&amp;action=creativecommons" rel="meta">
+    <link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="alternate" type="application/rss+xml" title="parts.igem.org RSS Feed" href="http://parts.igem.org/wiki/index.php?title=Special:Recentchanges&amp;feed=rss">
+
+<link rel="alternate" type="application/atom+xml" title="parts.igem.org Atom Feed" href="http://parts.igem.org/wiki/index.php?title=Special:Recentchanges&amp;feed=atom">
+    <title>Part:BBa_K4162117:Hard Information - parts.igem.org</title>
+    <meta http-equiv="imagetoolbar" content="no"><!--[endif]---->
+    
+    <script type="text/javascript">/*<![CDATA[*/
+					       var skin = 'registry';
+					       var stylepath = '/wiki/skins';
+					       var wgArticlePath = '/$1';
+					       var wgScriptPath = '/wiki';
+					       var wgScript = '/wiki/index.php';
+					       var wgServer = 'http://parts.igem.org';
+					       var wgCanonicalNamespace = '';
+					       var wgCanonicalSpecialPageName = false;
+					       var wgNamespaceNumber = 0;
+					       var wgPageName = 'Part:BBa_K4162117:Hard_Information';
+					       var wgTitle = 'Part:BBa_K4162117:Hard Information';
+					       var wgAction = 'view';
+					       var wgRestrictionEdit = [];
+					       var wgRestrictionMove = [];
+					       var wgArticleId = '0';
+					       var wgIsArticle = true;
+					       var wgUserName = null;
+					       var wgUserGroups = null;
+					       var wgUserLanguage = 'en';
+					       var wgContentLanguage = 'en';
+					       var wgBreakFrames = false;
+					       var wgCurRevisionId = '0';
+					       var wgVersion = '1.12.0';
+					       var wgEnableAPI = true;
+					       var wgEnableWriteAPI = false;
+/*]]>*/</script>
+    <!-- jQuery Javascript and jQuery UI -->
+    <script type="text/javascript" src="/common/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/common/jquery_ui/jquery-ui.min.css">
+    <script src="/common/jquery_ui/jquery-ui.min.js"></script>
+
+    <!-- Custom javascript -->
+    <link rel="stylesheet" type="text/css" href="http://parts.igem.org/wiki/skins/Igem/resources/main.css">
+    <link rel="stylesheet" type="text/css" href="http://parts.igem.org/wiki/skins/Igem/resources/top_menu_14.css">
+    <link rel="stylesheet" type="text/css" href="http://parts.igem.org/wiki/skins/Igem/resources/igem_wiki.css">
+
+    <link rel="stylesheet" type="text/css" href="http://parts.igem.org/common/biobricks.css">
+    <script src="http://parts.igem.org/common/biobricks.js"></script>
+    <link rel="stylesheet" type="text/css" href="/forum/forum_styles.css">
+    <script type="text/javascript" src="/forum/forum_scripts.js"></script>
+
+    <!-- Ajax User interface support RDR March 2013 -->
+    <script type="text/javascript" src="/aj/parts_ui/parts_ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="/aj/parts_ui/parts_ui.css">
+
+    <!-- Part Tool Menu -->
+    <script type="text/javascript" src="/aj/old_part_tool_menu/part_tools.js?7"></script>
+    <script type="text/javascript" src="/aj/old_part_tool_menu/part_tool_menu.js?7"></script>
+    <link rel="stylesheet" type="text/css" href="/aj/old_part_tool_menu/part_tool_menu.css">
+
+    <!-- Edit Part Tool Menu -->
+    <script type="text/javascript" src="/aj/part_edit_menu/part_edit.js"></script>
+    <script type="text/javascript" src="/aj/part_edit_menu/part_edit_menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="/aj/part_edit_menu/part_edit_menu.css">
+
+    <!-- Head Scripts -->
+    <script type="text/javascript" src="/wiki/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=registry"><!-- site js --></script>
+    <style type="text/css">/*<![CDATA[*/
+				      @import '/wiki/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000';
+				      @import '/wiki/index.php?title=MediaWiki:Registry.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000';
+				      @import '/wiki/index.php?title=-&action=raw&gen=css&maxage=18000';
+/*]]>*/</style>
+<script type="text/javascript" src="/common/tablesorter/jquery.tablesorter.min.js"></script><link rel="stylesheet" type="text/css" href="/common/tablesorter/themes/groupparts/style.css"><link rel="stylesheet" type="text/css" href="/common/table_styles.css"></head>
+
+    
+    
+    
+
+
+<body class="mediawiki ns-0 ltr page-Part:BBa_K4162117:Hard_Information">
+  <div id="globalWrapper">
+        <div id="top_menu_under" class="noprint"></div>
+        <div id="top_menu_14" class="noprint"><div id="top_menu_inside">
+
+<ul>
+<li class="has_submenu"><a href="" style="color:white">iGEM</a><div class="submenu">
+                   <div id="igem_submenu" class="intro"><div class="section1" style="float:left;cursor:default;font-style: normal;width:200px;"><img src="/wiki/skins/Igem/images/IGEM_white_letters.png" style="width:150px;"><br><div style="padding:15px 15px;">The International<br>Genetically<br>Engineered<br>Machine Competition</div></div><div class="section" style="float-left; width:250px;"><div class="h1">Quick Links</div><a href="http://igem.org">igem.org</a><br><a href="http://2019.igem.org">2019.igem.org</a><br><a href="http://2018.igem.org">2018.igem.org</a><br><a href="http://2017.igem.org">2017.igem.org</a><br><a href="http://2016.igem.org">2016.igem.org</a><br><a href="http://2015.igem.org">2015.igem.org</a><br><a href="http://parts.igem.org">parts.igem.org</a><br><a href="http://igem.org/Previous_iGEM_Competitions">Previous iGEM Competitions</a><br></div><div class="section" style="float:left;"><div class="h1">About iGEM</div><a href="http://igem.org/About">iGEM</a><br><a href="http://parts.igem.org/Help:Synthetic_Biology">Synthetic Biology</a><br><a href="http://parts.igem.org/Help:Philosophy">Our Philosophy</a><br><a href="http://parts.igem.org/Help:Parts">Parts</a><br><a href="http://parts.igem.org/Help:Plasmid_Backbones">Plasmid Backbones</a><br><a href="http://igem.org/Labs">iGEM Labs</a><br></div><div class="section" style="float:left; width:250px;"><div class="h1">Contacts</div>hq <span style="font-style:italic">at</span> igem <span style="font-style:italic">dot</span> org<br><br>+ 617.500.3106<br><br>45 Prospect Street<br>Cambridge, MA 02139<br>USA<br><a href="http://igem.org/Contact">Contact</a><br></div></div>
+               </div></li>
+<li class="has_submenu"><a href="" style="color:white">wiki tools</a><div class="submenu">
+                   <div id="wiki_tools_submenu" class="intro"><div class="section" style="float:left;"><div class="h1">Wiki Tools</div><a href="">Delete</a><br><a href="">Move</a><br><a href="">Protect</a><br><a href="">Unprotect</a><br></div><div class="section" style="float-left;"><div class="h1">Upload Tools</div><a href="/Special:Upload">Upload files</a><br><a href="/Special:SpecialPages">Special pages</a><br></div><div class="section" style="float:left"><div class="h1">Other</div><a href="/Special:Recentchanges">Recent changes</a><br><a href="/Special:SpecialPages">Special pages</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">These tools let you edit this page, see the page history, recent changes, upload files, and more.
+    Starting in 2014, team wiki pages and images may only be modified by members of that team.</div><div style="clear:both"></div><div style="border-top: 2px solid gray;margin-top:10px;padding: 10px 5px;font-style:normal;width:100%">
+          The contents of this web site are available under the
+          Creative Commons Attribution Copyright license.<a style="float:right" href="http://mediawiki.org"><img src="/wiki/skins/Igem/images/poweredby_mediawiki.png"></a></div></div>
+               </div></li>
+<li class="has_submenu"><a href="" style="color:white">search</a><div class="submenu">
+                   <div id="search_submenu" class="intro"><div class="section" style="float:left;"><div class="h1">Search Tools</div><div class="section" style="float:left;width:600px;font-size:18px;line-height:30px;"><input id="search_text" value="" style="font-size:14px;width:500px;margin-bottom:10px;"><div class="google" style="font-size:14px;line-height:22px;">  Click below to search using Google:<br><span id="igem19_search">2019.igem.org</span><br><span id="igem18_search">2018.igem.org</span><br><span id="igem17_search">2017.igem.org</span><br><span id="igem16_search">2016.igem.org</span><br><span id="igem15_search">2015.igem.org</span><br><span id="igem14_search">2014.igem.org</span><br><span id="igem_search">igem.org</span><br><span id="registry_search">iGEM Registry</span><br><span id="scholar_search">Google Scholar</span><br><span id="web_search">The Web</span></div><div id="page_go">Go to this page (or create it)</div></div></div><div class="section" style=""></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc;width:250px;"><div>We use a Google site search rather than the built in Mediawiki search tool.</div> </div><div style="clear:both ></div><div class=" section'=""></div>
+<script>
+    var search_text = jQuery('#search_text');
+    search_text.val(  jQuery('#search').val()  );
+    jQuery('#registry_search').click( function(){
+        var url = search_text.val() + ' site:parts.igem.org';
+        url = encodeURIComponent(url);
+        location.assign('http://www.google.com/search?q=' + url);
+    } )
+    jQuery('#igem16_search').click( function(){
+        var url = search_text.val() + ' site:2016.igem.org';
+        url = encodeURIComponent(url);
+        location.assign('http://www.google.com/search?q=' + url);
+    } )
+    jQuery('#igem15_search').click( function(){
+        var url = search_text.val() + ' site:2015.igem.org';
+        url = encodeURIComponent(url);
+        location.assign('http://www.google.com/search?q=' + url);
+    } )
+    jQuery('#igem14_search').click( function(){
+        var url = search_text.val() + ' site:2014.igem.org';
+        url = encodeURIComponent(url);
+        location.assign('http://www.google.com/search?q=' + url);
+    } )
+    jQuery('#igem_search').click( function(){
+        var url = search_text.val() + ' site:igem.org';
+        url = encodeURIComponent(url);
+        location.assign('http://www.google.com/search?q=' + url);
+    } )
+    jQuery('#scholar_search').click( function(){
+        var url = search_text.val();
+        url = encodeURIComponent(url);
+        location.assign('http://scholar.google.com/scholar?q=' + url);
+    } )
+    jQuery('#web_search').click( function(){
+        var url = search_text.val();
+        url = encodeURIComponent(url);
+        location.assign('http://www.google.com/search?q=' + url);
+    } )
+
+    jQuery('#subpart_search').click( function(){
+        var url = search_text.val();
+        url = encodeURIComponent(url);
+        location.assign('http://parts.igem.org/partsdb/search_subparts.cgi?q=' + url);
+    } )
+    jQuery('#uses_search').click( function(){
+        var url = search_text.val();
+        url = encodeURIComponent(url);
+        location.assign('http://parts.igem.org/partsdb/search_uses.cgi?q=' + url);
+    } )
+    jQuery('#1000_search').click( function(){
+        var url = search_text.val();
+        url = encodeURIComponent(url);
+        location.assign('http://parts.igem.org/partsdb/search_1000.cgi?q=' + url);
+    } )
+    jQuery('#text_search').click( function(){
+        var url = search_text.val();
+        url = encodeURIComponent(url);
+        location.assign('http://parts.igem.org/partsdb/search_text.cgi?q=' + url);
+    } )
+    jQuery('#page_go').click( function(){
+        var url = search_text.val();
+        url = url.replace(' ','_');
+        url = encodeURIComponent(url);
+        location.assign(url);
+    } )
+    </script></div>
+               </div></li><li>PRODUCTION 2017 SERVER</li>
+</ul>
+ <div id="user_item" class="has_submenu">
+<style>
+#nlogin_div {
+      border: 1px solid white;
+      font-size: 20px;
+      color: yellow;
+
+}
+#nlogin_div a {
+      color: white;
+}
+#nlogin_div a:hover {
+      color: rgb(200,200,255);
+}
+
+#nlogin_iframe {
+      display: block;
+      position:relative;
+      width: 900px;
+      height: 220px;
+      border:   none;
+      font-family:  ariel, sans-serif;
+      text-align:   center;
+      color:        white;
+      background-color: transparent;
+      margin-top:  10px;
+}
+</style>
+<script>
+function open_login_iframe() {
+    jQuery('#user_item .submenu').remove();
+    jQuery('#user_item').append("<DIV class='submenu' style='display:block'></DIV>");
+    jQuery('#user_item .submenu').append("<DIV id='nlogin_div' style='font-size:24'>Do not try to login from parts.igem.org. Instead, go to <a href='https://old.igem.org/Login.cgi'>old.igem.org/Login</a> to login to the Registry</div>");
+    return;
+}
+function close_login_iframe(){
+   jQuery('#user_item .submenu').empty();
+   jQuery('#user_item .submenu').append("<DIV style='padding:10px 200px'>Reloading page...</DIV>");
+   location.reload();
+}
+function open_logout_iframe() {
+    jQuery('#user_item').unbind('mouseenter mouseleave');
+    jQuery('#user_item .submenu').empty();
+    jQuery('#user_item .submenu').append("<DIV id='login_div' >Logout from the iGEM Web Sites<a onClick='close_logout_iframe()' class='close' style='color:white;float:right;'>Close</a></div>");
+    jQuery('#user_item .submenu').append("<iframe id='nlogin_iframe' src='http://igem.org/Logout' frameborder=0></iframe>");
+    return;
+}
+function close_logout_iframe(){
+   jQuery('#user_item .submenu').empty();
+   jQuery('#user_item .submenu').append("<DIV style='padding:10px 200px'>Reloading page...</DIV>");
+   location.reload();
+}
+</script>login<script>
+jQuery('#user_item').unbind('mouseenter mouseleave');
+jQuery('#user_item').one('click',function(){open_login_iframe();});
+</script></div>
+           <script>jQuery('#user_item').load('/top_menu_14/user_reply.cgi',{t: 'Part:BBa_K4162117:Hard Information'});</script><script>jQuery('#site_nav_wrapper').toggle(false);</script></div>
+<script>
+  jQuery('#igem_submenu').load('/top_menu_14/igem_reply.cgi',{t: 'Part:BBa_K4162117:Hard Information', a: ''});
+  jQuery('#wiki_tools_submenu').load('/top_menu_14/wiki_tools_reply.cgi',{t: 'Part:BBa_K4162117:Hard Information', a: ''});
+  jQuery('#search_submenu').load('/top_menu_14/search_reply.cgi',{t: 'Part:BBa_K4162117:Hard Information', a: ''});
+</script><script>
+jQuery('#top_menu_14 .has_submenu').hover(
+    function() {
+        jQuery(this).find('.submenu').show();
+    },
+    function() {
+        jQuery(this).find('.submenu').clearQueue();
+        jQuery(this).find('.submenu').hide();
+        jQuery(this).find('.submenu').clearQueue();
+        jQuery(this).find('.submenu').hide();
+    } 
+);
+</script></div> <!-- Will be replaced with the jQuery.load -->
+		<script>jQuery('#top_menu_14').load('http://parts.igem.org/cgi/top_menu_14/menubar_reply.cgi',
+						    {   t:"Part:BBa_K4162117:Hard Information",
+							a:"" });
+   		</script>
+  <div id="topWrapper">
+<div class="noprint" id="site_nav_wrapper" style="display: none;">
+<style>
+#site_nav_wrapper {
+      position:  absolute;
+      top: 80px;
+      left: 985px;
+      z-index: 10;
+}
+#site_nav {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 200px;
+      background-color: rgb(250,250,250);
+      line-height: 1em;
+      text-align:   left;
+      color:        black;
+      z-index:   10;
+      box-shadow:    rgba(50,50,50,0.75) 1px 1px 10px 0px;;
+}
+#site_nav h1 {
+      padding-bottom: 5px;
+      margin: 0px 10px 10px 10px;
+      font-size: 18px;
+      font-weight: 600;
+      border-bottom: 1px solid black;
+}
+#site_nav_middle {
+      position: relative;
+      z-index: 1;
+}
+#site_nav ul {
+      line-height: 1.1em;
+      padding-bottom:5px;
+}
+#site_nav a {
+      color: black;
+      cursor: pointer;
+}
+#site_nav a:hover {
+      color:  orange;
+}
+
+#site_nav_bottom {
+      border-top: 1px solid gray;
+}
+</style>
+<div id="site_nav">
+<h1>Site Navigation</h1>
+<div id="site_nav_middle">
+<ul>
+<li><a href="http://parts.igem.org/Feature_Box_Archive">Feature Box Archive</a>
+</li><li><a href="http://parts.igem.org/News_Archive">News Archive</a>
+</li><li><a href="http://parts.igem.org/Safety">Safety</a>
+</li><li><a href="http://parts.igem.org/Videos">Videos</a>
+</li><li><a href="http://parts.igem.org/Registry:New_features">New Features</a>
+</li><li><a href="http://parts.igem.org/Registry:Bug_reports">Report Bugs</a>
+</li><li><a href="http://parts.igem.org/Registry:Feature_requests">Request Features</a>
+</li><li><a href="http://parts.igem.org/Registry_API">Registry API</a></li></ul>
+   <div id="site_nav_bottom"></div></div>
+<script>
+function click_root_cat( name ) {
+    jQuery('#site_nav_bottom').load('http://parts.igem.org/aj/cat/root_clicked.cgi?n=' + name);
+}
+jQuery(window).resize( function() {
+    var pageWrapper       = jQuery('#pageWrapper');
+    var pageWrapper_width = pageWrapper.width();
+    var nav_wrapper   = jQuery('#site_nav_wrapper');
+    var nav_box   = jQuery('#site_nav');
+    var nav_width = nav_box.width();
+    var pile_item = jQuery('#pile_item');
+    var window_width = jQuery(window).width();
+    var pivot_width = pageWrapper_width + nav_width + 20;
+    var nav_wrapper_origin = 985;
+    var right_indent = pivot_width - window_width;
+    if ( right_indent <= 0 ) {
+        nav_wrapper.css('left', nav_wrapper_origin );
+        pile_item.css('right',20);
+        pile_item.css('left','auto');        
+    } else if ( window_width < pageWrapper_width + 10) {
+        nav_wrapper.css('left', ( nav_wrapper_origin - nav_width -10 ) );
+        pile_item.css('left',928);        
+        pile_item.css('right','auto');
+    } else {        
+        nav_wrapper.css('left', ( nav_wrapper_origin - right_indent ) );
+        pile_item.css('right',20);
+        pile_item.css('left','auto');        
+    }
+});</script></div></div><script> jQuery('#site_nav_wrapper').load('http://parts.igem.org/cgi/aj/cat/site_nav.cgi',{t:'CGI::escape(Part:BBa_K4162117:Hard Information)'});</script>
+    <div id="top-section">
+        <div id="p-logo">
+           <a href="/Main_Page" title="Main Page"><img src="http://parts.igem.org/images/header_words.png"></a>
+        </div>  <!-- end p-logo -->
+    <div id="new_menubar" class="noprint">
+<ul class="new_menu">
+<li class="igem_logo has_submenu"><div class="igem_img"></div>
+               <div class="submenu"><div id="igem_submenu2" class="intro"><div class="section" style="float-left; width:250px;"><div class="h1">Quick Links</div><a href="http://parts.igem.org">iGEM Registry</a><br><a href="http://igem.org">iGEM.org</a><br><a href="http://2019.igem.org">2019 iGEM Wiki</a><br><a href="http://2018.igem.org">2018 iGEM Wiki</a><br><a href="http://2017.igem.org">2017 iGEM Wiki</a><br><a href="http://igem.org/Previous_IGEM_Competitions">Previous iGEM Competitions</a><br></div><div class="section" style="float:left;"><div class="h1">About iGEM</div><a href="http://igem.org/About">iGEM</a><br><a href="http://parts.igem.org/Help:Synthetic_Biology">Synthetic Biology</a><br><a href="http://parts.igem.org/Help:Philosophy">Our Philosophy</a><br><a href="http://parts.igem.org/Help:Parts">Parts</a><br><a href="http://parts.igem.org/Help:Plasmid_Backbones">Plasmid Backbones</a><br><a href="http://igem.org/Labs">iGEM Labs</a><br><a href="http://igem.org/Contact">Contact</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">The Registry is a continuously growing community collection of genetic parts that can be mixed and matched
+    to build synthetic biology devices and systems. The Registry is part of the Synthetic Biology community's
+    efforts to make biology easier to engineer. It provides a resource of available genetic parts to iGEM teams
+    and labs.</div></div></div>
+               <script>jQuery('#igem_submenu2').load('http://parts.igem.org/cgi/aj/menubar/igem_reply.cgi',{t: 'Part%3ABBa_K4162117%3AHard%20Information'});</script>
+           </li>
+<li class="has_submenu">tools<div class="submenu">
+                <div id="tools_submenu" class="intro"><div class="section" style="float:left;"><div class="h1">Wiki</div><a href="/Part:BBa_K4162117:Hard_Information">Return to the page</a><br><a href="/wiki/index.php?title=Part:BBa_K4162117:Hard_Information&amp;action=edit">Edit this page</a><br><a href="/wiki/index.php?title=Part:BBa_K4162117:Hard_Information&amp;action=history">History of this page</a><br><a href="/Special:WhatLinksHere/Part:BBa_K4162117:Hard_Information">What links here</a><br><a href="/Special:RecentChangesLinked/Part:BBa_K4162117:Hard_Information">Related changes</a><br><a href="/Special:Upload">Upload files</a><br><a href="/Special:SpecialPages">Special pages</a><br><a href="/Special:Recentchanges">Recent changes</a><br></div><div class="section" style="float-left;"><div class="h1">General</div><a href="/Add_a_Part_to_the_Registry">Add a part</a><br><a href="/Help:Requesting_Parts">Request a part</a><br><a href="/cgi/dna_transfer/index.cgi">Send a part to the Registry</a><br><a href="/cgi/sequencing/index.cgi">Sequence Analysis /<br> &nbsp; Registry BLAST</a><br></div><div class="section" style="float:left"><div class="h1"><a href="http://parts.igem.org/Tools">Community</a></div><a href="http://beta.labgeni.us/registries/igem/">LabGenius plasmid mapper</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">Wiki tools let you edit this page, see recent changes, and more. Part tools let you edit the database
+information about tha part. Members of the iGEM community may contribute tools in the bottom section of this page.
+<div style="display:block;width:100%;font-family:arial;font-style:normal;font-size:13px">
+    <a style="float:right" href="http://parts.igem.org/Tools">More...</a></div></div><div style="clear:both"></div><div style="margin-top:15px;padding-top:10px;border-top:1px solid #ddd;"><div class="section" style="float:left;width:225px;"><div class="h1">Part Tools</div><a href="/Part:BBa_K4162117">Part main page</a><br><a href="/Part:BBa_K4162117:Design">Design page</a><br><a href="/Part:BBa_K4162117:Experience">Experience page</a><br><a href="/cgi/partsdb/part_info.cgi?part_name=BBa_K4162117">Edit part information</a><br><a href="/Help:Part_Tools">about</a><br><a href="/cgi/partsdb/related.cgi?part=BBa_K4162117">Related parts</a><br><a href="/cgi/partsdb/dna_info.cgi?part=BBa_K4162117">Length in plasmids</a><br><a href="/cgi/partsdb/edit_seq.cgi?part=BBa_K4162117">Edit sequence and features</a><br><a href="/cgi/partsdb/composite_edit.cgi?part=BBa_K4162117">Edit composite part</a><br><a href="/cgi/sequencing/part_analysis.cgi?part=BBa_K4162117">Sequence analysis</a><br></div><div class="section" style="float:left;width:305px;"><div class="h1">User Provided Part Tools</div><a href="http://cambridgeigem.org/asGenBank.php?part=BBa_K4162117">GenBank format</a><br><a href="http://cambridgeigem.org/asGenBank.php?part=BBa_K4162117">GenBank format</a><br><a href="http://convert.sbols.org/biobrick.php?part=BBa_K4162117">SBOL format</a><br><a href="http://ubio.bioinfo.cnio.es/biotools/context/node/2?part=BBa_K4162117">CNIO information</a><br></div></div></div>
+           </div>
+           </li>
+<li class="has_submenu">catalog<div class="submenu">
+                <div id="catalog_submenu" class="intro"><div class="section" style="float:left;"><div class="h1">Browse Catalog</div><div><a href="http://parts.igem.org/Well_Documented_Parts" style="color:orange;font-weight:500;">Well Documented Parts</a></div><div><a href="http://parts.igem.org/Frequently_Used_Parts" style="color:orange;font-weight:500;">Frequently Used Parts</a></div><div><a href="http://parts.igem.org/Catalog" style="color:orange;font-weight:500;">All The Parts</a></div></div><div class="section" style="float:left;"><div class="h1">Browse by Type</div><a href="http://parts.igem.org/Promoters">Promoters</a><br><a href="http://parts.igem.org/Ribosome_Binding_Sites">RBS</a><br><a href="http://parts.igem.org/Protein_coding_sequences">Coding sequences</a><br><a href="http://parts.igem.org/Terminators">Terminators</a><br><a href="http://parts.igem.org/Plasmid_backbones">Backbones</a><br><a href="http://parts.igem.org/Catalog#Browse_parts_and_devices_by_function">Function</a><br></div><div class="section" style="float-left;"><div class="h1">Collections</div><a href="http://parts.igem.org/Collections">All Curated Collections</a><br><a href="http://parts.igem.org/Collections/CRISPR">CRISPR</a><br><a href="http://parts.igem.org/Collections/Bioremediation_Projects">Bioremediation</a><br><a href="http://parts.igem.org/Collections/Drug_Delivery_Projects">Drug Delivery</a><br><a href="http://parts.igem.org/Collections/Hardware_Projects">Hardware</a><br><a href="http://parts.igem.org/Protein_coding_sequences/Reporters">Reporter Proteins</a><br><a href="http://2012.igem.org/Team:Freiburg">Freiburg TALE</a><br><a href="http://parts.igem.org/Promoters/Catalog/Anderson">Anderson Promoters</a><br><a href="http://parts.igem.org/Genome_Integration">Genome Integration (miniTn7)</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">The Registry has many ways to find parts. The Catalog has been improved to allow you to browse
+    our collection by part type, chassis, function or by several other ways. We made categories much more
+    important in terms of classifying parts to form the basis of the catalog system.</div></div>
+           </div>
+           </li>
+<li class="has_submenu">repository<div class="submenu">
+                <div id="repository_submenu" class="intro"><div class="section" style="float:left;"><div class="h1"><a href="//parts.igem.org/assembly/libraries.cgi">DNA Distributions</a></div><a href="http://parts.igem.org/assembly/libraries.cgi?id=88" style="color:orange">2022 Distribution</a><br><a href="http://parts.igem.org/Help:2022_DNA_Distribution" style="color:orange">2022 Distribution Handbook</a><br><a href="http://parts.igem.org/assembly/libraries.cgi">Search distribution</a><br><a href="http://parts.igem.org/assembly/libraries.cgi?id=86">2021 Distribution</a><br><a href="http://parts.igem.org/Help:2021_DNA_Distribution">2021 Distribution Handbook</a><br><a href="http://parts.igem.org/assembly/libraries.cgi?id=81">2019 Distribution</a><br><a href="http://parts.igem.org/assembly/libraries.cgi?id=78">2018 Distribution</a><br><a href="http://parts.igem.org/assembly/libraries.cgi?id=74">2017 Distribution</a><br><a href="http://parts.igem.org/assembly/libraries.cgi?id=66">2016 Distribution</a><br><a href="http://parts.igem.org/assembly/libraries.cgi">All Libraries</a><br></div><div class="section" style="float-left;"><div class="h1">Using samples</div><a href="http://parts.igem.org/DNA_Submission">Send samples to the Registry</a><br><a href="http://parts.igem.org/dna_transfer/batch_list.cgi" style="padding-left: 8px;">Check my submissions</a><br><a href="http://parts.igem.org/Help:Requesting_Parts">Request a sample</a><br><a href="http://parts.igem.org/Help:Registry" style="color:gray">Order a distribution</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">The iGEM Repository maintains the DNA of parts in plasmids in cells. The same functional part
+    such as a particular promoter may be available as different samples in different cell strains or plasmids.<div style="display:block;width:100%;font-family:arial;font-style:normal;font-size:13px">
+    <a style="float:right" href="http://parts.igem.org/Repository">More...</a></div></div></div>
+           </div>
+           </li>
+<li class="has_submenu">assembly<div class="submenu">
+                <div id="assembly_submenu" class="intro"><div class="section" style="float:left;"><div class="h1">General</div><a style="color:orange" href="http://parts.igem.org/About_Assembly">About assembly</a><br><a href="http://parts.igem.org/Help:Assembly_Compatibility">Assembly compatibility</a><br></div><div class="section" style="float:left;"><div class="h1">Standards</div><a href="http://parts.igem.org/Help:Standards/Assembly">About</a><br><a href="http://parts.igem.org/Assembly_standard_10">RFC 10</a><br><a href="http://parts.igem.org/Assembly_standard_23">RFC 23</a><br><a href="http://parts.igem.org/Assembly_standard_25">RFC 25</a><br></div><div class="section" style=""><div class="h1">Methods</div><a href="http://parts.igem.org/Help:Assembly/3A_Assembly">3A Assembly</a><br><a style="color:gray" href="http://parts.igem.org/Gibson_Assembly">Gibson Assembly</a><br><a style="color:gray" href="http://parts.igem.org/Golden_Gate_Assembly">Golden Gate</a><br><a style="color:gray" href="http://parts.igem.org/MoClo_Assembly">MoClo</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">Assembly is the process by which parts are connected to one another. Assembling two basic parts
+    results in a new, larger composite part. Assembly allows for the construction of parts that are longer and
+    more complex in function. </div></div>
+           </div>
+           </li>
+<li class="has_submenu">protocols<div class="submenu">
+                <div id="protocols_submenu" class="intro"><div class="section" style="float:left;"><div class="h1">Registry Tested</div><a href="http://parts.igem.org/Help:Protocols/Competent_Cells">Making Competent Cells</a><br><a href="http://parts.igem.org/Help:Protocols/Transformation">Transformation</a><br><a href="http://parts.igem.org/Help:Protocols/Miniprep">Miniprep</a><br><a href="http://parts.igem.org/Help:Protocols/Restriction_Digest">Restriction Digest</a><br><a href="http://parts.igem.org/Help:Protocols/Ligation">Ligation</a><br><a href="http://parts.igem.org/Help:Protocols/Linearized_Plasmid_Backbones">Linear Plasmid Backbones</a><br></div><div class="section" style="float-left;"><div class="h1">Community</div><a href="http://openwetware.org">Open Wetware</a><br><a style="color:gray">Gibson Assembly</a><br><a style="color:gray">Golden Gate</a><br><a style="color:gray">MoClo</a><br></div><div class="section" style=""><div class="h1">Assembly</div><a href="http://parts.igem.org/Help:Assembly/3A_Assembly">3A Assembly</a><br><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:250px;">We recommend the following protocols when using BioBricks, distribution kits, part requests, etc.
+    Certain protocols have been tested and used by iGEM HQ.</div></div>
+           </div>
+           </li>
+<li class="has_submenu">help<div class="submenu">
+                <div id="help_submenu" class="intro"><div class="section" style="float:left;width:150px;"><div class="h1">About us</div><a href="http://igem.org/About" style="color:orange">iGEM</a><br><a href="http://parts.igem.org/Help:Synthetic_Biology">Synthetic Biology</a><br><a href="http://parts.igem.org/Help:Philosophy">Our Philosophy</a><br><a href="http://parts.igem.org/Help:Parts">Parts</a><br><a href="http://parts.igem.org/Help:Plasmid_Backbones">Plasmid Backbones</a><br><a href="http://parts.igem.org/Forums">iGEM Forums</a><br></div><div class="section" style="float-left;"><div class="h1">Help System</div><a href="http://parts.igem.org/Help" style="color:orange">Table of Contents</a><br><a href="http://parts.igem.org/Help:Registry-at-a-Glance" style="color:orange">Registry At-a-Glance</a><br><a href="http://parts.igem.org/Help:FAQ" style="color:orange">Frequently Asked Questions</a><br><a href="http://parts.igem.org/Help:2019_DNA_Distribution" style="color:orange">2019 Distribution Handbook</a><br></div><div class="section" style="float_left"><div class="h1">Help Topics</div><a href="http://parts.igem.org/Help:Search">Search the Registry</a><br><a href="http://parts.igem.org/Help:Adding_Parts">Add a Part</a><br><a href="http://parts.igem.org/Help:Sending_Parts">Send a Sample</a><br><a href="http://parts.igem.org/Help:Nav/Part_Main_Page">Navigating Part Pages</a><br><a href="http://parts.igem.org/Help:Quality_Control">Quality Control Overview</a><br><a href="http://parts.igem.org/Help:Prefix-Suffix">BioBrick Prefix &amp; Suffix</a><br></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color:#cccccc; width:300px;">New to iGEM and the Registry? Check out our help pages to learn about standard parts, the Registry
+             software, wetlab protocols, and more. If you can't find the information you're looking for, send us email at hq (at) igem . org</div></div>
+           </div>
+           </li>
+<li class="has_submenu">search<div class="submenu">
+                <div id="search_submenu" class="intro">
+<style>
+.section .google span { padding-left:20px; } 
+.section .google span:hover { text-decoration:underline; }
+</style><div class="section" style="float:left;width:500px;padding: 15px;font-size:18px;line-height:30px;"><div style="font-weight:200;font-style:italic">Enter the text or part you wish to find</div><input name="search_text" value="" style="font-size:14px;width:400px;margin-bottom:10px;"><div class="google">  Click to search using Google:<br><span id="site_search">The Registry</span><span id="igem_search">igem.org</span><span id="scholar_search">Google Scholar</span><span id="web_search">The Web</span></div><hr><div id="page_go">Go to this page (or create it)</div><div id="subpart_search">Get help in assembling this part</div><div id="uses_search">Find parts that use this part</div><div id="1000_search">Find parts in the same range as this part</div><div id="text_search">Find parts that contain this text (see limitations)</div><hr><div class="H1">Community Search Tools</div></div><div class="section" style=""></div><div class="section1" style="float:right;font-size:18px;line-height:24px;font-family:georgia,serif;font-style:italic;font-weight:400;color: orange; width:250px;"><div>To jump to a part, enter its name in the box above and press 'enter'.</div> </div><div style="clear:both ></div><div class=" section'=""></div>
+<script>
+    function make_url(after_text) {
+        var url = jQuery('.new_menu input[name="search_text"]').val();
+        if ( after_text ) { url = url + after_text; }
+        return encodeURIComponent( url );
+    }
+
+    jQuery('.new_menu #site_search').click( function(){
+        location.assign('http://www.google.com/search?q=' + make_url(' site:parts.igem.org') );
+    } )
+    jQuery('.new_menu #igem_search').click( function(){
+        location.assign('http://www.google.com/search?q=' + make_url(' site:igem.org') );
+    } )
+    jQuery('.new_menu #scholar_search').click( function(){
+        location.assign('http://scholar.google.com/scholar?q=' + make_url() );
+    } )
+    jQuery('.new_menu #web_search').click( function(){
+        location.assign('http://www.google.com/search?q=' + make_url() );
+    } )
+
+    jQuery('.new_menu #subpart_search').click( function(){
+        location.assign('http://parts.igem.org/partsdb/search_subparts.cgi?q=' + make_url() );
+    } )
+    jQuery('.new_menu #uses_search').click( function(){
+        location.assign('http://parts.igem.org/partsdb/uses.cgi?part=' + make_url() );
+    } )
+    jQuery('.new_menu #1000_search').click( function(){
+        location.assign('http://parts.igem.org/partsdb/search_1000.cgi?q=' + make_url() );
+    } )
+    jQuery('.new_menu #text_search').click( function(){
+        location.assign('http://parts.igem.org/partsdb/search_text_input.cgi?q=' + make_url() );
+    } )
+    jQuery('.new_menu #page_go').click( function(){
+        var url = jQuery('input[name="search_text"]').val();
+        url = url.replace(' ','_');
+        url = encodeURIComponent(url);
+        location.assign('http://parts.igem.org/' + url);
+    } )
+    </script></div>
+           </div>
+           </li>
+<li class="jumpbox" style="padding-right:0px;">
+             <form action="http://parts.igem.org/cgi/partsdb/jumper.cgi">
+             <input name="search" type="text" title="Jump to part" value="" placeholder="BBa_">
+             </form>
+           </li>
+</ul>
+<div id="notifications_item" title="Your notifications" style="position:absolute;top:8px;left:900px;z-index:2;cursor:pointer;"></div>
+<div id="folder_item" title="Your part folder" style="position:absolute;top:6px;left:950px;z-index:2">  <a href="http://parts.igem.org/Help:Folders"><img src="http://parts.igem.org/images/website/folder_gray_20.png" style="height:20px;width:26px"></a></div><script>
+jQuery('#new_menubar .has_submenu').hover(
+    function() {
+        var search_text_input = jQuery('input[name="search_text"]');
+        if ( search_text_input.val() == '') { search_text_input.val(jQuery('input[name="search"]').val() ); };
+
+        jQuery(this).find('.submenu').delay(100).fadeIn(100);
+    },
+    function() {
+        jQuery(this).find('.submenu').clearQueue();
+        jQuery(this).find('.submenu').hide();
+        jQuery(this).find('.submenu').clearQueue();
+        jQuery(this).find('.submenu').hide();
+    } 
+);
+</script></div>
+    <script> jQuery('#new_menubar').load('http://parts.igem.org/cgi/aj/menubar/menubar_reply.cgi',
+                         {t:'Part%3ABBa_K4162117%3AHard%20Information'});
+    </script>
+</div> <!-- close top-section -->
+</div> <!-- close topWrapper -->
+    <div id="pageWrapper">
+    <div id="part-menubar" class="noprint"><div id="part-menu">
+            <ul>
+                <li><a href="http://parts.igem.org/Part:BBa_K4162117">main page</a></li>
+                <li><a href="http://parts.igem.org/Part:BBa_K4162117:Design">design </a></li>
+                <li><a href="http://parts.igem.org/Part:BBa_K4162117:Experience">experience </a></li>
+                <li><a href="http://parts.igem.org/cgi/partsdb/part_info.cgi?part_name=BBa_K4162117">information</a></li>
+	        <li id="part_menu_key"><a href="#" onmouseover="mOpen('part_menu_div')" onmouseout="mStartCloseTimer()">part tools</a> <div id="part_menu_div" onmouseover="mCancelCloseTimer()" onmouseout="mStartCloseTimer()"> <a href="http://parts.igem.org/Help:Part_Tools">about</a> <a href="http://parts.igem.org/cgi/partsdb/changes.cgi?part=BBa_K4162117">recent changes</a> <a href="http://parts.igem.org/cgi/partsdb/related.cgi?part=BBa_K4162117">related parts</a> <a href="http://parts.igem.org/cgi/partsdb/dna_info.cgi?part=BBa_K4162117">length in plasmids</a> <a href="http://parts.igem.org/partsdb/edit_seq.cgi?part=BBa_K4162117">edit sequence and features</a> <a href="http://parts.igem.org/sequencing/part_analysis.cgi?part=BBa_K4162117">sequence analysis</a> <div style="height:3px; width:100%; top:1px; border-top:1px solid #ddd;"></div> <a href="http://www.cambridgeigem.org/asGenBank.php?part=BBa_K4162117">GenBank Format</a> <a href="http://convert.sbols.org/biobrick.php?part=BBa_K4162117">SBOL Format</a> <a href="http://ubio.bioinfo.cnio.es/biotools/context/node/2?part=BBa_K4162117">CNIO Information</a> <a href="http://beta.labgeni.us/registries/parts_registry/?part=BBa_K4162117">LabGenius Plasmid Mapper</a> </div></li>
+	        <li id="e_part_menu_key"><a href="#" style="color:rgb(200, 150, 0);" onmouseover="e_mOpen('e_part_menu_div')" onmouseout="e_mStartCloseTimer()">edit</a> <div id="e_part_menu_div" onmouseover="e_mCancelCloseTimer()" onmouseout="e_mStartCloseTimer()"> <div style="border-top:1px solid gray;width:200px;white-space:normal;padding:5px;font-size:14px;line-height:15px;color:#eee;font-weight:400"> You must be logged in to edit the part's wiki pages.</div> <div style="border-top:1px solid gray;width:200px;white-space:normal;padding:5px;font-size:14px;line-height:15px;color:#eee;font-weight:400">When you are viewing a part page like this one, you can use a full set of wiki tools found under the 'tools' menu at the top of the browser window.</div></div></li>
+             </ul>
+         </div>
+<script>
+    installMenu('part_menu_key','BBa_K4162117');
+    e_installMenu('e_part_menu_key', 0, 'BBa_K4162117');
+</script></div>
+    <script> jQuery('#part-menubar').load('http://parts.igem.org/cgi/aj/part_menubar/reply.cgi',{part:'BBa_K4162117'});</script>
+    <!-- close part-menu -->
+<div id="content">
+        <a name="top" id="top"></a>
+<style>  #part_status_wrapper 
+{float:right;position:relative; top:-5px;min-height:100px;width:150px;margin-left:20px;font-size:12px;z-index:900; }
+#part_status_wrapper a { color: black; }
+</style>
+<!-- From L/WrapPart _old_wrap_status -->
+<div id="part_status_wrapper"><div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;;background-color:#ffffff;"><a href="http://parts.igem.org/Help:Part_Status_Box">Not Released</a></div>
+<div class="sample_results" style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none;;background-color:#ff8888" ;'=""><a href="http://parts.igem.org/Help:Part_Status_Box">Sample Not in stock</a></div>
+<div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none;" background-color:white;'="">No Results</div>
+<div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none;"><a href="http://parts.igem.org/partsdb/uses.cgi?part=BBa_K4162117">-1 Uses</a></div>
+ <div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none; border:none;"><a href="http://parts.igem.org/partsdb/get_part.cgi?part=BBa_K4162117" '=""> Get This Part</a></div></div><div style="float:right;position:relative;"><img style="padding-top:0px" src="http://parts.igem.org/images/partbypart/icon_dna.png">
+              <div style="display:block;font-size:90%;line-height:90%" title="Part Type">DNA</div>
+              <div style="display:block;position:relative;top:3px;font-size:90%;line-height:100%" type="Nickname"></div>
+              </div>
+      <h1 class="firstHeading">Part:BBa_K4162117:Hard Information</h1>   <div style="position: relative;font-size:95%;line-height:100%;">
+                Designed by: Weiwen Chen &nbsp;  Group: iGEM22_Fudan  &nbsp; (2022-10-07)</div>
+              <div style="height:1em;"></div>
+    <div id="bodyContent">
+        <div id="contentSub"></div>
+        <!-- start content -->
+
+<!-- table of contents -->
+<table id="toc" class="toc" summary="Contents"><tbody><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#Page_Header">
+    <span class="tocnumber">1 </span><span class="toctext">Page Header</span></a></li>
+<li class="toclevel-1"><a href="#Page_Footer">
+    <span class="tocnumber">2 </span><span class="toctext">Page Footer</span></a></li>
+<li class="toclevel-1"><a href="#Sequence_and_Features">
+    <span class="tocnumber">3 </span><span class="toctext">Sequence and Features</span></a></li>
+<li class="toclevel-1"><a href="#Access">
+    <span class="tocnumber">3 </span><span class="toctext">Access</span></a></li>
+<li class="toclevel-1"><a href="#Other_Information">
+    <span class="tocnumber">4 </span><span class="toctext">Other Information</span></a></li>
+</ul></td></tr></tbody></table>
+<script type="text/javascript"> if (1 || window.showTocToggle) { var tocShowText = 'show'; var tocHideText = 'hide'; showTocToggle(); } </script>
+<a name="Page_Header"></a><h2 class="mw-header">Page Header</h2>
+
+
+<script type="text/javascript">
+function click_edit(e, name, id)
+{    // regularize the previous selection if any
+    var h = universalGetById(document, 'hidden_'+name);
+    var v = h.value;
+    if (v != '')
+    {   universalGetById(document, 'regular_'+name+'_'+v).style.display='inline';
+        universalGetById(document, 'edit_'+name+'_'+v).style.display='none';
+    }
+
+    universalGetById(document, 'regular_'+name+'_'+id).style.display='none';
+    universalGetById(document, 'edit_'+name+'_'+id).style.display='inline';
+    h.value = id;
+}
+
+function click_cancel(e, name, id)
+{   universalGetById(document, 'regular_'+name+'_'+id).style.display = 'inline';
+    universalGetById(document, 'edit_'+name+'_'+id).style.display = 'none';
+    universalGetById(document, 'hidden_'+name).value = '';
+}
+
+function click_submit(e, name, id)
+{    var h = universalGetById(document, 'hidden_'+name);
+     h.value = id;
+     universalGetById(document, 'form_'+name).submit();
+}
+
+function click_delete(e, name, id)
+{   var f = universalGetById(document, 'form_'+name);
+    var h = document.createElement('INPUT');
+    h.type  = 'hidden';
+    h.name  = 'Delete_'+ name;
+    h.value = id;
+    f.appendChild(h);
+    f.submit();
+}
+
+function hide(id)
+{   var xtd = universalGetById(document, id);
+    xtd.style.display='none';
+}
+
+function universalGetById(x, id)
+{   if (document.getElementById) return (x.getElementById(id));
+    if (document.all)            return (x.all[id]);
+}
+</script>
+
+
+<!-- header -->
+
+<form id="form_header" name="form_header" method="post" action="http://parts.igem.org/cgi/partsdb/part_info.cgi" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="id" value="78292"><input type="hidden" name="header_center" value=""><input type="hidden" name="header_right" value=""><input id="hidden_header" type="hidden" name="hidden_header" value="">
+
+
+<table width="925" border="0" cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td nowrap="" width="30%" style="padding-right: 2em;text-align: left;"></td><td align="center"></td><td width="30%" align="right">Login to edit</td></tr></tbody></table>
+<table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Part Name</td><td style="width:150px;font-weight:bold;">BBa_K4162117</td><td colspan="9"></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Short Description</td><td style="width:350px;font-weight:bold"> ribozyme+RBS+CDS module: crtYEBI</td><td colspan="9"></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Part Type</td><td style="width:150px;">DNA</td><td><img style="border:1px solid gray" src="http://parts.igem.org/images/partbypart/icon_dna.png"></td><td></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Nickname</td><td style="width:350px;"></td><td colspan="9"></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Designer(s)</td><td style="width:350px;font-weight:bold">Weiwen Chen</td><td colspan="9"></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">DNA Status</td><td>Planning</td><td></td></tr><tr><td colspan="9" style="font-size: 90%;border-top: 1px solid gray;">DNA is only defined as Available if it is in the repository. <a href="http://parts.igem.org/wiki/index.php/Help:How_to_send_parts">How to send parts.</a></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td colspan="100"><div id="regular_header_5"><table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#ccccff">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Qualitative Experience</td><td style="width:150px;"></td><td></td></tr></tbody></table></div></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Group Favorite</td><td style="width:150px;">No</td><td colspan="9"></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Star Rating</td><td style="width:150px;">None</td><td colspan="9"></td></tr></tbody></table><div style="height: 3px"></div>
+<table_break>
+</table_break><table id="table_header" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td style="width:200px;font-weight:bold ! important">Delete This Part</td><td style="width:150px;">Not Deleted</td><td><table_break>
+</table_break></td></tr></tbody></table></form><br><a name="Page_Footer"></a><h2 class="mw-header">Page Footer</h2>
+
+<!-- parameters -->
+
+
+<table width="925" border="0" cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td nowrap="" width="30%" style="padding-right: 2em;text-align: left;"><b>Parameters</b> (Sorted)
+                    <a href="http://parts.igem.org/Part_Parameters" style="font-size:90%"><i>More...</i></a></td><td align="center"></td><td width="30%" align="right">Login to edit</td></tr></tbody></table>
+<table id="table_parameters" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+
+<tbody><tr><td colspan="9">No parameters specified
+</td></tr></tbody></table><br>
+
+<!-- categories -->
+
+
+<table width="925" border="0" cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td nowrap="" width="30%" style="padding-right: 2em;text-align: left;"><b>Categories</b> (Sorted)
+                    <a href="http://parts.igem.org/Categories" style="font-size:90%"><i>More...</i></a></td><td align="center"></td><td width="30%" align="right">Login to edit</td></tr></tbody></table>
+
+There are no categories determined for this part
+<table id="table_categories" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; "></table><br><a name="Sequence_and_Features"></a><h2 class="mw-header">Sequence and Features</h2>
+
+<!-- dna -->
+
+
+<table width="925" border="0" cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td nowrap="" width="30%" style="padding-right: 2em;text-align: left;"></td><td align="center"></td><td width="30%" align="right"><b>Use the Tools menu to edit</b></td></tr></tbody></table>
+<table id="table_dna" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;background-color: white; padding-left: 0px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td>
+
+    <link rel="stylesheet" type="text/css" href="http://parts.igem.org/common/treetable-latest.css?i=777">
+    <link rel="stylesheet" type="text/css" href="http://parts.igem.org/common/treetable-latest-default.css?i=777">
+    <script src="http://parts.igem.org/common/treetable-latest.js?i=888"></script><link href="http://parts.igem.org/cgi/partsdb/composite_edit/styles.css" rel="stylesheet" type="text/css">
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/universal.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/main_seq_features.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/comm.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/parts.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/scars.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/features.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/h_pane.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/h_control_pane.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/h_icon_bar.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/h_ruler.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/h_row_panes.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/h_selection.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/c_pane.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/c_edit_pane.js"></script>
+<script src="http://parts.igem.org/cgi/partsdb/composite_edit/c_edit_menu.js"></script> <div id="seq_features_div" style="clear:both"> <input type="hidden" id="new_dna_format" name="new_dna_format" value=""> <div class="snf_h_pane" style="position: relative;"><div class="snf_h_control_pane" style="position: relative; background-color: rgb(221, 221, 221); padding: 5px; border-bottom: 1px solid gray; font-family: arial, sans-serif; top: 0px; left: 0px; height: 16px;"><span class="format_control" style="position: relative;"><span class="choice selected" style="position: relative;">Subparts</span><span class="choice" style="position: relative;">|</span><span class="choice" style="position: relative;">Ruler</span><span class="choice" style="position: relative;">|</span><span class="choice" style="position: relative;">SS</span><span class="choice" style="position: relative;">|</span><span class="choice" style="position: relative;">DS</span></span><span class="scar_control" style="position: relative;"><span class="legend" style="position: relative;">Scars: </span><span class="choice" style="position: relative;">Show</span><span class="choice" style="position: relative;">|</span><span class="choice selected" style="position: relative;">Hide</span></span><span class="vertical_control" style="position: relative;"><span class="legend" style="position: relative;">Vertical: </span><span class="choice" style="position: relative;">Show</span><span class="choice" style="position: relative;">|</span><span class="choice selected" style="position: relative;">Hide</span></span><span class="SnF_partSeqLength legend" style="position: relative;">Length:  4836 bp</span><span class="link" style="position: relative;">Get part sequence</span><span class="link" style="position: relative;">View plasmid<img src="http://parts.igem.org/images/labgenius_p_icon.png" style="width: 15px; height: 15px; position: relative; top: -2px; padding-left: 5px;"></span></div><div class="snf_ss_ds_div" style="position: relative; display: none;"><span style="position: relative; white-space: pre; color: rgb(0, 0, 0); font: 12px / 12px monospace;">1          11         21         31         41         51         61         71         81         91</span><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">taatacgact cactataggg ggaattgtga gcggataaca attccagaca accaggagtc tataaaataa tcactgaaga gactggacga aaccaatagg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">attatgctga gtgatatccc ccttaacact cgcctattgt taaggtctgt tggtcctcag atattttatt agtgacttct ctgacctgct ttggttatcc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">101</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tcaaagaggg gacaatgcaa ccgcattatg atctgattct cgtgggggct ggactcgcga atggccttat cgccctgcgt cttcagcagc agcaacctga</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">agtttctccc ctgttacgtt ggcgtaatac tagactaaga gcacccccga cctgagcgct taccggaata gcgggacgca gaagtcgtcg tcgttggact</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/cds_l.png" style="top: 0px; left: 108.97px; height: 7px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 109.97px; height: 7px; width: 674.614px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 396.391px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">201</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tatgcgtatt ttgcttatcg acgccgcacc ccaggcgggc gggaatcata cgtggtcatt tcaccacgat gatttgactg agagccaaca tcgttggata</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">atacgcataa aacgaatagc tgcggcgtgg ggtccgcccg cccttagtat gcaccagtaa agtggtgcta ctaaactgac tctcggttgt agcaacctat</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">301</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gctccgctgg tggttcatca ctggcccgac tatcaggtac gctttcccac acgccgtcgt aagctgaaca gcggctactt ttgtattact tctcagcgtt</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">cgaggcgacc accaagtagt gaccgggctg atagtccatg cgaaagggtg tgcggcagca ttcgacttgt cgccgatgaa aacataatga agagtcgcaa</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">401</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tcgctgaggt tttacagcga cagtttggcc cgcacttgtg gatggatacc gcggtcgcag aggttaatgc ggaatctgtt cggttgaaaa agggtcaggt</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">agcgactcca aaatgtcgct gtcaaaccgg gcgtgaacac ctacctatgg cgccagcgtc tccaattacg ccttagacaa gccaactttt tcccagtcca</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">501</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tatcggtgcc cgcgcggtga ttgacgggcg gggttatgcg gcaaattcag cactgagcgt gggcttccag gcgtttattg gccaggaatg gcgattgagc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">atagccacgg gcgcgccact aactgcccgc cccaatacgc cgtttaagtc gtgactcgca cccgaaggtc cgcaaataac cggtccttac cgctaactcg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">601</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">cacccgcatg gtttatcgtc tcccattatc atggatgcca cggtcgatca gcaaaatggt tatcgcttcg tgtacagcct gccgctctcg ccgaccagat</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gtgggcgtac caaatagcag agggtaatag tacctacggt gccagctagt cgttttacca atagcgaagc acatgtcgga cggcgagagc ggctggtcta</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">701</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tgttaattga agacacgcac tatattgata atgcgacatt agatcctgaa tgcgcgcggc aaaatatttg cgactatgcc gcgcaacagg gttggcagct</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">acaattaact tctgtgcgtg atataactat tacgctgtaa tctaggactt acgcgcgccg ttttataaac gctgatacgg cgcgttgtcc caaccgtcga</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">801</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tcagacactg ctgcgagaag aacagggcgc cttacccatt actctgtcgg gcaatgccga cgcattctgg cagcagcgcc ccctggcctg tagtggatta</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">agtctgtgac gacgctcttc ttgtcccgcg gaatgggtaa tgagacagcc cgttacggct gcgtaagacc gtcgtcgcgg gggaccggac atcacctaat</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">901</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">cgtgccggtc tgttccatcc taccaccggc tattcactgc cgctggcggt tgccgtggcc gaccgcctga gtgcacttga tgtctttacg tcggcctcaa</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gcacggccag acaaggtagg atggtggccg ataagtgacg gcgaccgcca acggcaccgg ctggcggact cacgtgaact acagaaatgc agccggagtt</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1001</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ttcaccatgc cattacgcat tttgcccgcg agcgctggca gcagcagggc tttttccgca tgctgaatcg catgctgttt ttagccggac ccgccgattc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">aagtggtacg gtaatgcgta aaacgggcgc tcgcgaccgt cgtcgtcccg aaaaaggcgt acgacttagc gtacgacaaa aatcggcctg ggcggctaag</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1101</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">acgctggcgg gttatgcagc gtttttatgg tttacctgaa gatttaattg cccgttttta tgcgggaaaa ctcacgctga ccgatcggct acgtattctg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tgcgaccgcc caatacgtcg caaaaatacc aaatggactt ctaaattaac gggcaaaaat acgccctttt gagtgcgact ggctagccga tgcataagac</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1201</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">agcggcaagc cgcctgttcc ggtattagca gcattgcaag ccattatgac gactcatcgt taataaagac aaccaggagt ctataaaata atcactgaag</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tcgccgttcg gcggacaagg ccataatcgt cgtaacgttc ggtaatactg ctgagtagca attatttctg ttggtcctca gatattttat tagtgacttc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_r.png" style="top: 0px; left: 491.663px; height: 7px; width: 5px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 490.663px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 198.446px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1301</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">agactggacg aaaccaatag gtcttaactt taagaaggag tatacatatg acggtctgcg caaaaaaaca cgttcatctc actcgcgatg ctgcggagca</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tctgacctgc tttggttatc cagaattgaa attcttcctc atatgtatac tgccagacgc gtttttttgt gcaagtagag tgagcgctac gacgcctcgt</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 30px;"><img src="http://parts.igem.org/images/f_icons/misc_p_m.png" style="top: 0px; left: 180.95px; height: 5px; width: 128.564px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 5px; left: 230.117px; height: 11px; position: absolute; z-index: 60;">T7 RBS</div><img src="http://parts.igem.org/images/f_icons/b_aid_l.png" style="top: 0px; left: 317.713px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_r.png" style="top: 0px; left: 355.099px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 329.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 330.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 331.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 332.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 333.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 334.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 335.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 336.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 337.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 338.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 339.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 340.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 341.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 342.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 343.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 344.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 345.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 346.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 347.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 348.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 349.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 350.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 351.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 352.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 353.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 354.713px; height: 8px; width: 1px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 8px; left: 319.732px; height: 11px; position: absolute; z-index: 60;">[tatacat]</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1401</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gttactggct gatattgatc gacgccttga tcagttattg cccgtggagg gagaacggga tgttgtgggt gccgcgatgc gtgaaggtgc gctggcaccg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">caatgaccga ctataactag ctgcggaact agtcaataac gggcacctcc ctcttgccct acaacaccca cggcgctacg cacttccacg cgaccgtggc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1501</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ggaaaacgta ttcgccccat gttgctgttg ctgaccgccc gcgatctggg ttgcgctgtc agccatgacg gattactgga tttggcctgt gcggtggaaa</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">ccttttgcat aagcggggta caacgacaac gactggcggg cgctagaccc aacgcgacag tcggtactgc ctaatgacct aaaccggaca cgccaccttt</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1601</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tggtccacgc ggcttcgctg atccttgacg atatgccctg catggacgat gcgaagctgc ggcgcggacg ccctaccatt cattctcatt acggagagca</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">accaggtgcg ccgaagcgac taggaactgc tatacgggac gtacctgcta cgcttcgacg ccgcgcctgc gggatggtaa gtaagagtaa tgcctctcgt</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1701</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tgtggcaata ctggcggcgg ttgccttgct gagtaaagcc tttggcgtaa ttgccgatgc agatggcctc acgccgctgg caaaaaatcg ggcggtttct</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">acaccgttat gaccgccgcc aacggaacga ctcatttcgg aaaccgcatt aacggctacg tctaccggag tgcggcgacc gttttttagc ccgccaaaga</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1801</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gaactgtcaa acgccatcgg catgcaagga ttggttcagg gtcagttcaa ggatctgtct gaaggggata agccgcgcag cgctgaagct attttgatga</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">cttgacagtt tgcggtagcc gtacgttcct aaccaagtcc cagtcaagtt cctagacaga cttcccctat tcggcgcgtc gcgacttcga taaaactact</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">1901</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">cgaatcactt taaaaccagc acgctgtttt gtgcctccat gcagatggcc tcgattgttg cgaatgcctc cagcgaagcg cgtgattgcc tgcatcgttt</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gcttagtgaa attttggtcg tgcgacaaaa cacggaggta cgtctaccgg agctaacaac gcttacggag gtcgcttcgc gcactaacgg acgtagcaaa</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2001</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ttcacttgat cttggtcagg catttcaact gctggacgat ttgaccgatg gcatgaccga caccggtaag gatagcaatc aggacgccgg taaatcgacg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">aagtgaacta gaaccagtcc gtaaagttga cgacctgcta aactggctac cgtactggct gtggccattc ctatcgttag tcctgcggcc atttagctgc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2101</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ctggtcaatc tgttaggccc gagggcggtt gaagaacgtc tgagacaaca tcttcagctt gccagtgagc atctctctgc ggcctgccaa cacgggcacg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gaccagttag acaatccggg ctcccgccaa cttcttgcag actctgttgt agaagtcgaa cggtcactcg tagagagacg ccggacggtt gtgcccgtgc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2201</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ccactcaaca ttttattcag gcctggtttg acaaaaaact cgctgccgtc agttaataaa gacaaccagg agtctataaa ataatcactg aagagactgg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">ggtgagttgt aaaataagtc cggaccaaac tgttttttga gcgacggcag tcaattattt ctgttggtcc tcagatattt tattagtgac ttctctgacc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 0px;"></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2301</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">acgaaaccaa taggtcttaa ctttaagaag gagtatacat atgaataatc cgtcgttact caatcatgcg gtcgaaacga tggcagttgg ctcgaaaagt</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tgctttggtt atccagaatt gaaattcttc ctcatatgta tacttattag gcagcaatga gttagtacgc cagctttgct accgtcaacc gagcttttca</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 30px;"><img src="http://parts.igem.org/images/f_icons/cds_l.png" style="top: 0px; left: 317.713px; height: 7px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 318.713px; height: 7px; width: 465.871px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 500.762px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div><img src="http://parts.igem.org/images/f_icons/misc_p_m.png" style="top: 0px; left: 123.366px; height: 5px; width: 135.762px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 5px; left: 176.132px; height: 11px; position: absolute; z-index: 60;">T7 RBS</div><img src="http://parts.igem.org/images/f_icons/b_aid_l.png" style="top: 0px; left: 260.129px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_r.png" style="top: 0px; left: 297.515px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 272.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 273.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 274.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 275.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 276.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 277.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 278.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 279.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 280.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 281.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 282.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 283.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 284.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 285.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 286.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 287.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 288.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 289.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 290.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 291.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 292.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 293.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 294.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 295.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 296.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 297.129px; height: 8px; width: 1px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 8px; left: 262.148px; height: 11px; position: absolute; z-index: 60;">[tatacat]</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2401</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tttgcgacag cctcaaagtt atttgatgca aaaacccggc gcagcgtact gatgctctac gcctggtgcc gccattgtga cgatgttatt gacgatcaga</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">aaacgctgtc ggagtttcaa taaactacgt ttttgggccg cgtcgcatga ctacgagatg cggaccacgg cggtaacact gctacaataa ctgctagtct</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2501</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">cgctgggctt tcaggcccgg cagcctgcct tacaaacgcc cgaacaacgt ctgatgcaac ttgagatgaa aacgcgccag gcctatgcag gatcgcagat</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gcgacccgaa agtccgggcc gtcggacgga atgtttgcgg gcttgttgca gactacgttg aactctactt ttgcgcggtc cggatacgtc ctagcgtcta</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2601</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gcacgaaccg gcgtttgcgg cttttcagga agtggctatg gctcatgata tcgccccggc ttacgcgttt gatcatctgg aaggcttcgc catggatgta</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">cgtgcttggc cgcaaacgcc gaaaagtcct tcaccgatac cgagtactat agcggggccg aatgcgcaaa ctagtagacc ttccgaagcg gtacctacat</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2701</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">cgcgaagcgc aatacagcca actggatgat acgctgcgct attgctatca cgttgcaggc gttgtcggct tgatgatggc gcaaatcatg ggcgtgcggg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gcgcttcgcg ttatgtcggt tgacctacta tgcgacgcga taacgatagt gcaacgtccg caacagccga actactaccg cgtttagtac ccgcacgccc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2801</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ataacgccac gctggaccgc gcctgtgacc ttgggctggc atttcagttg accaatattg ctcgcgatat tgtggacgat gcgcatgcgg gccgctgtta</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tattgcggtg cgacctggcg cggacactgg aacccgaccg taaagtcaac tggttataac gagcgctata acacctgcta cgcgtacgcc cggcgacaat</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">2901</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tctgccggca agctggctgg agcatgaagg tctgaacaaa gagaattatg cggcacctga aaaccgtcag gcgctgagcc gtatcgcccg tcgtttggtg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">agacggccgt tcgaccgacc tcgtacttcc agacttgttt ctcttaatac gccgtggact tttggcagtc cgcgactcgg catagcgggc agcaaaccac</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3001</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">caggaagcag aaccttacta tttgtctgcc acagccggcc tggcagggtt gcccctgcgt tccgcctggg caatcgctac ggcgaagcag gtttaccgga</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gtccttcgtc ttggaatgat aaacagacgg tgtcggccgg accgtcccaa cggggacgca aggcggaccc gttagcgatg ccgcttcgtc caaatggcct</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3101</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">aaataggtgt caaagttgaa caggccggtc agcaagcctg ggatcagcgg cagtcaacga ccacgcccga aaaattaacg ctgctgctgg ccgcctctgg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tttatccaca gtttcaactt gtccggccag tcgttcggac cctagtcgcc gtcagttgct ggtgcgggct ttttaattgc gacgacgacc ggcggagacc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3201</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tcaggccctt acttcccgga tgcgggctca tcctccccgc cctgcgcatc tctggcagcg cccgctctaa taaagacaac caggagtcta taaaataatc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">agtccgggaa tgaagggcct acgcccgagt aggaggggcg ggacgcgtag agaccgtcgc gggcgagatt atttctgttg gtcctcagat attttattag</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_r.png" style="top: 0px; left: 542.05px; height: 7px; width: 5px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 541.05px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 223.639px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3301</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">actgaagaga ctggacgaaa ccaataggtc ttaactttaa gaaggagtat acatatgaaa ccaactacgg taattggtgc aggcttcggt ggcctggcac</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tgacttctct gacctgcttt ggttatccag aattgaaatt cttcctcata tgtatacttt ggttgatgcc attaaccacg tccgaagcca ccggaccgtg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 30px;"><img src="http://parts.igem.org/images/f_icons/cds_l.png" style="top: 0px; left: 425.683px; height: 7px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 426.683px; height: 7px; width: 357.901px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 554.748px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div><img src="http://parts.igem.org/images/f_icons/misc_p_m.png" style="top: 0px; left: 238.535px; height: 5px; width: 128.564px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 5px; left: 287.701px; height: 11px; position: absolute; z-index: 60;">T7 RBS</div><img src="http://parts.igem.org/images/f_icons/b_aid_l.png" style="top: 0px; left: 368.099px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_r.png" style="top: 0px; left: 412.683px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 380.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 381.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 382.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 383.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 384.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 385.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 386.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 387.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 388.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 389.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 390.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 391.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 392.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 393.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 394.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 395.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 396.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 397.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 398.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 399.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 400.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 401.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 402.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 403.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 404.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 405.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 406.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 407.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 408.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 409.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 410.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 411.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_m.png" style="top: 0px; left: 412.099px; height: 8px; width: 1px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 8px; left: 373.717px; height: 11px; position: absolute; z-index: 60;">[tatacat]</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3401</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">tggcaattcg tctacaagct gcggggatcc ccgtcttact gcttgaacaa cgtgataaac ccggcggtcg ggcttatgtc tacgaggatc aggggtttac</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">accgttaagc agatgttcga cgcccctagg ggcagaatga cgaacttgtt gcactatttg ggccgccagc ccgaatacag atgctcctag tccccaaatg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3501</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ctttgatgca ggcccgacgg ttatcaccga tcccagtgcc attgaagaac tgtttgcact ggcaggaaaa cagttaaaag agtatgtcga actgctgccg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gaaactacgt ccgggctgcc aatagtggct agggtcacgg taacttcttg acaaacgtga ccgtcctttt gtcaattttc tcatacagct tgacgacggc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3601</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gttacgccgt tttaccgcct gtgttgggag tcagggaagg tctttaatta cgataacgat caaacccggc tcgaagcgca gattcagcag tttaatcccc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">caatgcggca aaatggcgga cacaaccctc agtcccttcc agaaattaat gctattgcta gtttgggccg agcttcgcgt ctaagtcgtc aaattagggg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3701</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gcgatgtcga aggttatcgt cagtttctgg actattcacg cgcggtgttt aaagaaggct atctaaagct cggtactgtc ccttttttat cgttcagaga</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">cgctacagct tccaatagca gtcaaagacc tgataagtgc gcgccacaaa tttcttccga tagatttcga gccatgacag ggaaaaaata gcaagtctct</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3801</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">catgcttcgc gccgcacctc aactggcgaa actgcaagca tggagaagcg tttacagtaa ggttgccagt tacatcgaag atgaacatct gcgccaggcg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gtacgaagcg cggcgtggag ttgaccgctt tgacgttcgt acctcttcgc aaatgtcatt ccaacggtca atgtagcttc tacttgtaga cgcggtccgc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 53px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div><img src="http://parts.igem.org/images/f_icons/s_mut_m.png" style="top: 25px; left: 245.733px; height: 6px; width: 42.1881px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 31px; left: 223.999px; height: 11px; position: absolute; z-index: 60;">PstI site removed</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">3901</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ttttctttcc actcgctgtt ggtgggcggc aatcccttcg ccacctcatc catttatacg ttgatacacg cgctggagcg tgagtggggc gtctggtttc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">aaaagaaagg tgagcgacaa ccacccgccg ttagggaagc ggtggagtag gtaaatatgc aactatgtgc gcgacctcgc actcaccccg cagaccaaag</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4001</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">cgcgtggcgg caccggcgca ttagttcagg ggatgataaa gctgtttcag gatctgggtg gcgaagtcgt gttaaacgcc agagtcagcc atatggaaac</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gcgcaccgcc gtggccgcgt aatcaagtcc cctactattt cgacaaagtc ctagacccac cgcttcagca caatttgcgg tctcagtcgg tatacctttg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4101</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gacaggaaac aagattgaag ccgtgcattt agaggacggt cgcaggttcc tgacgcaagc cgtcgcgtca aatgcagatg tggttcatac ctatcgcgac</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">ctgtcctttg ttctaacttc ggcacgtaaa tctcctgcca gcgtccaagg actgcgttcg gcagcgcagt ttacgtctac accaagtatg gatagcgctg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4201</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">ctgttaagcc agcaccctgc cgcggttaag cagtccaaca aactgcaaac taagcgcatg agtaactctc tgtttgtgct ctattttggt ttgaatcacc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">gacaattcgg tcgtgggacg gcgccaattc gtcaggttgt ttgacgtttg attcgcgtac tcattgagag acaaacacga gataaaacca aacttagtgg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 53px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div><img src="http://parts.igem.org/images/f_icons/s_mut_m.png" style="top: 25px; left: 332.109px; height: 6px; width: 42.1881px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 31px; left: 310.375px; height: 11px; position: absolute; z-index: 60;">PstI site removed</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4301</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">atcatgatca gctcgcgcat cacacggttt gtttcggccc gcgttaccgc gagctgattg acgaaatttt taatcatgat ggcctcgcag aggacttctc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tagtactagt cgagcgcgta gtgtgccaaa caaagccggg cgcaatggcg ctcgactaac tgctttaaaa attagtacta ccggagcgtc tcctgaagag</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4401</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">actttatctg cacgcgccct gtgtcacgga ttcgtcactg gcgcctgaag gttgcggcag ttactatgtg ttggcgccgg tgccgcattt aggcaccgcg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tgaaatagac gtgcgcggga cacagtgcct aagcagtgac cgcggacttc caacgccgtc aatgatacac aaccgcggcc acggcgtaaa tccgtggcgc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4501</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">aacctcgact ggacggttga ggggccaaaa ctacgcgacc gtatttttgc gtaccttgag cagcattaca tgcctggctt acggagtcag ctggtcacgc</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">ttggagctga cctgccaact ccccggtttt gatgcgctgg cataaaaacg catggaactc gtcgtaatgt acggaccgaa tgcctcagtc gaccagtgcg</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4601</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">accggatgtt tacgccgttt gattttcgcg accagcttaa tgcctatcat ggctcagcct tttctgtgga gcccgttctt acccagagcg cctggtttcg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tggcctacaa atgcggcaaa ctaaaagcgc tggtcgaatt acggatagta ccgagtcgga aaagacacct cgggcaagaa tgggtctcgc ggaccaaagc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4701</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">gccgcataac cgcgataaaa ccattactaa tctctacctg gtcggcgcag gcacgcatcc cggcgcaggc attcctggcg tcatcggctc ggcaaaagcg</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">cggcgtattg gcgctatttt ggtaatgatt agagatggac cagccgcgtc cgtgcgtagg gccgcgtccg taaggaccgc agtagccgag ccgttttcgc</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: 786.584px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 783.584px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 342.406px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div><div class="rowDiv" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="bpDiv" style="position: relative;"><div class="indexDiv" style="position: absolute; font: 12px / 12px monospace; top: 2px; left: -35px; z-index: 60;">4801</div><div style="position: relative; font: 12px / 12px monospace; z-index: 60;">acagcaggtt tgatgctgga ggatctgata taataa</div><div class="snf_ds_div" style="position: relative; font: 12px / 12px monospace; z-index: 60; display: none;">tgtcgtccaa actacgacct cctagactat attatt</div><div style="position: relative; height: 5px;"></div></div><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 29px;"><img src="http://parts.igem.org/images/f_icons/arrow_r.png" style="top: 0px; left: -8px; height: 5px; width: 7px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_r.png" style="top: 0px; left: 254.129px; height: 7px; width: 5px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 1px; height: 7px; width: 253.129px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 79.6782px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div></div></div></div><div class="snf_fw_div" style="position: relative; display: none;"><div style="position: relative; display: block; white-space: pre; color: rgb(0, 0, 0); font: 12px / 12px monospace;">1</div><div style="position: relative; left: 0px; height: 18px; width: 785.584px;"><div style="position: absolute; border-top: 1px solid black; top: 4px; left: 0px; height: 1px; width: 785.584px;"><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 0px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 16px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 31px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 47px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 63px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 78px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 94px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 110px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 126px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 141px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 157px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 173px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 188px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 204px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 220px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 235px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 251px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 267px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 282px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 298px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 314px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 330px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 345px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 361px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 377px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 392px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 408px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 424px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 439px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 455px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 471px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 486px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 502px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 518px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 534px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 549px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 565px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 581px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 596px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 612px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 628px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 643px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 659px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 675px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 690px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 706px; height: 9px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 722px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 738px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 753px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 769px; height: 5px; width: 1px;"></div><div style="position: absolute; background-color: rgb(0, 0, 0); top: 0px; left: 785px; height: 9px; width: 1px;"></div></div></div><div class="fw_div" style="position: relative; top: 0px; left: 0px; z-index: 40;"><div class="featureDiv" style="position: relative; top: 1px; width: 100px; z-index: 60; height: 80px;"><img src="http://parts.igem.org/images/f_icons/cds_l.png" style="top: 0px; left: 527px; height: 7px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_r.png" style="top: 0px; left: 752px; height: 7px; width: 5px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 528px; height: 7px; width: 224px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 591.614px; height: 11px; position: absolute; z-index: 60;">crtI coding sequence</div><img src="http://parts.igem.org/images/f_icons/cds_l.png" style="top: 0px; left: 19px; height: 7px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_r.png" style="top: 0px; left: 192px; height: 7px; width: 5px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 20px; height: 7px; width: 172px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 57.6139px; height: 11px; position: absolute; z-index: 60;">crtY coding sequence</div><img src="http://parts.igem.org/images/f_icons/cds_l.png" style="top: 0px; left: 368px; height: 7px; width: 1px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_r.png" style="top: 0px; left: 507px; height: 7px; width: 5px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/cds_m.png" style="top: 0px; left: 369px; height: 7px; width: 138px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 7px; left: 389.614px; height: 11px; position: absolute; z-index: 60;">crtB coding sequence</div><img src="http://parts.igem.org/images/f_icons/misc_p_m.png" style="top: 25px; left: 210px; height: 5px; width: 7px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 30px; left: 194.384px; height: 11px; position: absolute; z-index: 60;">T7 RBS</div><img src="http://parts.igem.org/images/f_icons/misc_p_m.png" style="top: 25px; left: 364px; height: 5px; width: 7px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 30px; left: 349.384px; height: 11px; position: absolute; z-index: 60;">T7 RBS</div><img src="http://parts.igem.org/images/f_icons/misc_p_m.png" style="top: 25px; left: 525px; height: 5px; width: 7px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 30px; left: 509.384px; height: 11px; position: absolute; z-index: 60;">T7 RBS</div><img src="http://parts.igem.org/images/f_icons/b_aid_l.png" style="top: 50px; left: 211px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_r.png" style="top: 50px; left: 223px; height: 8px; width: 12px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 58px; left: 187.826px; height: 11px; position: absolute; z-index: 60;">[tatacat]</div><img src="http://parts.igem.org/images/f_icons/b_aid_l.png" style="top: 50px; left: 367px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_r.png" style="top: 50px; left: 379px; height: 8px; width: 12px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 58px; left: 343.826px; height: 11px; position: absolute; z-index: 60;">[tatacat]</div><img src="http://parts.igem.org/images/f_icons/b_aid_l.png" style="top: 50px; left: 526px; height: 8px; width: 12px; position: absolute; z-index: 60;"><img src="http://parts.igem.org/images/f_icons/b_aid_r.png" style="top: 50px; left: 538px; height: 8px; width: 12px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 58px; left: 502.826px; height: 11px; position: absolute; z-index: 60;">[tatacat]</div><img src="http://parts.igem.org/images/f_icons/s_mut_m.png" style="top: 25px; left: 602px; height: 6px; width: 9px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 31px; left: 558.672px; height: 11px; position: absolute; z-index: 60;">PstI site removed</div><img src="http://parts.igem.org/images/f_icons/s_mut_m.png" style="top: 50px; left: 667px; height: 6px; width: 9px; position: absolute; z-index: 60;"><div style="font-size: 85%; white-space: nowrap; top: 56px; left: 623.672px; height: 11px; position: absolute; z-index: 60;">PstI site removed</div></div></div></div><div class="snf_icon_bar_div" style="position: relative; min-height: 80px; display: block;"><div style="position: absolute; top: 35px; left: 5px; height: 3px; width: 425px; background-color: rgb(115, 115, 115);"></div><div class="icon_box" style="position: absolute; top: 2px; left: 5px; height: 58px; width: 70px;"><div class="nickname" style="position: absolute; display: block; top: 0px; left: 0px; height: 12px; width: 70px;">pT7</div><div class="name" style="position: absolute; display: block; top: 12px; left: 0px; height: 12px; width: 70px;">K2150031</div><div class="icon" style="position: absolute; display: block; top: 22px; left: 0px; height: 25px; width: 70px;"><img src="http://parts.igem.org/images/partbypart/icon_regulatory.png" style="top: 0px; left: 17px; position: absolute; z-index: 100;"></div></div><div class="icon_box" style="position: absolute; top: 2px; left: 75px; height: 58px; width: 70px;"><div class="nickname" style="position: absolute; display: block; top: 0px; left: 0px; height: 12px; width: 70px;"></div><div class="name" style="position: absolute; display: block; top: 12px; left: 0px; height: 12px; width: 70px;">K3457006</div><div class="icon" style="position: absolute; display: block; top: 22px; left: 0px; height: 25px; width: 70px;"><img src="http://parts.igem.org/images/partbypart/icon_regulatory.png" style="top: 0px; left: 17px; position: absolute; z-index: 100;"></div></div><div class="icon_box" style="position: absolute; top: 2px; left: 145px; height: 58px; width: 70px;"><div class="nickname" style="position: absolute; display: block; top: 0px; left: 0px; height: 12px; width: 70px;"></div><div class="name" style="position: absolute; display: block; top: 12px; left: 0px; height: 12px; width: 70px;">K4162020</div><div class="icon" style="position: absolute; display: block; top: 22px; left: 0px; height: 25px; width: 70px;"><img src="http://parts.igem.org/images/partbypart/icon_dna.png" style="top: 0px; left: 17px; position: absolute; z-index: 100;"></div></div><div class="icon_box" style="position: absolute; top: 2px; left: 215px; height: 58px; width: 70px;"><div class="nickname" style="position: absolute; display: block; top: 0px; left: 0px; height: 12px; width: 70px;"></div><div class="name" style="position: absolute; display: block; top: 12px; left: 0px; height: 12px; width: 70px;">K4162010</div><div class="icon" style="position: absolute; display: block; top: 22px; left: 0px; height: 25px; width: 70px;"><img src="http://parts.igem.org/images/partbypart/icon_dna.png" style="top: 0px; left: 17px; position: absolute; z-index: 100;"></div></div><div class="icon_box" style="position: absolute; top: 2px; left: 285px; height: 58px; width: 70px;"><div class="nickname" style="position: absolute; display: block; top: 0px; left: 0px; height: 12px; width: 70px;"></div><div class="name" style="position: absolute; display: block; top: 12px; left: 0px; height: 12px; width: 70px;">K4162013</div><div class="icon" style="position: absolute; display: block; top: 22px; left: 0px; height: 25px; width: 70px;"><img src="http://parts.igem.org/images/partbypart/icon_dna.png" style="top: 0px; left: 17px; position: absolute; z-index: 100;"></div></div><div class="icon_box" style="position: absolute; top: 2px; left: 355px; height: 58px; width: 70px;"><div class="nickname" style="position: absolute; display: block; top: 0px; left: 0px; height: 12px; width: 70px;"></div><div class="name" style="position: absolute; display: block; top: 12px; left: 0px; height: 12px; width: 70px;">K4162016</div><div class="icon" style="position: absolute; display: block; top: 22px; left: 0px; height: 25px; width: 70px;"><img src="http://parts.igem.org/images/partbypart/icon_dna.png" style="top: 0px; left: 17px; position: absolute; z-index: 100;"></div></div></div></div><div id="assembly_compatibility" style="position:relative;clear:both;width:100%">
+<style type="text/css">
+.compatibility_div ul,
+.compatibility_div li {
+display: inline;
+}
+.compatibility_div li {
+position: relative;
+padding-top: 2px;
+padding-left:4px;
+padding-right:3px;
+margin-right:2px;
+margin-bottom: 5px;
+}
+.compatibility_div .box {
+top:   35px;
+width: 200px;
+left:  0px;
+}
+.compatibility_div .box_white {
+border: 1px solid gray;
+background-color: white;
+}
+.compatibility_div .box_red {
+border: 1px solid #dd6666;
+background-color: #ffcccc;
+background-image: url('http://parts.igem.org/images/red_not/red_box.png');
+background-repeat: none;
+}
+.compatibility_div .box_green {
+border: 1px solid #44ee44;
+background-color: #aaffaa;
+}
+
+
+</style><div class="compatibility_div" style="display:inline">
+Assembly Compatibility:<ul>
+
+<li class="boxctrl box_green">10<div class="box"><div>COMPATIBLE WITH RFC[10]</div></div></li>
+<li class="boxctrl box_green">12<div class="box"><div>COMPATIBLE WITH RFC[12]</div></div></li>
+<li class="boxctrl box_red">21<div class="box"><div style="border-bottom:1px solid gray;">INCOMPATIBLE WITH RFC[21]</div>Illegal BamHI site found at 3425<br></div></li>
+<li class="boxctrl box_green">23<div class="box"><div>COMPATIBLE WITH RFC[23]</div></div></li>
+<li class="boxctrl box_red">25<div class="box"><div style="border-bottom:1px solid gray;">INCOMPATIBLE WITH RFC[25]</div>Illegal NgoMIV site found at 2904<br>Illegal NgoMIV site found at 3034<br>Illegal AgeI site found at 2062<br></div></li>
+<li class="boxctrl box_green">1000<div class="box"><div>COMPATIBLE WITH RFC[1000]</div></div></li>
+</ul>
+</div></div> <div class="snf_c_pane" style="position: relative; display: none;"><div id="c_edit_pane" style="width:940px;margin-top:5px;min-height:50px;"><div id="subpart_pane" style="padding: 2px 4px 2px 2px; width: 600px; border: none;">
+<theader></theader><table id="subpart_table" style="border: 1px solid gray" class="treetable"><tbody>
+<tr data-tt-id="1" data-subpart="P40694" class="leaf collapsed">
+<td style="width:240px;height:25px;"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_regulatory.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K2150031</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K2150031">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">T7 promoter without RBS</td>
+</tr>
+<tr data-tt-id="2" data-subpart="S" class="leaf collapsed">
+<td style="width:240px;height:25px"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-id="3" data-subpart="P60388" class="leaf collapsed">
+<td style="width:240px;height:25px;"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_regulatory.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K3457006</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K3457006">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">lac operator</td>
+</tr>
+<tr data-tt-id="4" data-subpart="S" class="leaf collapsed">
+<td style="width:240px;height:25px"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-id="5" data-subpart="P77651" class="branch collapsed">
+<td style="width:240px;height:25px;"><span class="indenter" style="padding-left: 0px;"><a href="#" title="Expand">&nbsp;</a></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_dna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162020</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162020">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">ribozyme + J6_RBS + crtY</td>
+</tr>
+<tr data-tt-parent-id="5" data-tt-id="5-1" data-subpart="P75760" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162005</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162005">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">Hammerhead ribozyme</td>
+</tr>
+<tr data-tt-parent-id="5" data-tt-id="5-2" data-subpart="S" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-parent-id="5" data-tt-id="5-3" data-subpart="P8041" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rbs.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_J61100</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_J61100">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">Ribosome Binding Site Family Member</td>
+</tr>
+<tr data-tt-parent-id="5" data-tt-id="5-4" data-subpart="S" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-parent-id="5" data-tt-id="5-5" data-subpart="P11596" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_coding.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K118008</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K118008">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">crtY coding sequence encoding lycopene B-cyclase</td>
+</tr>
+<tr data-tt-id="6" data-subpart="S" class="leaf collapsed">
+<td style="width:240px;height:25px"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-id="7" data-subpart="P76483" class="branch collapsed">
+<td style="width:240px;height:25px;"><span class="indenter" style="padding-left: 0px;"><a href="#" title="Expand">&nbsp;</a></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_dna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162010</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162010">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">ribozyme + T7_RBS + crtE</td>
+</tr>
+<tr data-tt-parent-id="7" data-tt-id="7-1" data-subpart="P75760" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162005</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162005">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">Hammerhead ribozyme</td>
+</tr>
+<tr data-tt-parent-id="7" data-tt-id="7-2" data-subpart="S" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-parent-id="7" data-tt-id="7-3" data-subpart="P75764" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rbs.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162006</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162006">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">T7_RBS</td>
+</tr>
+<tr data-tt-parent-id="7" data-tt-id="7-4" data-subpart="Statacat" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">[tatacat]</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="[tatacat]">
+  </div>
+</td>
+<td class="short_desc">tatacat</td>
+</tr>
+<tr data-tt-parent-id="7" data-tt-id="7-5" data-subpart="P10357" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_coding.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_I742151</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_I742151">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">crtE (geranylgeranyl pyrophosphate synthase) coding sequence.</td>
+</tr>
+<tr data-tt-id="8" data-subpart="S" class="leaf collapsed">
+<td style="width:240px;height:25px"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-id="9" data-subpart="P77452" class="branch collapsed">
+<td style="width:240px;height:25px;"><span class="indenter" style="padding-left: 0px;"><a href="#" title="Expand">&nbsp;</a></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_dna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162013</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162013">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">ribozyme + T7_RBS + crtB</td>
+</tr>
+<tr data-tt-parent-id="9" data-tt-id="9-1" data-subpart="P75760" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162005</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162005">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">Hammerhead ribozyme</td>
+</tr>
+<tr data-tt-parent-id="9" data-tt-id="9-2" data-subpart="S" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-parent-id="9" data-tt-id="9-3" data-subpart="P75764" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rbs.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162006</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162006">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">T7_RBS</td>
+</tr>
+<tr data-tt-parent-id="9" data-tt-id="9-4" data-subpart="Statacat" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">[tatacat]</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="[tatacat]">
+  </div>
+</td>
+<td class="short_desc">tatacat</td>
+</tr>
+<tr data-tt-parent-id="9" data-tt-id="9-5" data-subpart="P11354" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_coding.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K118002</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K118002">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">crtB coding sequence encoding phytoene synthase</td>
+</tr>
+<tr data-tt-id="10" data-subpart="S" class="leaf collapsed">
+<td style="width:240px;height:25px"><span class="indenter" style="padding-left: 0px;"></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-id="11" data-subpart="P77489" class="branch collapsed">
+<td style="width:240px;height:25px;"><span class="indenter" style="padding-left: 0px;"><a href="#" title="Expand">&nbsp;</a></span>
+ <div class="editable_subpart" style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_dna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162016</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162016">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">ribozyme + T7_RBS + crtI</td>
+</tr>
+<tr data-tt-parent-id="11" data-tt-id="11-1" data-subpart="P75760" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rna.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162005</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162005">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">Hammerhead ribozyme</td>
+</tr>
+<tr data-tt-parent-id="11" data-tt-id="11-2" data-subpart="S" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">Blunt</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="Blunt">
+  </div>
+</td>
+<td class="short_desc"></td>
+</tr>
+<tr data-tt-parent-id="11" data-tt-id="11-3" data-subpart="P75764" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_rbs.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K4162006</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K4162006">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">T7_RBS</td>
+</tr>
+<tr data-tt-parent-id="11" data-tt-id="11-4" data-subpart="Statacat" class="leaf" style="display: none;">
+<td style="width:240px;height:25px"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="scar_icon" style="height:20px;" src="/images/partbypart/icon_scar_25_37.png">
+    <div style="position:absolute;top:4px;left:40px;">[tatacat]</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="[tatacat]">
+  </div>
+</td>
+<td class="short_desc">tatacat</td>
+</tr>
+<tr data-tt-parent-id="11" data-tt-id="11-5" data-subpart="P11355" class="leaf" style="display: none;">
+<td style="width:240px;height:25px;"><span class="indenter"></span>
+ <div style="display:inline;position:relative;">
+    <img class="part_icon" style="height:20px;" src="http://parts.igem.org/images/partbypart/icon_coding.png">
+    <div style="position:absolute;top:2px;left:40px;">BBa_K118003</div>
+    <input style="visibility:hidden; position:absolute; top:-1px;left:40px;width:90px;" value="BBa_K118003">
+  </div></td>
+<td class="short_desc" style="padding-right:5px;">crtI coding sequence encoding phytoene dehydrogenase</td>
+</tr></tbody></table></div></div></div></div><script>show_sequence_and_features_system( 'seq_features_div', 'BBa_K4162117', '0');</script>
+</td></tr></tbody></table><br><a name="Access"></a><h2 class="mw-header">Access</h2>
+
+<!-- access -->
+
+
+<table width="925" border="0" cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td nowrap="" width="30%" style="padding-right: 2em;text-align: left;"></td><td align="center"></td><td width="30%" align="right">Login to edit</td></tr></tbody></table>
+<table id="table_access" width="915" border="0" cellspacing="0" cellpadding="0" style="position:relative;margin-left: 10px;border: 1px solid gray;background-color: #ccccff; padding-left: 10px;padding-right:2px;padding-top:3px;line-height: 150%; ">
+<tbody><tr><td><b>Owner - </b>Weiwen Chen</td><td>Log in to see contact information.</td></tr><tr><td colspan="9"><b>Members of these groups may edit the part - </b> Registry, Endy Lab, Knight Lab, Part Editors, iGEM22_Fudan
+</td></tr></tbody></table><br><a name="Other Information"></a><h2 class="mw-header">Other Information</h2><!-- end content -->
+        <div class="visualClear"></div>
+        </div>
+</div><!-- close pageWrapper -->
+         </div> <!-- close globalWrapper -->
+         <!-- PAGE FOOTER -- ITEMS FROM LEFT COLUMN HAVE BEEN MOVED HERE  -- RDR  -->
+         <div class="visualClear"></div>
+<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+
+</div></body></html>
