@@ -65,6 +65,7 @@
     padding: 50px;
     background:#2b7961;
     box-shadow: -20px -20px 0px #598364;
+    color: white;
     line-height: 3.5;
     font-size: 1.2rem;
 }
@@ -95,7 +96,7 @@ footer{
     background-color: #2b7961;
 }
 img{
-    max-width: 900px;
+    max-width: 100%;
     aspect-ratio: auto;
 }
 #img1{
