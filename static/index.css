@@ -2,6 +2,9 @@ a{
     color: #ee994d;
     text-decoration: none;
 }
+code{
+    background-color: azure;
+}
 .carousel{
     padding: 20px;
     margin: 10px;
