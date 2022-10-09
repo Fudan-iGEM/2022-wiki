@@ -42,9 +42,4 @@
     if (wikiToolsLink !== null ) wikiToolsLink.href = `https://tools.igem.org/wiki-tools/${competitionSlug}/${teamSlug}/${page}`
     if (wikiToolsRepo !== null ) wikiToolsRepo.href = `https://gitlab.igem.org/${competitionSlug}/${teamSlug}`
     if (wikiToolsPipeline !== null ) wikiToolsPipeline.src = `https://gitlab.igem.org/${competitionSlug}/${teamSlug}/badges/main/pipeline.svg`
-
-    // footer, div > a
-    $(document).delegate("div", "click", function() {
-       window.location = $(this).find("a").attr("href");
-    });
 </script>
