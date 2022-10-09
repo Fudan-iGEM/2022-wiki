@@ -3,17 +3,13 @@
 {% block title %}Software{% endblock %}
 {% block lead %}Software in iGEM should make synthetic biology based on standard parts easier, faster, better or more accessible to our community.{% endblock %}
 
-{% block page_content %}
-      <div class="col-md-2" id="landingpage">
+{% block side_bar %}
+<div class="col-md-2" id="landingpage">
       <div class="landingpageitems">
         <ul class="first-pannel">
-        <li><a href="#introduction">Introduction</a></li>
-
-
-        <li><a href="#try-it-now">Try it now</a></li>
-
-
-        <li><a href="#How to use PartHub">How to use PartHub</a>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#try-it-now">Try it now</a></li>
+          <li><a href="#How to use PartHub">How to use PartHub</a>
         <ul class="second-pannel">
             <li>
                 <a href="#for-common-users">For common users</a>
@@ -48,7 +44,10 @@
         </ul>
       </div>
     </div>
+{% block side_bar %}
 
+{% block page_content %}
+<!-- DO NOT CHANGE ANYTHING ABOVE, ADJUST highlight pictures BELOW -->
 
 <h1 id="parthub-improve-your-part-design-with-50000-parts" class="bannertop">PartHub: Improve your part design with 50000+ parts</h1>
 <div class="row">
@@ -108,7 +107,11 @@
       </div>
     </div>
   </div>
-<p>img<img src="https://static.igem.wiki/teams/4162/wiki/software/multi-device.png" alt="multi-device.png (3011×2006) (igem.wiki)" max-width="100%" height="auto"></p>
+
+<!-- ADJUST PAGE CONTENT BELOW -->
+
+<p><img src="https://static.igem.wiki/teams/4162/wiki/software/multi-device.png" alt="multi-device.png (3011×2006) (igem.wiki)" max-width="100%" height="auto"></p>
+
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
 <h2 id="introduction">Introduction</h2>
 <p>The research approach of synthetic biology is more like an engineering method than a traditional biological method. In practice, the designs of synthetic biology are focused on biological functions. That is to say that synthetic biology follows the principle of from bottom to top, specifically from parts to devices and finally to system. As is explained above, parts, as the foundation, play an important role.</p>
@@ -329,7 +332,5 @@
 <li>Shitao Gong (<a href="https://gitlab.igem.org/Tom_GhoST_Smith">@Tom_GhoST_Smith</a>), and 2021's <a href="https://2021.igem.org/Team:Fudan/Software">Part Camera</a>
 </li>
 </ul>
-
-
 
 {% endblock %}

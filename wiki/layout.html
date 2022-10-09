@@ -26,8 +26,9 @@
 
   <!-- Header -->
 
-  <!-- Page Content -->
+  <!-- Page Content, with side bar -->
 
+  {% block side_bar %}{% endblock %}
   <article>{% block page_content %}{% endblock %}</article>
 
   <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
