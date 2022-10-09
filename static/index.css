@@ -2,6 +2,9 @@ a{
     color: #ee994d;
     text-decoration: none;
 }
+a:hover{
+    color: #fcf6e6;
+}
 code{
     background-color: azure;
 }
