@@ -23,6 +23,10 @@
     background-size: cover;
     opacity: 0.5;
 }
+h1{
+    color: #2b7961;
+    position: middle;
+}
 @media(min-width: 1200px){
 .content{
     margin: 26%;
