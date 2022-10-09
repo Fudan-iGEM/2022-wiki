@@ -1,6 +1,9 @@
 # Team Fudan 2022 Wiki
 ID 4162
 
+## Rester: A Vitamin A Biomanufacturing Cell Factory for Skincare Products
+
+Our society has been under massive academic and work pressure recently. However, as the most exterior health indicator, skin loses the care that it should have according to research indicating that over 40% of people have worsened skin health due to a work-life imbalance and a lack of skincare awareness during the pandemic. Our project Rester centers on Vitamin A, an effective skincare reagent but with possible side effects. Our modified cell factories featuring phase separation and enzyme anchoring contain the reaction route of beta-carotene, retinal, and retinol through consecutive enzymatic reactions with appropriate efficiency. It would underlie the production of Vitamin A derivatives that overcome the instability and hazard issues of typical Vitamin A forms in skincare products. This biomanufacturing plan helps people with heavy stress and skincare queries raise their proper skincare awareness, ease their financial burden of skincare, and ultimately regain confidence in their careers and life.
 
 # Note from HQ
 
