@@ -49,7 +49,7 @@
 }
 @media(max-width: 768px){
 .content{
-    margin: 0;
+    margin: 3%;
     border: 60px;
     padding: 50px;
     background:#2b7961;
