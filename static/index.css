@@ -5,6 +5,33 @@ a{
 code{
     background-color: azure;
 }
+table {
+			width: 90%;
+			margin: 10px auto;
+			border-collapse: separate;
+			border: 3px solid #ee994d;
+			border-radius: 10px;
+			background-color: #fcf6e6;
+		}
+td {
+			height: 25px;
+			line-height: 25px;
+			text-align: center;
+			border: 3px solid #fcf6e6;
+		}
+tr {
+			background: #fcf6e6;
+			transition: box-shadow 0.8s ease;
+}
+tr:hover {
+			box-shadow:2px 2px 4px #ee994d;
+		}
+.top-bar {
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+}
 .carousel{
     padding: 20px;
     margin: 10px;
