@@ -25,7 +25,7 @@
 }
 .bannertop{
     color: #2b7961;
-    position: middle;
+    text-align: center;
 }
 @media(min-width: 1200px){
 .content{
