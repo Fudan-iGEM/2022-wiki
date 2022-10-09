@@ -120,8 +120,8 @@ footer{
     background-color:#598364 !important;
 }
 footer .logos {
-    min-width: 90px;
-    min-height: 90px;
+    width: 90px;
+    height: 90px;
     background-position: center;
     background-size: cover;
 }

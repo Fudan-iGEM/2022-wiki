@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // footer, div > a
-  $(document).delegate('div', 'click', function () {
+  $(document).delegate('div.logos', 'click', function () {
     window.location = $(this).find('a').attr('href');
   });
 
