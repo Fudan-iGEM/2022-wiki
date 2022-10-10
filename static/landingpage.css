@@ -109,6 +109,9 @@ html{
 #navbar ul li .dot.active::after{
     transform: translateY(-50%) scale(1);
 }
+#landingpage li .anchor{
+    display: block;
+}
 #landingpage li .anchor::before{
     content: '';
     position: absolute;
