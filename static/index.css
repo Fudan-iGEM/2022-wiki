@@ -152,8 +152,9 @@ tr:hover {
 }
 #landingpage li .submenu a{
     white-space: nowrap;
+    transition: all 0.3s ease;
 }
-#landingpage li .submenu li:hover{
+#landingpage li .submenu a:hover{
     background-color: #ee994d;
 }
 #landingpage li .layer{
@@ -173,7 +174,17 @@ tr:hover {
     top: 0;
     margin-top: 0;
     padding: 10px 20px;
+    border-radius: 0 6px 6px 0;
 }
+#landingpage li .submenu.link_name{
+    display: none;
+}
+#landingpage.close li .submenu.link_name{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: block;
+}
+
 .maincontent{
     padding: 20px;
 }
