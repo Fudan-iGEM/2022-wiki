@@ -137,6 +137,7 @@ tr:hover {
     list-style: none;
     padding: 2%;
     border-radius:10px;
+    transform: translate(50%, 50%);
 }
 #landingpage li a{
     text-decoration: none;
