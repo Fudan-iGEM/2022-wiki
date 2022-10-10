@@ -141,6 +141,7 @@ tr:hover {
 }
 #landingpage ul{
     display: flex;
+    transform: translate(50%, 50%);
 }
 #landingpage li a{
     text-decoration: none;
