@@ -186,10 +186,10 @@ tr:hover {
     opacity: 1;
     pointer-events: auto;
 }
-#landingpage li .submenu a{
+#landingpage li .submenu .linkname{
     display: none;
 }
-#landingpage.close li .submenu a{
+#landingpage.close li .submenu .linkname{
     font-size: 1.2rem;
     font-weight: bolder;
     display: block;
