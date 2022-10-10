@@ -221,6 +221,11 @@ tr:hover {
     top:50%;
     transform: translateY(-50%);
 }
+.home-section{
+    position: relative;
+    width: 90px;
+    background-color: red;
+}
 .maincontent{
     padding: 20px;
 }
