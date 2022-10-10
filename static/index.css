@@ -33,7 +33,8 @@ tr {
     resize: none; overflow: auto;
 }
 tr:hover {
-	box-shadow:2px 2px 4px #ee994d;
+	/*box-shadow:2px 2px 4px #ee994d;*/
+    background: white;
 }
 .top-bar {
     width: 100%;
