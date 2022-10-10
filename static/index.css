@@ -10,32 +10,34 @@ code{
     color: #598364;
 }
 table {
-			max-width: 100%;
-            margin: 10px auto;
-			border-collapse: separate;
-			border: 3px solid #ee994d;
-            padding: 5px;
-			border-radius: 10px;
-			background-color: #fcf6e6;
-            color: black;
-            resize: both; overflow: auto;
-		}
+	max-width: 100%;
+    margin: 10px auto;
+	border-collapse: separate;
+	border: 3px solid #ee994d;
+    padding: 5px;
+	border-radius: 10px;
+	background-color: #fcf6e6;
+    color: black;
+    resize: none; overflow: auto;
+}
 td {
-			height: 25px;
-			line-height: 25px;
-			text-align: center;
-			border: 3px solid #fcf6e6;
-            resize: both; overflow: auto;
-		}
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 3px solid #fcf6e6;
+    resize: none; overflow: auto;
+}
+td:hover {
+    resize: vertical;
+}
 tr {
-			background: #fcf6e6;
-			transition: box-shadow 0.8s ease;
-            resize: both; overflow: auto;
+	background: #fcf6e6;
+	transition: box-shadow 0.8s ease;
+    resize: none; overflow: auto;
 }
 tr:hover {
-			box-shadow:2px 2px 4px #ee994d;
-            resize: both; overflow: auto;
-		}
+	box-shadow:2px 2px 4px #ee994d;
+}
 .top-bar {
     width: 100%;
     height: 50px;
