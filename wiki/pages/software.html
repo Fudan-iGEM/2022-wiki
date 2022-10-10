@@ -6,8 +6,20 @@
 {% block side_bar %}
 <div id="landingpage">
           <ul>
-          <li><a class="anchor" href="#introduction" data-scroll="content0"><span>Introduction</span></a></li>
-          <li><a class="anchor" href="#try-it-now" data-scroll="content1">Try it now</a></li>
+          <li><a class="anchor" href="#introduction" data-scroll="content0">Introduction</a>
+          <ul class="submenu">
+            <li>
+                <a class="anchor link_name" href="#introduction">Introduction</a>
+            </li>
+          </ul>
+          </li>
+          <li><a class="anchor" href="#try-it-now" data-scroll="content1">Try it now</a>
+          <ul class="submenu">
+            <li>
+                <a class="anchor link_name" href="#introduction">Introduction</a>
+            </li>
+          </ul>
+          </li>
           <li>
             <div class="layer">
               <a class="anchor" href="#How to use PartHub" data-scroll="content2">How to use PartHub</a>
@@ -25,6 +37,11 @@
         </ul>
           </li>
         <li><a class="anchor" href="#contribution-to-the-igem-community" data-scroll="content3">Contribution to the iGEM community</a>
+        <ul class="submenu">
+            <li>
+                <a class="anchor link_name" href="#contribution-to-the-igem-community">Contribution to the iGEM community</a>
+            </li>
+        </ul>
         </li>
         <li><a class="anchor" href="#design-and-implementation" data-scroll="content4">Design and Implementation</a>
             <ul class="submenu">
@@ -49,8 +66,20 @@
             </li>
         </ul>
         </li>
-        <li><a class="anchor" href="#outlook" data-scroll="content5">Outlook</a></li>
-        <li><a class="anchor" href="#acknowledgment" data-scroll="content6">Acknowledgment</a></li>
+        <li><a class="anchor" href="#outlook" data-scroll="content5">Outlook</a>
+        <ul class="submenu">
+            <li>
+                <a class="anchor link_name" href="#outlook">Outlook</a>
+            </li>
+        </ul>
+        </li>
+        <li><a class="anchor" href="#acknowledgment" data-scroll="content6">Acknowledgment</a>
+        <ul class="submenu">
+            <li>
+                <a class="anchor link_name" href="#acknowledgment">Acknowledgment</a>
+            </li>
+        </ul>
+        </li>
         </ul>
 </div>
 {% endblock %}
