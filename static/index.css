@@ -151,6 +151,9 @@ tr:hover {
 #landingpage li .submenu{
     /*display: none;*/
 }
+#landingpage li .submenu a{
+    white-space: nowrap;
+}
 #landingpage li .submenu li:hover{
     background-color: #ee994d;
 }
@@ -168,6 +171,9 @@ tr:hover {
 #landingpage.close li .submenu{
     position:absolute;
     left: 100%;
+    top: 0;
+    margin-top: 0;
+    padding: 10px 20px;
 }
 .maincontent{
     padding: 20px;
