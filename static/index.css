@@ -146,7 +146,7 @@ tr:hover {
 }
 #landingpage ul li{
     position: absolute;
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 #landingpage li a{
