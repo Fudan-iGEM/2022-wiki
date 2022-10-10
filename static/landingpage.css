@@ -109,6 +109,3 @@ html{
 #navbar ul li .dot.active::after{
     transform: translateY(-50%) scale(1);
 }
-a.anchor.active{
-    background-color: #0c4128;
-}
