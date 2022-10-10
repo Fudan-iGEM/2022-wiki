@@ -142,7 +142,7 @@ tr:hover {
 #landingpage li{
     position: relative;
 }
-#landingpage ul li .layer{
+#landingpage li .layer{
     display: flex;
 }
 #landingpage li a{
