@@ -136,6 +136,7 @@ tr:hover {
     position: -webkit-sticky;
     list-style: none;
     padding: 2%;
+    border-radius:10px;
 }
 #landingpage li a{
     text-decoration: none;
