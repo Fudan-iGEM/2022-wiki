@@ -137,7 +137,11 @@ tr:hover {
     list-style: none;
     padding: 2%;
     border-radius:0px 10px 10px 0px;
+    display: flex;transition:all 0.7s ease-in-out;
     /*transform: translate(50%, 50%);*/
+}
+#landingpage.close{
+    display: none;
 }
 #landingpage ul{
     overflow: auto;
