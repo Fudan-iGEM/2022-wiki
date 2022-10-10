@@ -20,21 +20,24 @@
       </div>
       <div class="row">
           <div class="col-lg-2 col-xs-4 footermenu">
-              <h4 style="color:grey">Project</h4>
+              <h4 style="color:#f4efd1">Project</h4>
               <ul style="padding-left:1em;">
-            <li><a href="{{ url_for('pages', page='description') }}">Description</a></li>
-            <li><a href="{{ url_for('pages', page='experiments') }}">Experiments</a></li>
-            <li><a href="{{ url_for('pages', page='proof-of-concept') }}">Proof&nbsp;of&nbsp;concept</a></li>
-            <li><a href="{{ url_for('pages', page='software') }}">Software</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='communication') }}">Communication</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='description') }}">Description</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='design') }}">Design</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='implementation') }}">Implementation</a></li>
               </ul>
           </div>
           <div class="col-lg-2 col-xs-4 footermenu">
               <h4>&nbsp;&nbsp;</h4>
               <ul>
             <li><a href="https://video.igem.org/w/5iD5aPZDNkiiezQcNeH42o" target="_blank">Promotion</a></li>
-            <li><a href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
-            <li><a href="{{ url_for('pages', page='safety') }}">Safety</a></li>
-            <li><a href="{{ url_for('pages', page='sustainable') }}">Sustainable</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='measurement') }}">Measurement</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='measurement') }}">Model</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='partnership') }}">Partnership</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='proof-of-concept') }}">Proof of Concept</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('pages', page='software') }}">Software</a></li>
               </ul>
           </div>
           <div class="col-lg-2 col-xs-4 footermenu">
