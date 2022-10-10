@@ -29,7 +29,7 @@ const anchors = document.getElementsByClassName('anchor')
         window.history.pushState({ key: 'content' }, '', `#${change.target.id}`)
         for (let i = 0; i < anchors.length; i++) {
           console.log(index)
-          if (i == index - 1) {
+          if (i == index) {
             anchors.item(i).classList.add('active')
           } else {
             anchors.item(i).classList.remove('active')
