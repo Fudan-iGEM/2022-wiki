@@ -155,6 +155,9 @@ tr:hover {
     background-color: #2b7961;
     display: none;
 }
+#landingpage li.showmenu .submenu{
+    display: block;
+}
 #landingpage li .submenu a{
     white-space: nowrap;
     transition: all 0.3s ease;
