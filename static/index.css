@@ -142,7 +142,6 @@ tr:hover {
 #landingpage ul{
     position: absolute;
     display: flex;
-    transform: translate(50%, 50%);
 }
 #landingpage li a{
     text-decoration: none;
