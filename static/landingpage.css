@@ -109,7 +109,7 @@ html{
 #navbar ul li .dot.active::after{
     transform: translateY(-50%) scale(1);
 }
-#landingpage li .anchor::before{
+#landingpage li .anchor span::before{
     content: '';
     position: absolute;
     top: 0;
@@ -124,7 +124,7 @@ html{
     opacity: 0;
 }
 @media (any-hover: hover) {
-#landingpage li .anchor:hover::before{
+#landingpage li .anchor span:hover::before{
     transform: scale(1);
     opacity: 1;
 }
