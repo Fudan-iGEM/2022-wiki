@@ -109,3 +109,21 @@ html{
 #navbar ul li .dot.active::after{
     transform: translateY(-50%) scale(1);
 }
+#landingpage li a.anchor::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    border-radius: 10%;
+    display: block;
+    transition: .2s ease-out;
+    transform: translate(7px) scale(0);
+}
+#landingpage li a.anchor.active::before{
+    transform: translate(-7px) scale(1);
+}
+@media (any-hover: hover) {
+    #landingpage li::before:hover{
+        background-color: #0c4128;
+        opacity: 70%;
+    }
+}
