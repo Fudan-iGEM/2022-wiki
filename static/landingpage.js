@@ -20,7 +20,7 @@ $(document).ready(function () {
   $(window).on('scroll', function(){
     const link = $('#landingpage a');
     const top = $(window).scrollTop();
-    $('.sec').each(function () {
+    $('.section').each(function () {
       const id = $(this).attr('id');
       const height = $(this).height();
       const offset = $(this).offset().top - 150;
