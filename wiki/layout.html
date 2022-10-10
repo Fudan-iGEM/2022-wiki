@@ -18,7 +18,10 @@
     <link rel="stylesheet" href="{{ url_for('static', filename = 'index.css') }}?v={{ __build__ }}">
 
     <title>{% block title %}{% endblock %} | Fudan - iGEM 2022</title>
-
+    <style>@font-face {
+      font-family: 'Roboto';
+      src:url('static/fonts/Roboto-Regular.ttf')
+    }
 </head>
 <body>
   <!-- Navigation -->
