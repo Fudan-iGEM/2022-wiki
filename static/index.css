@@ -143,6 +143,11 @@ tr:hover {
     position: relative;
     transition: all 0.4s ease;
 }
+#landingpage li ion-icon{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
 #landingpage li:hover{
     background-color: #f4efd1;
 }
