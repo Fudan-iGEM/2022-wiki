@@ -139,6 +139,12 @@ tr:hover {
     border-radius:0px 10px 10px 0px;
     /*transform: translate(50%, 50%);*/
 }
+#landingpage ul{
+    overflow: auto;
+}
+#landingpage ul::-webkit-scrollbar{
+    display: none;
+}
 #landingpage li{
     position: relative;
     transition: all 0.4s ease;
@@ -147,6 +153,10 @@ tr:hover {
     text-align: center;
     color: white;
     font-size: 1rem;
+    transition: all 0.3s ease;
+}
+#landingpage li.showmenu ion-icon.arrow{
+    transform: rotate(-180deg);
 }
 #landingpage li:hover{
     background-color: #f4efd1;

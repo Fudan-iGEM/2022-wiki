@@ -37,7 +37,7 @@ let arrow = document.querySelectorAll(".arrow");
       arrowParent.classList.toggle("showMenu");
     });
   }
-  let sidebar = document.querySelector(".sidebar");
+  let sidebar = document.querySelector("#landingpage");
   let sidebarBtn = document.querySelector(".bx-menu");
   console.log(sidebarBtn);
   sidebarBtn.addEventListener("click", ()=>{
