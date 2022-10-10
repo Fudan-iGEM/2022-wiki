@@ -156,6 +156,7 @@ tr:hover {
 }
 #landingpage li .submenu a:hover{
     background-color: #ee994d;
+    color: black;
 }
 #landingpage li .layer{
     display: flex;
@@ -171,11 +172,15 @@ tr:hover {
 #landingpage.close li .submenu{
     position:absolute;
     left: 100%;
-    top: 0;
+    top: -10px;
     margin-top: 0;
     padding: 10px 20px;
     border: black;
     border-radius: 0 6px 6px 0;
+    transition: all 0.4s ease;
+}
+#landingpage.close li:hover .submenu{
+    top: 0;
 }
 #landingpage li .submenu.link_name{
     display: none;
