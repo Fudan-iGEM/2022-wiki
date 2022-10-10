@@ -18,3 +18,27 @@ $(document).ready(function () {
     });
   });
 });
+
+const anchors = document.getElementsByClassName('anchor')
+    const sections = document.getElementsByClassName('section')
+
+    const ob = new IntersectionObserver(changes => {
+      const change = changes[0]
+      if (change.isIntersecting) {
+        const index = change.target.id.slice(-1)
+        window.history.pushState({ key: 'section' }, '', `#${change.target.id}`)
+        for (let i = 0; i < anchors.length; i++) {
+          if (i == index - 1) {
+            anchors.item(i).classList.add('active')
+          } else {
+            anchors.item(i).classList.remove('active')
+          }
+        }
+      }
+    }, {
+      threshold: 0.6
+    })
+
+    for (const item of sections) {
+      ob.observe(item)
+    }
