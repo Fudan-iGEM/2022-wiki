@@ -109,21 +109,23 @@ html{
 #navbar ul li .dot.active::after{
     transform: translateY(-50%) scale(1);
 }
-#landingpage li a.anchor::before{
+#landingpage li .anchor::before{
     content: '';
     position: absolute;
     top: 0;
-    border-radius: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: block;
     transition: .2s ease-out;
-    transform: translate(7px) scale(0);
-}
-#landingpage li a.anchor.active::before{
-    transform: translate(-7px) scale(1);
+    border-right: 3px #0c4128 solid;
+    border-left: 3px #0c4128 solid;
+    transform: scaleX(1.2);
+    opacity: 0;
 }
 @media (any-hover: hover) {
-    #landingpage li::before:hover{
-        background-color: #0c4128;
-        opacity: 70%;
-    }
+#landingpage li .anchor:hover::before{
+    transform: scale(1);
+    opacity: 1;
+}
 }
