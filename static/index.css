@@ -169,7 +169,7 @@ tr:hover {
     background-color: #2b7961;
     display: none;
 }
-#landingpage li.showmenu .submenu{
+#landingpage ul li.showmenu .submenu{
     display: block;
 }
 #landingpage li .submenu a{
