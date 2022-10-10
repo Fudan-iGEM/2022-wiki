@@ -27,9 +27,6 @@ td {
 	border: 3px solid #fcf6e6;
     resize: none; overflow: auto;
 }
-td:hover {
-    resize: vertical;
-}
 tr {
 	background: #fcf6e6;
 	transition: box-shadow 0.8s ease;
