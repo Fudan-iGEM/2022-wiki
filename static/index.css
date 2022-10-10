@@ -142,6 +142,10 @@ tr:hover {
 #landingpage li{
     position: relative;
 }
+#landingpage li:hover,
+#landingpage li .second-pannel li:hover{
+    background-color: #f4efd1;
+}
 #landingpage li .layer{
     display: flex;
 }
