@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Roboto-regular;
+    src: url(https://static.igem.wiki/teams/4162/wiki/fonts/roboto-regular.ttf);
+}
 a{
     color: #ee994d;
     text-decoration: none;
