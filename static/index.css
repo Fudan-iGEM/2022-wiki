@@ -172,7 +172,7 @@ tr:hover {
 #landingpage.close li .submenu{
     position:absolute;
     left: 100%;
-    top: -10px;
+    top: -20px;
     margin-top: 0;
     padding: 10px 20px;
     border: black;
@@ -182,7 +182,7 @@ tr:hover {
     pointer-events: none;
 }
 #landingpage.close li:hover .submenu{
-    top: 0;
+    top: -10px;
     opacity: 1;
     pointer-events: auto;
 }
