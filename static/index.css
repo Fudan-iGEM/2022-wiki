@@ -141,12 +141,10 @@ tr:hover {
 }
 #landingpage li{
     position: relative;
+    transition: all 0.4s ease;
 }
 #landingpage li:hover{
     background-color: #f4efd1;
-}
-#landingpage li:hover a{
-    color: black;
 }
 #landingpage li .submenu{
     background-color: #2b7961;
