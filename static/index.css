@@ -145,6 +145,9 @@ tr:hover {
 #landingpage li:hover{
     background-color: #f4efd1;
 }
+#landingpage li .submenu li:hover{
+    background-color: #ee994d;
+}
 #landingpage li .layer{
     display: flex;
 }
