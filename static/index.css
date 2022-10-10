@@ -233,3 +233,6 @@ footer .footermenu ul li a{
     text-decoration: none;
     color: white;
 }
+.offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1 h2 h3 h4 h5 h6{
+    font-family: Cinzel-medium,serif;
+}
