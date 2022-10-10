@@ -157,7 +157,7 @@ tr:hover {
     display:flex;
     flex-direction: column;
 }
-#landingpage li .anchor::before{
+#landingpage li .anchor::after{
     content: '';
     position: absolute;
     top: 0;
@@ -171,7 +171,7 @@ tr:hover {
     opacity: 0;
 }
 @media (any-hover: hover) {
-#landingpage li .anchor:hover::before{
+#landingpage li .anchor:hover::after{
     transform: scale(1);
     opacity: 1;
 }
