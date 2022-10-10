@@ -113,14 +113,14 @@
 
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/multi-device.png" alt="multi-device.png (3011×2006) (igem.wiki)" max-width="100%" height="auto"></p>
 
-<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <h2 id="introduction">Introduction</h2>
 <p>The research approach of synthetic biology is more like an engineering method than a traditional biological method. In practice, the designs of synthetic biology are focused on biological functions. That is to say that synthetic biology follows the principle of from bottom to top, specifically from parts to devices and finally to system. As is explained above, parts, as the foundation, play an important role.</p>
 <p>The idea of parts standardization was put forward by Drew Endy in 2005. When creating or modifying corresponding biological components, the standardization of parts must be carried out. For the standardized settings of parts, the parts created by one person can be reused by all researchers through standardized settings. And that’s why all teams must submit their parts in the iGEM competition.</p>
 <p>Since a great database of standardized parts had been provided by the iGEM community, there’s no reason not to make full use of the parts database. A problem was encountered when first collecting information and resources for our parts design this year. Although the parts database is provided, we cannot quickly identify which part is most related to our project from the parts registration page because there is no powerful search tool for us yet.</p>
 <p>Therefore, we decided to develop PartHub for the iGEM community, as an assistant tool for the parts database. We hope that PartHub can help future teams and researchers in their the Design-Build-Test-Learn(DBTL) pipelines.</p>
 </div>
-<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <h2 id="try-it-now">Try it now</h2>
 <div class="writebox" style="float: left">
 		<table colspan="1" width="100%" cellspacing="2" cellpadding="0">
@@ -149,7 +149,7 @@
 		<button id="bottom" type="button" onClick="search();" style="background-color:#ee994d;border:none;border-radius:5px;padding-left:15px;padding-right:15px;">Submit</button>
 	  </div>
 </div>
-<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <h2 id="how-to-use-parthub">How to use PartHub</h2>
 <h3 id="for-common-users">For common users</h3>
 <p>Below is an overview of PartHub’s workflow.</p>
@@ -274,14 +274,14 @@
 </li>
 </ol>
 </div>
-<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <h2 id="contribution-to-the-igem-community">Contribution to the iGEM community</h2>
 <p>Since PartHub contains information on almost all of the Registry of Standard Biological Parts from 2004 onwards, PartHub can be useful for teams with multiple tracks. In the Design-Build-Test-Learn(DBTL)  biological engineering pipeline, PartHub can provide support for all iGEMers in every phase.</p>
 <p>During the designing, PartHub can help designers find and focus on sequences, engineering approaches, workflows, componentry, and organisms of interest. In the build phase, PartHub can help you build a combinatorial assembly of DNA-encoded componentry using the previous biobricks of iGEM. You can get some useful protocols in the test phase through PartHub. When organizing and examining data and experiences from the DBT phase to learn, the relationships between the parts that PartHub provides you with can provide you with direction to enlighten the next step of improvement.</p>
 <p>The first users of PartHub were Team Fudan's teammates responsible for the part. They replaced the search engine in the Registry of Standard Biological Parts with PartHub this year, which significantly improved the efficiency of their part search. In addition, we introduced PartHub to the community in slack's iGEM 2022 Global and received positive feedback:</p>
 <img src="https://static.igem.wiki/teams/4162/wiki/software/feedback.png" alt="feedback.png (2880×1800) (igem.wiki)">
 </div>
-<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <h2 id="design-and-implementation">Design and implementation</h2>
 <h3 id="web-crawler">Web Crawler</h3>
 <p>To get data of parts from Registry of Standard Biological Parts, the Web Crawler based on the <a href="https://www.selenium.dev/">selenium</a> framework was developed. The information of the parts in the Registry of Standard Biological Parts is standardized, hence the information can be obtained by crawling through the elements of the fixed XPath. We ended up deploying the Web Crawler on a Windows-based server (Linux is also supported). A high-performance computer is recommended due to the vast number of pages on Registry of Standard Biological Parts(It is not suggested to use a PC to run the web crawler), and it’s especially recommended for HPC platforms. The following is our computer configuration:</p>
@@ -326,7 +326,7 @@
 <li>Safari<img src="https://static.igem.wiki/teams/4162/wiki/software/safari.svg" alt="safari" height="64px" width="64px"></li>
 </ul>
 </div>
-<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content" id="content">
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <h2 id="outlook">Outlook</h2>
 <p>At present, only part of iGEM has been standardized, and we expect to standardize the description or design in the future to obtain more useful knowledge from the iGEM community. In addition, it would be great for the iGEM community to have a public PartHub that can run for a long time with data updating every year.</p>
 </div>
