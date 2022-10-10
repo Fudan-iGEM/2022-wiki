@@ -130,7 +130,7 @@ tr:hover {
     font-size: 1.2rem;
 }
 #landingpage{
-    background: #598364
+    background: #ee994d;
     top: 10%;
     position: fixed;
     position: -webkit-sticky;
@@ -141,11 +141,27 @@ tr:hover {
     text-decoration: none;
     color: white;
     font-size: 1rem;
-    line-height: 1.5
+    line-height: 1.5;
+    display:block;
 }
-#landingpage li a.anchor.active::before{
-    border-right: 10px;
-    border: #2b7961;
+#landingpage li .anchor::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .2s ease-out;
+    border-right: 3px #0c4128 solid;
+    border-left: 3px #0c4128 solid;
+    transform: scaleX(1.2);
+    opacity: 0;
+}
+@media (any-hover: hover) {
+#landingpage li .anchor:hover::before{
+    transform: scale(1);
+    opacity: 1;
+}
 }
 
 .maincontent{
