@@ -148,7 +148,7 @@ tr:hover {
 }
 #landingpage li .submenu{
     background-color: #2b7961;
-    /*display: none;*/
+    display: none;
 }
 #landingpage li .submenu a{
     white-space: nowrap;
@@ -194,7 +194,15 @@ tr:hover {
     font-weight: bolder;
     display: block;
 }
-
+#landingpage li .submenu.blank{
+    opacity: 1;
+    pointer-events: auto; 
+    padding: 3px 20px 6px 16px;   
+}
+#landingpage li:hover .submenu.blank{
+    top:50%;
+    transform: translateY(-50%);
+}
 .maincontent{
     padding: 20px;
 }
