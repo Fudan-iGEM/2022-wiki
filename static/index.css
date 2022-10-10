@@ -140,6 +140,7 @@ tr:hover {
     /*transform: translate(50%, 50%);*/
 }
 #landingpage ul{
+    position: absolute;
     display: flex;
     transform: translate(50%, 50%);
 }
@@ -149,6 +150,9 @@ tr:hover {
     font-family: Cinzel-medium,serif;
     font-size: 1rem;
     line-height: 1.5;
+    display:block;
+}
+#landingpage li .second-pannel{
     display:block;
 }
 #landingpage li .anchor::before{
