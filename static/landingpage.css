@@ -116,7 +116,6 @@ html{
     left: 0;
     width: 100%;
     height: 100%;
-    display: block;
     transition: .2s ease-out;
     border-right: 3px #0c4128 solid;
     border-left: 3px #0c4128 solid;
