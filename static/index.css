@@ -142,8 +142,7 @@ tr:hover {
 #landingpage li{
     position: relative;
 }
-#landingpage li:hover,
-#landingpage li .submenu li:hover{
+#landingpage li:hover{
     background-color: #f4efd1;
 }
 #landingpage li .layer{
