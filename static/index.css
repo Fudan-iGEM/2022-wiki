@@ -2,6 +2,10 @@
     font-family: Roboto-regular;
     src: url(https://static.igem.wiki/teams/4162/wiki/fonts/roboto-regular.ttf);
 }
+@font-face{
+    font-family: Alkalami-regular;
+    src: url(https://static.igem.wiki/teams/4162/wiki/fonts/alkalami-regular.ttf);
+}
 body{
     font-family: Roboto-regular, sans-serif;
 }
