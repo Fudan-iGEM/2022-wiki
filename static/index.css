@@ -145,9 +145,10 @@ tr:hover {
     flex-direction: column;
 }
 #landingpage ul li{
-    position: absolute;
-    display: block;
-    flex-direction: column;
+    position: relative;
+}
+#landingpage ul li .layer{
+    display: flex;
 }
 #landingpage li a{
     text-decoration: none;
@@ -155,7 +156,7 @@ tr:hover {
     font-family: Cinzel-medium,serif;
     font-size: 1rem;
     line-height: 1.5;
-    display:block;
+    display:flex;
 }
 #landingpage li .second-pannel{
     position: absolute;
