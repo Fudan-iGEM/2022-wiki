@@ -165,7 +165,7 @@ tr:hover {
 #landingpage li:hover{
     background-color: #f4efd1;
 }
-#landingpage li .submenu{
+#landingpage ul li .submenu{
     background-color: #2b7961;
     display: none;
 }
