@@ -142,7 +142,7 @@ tr:hover {
     /*transform: translate(50%, 50%);*/
 }
 #landingpage.close{
-    width: 2%+32px;
+    width: 2% + 32px;
 }
 #landingpage ul{
     overflow: auto;
