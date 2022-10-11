@@ -311,13 +311,13 @@ footer .footermenu ul li a{
     text-decoration: none;
     color: white;
 }
-.dot_landingpage{
+.dot-landingpage{
         color: #fff;
     display: block;
     padding: 5px 0;
 }
-.dot_landingpage::before,
-.dot_landingpage::after{
+.dot-landingpage::before,
+.dot-landingpage::after{
     content: '';
     position: absolute;
     top: 50%;
@@ -325,25 +325,25 @@ footer .footermenu ul li a{
     display: block;
     transition: .2s ease-out;
 }
-.dot_landingpage::before{
+.dot-landingpage::before{
     height: 5px;
     width: 5px;
     border: 2px solid #333333;
     left: 0;
     transform: translateY(-50%);
 }
-.dot_landingpage::after{
+.dot-landingpage::after{
     height: 15px;
     width: 15px;
     border: 2px solid #ee994d;
     left: -5px;
     transform: translateY(-50%) scale(0);
 }
-.dot_landingpage.active::before{
+.dot-landingpage.active::before{
     border-color: #ee994d;
     background-color: #ee994d;
 }
-.dot_landingpage.active::after{
+.dot-landingpage.active::after{
     transform: translateY(-50%) scale(1);
 }
 .offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1,h2,h3,h4,h5,h6{

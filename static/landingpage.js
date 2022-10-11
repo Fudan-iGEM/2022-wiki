@@ -18,7 +18,7 @@ $(document).ready(function () {
     });
   });
     $(window).on('scroll', function(){
-    const link = $('.dot_landingpage');
+    const link = $('.dot-landingpage');
     const top = $(window).scrollTop();
     $('.section').each(function () {
       const id = $(this).attr('id');
@@ -26,7 +26,7 @@ $(document).ready(function () {
       const offset = $(this).offset().top - 150;
       if (top >= offset && top < offset + height) {
         link.removeClass('active');
-        $('.dot_landingpage').find('[data-scroll="' + id + '"]').addClass('active');
+        $('.dot-landingpage').find('[data-scroll="' + id + '"]').addClass('active');
       }
     });
   });
