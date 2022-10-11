@@ -11,8 +11,8 @@
 }
 
 .menuitem {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
     justify-content: center;
@@ -27,8 +27,8 @@
     pointer-events: none;
 }
 .menuitem_second {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
     justify-content: center;
@@ -48,36 +48,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 10%;
 }
 
 .menu.active.left .menuitem{
-    transform: translateX(calc(140px * var(--i) + 80px));
+    transform: translateX(calc(120px * var(--i) + 80px));
     opacity: 1;
     pointer-events: auto;
 }
 .menu.active.left .menuitem_second {
-    transform: translateX(calc(140px * var(--i) + 80px)) translateY(calc(160px * var(--j)));
+    transform: translateX(calc(120px * var(--i) + 80px)) translateY(calc(120px * var(--j)));
     opacity: 1;
     pointer-events: auto;
 }
 .menu.active.right .menuitem{
-    transform: translateX(calc(-140px * var(--i)));
+    transform: translateX(calc(-120px * var(--i)));
     opacity: 1;
     pointer-events: auto;
 }
 .menu.active.right .menuitem_second{
-    transform: translateX(calc(-140px * var(--i))) translateY(calc(-160px * var(--j)));
+    transform: translateX(calc(-120px * var(--i))) translateY(calc(-120px * var(--j)));
     opacity: 1;
     pointer-events: auto;
 }
 
 .toggle {
     position: absolute;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
