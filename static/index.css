@@ -152,7 +152,7 @@ tr:hover {
 #landingpage.close ul{
     overflow: visible;
 }
-#landingpage.close ul .linkname{
+#landingpage.close ul li a.linkname{
     opacity: 0;
     pointer-events: none;
 }
