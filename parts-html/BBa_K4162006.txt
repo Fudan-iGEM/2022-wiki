@@ -486,7 +486,7 @@ jQuery('#new_menubar .has_submenu').hover(
 <div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none;" background-color:#ffffff;'="">Experience: None</div>
 <div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none;"><a href="http://parts.igem.org/partsdb/uses.cgi?part=BBa_K4162006">-1 Uses</a></div>
 <div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none;;background-color:rgb(255, 239, 200)">
-    <a href="http://parts.igem.org/partsdb/twin_info.cgi?part=BBa_K4162006">3 Twins</a></div>
+    <a href="http://parts.igem.org/partsdb/twin_info.cgi?part=BBa_K4162006">4 Twins</a></div>
  <div style="display:block;position:relative;height:16px;padding-top:3px;text-align:center;border:1px solid gray;border-top:none; border:none;"><a href="http://parts.igem.org/partsdb/get_part.cgi?part=BBa_K4162006" '=""> Get This Part</a></div></div><div style="float:right;position:relative;"><img style="padding-top:0px" src="http://parts.igem.org/images/partbypart/icon_rbs.png">
               <div style="display:block;font-size:90%;line-height:90%" title="Part Type">RBS</div>
               <div style="display:block;position:relative;top:3px;font-size:90%;line-height:100%" type="Nickname"></div>
