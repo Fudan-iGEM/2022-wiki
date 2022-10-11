@@ -7,7 +7,7 @@
     src: url(https://static.igem.wiki/teams/4162/wiki/fonts/cinzel-medium.ttf);
 }
 body{
-    font-family: Roboto-regular, sans-serif;
+    font-family: Roboto-regular, sans-serif !important;
 }
 a{
     color: #ee994d;
@@ -364,7 +364,7 @@ footer .footermenu ul li a{
     transform: translateY(-50%) scale(1);
 }
 .offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1,h2,h3,h4,h5,h6{
-    font-family: Cinzel-medium,serif;
+    font-family: Cinzel-medium,serif !important;
 }
 
 
