@@ -109,7 +109,7 @@ tr:hover {
     position: fixed;
     position: -webkit-sticky;
     list-style: none;
-    padding: 10px;
+    padding: 2%;
     border-radius:0px 10px 10px 0px;
     display: flex;transition:all 0.7s ease-in-out;
     /*z-index: 1500;*/
@@ -139,6 +139,7 @@ tr:hover {
     transition: all 0.4s ease;
     list-style: none;
     word-break: break-word;
+    padding-left: 6%;
 }
 #landingpage li ion-icon{
     text-align: center;
