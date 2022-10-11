@@ -336,7 +336,7 @@ footer .footermenu ul li a{
 .section h1,h2,h3,h4,h5,h6{
     font-family: Cinzel-medium,serif !important;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #landingpage,
     .home-section
     {
