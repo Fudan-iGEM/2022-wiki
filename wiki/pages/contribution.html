@@ -4,9 +4,57 @@
 {% block lead %}Make a useful contribution for future iGEM teams. Use this page to document that contribution.{% endblock %}
 
 {% block side_bar %}
+<div id="landingpage" style="width:20%">
+          <ul>
+          <li>
+            <div class="layer">
+              <div class="anchor">
+                <a class="dot-landingpage" data-scroll="content" href="#new-parts">
+                <span class="linkname">New Parts</span></a>
+                </div>
+              <ion-icon src="/fudan/static/svg/arrow-back-outline-white.svg" class="arrow" style="cursor:pointer"></ion-icon>
+            </div>
+        <ul class="submenu">
+            <li>
+                <a class="anchor linkname" href="#new-parts">New Parts</a>
+            </li>
+            <li>
+                <a class="anchor" href="#hammerhead-ribozyme">Hammerhead ribozyme</a>
+            </li>
+            <li>
+                <a class="anchor" href="#tears">TEARS</a>
+            </li>
+        </ul>
+          </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content1" href="#parthub-new-software-tools-for-convenient-parts-search-and-exploration">
+          <span class="linkname">PartHub: New Software Tools For Convenient Parts Search And Exploration</span></a>
 
-<!-- ADD HERE for SIDEBAR -->
-
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#parthub-new-software-tools-for-convenient-parts-search-and-exploration">PartHub: New Software Tools For Convenient Parts Search And Exploration</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content2" href="#a-co-created-manual-of-invaluable-reflections-of-igemers-under-emergent-pandemic">
+          <span class="linkname">A Co-created Manual of Invaluable Reflections of iGEMers under Emergent Pandemic</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#a-co-created-manual-of-invaluable-reflections-of-igemers-under-emergent-pandemic">A Co-created Manual of Invaluable Reflections of iGEMers under Emergent Pandemic</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+</div>
+<section class="home-section">
+  <div class="home-content">
+    <ion-icon src="/fudan/static/svg/arrow-back-outline.svg" class="bx bx-menu"></ion-icon>
+    <span class="text">Drop Down Sidebar</span>
+  </div>
+</section>
 {% endblock %}
 {% block page_content %}
 
@@ -18,10 +66,124 @@
 <!-- ADJUST PAGE CONTENT BELOW -->
 
 <div class="row">
-  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section">
-
-<p>start change here here here; if sidebar, then multiple div>div.section </p>
-
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
+<h2 id="new-parts">New Parts</h2>
+<h3 id="hammerhead-ribozyme">Hammerhead ribozyme</h3>
+<p>We successfully demonstrated the excellent self-cleaving ability of the hammerhead nuclease and constructed several multi-module ribozyme-assisted polycistronic co-expression systems (pRAP). Here we show a list of hammerhead ribozyme and several typical modules.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Part name</th>
+<th align="center">Description</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">BBa_K4162005</td>
+<td align="center">Hammerhead ribozyme</td>
+<td align="center">RNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162010</td>
+<td align="center">ribozyme + T7_RBS + crtE</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162013</td>
+<td align="center">ribozyme + T7_RBS + crtB</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162016</td>
+<td align="center">ribozyme + T7_RBS + crtI</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162019</td>
+<td align="center">ribozyme + T7_RBS + crtY</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162117</td>
+<td align="center">ribozyme+RBS+CDS module: crtYEBI</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162118</td>
+<td align="center">ribozyme+RBS+CDS module: crtEBIY</td>
+<td align="center">DNA</td>
+</tr>
+</tbody>
+</table><p>These ribozymes are anticipated to adjust expressions of a tandem series of enzyme RNA in one RNA chain. Therefore, we hope other teams could use these ribozymes to accurately arrange the expression amount of target proteins.</p>
+<h3 id="tears">TEARS</h3>
+<p>We applied addressable phase-separated RNAs to enrich aldehyde reductase expressed by gene <em>ybbO</em>. Typical reference parts are listed here.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Part name</th>
+<th align="center">Description</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">BBa_K4162007</td>
+<td align="center">MCP</td>
+<td align="center">Coding</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162008</td>
+<td align="center">tdMCP</td>
+<td align="center">Coding</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162026</td>
+<td align="center">ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162027</td>
+<td align="center">ribozyme + T7_RBS + ybbO-tdMCP</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162028</td>
+<td align="center">ribozyme + T7_RBS + ybbO-tdMCP-EGFP</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162029</td>
+<td align="center">ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP-EGFP</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162033</td>
+<td align="center">linker between gene ybbO and tdMCP</td>
+<td align="center">DNA</td>
+</tr>
+<tr>
+<td align="center">BBa_K4162034</td>
+<td align="center">linker between tdMCP and EGFP</td>
+<td align="center">DNA</td>
+</tr>
+</tbody>
+</table>
+<p>Phase separation could be used in microcompartment establishment and regional enrichment of specific substances within prokaryote and eukaryote cells. These parts above, therefore, are able to regulate the metabolism and production rate, and are hoped to be applied in other teams’ designs and final works.</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content1">
+    <h2 id="parthub-new-software-tools-for-convenient-parts-search-and-exploration">PartHub: New Software Tools For Convenient Parts Search And Exploration</h2>
+<p>Based on our Fudan iGEM 2021’s software tools, in 2022, we extensively upgrade it, and make it to our new software tool <strong>PartHub</strong>.</p>
+<p>Since PartHub contains information on almost all of the Registry of Standard Biological Parts from 2004 onwards, PartHub can be useful for teams with multiple tracks. In the Design-Build-Test-Learn (DBTL) biological engineering pipeline, PartHub can provide support for all iGEMers in every phase.</p>
+<p>During the designing, PartHub can help designers <strong>find and focus on sequences, engineering approaches, workflows, componentry, and organisms of interest</strong>. In the build phase, PartHub can help you <strong>build a combinatorial assembly of DNA-encoded componentry using the previous biobricks of iGEM</strong>. You can get some <strong>useful protocols</strong> in the test phase through PartHub. When organizing and examining data and experiences from the DBT phase to learn, the relationships between the parts that PartHub provides you with can provide you with <strong>direction to enlighten the next step of improvement</strong>.</p>
+<p>To check more details, please visit our <a href="https://2022.igem.wiki/fudan/software">Software</a> page.</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
+    <h2 id="a-co-created-manual-of-invaluable-reflections-of-igemers-under-emergent-pandemic">A Co-created Manual of Invaluable Reflections of iGEMers under Emergent Pandemic</h2>
+<p>Looking back to the 4 months of forced unproductiveness, numerous teams in Shanghai discreetly <strong>reflected on what they have done and what lessons they have learned</strong> in the <strong>mutual assistance electronic manual</strong>.</p>
+<p>This mutual assistance document not only <strong>shows the confidence and courage</strong> of the iGEM teams from Shanghai <strong>in the face of the unexpected pandemic</strong>, but also proves that <strong>human wisdom will not be defeated by any adversities such as the pandemic</strong>.</p>
+<p>We believe that this co-created manual of our thoughts will <strong>help future iGEM teams from around the world</strong>. And even more broadly, we hope that all of the people from around the world who are trekking through their life journey will <strong>get their own tips on how to conquer adversity and break the ice</strong>.</p>
+<p>Click <a href="https://static.igem.wiki/teams/4162/wiki/communication/co-creation-manual.pdf">here</a> to get the electronic manual.</p>
   </div>
 </div>
 
