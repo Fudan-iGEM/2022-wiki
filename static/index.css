@@ -142,10 +142,10 @@ tr:hover {
     /*transform: translate(50%, 50%);*/
 }
 #landingpage.close{
-    width: 6%;
+    width: 10%;
 }
 #landingpage ul{
-    padding-left: 4%;
+    padding-left: 8%;
     overflow: auto;
 }
 #landingpage ul::-webkit-scrollbar{
