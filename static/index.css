@@ -151,6 +151,10 @@ tr:hover {
 #landingpage.close ul{
     overflow: visible;
 }
+#landingpage.close ul li{
+    opacity: 0;
+    pointer-events: none;
+}
 #landingpage ul::-webkit-scrollbar{
     display: none;
 }
