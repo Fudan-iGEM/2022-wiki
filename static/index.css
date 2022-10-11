@@ -139,6 +139,7 @@ tr:hover {
     border-radius:0px 10px 10px 0px;
     display: flex;transition:all 0.7s ease-in-out;
     z-index: 1500;
+    color: white;
     /*transform: translate(50%, 50%);*/
 }
 #landingpage.close{
@@ -327,9 +328,6 @@ footer .footermenu ul li a{
     text-decoration: none;
     color: white;
 }
-.offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1,h2,h3,h4,h5,h6{
-    font-family: Cinzel-medium,serif;
-}
 .dot_landingpage{
         color: #fff;
     display: block;
@@ -365,6 +363,8 @@ footer .footermenu ul li a{
 .dot_landingpage.active::after{
     transform: translateY(-50%) scale(1);
 }
-
+.offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1,h2,h3,h4,h5,h6{
+    font-family: Cinzel-medium,serif;
+}
 
 
