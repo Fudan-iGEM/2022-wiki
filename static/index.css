@@ -139,6 +139,7 @@ tr:hover {
     display: flex;transition:all 0.7s ease-in-out;
     z-index: 1500;
     color: white;
+    font-family: Cinzel-medium,serif;
     /*transform: translate(50%, 50%);*/
 }
 #landingpage.close{
@@ -199,7 +200,6 @@ tr:hover {
 #landingpage li a{
     text-decoration: none;
     color: white;
-    font-family: Cinzel-medium,serif;
     font-size: 1rem;
     line-height: 1.5;
     display:flex;
