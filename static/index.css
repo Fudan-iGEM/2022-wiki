@@ -337,7 +337,9 @@ footer .footermenu ul li a{
     font-family: Cinzel-medium,serif !important;
 }
 @media (max-width: 400px) {
-    #landingpage{
+    #landingpage,
+    .home-section
+    {
         display: none;
         opacity: 0;
         pointer-events: none;
