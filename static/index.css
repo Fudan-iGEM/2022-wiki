@@ -14,10 +14,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    text-decoration:underline;
-}
-p{
-    text-align: justify;
+    color: #fcf6e6;
 }
 code{
     background-color: #f4efd1;
@@ -37,6 +34,7 @@ table {
 td {
 	height: 25px;
 	line-height: 25px;
+	text-align: center;
 	border: 3px solid #fcf6e6;
     resize: none; overflow: auto;
 }
@@ -86,42 +84,42 @@ tr:hover {
     text-align: center;
 }
 @media(min-width: 1200px){
-  .content {
+.content{
     margin: 26%;
     border: 60px;
     padding: 50px;
-    background: #fcf6e6;
+    background:#2b7961;
     box-shadow: -20px -20px 0px #598364;
-    /*color: white;*/
-    /*line-height: 3.5;*/
+    color: white;
+    line-height: 3.5;
     font-size: 1.2rem;
-  }
+}
 }
 @media(768px<=width<=960pxpx){
-  .content {
+.content{
     margin: 15%;
     border: 60px;
     padding: 50px;
-    background: #fcf6e6;
+    background:#2b7961;
     box-shadow: -20px -20px 0px #598364;
-    /*color: white;*/
-    /*line-height: 3.5;*/
+    color: white;
+    line-height: 3.5;
     font-size: 1.2rem;
-  }
+}
 }
 @media(max-width: 768px){
-  .content {
+.content{
     margin: 3%;
     border: 60px;
     padding: 50px;
-    background: #fcf6e6;
+    background:#2b7961;
     box-shadow: -20px -20px 0px #598364;
-    /*color: white;*/
-    /*line-height: 3.5;*/
+    color: white;
+    line-height: 3.5;
     font-size: 1.2rem;
-  }
 }
-/*.content { /* test2 * /
+}
+.content{ /* test2 */
     margin: 30%;
     border: 60px;
     padding: 50px;
@@ -130,7 +128,7 @@ tr:hover {
     color: white;
     line-height: 3.5;
     font-size: 1.2rem;
-}*/
+}
 #landingpage{
     background: #598364;
     top: 10%;
@@ -140,9 +138,8 @@ tr:hover {
     padding: 2%;
     border-radius:0px 10px 10px 0px;
     display: flex;transition:all 0.7s ease-in-out;
-    /*z-index: 1500;*/
+    z-index: 1500;
     color: white;
-    font-family: Cinzel-medium,serif;
     /*transform: translate(50%, 50%);*/
 }
 #landingpage.close{
@@ -155,7 +152,7 @@ tr:hover {
 #landingpage.close ul{
     overflow: visible;
 }
-#landingpage.close .linkname{
+#landingpage.close .anchor .linkname{
     opacity: 0;
     pointer-events: none;
 }
@@ -166,7 +163,6 @@ tr:hover {
     position: relative;
     transition: all 0.4s ease;
     list-style: none;
-    word-break: break-word;
 }
 #landingpage li ion-icon{
     text-align: center;
@@ -182,20 +178,22 @@ tr:hover {
 }
 #landingpage li:hover{
     background-color: #f4efd1;
+    color: #000000;
 }
 #landingpage ul li .submenu{
-    background-color: #598364;
+    background-color: #2b7961;
     display: none;
+    color: white;
 }
 #landingpage ul li.showmenu .submenu{
     display: block;
 }
 #landingpage li .submenu a{
-    /*white-space: nowrap;*/
+    white-space: nowrap;
     transition: all 0.3s ease;
 }
 #landingpage li .submenu a:hover{
-    background-color: #f4efd1;
+    background-color: #ee994d;
     color: black;
 }
 #landingpage li .layer{
@@ -204,6 +202,7 @@ tr:hover {
 #landingpage li a{
     text-decoration: none;
     color: white;
+    font-family: Cinzel-medium,serif;
     font-size: 1rem;
     line-height: 1.5;
     display:flex;
@@ -288,6 +287,10 @@ img{
     left: 0;
     right: 0;
 }
+#navbarmain{
+    color: aliceblue;
+    background-color:#598364 !important;
+}
 footer .logos {
     width: 90px;
     height: 90px;
@@ -323,25 +326,25 @@ footer .footermenu ul li a{
 .dot-landingpage::before{
     height: 5px;
     width: 5px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #333333;
     left: 0;
     transform: translateY(-50%);
 }
 .dot-landingpage::after{
     height: 15px;
     width: 15px;
-    border: 2px solid #f4efd1;
+    border: 2px solid #ee994d;
     left: -5px;
     transform: translateY(-50%) scale(0);
 }
 .dot-landingpage.active::before{
-    border-color: #f4efd1;
-    background-color: #f4efd1;
+    border-color: #ee994d;
+    background-color: #ee994d;
 }
 .dot-landingpage.active::after{
     transform: translateY(-50%) scale(1);
 }
-.section h1,h2,h3,h4,h5,h6{
+.offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1,h2,h3,h4,h5,h6{
     font-family: Cinzel-medium,serif !important;
 }
 
