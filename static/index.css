@@ -34,7 +34,6 @@ table {
 td {
 	height: 25px;
 	line-height: 25px;
-	text-align: center;
 	border: 3px solid #fcf6e6;
     resize: none; overflow: auto;
 }
@@ -119,7 +118,7 @@ tr:hover {
     font-size: 1.2rem;
 }
 }
-.content{ /* test2 */
+/*.content{ /* test2 * /
     margin: 30%;
     border: 60px;
     padding: 50px;
@@ -128,7 +127,7 @@ tr:hover {
     color: white;
     line-height: 3.5;
     font-size: 1.2rem;
-}
+}*/
 #landingpage{
     background: #598364;
     top: 10%;
@@ -338,7 +337,7 @@ footer .footermenu ul li a{
 .dot-landingpage.active::after{
     transform: translateY(-50%) scale(1);
 }
-.offset-md-3 col-md-7 col-sm-12 my-lg-5 content section h1,h2,h3,h4,h5,h6{
+.section h1,h2,h3,h4,h5,h6{
     font-family: Cinzel-medium,serif !important;
 }
 

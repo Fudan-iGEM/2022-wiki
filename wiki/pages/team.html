@@ -3,31 +3,221 @@
 {% block title %}Team{% endblock %}
 {% block lead %}On this page you can introduce your team members, instructors, and advisors.{% endblock %}
 
+{% block side_bar %}
+<div id="landingpage">
+          <ul>
+          <li><div class="anchor" href="#introduction">
+                <a class="dot-landingpage" data-scroll="content"></a>
+                <span class="linkname">Introduction</span>
+              </div>
+          <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#introduction">Introduction</a>
+            </li>
+          </ul>
+          </li>
+          <li><div class="anchor" href="#try-it-now">
+                <a class="dot-landingpage" data-scroll="content1"></a>
+                <span class="linkname">Try it now</span>
+              </div>
+          <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#introduction">Introduction</a>
+            </li>
+          </ul>
+          </li>
+          <li>
+            <div class="layer">
+              <div class="anchor" href="#How to use PartHub">
+                <a class="dot-landingpage" data-scroll="content2"></a>
+                <span class="linkname">How to use PartHub</span>
+                </div>
+              <ion-icon src="/fudan/static/svg/arrow-back-outline.svg" class="arrow"></ion-icon>
+            </div>
+        <ul class="submenu">
+            <li>
+                <a class="anchor linkname" href="#How to use PartHub">How to use PartHub</a>
+            </li>
+            <li>
+                <a class="anchor" href="#for-common-users">For common users</a>
+            </li>
+            <li>
+                <a class="anchor" href="#for-developers">For developers</a>
+            </li>
+        </ul>
+          </li>
+        <li><div class="anchor" href="#contribution-to-the-igem-community">
+          <a class="dot-landingpage" data-scroll="content3"></a>
+          <span class="linkname">Contribution to the iGEM community</span>
+
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#contribution-to-the-igem-community">Contribution to the iGEM community</a>
+            </li>
+        </ul>
+        </li>
+        <li>
+          <div class="layer">
+            <div class="anchor" href="#design-and-implementation">
+              <a class="dot-landingpage" data-scroll="content4"></a>
+              <span class="linkname">Design and Implementation</span>
+              </div>
+            <ion-icon src="/fudan/static/svg/arrow-back-outline.svg" class="arrow"></ion-icon>
+          </div>
+            <ul class="submenu">
+            <li>
+                <a class="anchor linkname" href="#design-and-implementation">Design and Implementation</a>
+            </li>
+            <li>
+                <a class="anchor" href="#web-crawler">Web Crawler</a>
+            </li>
+            <li>
+                <a class="anchor" href="#deployment-of-parthub">Deployment of PartHub</a>
+            </li>
+            <li>
+                <a class="anchor" href="#search-logic">Search logic</a>
+            </li>
+            <li>
+                <a class="anchor" href="#visualization-of-relationship-between-parts">Visualization of relationship between parts</a>
+            </li>
+
+            <li>
+                <a class="anchor" href="#cross-platform-compatibility">Cross-platform compatibility</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor" href="#outlook">
+          <a class="dot-landingpage" data-scroll="content5"></a>
+          <span class="linkname">Outlook</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#outlook">Outlook</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor" href="#acknowledgment">
+          <a class="dot-landingpage" data-scroll="content6"></a>
+          <span class="linkname">Acknowledgment</span>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#acknowledgment">Acknowledgment</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+</div>
+<section class="home-section">
+  <div class="home-content">
+    <ion-icon src="/fudan/static/svg/arrow-back-outline.svg" class="bx bx-menu"></ion-icon>
+    <span class="text">Drop Down Sidebar</span>
+  </div>
+</section>
+{% endblock %}
+
 {% block page_content %}
+<!-- CHANGE ABOVE for SIDEBAR, ADJUST highlight pictures BELOW -->
 
 <div class="row">
-  <div class="col-8">
-    <h2>What should this page contain?</h2>
-    <hr>
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              A quick, efficient and powerful tool for building and designing new parts
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              Provide multiple ways for searching for previously designed parts
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              Visualization of the relationship between parts
+            </h1>
+          </div>
+        </div>
+          <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              Can be used across various platforms and no need for downloading and setting up the environment
+            </h1>
+          </div>
+        </div>
+
+      </div>
+      <a href="#mycarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+        <span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a href="#mycarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+        <span class="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div><!-- close col-md-8 -->
+</div>
+
+<!-- ADJUST PAGE CONTENT BELOW -->
+
+<div class="row">
+
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="change change change">
+    <h2 id="change to unique">section title</h2>
+    <h3 id="change must unique">paragraph title</h3>
+    <p>To get datxx xx</p>
+    <table>
+    <thead>
+      <tr>
+        <th>head 1</th>
+        <th>head 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>content row 1111</th>
+        <th>content row 222</th>
+      </tr>
+    </tbody>
+    </table>
+    <p>To get datxx xx</p>
+    <p>To get datxx xx</p>
+    <ol>
+      <li>sadfw sdaes adsaes11adf</li>
+      <li>sadfw sdaes adsae2sadf</li>
+    </ol>
+    <p>above ordered list, below not ordered</p>
     <ul>
-      <li>Include pictures of your teammates, don't forget instructors and advisors!</li>
-      <li>You can add a small biography or a few words from each team member, to tell us what you like, and what motivated you to participate in iGEM.</li>
-      <li>Take team pictures! Show us your school, your lab and little bit of your city.</li>
-      <li>Remember that image galleries can help you showcase many pictures while saving space.</li>
+      <li>sadfw sdaes adsaes11adf</li>
+      <li>sadfw sdaes adsae2sadf</li>
     </ul>
-    <div class="bd-callout bd-callout-info"><strong>Important:</strong> Your wiki pages will be archived at the end of the iGEM season and this content will remain online. Please keep this in mind as you post photos and personal information on this page.</div>
   </div>
-  <div class="col-4">
-    <h2>Inspirations</h2>
-    <hr>
-    <ul>
-      <li><a href="https://2019.igem.org/Team:CU/Team">2019 CU</a></li>
-      <li><a href="https://2019.igem.org/Team:UANL/Team">2019 UANL</a></li>
-      <li><a href="https://2019.igem.org/Team:William_and_Mary/Team">2019 William and Mary</a></li>
-      <li><a href="https://2020.igem.org/Team:BOKU-Vienna/Team">2020 BOKU Vienna </a></li>
-      <li><a href="https://2020.igem.org/Team:CAU_China/Team_Member">2020 CAU China</a></li>
-      <li><a href="https://2020.igem.org/Team:Lethbridge/Members">2020 Lethbridge</a></li>
-    </ul>
+
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="change change">
+    <h2 id="change to unique 2">section title 2</h2>
+    <h3 id="change must unique 2">paragraph title 2</h3>
+    <p>To get datxx yy</p>
+    <p>To get datxx zz</p>
   </div>
 </div>
 
