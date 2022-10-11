@@ -47,7 +47,5 @@ let arrow = document.querySelectorAll(".arrow");
     sidebar.classList.toggle("close");
   });
 
-
-
 });
 
