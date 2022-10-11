@@ -97,22 +97,10 @@ tr:hover {
     font-size: 1.2rem;
   }
 }
-@media(min-width: 768px)and(max-width: 960px){
-  .content {
-    margin: 15%;
-    border: 60px;
-    padding: 50px;
-    background: #fcf6e6;
-    box-shadow: -20px -20px 0px #598364;
-    /*color: white;*/
-    /*line-height: 3.5;*/
-    font-size: 1.2rem;
-  }
-}
 @media(max-width: 768px){
   .content {
     margin: 3%;
-    margin-top: 10%;
+    margin-top: 10% !important;
     border: 60px;
     padding: 50px;
     background: #fcf6e6;
@@ -183,6 +171,8 @@ tr:hover {
 }
 #landingpage li:hover{
     background-color: #f4efd1;
+}
+#landingpage li .anchor .dot-landingpage .linkname{
     color: #000000;
 }
 #landingpage ul li .submenu{
