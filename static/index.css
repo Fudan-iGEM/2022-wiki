@@ -161,6 +161,7 @@ tr:hover {
 #landingpage li{
     position: relative;
     transition: all 0.4s ease;
+    list-style: none;
 }
 #landingpage li ion-icon{
     text-align: center;
