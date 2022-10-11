@@ -32,6 +32,53 @@
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/iyeb-dna.png" alt=""></p>
 <p style="font-size:0.8rem;color:grey"><strong>Figure1.</strong> Agarose gel electrophoresis of PCR products, amplified from bacterial colonies/cultures.</p>
 <p>The first lane was loaded with a D2000 DNA ladder whose sizes were marked on the image. We chose Taq DNA polymerase for its low cost and high reliability, and we designed forward and reverse primers for each carotene synthesis enzyme (crt for short). The PCR reaction was composed of 2 μL 10x Taq polymerase buffer, 16 μL H2O, 0.5 μL Taq polymerase, 0.5 μL dNTP (10 mM each), 0.5 μL forward primer (10 mM), 0.1 μL reverse primer (10 mM), and 1 μL bacterial culture or 1 colony. Using the same forward primer, and different reverse primers, we were able to detect the composition of various crt genes. After PCR, the correct bacterial clones were sent for Sanger sequencing. Once verified, these clones would be used for further experiments.</p>
+<h3 id="sds-page-to-confirm-the-successful-expression-of-proteins-and-the-effects-of-rbs-intensity-on-protein-expression">SDS-PAGE to confirm the successful expression of proteins and the effects of RBS intensity on protein expression</h3>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/syj/3a1.png" alt=""></p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure2.</strong> SDS-PAGE results of protein extraction from lysates of bacterial.</p>
+<p>Protein expression was induced in parallel cultures by IPTG. Bacterial cultures were monitored by OD600, and 5x10^7 cells were harvested by centrifugation and lysis in 1x SDS sample buffer. An equal amount (10 μL, 2x10^6 cells) of whole cell lysate was analyzed by SDS-PAGE (4~20% gradient gel, Tanon brand). Red arrows point to crtI protein. Green arrows point to crtY protein. Black arrows point to crtB protein. Yellow arrows point to crtE protein.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/syj/b.png" alt=""></p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure3.</strong> We failed to see expression of the membrane protein BCMO from the protein gel map, so we turned to microscopy detection assay by tagging fluorescent protein downstream the target protein. This assay is indicated in 2.4 part of this page.</p>
+<h3 id="color-changes-to-verify-β-carotene-production">Color changes to verify β-carotene production</h3>
+<p>As our intermediate product is the yellow β-carotene, we can confirm its presence simply by observing the color change in the whole system. It also served as the visual assay to tell whether the four crt enzymes cooperated effectively under the same or different types of RBS. No color change in the system along with the unequal protein expression level depicted in the protein gel map pushed us to adjust the strength of RBS in front of each enzyme. By enhancing RBS in the downstream and weakening it in the upstream, we successfully view the yellow products.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/syj/beta-carotene.jpeg" alt=""></p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure4.</strong>Color change in the system with the intermediate product β-carotene.</p>
+<h3 id="fluorescence-microscopy-to-confirm-the-successful-expression-of-membrane-proteins">Fluorescence microscopy to confirm the successful expression of membrane proteins</h3>
+<p>Failure in observing the expression of membrane protein BCMO from SDS-PAGE pushed us to reflect and try to figure out which step went wrong. We thought it may be due to its low expression level after induction by IPTG in BL21(DE3) strain in the beginning, but we got the same disappointing   results of its leaky expression in DH5α which is reported to be a proper way of expressing BCMO(5). This situation set us thinking maybe it should be the assay’s fault. After consulting prof. Motoyuki Hattori, we knew that SDS-PAGE with CBB staining is not suitable for membrane protein expression detection. So we exchanged to this fluorescence microscopy assay.</p>
+<p><img src="" alt=""></p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure5.</strong>By tagging fluorescent protein to the target protein expressed by gene <em>ybbO</em>, we observed its expression under microscopy</p>
+<h3 id="hplc-for-detection-of-retinoids">HPLC for detection of retinoids</h3>
+<p>After we observed the color change of the system, we performed the following experiments. For quantitative detection, we applied HPLC to detect β-carotene and retinoids.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/syj/hplc.png" alt=""></p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure6.</strong> 3-7 (the figure above)compared with 3td7(the figure below), 3td7 had significantly more carotene (about a 20% increase). In addition, there are two peaks in the figure at 325nm between 2-4min, and the absorbance value of the two peaks of 3td7 in this period is also significantly higher than that of 3-7, which depicted **the efficiency of TEARS **in improving the production of retinol.</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
+    <h2 id="optimization">Optimization</h2>
+<h3 id="verify-that-adjusting-rbs-intensity-promotes-metabolism">Verify that adjusting RBS intensity promotes metabolism</h3>
+<p>In our project, we used ribozyme to build our crtEBIY biobrick. With the help of self-cleaving ribozyme, self-interaction of the polycistron can be nullified and the translation of each cistron can be basically dependent on the strength of its RBS.</p>
+<p>When the RBS strength of the four enzymes in the linear reaction was consistent, the results of the protein gel map showed that the expression of upstream proteins was higher than that of downstream proteins after IPTG induction, which was not in line with our expectation of  the equal consistent  level of the four enzymes. Moreover, the system was not yellowing, indicating that we do not have the ideal product β-carotene.</p>
+<p><strong>When we weakened the RBS strength of the upstream protein and increased the RBS strength of the downstream protein</strong>, the protein map showed similar expression levels of the four enzymes, and the solution turned yellow, indicating that we had obtained β-carotene.</p>
+<p>By <strong>combining protein mapping</strong> (Figure7.proof one) with <strong>the observation of system color changes</strong> (Figure4.proof two), we could verify the conclusion that <em><strong>adjusting the RBS strength of individual mono-cistrons in the presence of ribozyme in polycistronic plasmids could promote linear reactions and bacterial metabolism</strong></em>.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/syj/d.png" alt=""></p>
+<p style="font-size:0.8rem;color:grey><strong>Figure7.</strong> Proof one of efficiency of ribozyme.</p>
+<h3 id="membrane-protein-detection">Membrane protein detection</h3>
+<p>Initially we chose to detect the expression level of the membrane protein BCMO in DH5α  and Hi-control BL21(DE3) by SDS-PAGE with CBB staining. However, we came to realize that it is not suitable for membrane protein expression detection, attributed to the degradation of membrane proteins as they are separated from the membrane.</p>
+<p>To detect the expression of membrane proteins without affecting their activity, we tagged a segment of fluorescent protein behind the membrane proteins sequence. In this way, <strong>it is not necessary to lyse the bacteria and destroy the protein structure, and the conclusion that BCMO is successfully expressed can be obtained by observing the fluorescent substances under the microscope.</strong></p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
+    <h2 id="conclusion">Conclusion</h2>
+<p>We integrated a series of detection methods to <strong>solve the problem that the upstream reaction failure of polycistronic plasmids in the multi-plasmid co-transformation system may lead to the failure of the downstream reaction</strong>, so that the final product can not be obtained. We divided the reaction into several steps, through <strong>stage verification</strong>, step by step <strong>error correction and optimization</strong>, so as to promote the reaction step by step,  to ensure the work efficiency of the system and get the final product. On the basis of the detection results, the reaction was optimized  by introducing <strong>ribozyme</strong>, <strong>adjusting RBS strength</strong> and other parameters, and introducing <strong>TEARS</strong>, an enzyme enrichment tool, to <strong>increase the yield for further commercial use</strong> .</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content4">
+    <h2 id="references">References</h2>
+<ol>
+<li>
+<p>Cheich, C., Kummel, D., Soumailakakis, D., Heinemann, U. and Bussow, K. (2007) Vectors for co-expression of an unrestricted number of proteins. Nucleic Acids Res, 35, e43.</p>
+</li>
+<li>
+<p>Tan, S., Kern, R.C. and Selleck, W. (2005) The pST44 polycistronic expression system for producing protein complexes in Escherichia coli. Protein Expr Purif, 40, 385-395.</p>
+</li>
+<li>
+<p>Renaud-Gabardos, E., Hantelys, F., Morfoisse, F., Chaufour, X., Garmy-Susini, B. and Prats, A.C. (2015) Internal ribosome entry site-based vectors for combined gene therapy. World J Exp Med, 5, 11-2
   </div>
 </div>
 
