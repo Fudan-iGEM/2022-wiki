@@ -85,7 +85,7 @@ tr:hover {
     color: #2b7961;
     text-align: center;
 }
-@media(min-width: 1200px){
+@media(min-width: 768px){
   .content {
     margin: 26%;
     border: 60px;
