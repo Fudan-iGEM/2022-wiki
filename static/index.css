@@ -140,9 +140,6 @@ tr:hover {
     display: flex;transition:all 0.7s ease-in-out;
     /*transform: translate(50%, 50%);*/
 }
-#landingpage.close{
-    display: none;
-}
 #landingpage ul{
     overflow: auto;
 }
