@@ -172,7 +172,7 @@ tr:hover {
 #landingpage li:hover{
     background-color: #f4efd1;
 }
-#landingpage li .anchor .dot-landingpage .linkname{
+#landingpage li:hover .anchor .dot-landingpage .linkname{
     color: #000000;
 }
 #landingpage ul li .submenu{
