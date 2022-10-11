@@ -319,20 +319,20 @@ footer .footermenu ul li a{
 .dot-landingpage::before{
     height: 5px;
     width: 5px;
-    border: 2px solid #333333;
+    border: 2px solid #FFFFFF;
     left: 0;
     transform: translateY(-50%);
 }
 .dot-landingpage::after{
     height: 15px;
     width: 15px;
-    border: 2px solid #ee994d;
+    border: 2px solid #f4efd1;
     left: -5px;
     transform: translateY(-50%) scale(0);
 }
 .dot-landingpage.active::before{
-    border-color: #ee994d;
-    background-color: #ee994d;
+    border-color: #f4efd1;
+    background-color: #f4efd1;
 }
 .dot-landingpage.active::after{
     transform: translateY(-50%) scale(1);
