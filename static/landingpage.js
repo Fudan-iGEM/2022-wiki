@@ -31,21 +31,19 @@ $(document).ready(function () {
       }
     });
   });
-let arrow = document.querySelectorAll(".arrow");
-//console.log(arrow)
+  const arrow = document.querySelectorAll(".arrow");
+  //console.log(arrow)
   for (var i = 0; i < arrow.length; i++) {
     arrow[i].addEventListener("click", (e)=>{
       //console.log(arrow)
-      let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+      const arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
       arrowParent.classList.toggle("showmenu");
     });
   }
-  let sidebar = document.querySelector("#landingpage");
-  let sidebarBtn = document.querySelector(".bx-menu");
+  const sidebar = document.querySelector("#landingpage");
+  const sidebarBtn = document.querySelector(".bx-menu");
   //console.log(sidebarBtn);
   sidebarBtn.addEventListener("click", ()=>{
     sidebar.classList.toggle("close");
   });
-
 });
-
