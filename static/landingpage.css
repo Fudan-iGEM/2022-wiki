@@ -109,4 +109,39 @@ html{
 #navbar ul li .dot.active::after{
     transform: translateY(-50%) scale(1);
 }
+.dot_landingpage{
+        color: #fff;
+    display: block;
+    padding: 5px 0;
+}
+.dot_landingpage::before,
+.dot_landingpage::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    display: block;
+    transition: .2s ease-out;
+}
+.dot_landingpage::before{
+    height: 5px;
+    width: 5px;
+    border: 2px solid #333333;
+    right: 0;
+    transform: translateY(-50%);
+}
+.dot_landingpage::after{
+    height: 15px;
+    width: 15px;
+    border: 2px solid #0c4128;
+    right: -5px;
+    transform: translateY(-50%) scale(0);
+}
+.dot_landingpage.active::before{
+    border-color: #0c4128;
+    background-color: #0c4128;
+}
+.dot_landingpage.active::after{
+    transform: translateY(-50%) scale(1);
+}
 
