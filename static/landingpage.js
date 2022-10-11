@@ -20,6 +20,7 @@ $(document).ready(function () {
     $(window).on('scroll', function(){
     const link = $('.dot-landingpage');
     const top = $(window).scrollTop();
+    console.log(top);
     $('.section').each(function () {
       const id = $(this).attr('id');
       const height = $(this).height();
