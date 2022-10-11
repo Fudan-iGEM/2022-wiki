@@ -97,7 +97,7 @@ tr:hover {
     font-size: 1.2rem;
   }
 }
-@media(768px<=width<=960pxpx){
+@media(768px<=width<=960px){
   .content {
     margin: 15%;
     border: 60px;
