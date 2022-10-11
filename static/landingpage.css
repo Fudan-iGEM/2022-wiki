@@ -127,14 +127,14 @@ html{
     height: 5px;
     width: 5px;
     border: 2px solid #333333;
-    right: 0;
+    left: 0;
     transform: translateY(-50%);
 }
 .dot_landingpage::after{
     height: 15px;
     width: 15px;
     border: 2px solid #0c4128;
-    right: -5px;
+    left: -5px;
     transform: translateY(-50%) scale(0);
 }
 .dot_landingpage.active::before{
