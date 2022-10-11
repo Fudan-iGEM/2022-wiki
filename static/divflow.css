@@ -20,9 +20,10 @@ section{
 }
 
 hr{
-    height: 5px;
+    height: 5px !important;
     background-color: #0c4128;
     border: 0;
+    margin: 0;
 }
 
 #heading{
