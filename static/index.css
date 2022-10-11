@@ -1,93 +1,85 @@
 @font-face{
-    font-family: Roboto-regular;
-    src: url(https://static.igem.wiki/teams/4162/wiki/fonts/roboto-regular.ttf);
+  font-family: Roboto-regular;
+  src: url(https://static.igem.wiki/teams/4162/wiki/fonts/roboto-regular.ttf);
 }
 @font-face{
-    font-family: Cinzel-medium;
-    src: url(https://static.igem.wiki/teams/4162/wiki/fonts/cinzel-medium.ttf);
+  font-family: Cinzel-medium;
+  src: url(https://static.igem.wiki/teams/4162/wiki/fonts/cinzel-medium.ttf);
 }
-body{
-    font-family: Roboto-regular, sans-serif !important;
+body {
+  font-family: Roboto-regular, sans-serif !important;
+  background-color: #f4efd1;
 }
-a{
-    color: #ee994d;
-    text-decoration: none;
+a {
+  color: #ee994d;
+  text-decoration: none;
 }
-a:hover{
-    text-decoration:underline;
+a:hover {
+  text-decoration:underline;
 }
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
-code{
-    background-color: #f4efd1;
-    color: #598364;
+code {
+  background-color: #f4efd1;
+  color: #598364;
 }
 table {
-    max-width: 100%;
-    margin: 10px auto;
-    border-collapse: separate;
-    border: 3px solid #ee994d;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #fcf6e6;
-    color: black;
-    resize: none; overflow: auto;
+  max-width: 100%;
+  margin: 10px auto;
+  border-collapse: separate;
+  border: 3px solid #ee994d;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fcf6e6;
+  color: black;
+  resize: none; overflow: auto;
 }
 th{
-    text-align: center;
+  text-align: center;
 }
 td {
-    height: 25px;
-    line-height: 25px;
-    border: 3px solid #fcf6e6;
-    resize: none; overflow: auto;
+  height: 25px;
+  line-height: 25px;
+  border: 3px solid #fcf6e6;
+  resize: none; overflow: auto;
 }
 tr {
-    background: #fcf6e6;
-    transition: box-shadow 0.8s ease;
-    resize: none; overflow: auto;
+  background: #fcf6e6;
+  transition: box-shadow 0.8s ease;
+  resize: none; overflow: auto;
 }
 tr:hover {
-    /*box-shadow:2px 2px 4px #ee994d;*/
-    background: white;
+  /*box-shadow:2px 2px 4px #ee994d;*/
+  background: white;
 }
-.top-bar {
-    width: 100%;
-    height: 50px;
-    margin: 5px;
-    display: flex;
-    resize: both; overflow: auto;
+
+.carousel {
+  padding: 20px;
+  margin: 10px;
 }
-.carousel{
-    padding: 20px;
-    margin: 10px;
+.carousel-item {
+  background: #000000;
+  height: 20rem;
+  color: white;
+  padding: 20px;
 }
-.carousel-item{
-    background: #000000;
-    height: 20rem;
-    color: white;
-    padding: 20px;
+.container-carousel {
+  background:initial;
+  position: absolute;
+  padding-bottom: 50px;
 }
-.container-carousel{
-    background:initial;
-    position: absolute;
-    padding-bottom: 50px;
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
 }
-.overlay-image{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
-.bannertop{
-    color: #2b7961;
-    text-align: center;
-}
+
 @media(min-width: 768px){
   .content {
     margin: 26%;
@@ -110,6 +102,7 @@ tr:hover {
     /*line-height: 3.5;*/
     font-size: 1.2rem;
 }
+
 #landingpage{
     background: #598364;
     top: 10%;
@@ -232,60 +225,8 @@ tr:hover {
 #landingpage li{
     padding-left: 6%;
 }
-body{
-    background-color: #f4efd1;
-}
-footer{
-    background-color: #fca847;
-}
-.site-headerF{
-    background-color: #2b7961;
-}
-img{
-    max-width: 100%;
-    aspect-ratio: auto;
-}
-#img1{
-    background-image: url("https://static.igem.wiki/teams/4162/wiki/test/pic1.jpg");
-    min-height: 30rem;
-    background-size: cover;
-    background-position: center;
-}
-#img-text{
-    margin-bottom: 10rem;
-    text-align: center;
-    line-height: 2.2;
-    font-size: 0.9rem;
-    color: aliceblue;
-}
-#spanforfooter{
-    width: 70%;
-    display: block;
-    height: 3px;
-    margin-top: 20px;
-    left: 0;
-    right: 0;
-}
-footer .logos {
-    width: 90px;
-    height: 90px;
-    background-position: center;
-    background-size: cover;
-}
-footer{
-    background-color: #ee994d !important;
-}
-footer .footermenu ul{
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-footer .footermenu ul li a{
-    text-decoration: none;
-    color: white;
-}
 .dot-landingpage{
-        color: #fff;
+    color: #fff;
     display: block;
     padding: 5px 0;
 }
@@ -319,6 +260,31 @@ footer .footermenu ul li a{
 .dot-landingpage.active::after{
     transform: translateY(-50%) scale(1);
 }
-.section h1,h2,h3,h4,h5,h6{
+
+img {
+    max-width: 100%;
+    aspect-ratio: auto;
+}
+
+footer .logos {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+}
+footer {
+    background-color: #ee994d !important;
+}
+footer .footermenu ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+footer .footermenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section h1,h2,h3,h4,h5,h6 {
     font-family: Cinzel-medium,serif !important;
 }
