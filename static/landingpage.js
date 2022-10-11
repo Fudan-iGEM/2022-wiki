@@ -20,9 +20,9 @@ $(document).ready(function () {
     $(window).on('scroll', function(){
     const link = $('.dot-landingpage');
     const top = $(window).scrollTop();
-    console.log(link);
     $('.section').each(function () {
       const id = $(this).attr('id');
+      console.log(id)
       const height = $(this).height();
       const offset = $(this).offset().top - 150;
       if (top >= offset && top < offset + height) {
