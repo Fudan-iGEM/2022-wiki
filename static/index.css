@@ -34,6 +34,9 @@ table {
     color: black;
     resize: none; overflow: auto;
 }
+th{
+    text-align: center;
+}
 td {
     height: 25px;
     line-height: 25px;
