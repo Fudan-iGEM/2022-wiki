@@ -135,7 +135,7 @@ tr:hover {
     position: fixed;
     position: -webkit-sticky;
     list-style: none;
-    padding: 2%;
+    padding: 5%;
     border-radius:0px 10px 10px 0px;
     display: flex;transition:all 0.7s ease-in-out;
     z-index: 1500;
@@ -145,7 +145,7 @@ tr:hover {
     width: 10%;
 }
 #landingpage ul{
-    padding-left: 8%;
+    padding-left: 5%;
     overflow: auto;
 }
 #landingpage ul::-webkit-scrollbar{
