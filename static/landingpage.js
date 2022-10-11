@@ -36,7 +36,7 @@ console.log(arrow)
     arrow[i].addEventListener("click", (e)=>{
       console.log(arrow)
       let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
-      arrowParent.classList.toggle("showMenu");
+      arrowParent.classList.toggle("showmenu");
     });
   }
   let sidebar = document.querySelector("#landingpage");
