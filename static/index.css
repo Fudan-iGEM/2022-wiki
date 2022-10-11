@@ -91,40 +91,25 @@ tr:hover {
 @media(min-width: 768px){
   .content {
     margin: 26%;
-    border: 60px;
-    padding: 50px;
-    background: #fcf6e6;
-    box-shadow: -20px -20px 0px #598364;
-    border-right: 1px solid #598364;
-    /*color: white;*/
-    /*line-height: 3.5;*/
-    font-size: 1.2rem;
   }
 }
 @media(max-width: 768px){
   .content {
     margin: 3%;
+  }
+}
+.content {
     margin-top: 80px !important;
     border: 60px;
     padding: 50px;
     background: #fcf6e6;
     box-shadow: -20px -20px 0px #598364;
     border-right: 1px solid #598364;
+    border-bottom: 1px solid #598364;
     /*color: white;*/
     /*line-height: 3.5;*/
     font-size: 1.2rem;
-  }
 }
-/*.content { /* test2 * /
-    margin: 30%;
-    border: 60px;
-    padding: 50px;
-    background:#2b7961;
-    box-shadow: -20px -20px 0px #598364;
-    color: white;
-    line-height: 3.5;
-    font-size: 1.2rem;
-}*/
 #landingpage{
     background: #598364;
     top: 10%;
@@ -246,9 +231,6 @@ tr:hover {
 }
 #landingpage li{
     padding-left: 6%;
-}
-.maincontent{
-    padding: 20px;
 }
 body{
     background-color: #f4efd1;
