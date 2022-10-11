@@ -4,9 +4,31 @@
 {% block lead %}Explain how you would implement your project in the real world.{% endblock %}
 
 {% block side_bar %}
-
-<!-- ADD HERE for SIDEBAR -->
-
+<div id="landingpage" style="width:20%">
+          <ul>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content" href="#part-one-proposed-application">
+                <span class="linkname">Part one: Proposed Application</span></a>
+              </div>
+          </li>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content1" href="#part-two-safety-considerations">
+                <span class="linkname">Part two: Safety Considerations</span></a>
+              </div>
+          </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content2" href="#part-three-other-issues">
+          <span class="linkname">Part three: Other Issues</span></a>
+          </div>
+        </li>
+        </ul>
+</div>
+<section class="home-section">
+  <div class="home-content">
+    <ion-icon src="/fudan/static/svg/arrow-back-outline.svg" class="bx bx-menu"></ion-icon>
+    <span class="text">Drop Down Sidebar</span>
+  </div>
+</section>
 {% endblock %}
 {% block page_content %}
 
@@ -18,7 +40,7 @@
 <!-- ADJUST PAGE CONTENT BELOW -->
 
 <div class="row">
-  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section">
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 
 <h2 id="part-one-proposed-application">Part one: Proposed Application</h2>
 <ul>
