@@ -109,7 +109,7 @@ tr:hover {
     position: fixed;
     position: -webkit-sticky;
     list-style: none;
-    padding: 2%;
+    padding: 10px;
     border-radius:0px 10px 10px 0px;
     display: flex;transition:all 0.7s ease-in-out;
     /*z-index: 1500;*/
@@ -221,9 +221,6 @@ tr:hover {
 #landingpage li:hover .submenu.blank{
     top:50%;
     transform: translateY(-50%);
-}
-#landingpage li{
-    padding-left: 6%;
 }
 .dot-landingpage{
     color: #fff;
