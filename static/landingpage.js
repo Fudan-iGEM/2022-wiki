@@ -39,9 +39,9 @@ $(document).ready(function () {
     });
   }
   const sidebar = document.querySelector("#landingpage");
-  const sidebarBtn = document.querySelector(".bx-menu");
+  //const sidebarBtn = document.querySelector(".bx-menu");
   //console.log(sidebarBtn);
-  sidebarBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("close");
-  });
+  //sidebarBtn.addEventListener("click", ()=>{
+  //  sidebar.classList.toggle("close");
+  //});
 });
