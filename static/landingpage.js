@@ -27,7 +27,7 @@ $(document).ready(function () {
       const offset = $(this).offset().top - 150;
       if (top >= offset && top < offset + height) {
         link.removeClass('active');
-        $('.dot-landingpage').find('[data-scroll="' + id + '"]').addClass('active');
+        $('#landingpage').find('[data-scroll="' + id + '"]').addClass('active');
       }
     });
   });
