@@ -95,6 +95,7 @@ tr:hover {
     padding: 50px;
     background: #fcf6e6;
     box-shadow: -20px -20px 0px #598364;
+    border-right: 1px solid #598364;
     /*color: white;*/
     /*line-height: 3.5;*/
     font-size: 1.2rem;
@@ -103,11 +104,12 @@ tr:hover {
 @media(max-width: 768px){
   .content {
     margin: 3%;
-    margin-top: 10% !important;
+    margin-top: 80px !important;
     border: 60px;
     padding: 50px;
     background: #fcf6e6;
     box-shadow: -20px -20px 0px #598364;
+    border-right: 1px solid #598364;
     /*color: white;*/
     /*line-height: 3.5;*/
     font-size: 1.2rem;
@@ -244,15 +246,6 @@ tr:hover {
 }
 #landingpage li{
     padding-left: 6%;
-}
-@media (max-width: 500px) {
-    #landingpage,
-    .home-section
-    {
-        display: none;
-        opacity: 0;
-        pointer-events: none;
-    }
 }
 .maincontent{
     padding: 20px;

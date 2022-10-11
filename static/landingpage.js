@@ -4,20 +4,18 @@ $(document).ready(function () {
     window.location = $(this).find('a').attr('href');
   });
 
-  $(window).on('scroll', function () {
-    const link = $('#navbar a.dot');
-    const top = $(window).scrollTop();
-    $('.sec').each(function () {
-      const id = $(this).attr('id');
-      const height = $(this).height();
-      const offset = $(this).offset().top - 150;
-      if (top >= offset && top < offset + height) {
-        link.removeClass('active');
-        $('#navbar').find('[data-scroll="' + id + '"]').addClass('active');
-      }
-    });
+  // #landingpage  display: none;
+  $(window).on('resize', function () {
+    const win = $(this);
+    if (win.width() <= 768) {
+      $('#landingpage').hide();
+    } else {
+      $('#landingpage').show();
+    }
   });
-    $(window).on('scroll', function(){
+
+  // sidebar
+  $(window).on('scroll', function () {
     const link = $('.dot-landingpage');
     const top = $(window).scrollTop();
     $('.section').each(function () {
@@ -36,7 +34,7 @@ $(document).ready(function () {
   for (var i = 0; i < arrow.length; i++) {
     arrow[i].addEventListener("click", (e)=>{
       //console.log(arrow)
-      const arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+      const arrowParent = e.target.parentElement.parentElement; // selecting main parent of arrow
       arrowParent.classList.toggle("showmenu");
     });
   }
