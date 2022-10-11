@@ -39,10 +39,12 @@ hr{
     right: 0;
     position: absolute;
     margin-top: 10%;
+
 }
 #logo{
-    width: 40%;
-    opacity: 70%;
+    opacity: 70%;    
+    max-width: 100%;
+    max-height: 100%;
 }
 #masks{
     background-color: #0c4128;
