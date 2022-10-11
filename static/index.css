@@ -112,6 +112,7 @@ tr:hover {
 @media(max-width: 768px){
   .content {
     margin: 3%;
+    margin-top: 10%;
     border: 60px;
     padding: 50px;
     background: #fcf6e6;
