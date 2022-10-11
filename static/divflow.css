@@ -1,18 +1,206 @@
-@import url('Arapey.css');
-
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: #f4efd1 !important;
+    font-size: 2rem;
 }
 
 menu{
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 0;
+    bottom: 0;
 }
 
 section{
+    height: 130vh;
     width: 100vw;
+    display: flex;
+}
+
+hr{
+    height: 5px;
+    background-color: #0c4128;
+    border: 0;
+}
+
+#heading{
+    background-image: url("heading.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+#rester{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 10%;
+}
+#logo{
+    width: 40%;
+    opacity: 70%;
+}
+#masks{
+    background-color: #0c4128;
+}
+#mask{
+
+}
+#mask1{
+    margin-top: 500px;
+    display: block;
+    max-height: 100%;
+    position: absolute;
+    min-width: 750px;
+}
+#mask2{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 600px;
+    max-width: 500px;
+    right: 5%;
+}
+#route{
+    color: black;
+    font-size: 3rem;
     height: 100vh;
-    padding: 0;
+}
+#route1{
+    margin: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 100vw;
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/vc-background.png");
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+}
+.route_word{
+    position: relative;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 20%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+    background-color: white;
+    opacity: 70%;
+}
+.route_word p{
+    text-align: center;
+}
+.reasons_word{
+    background-color: #0c4128;
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+}
+#reasons1{
+    margin-top: 10%;
+}
+#reasons1 .reasons_word{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#reasons2{
+    width: 30vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 5vw;
+}
+#reasons1{
+    margin-top: 10%;
+}
+#reasons3 .reasons_word{
+    margin-top: 68%;
+    margin-right: 3%;
+    margin-bottom: -60%;
+}
+#reasons4{
+    width: 40vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 50vw;
+
+}
+.women_men_word{
+    background-color: #0c4128;
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+}
+#women_men1{
+    width: 30vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+#women_men2{
+    margin-top: 30%;
+    margin-bottom: -20%;
+}
+#women_men2 .women_men_word{
+    margin-top: 8%;
+}
+#women_men3{
+    width: 40vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 63vh;
+    margin-left: 52vw;
+}
+#women_men4{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#women_men4 .women_men_word{
+    margin-top: 8%;
+}
+.ideas_word{
+    background-color: #0c4128;
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+}
+#ideas1{
+    width: 30vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+#ideas2{
+    margin-top: 30%;
+    margin-bottom: -20%;
+}
+#ideas2 .ideas_word{
+    margin-top: 8%;
+}
+#ideas3{
+    width: 40vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 63vh;
+    margin-left: 52vw;
+}
+#ideas4{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#ideas4 .ideas_word{
+    margin-top: 8%;
+}
+#menues{
+    height: 50vh;
 }

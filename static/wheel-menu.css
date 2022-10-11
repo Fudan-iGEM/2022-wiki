@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .menu {
     width: 200px;
     height: 200px;
@@ -17,8 +11,8 @@
 }
 
 .menuitem {
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     left: 0;
     justify-content: center;
@@ -27,79 +21,150 @@
     transform-origin: 100px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
-    transform: rotate(0deg) translateX(80px);
+    transform: rotate(0deg) translateX(60px);
     z-index: 2500;
+    opacity: 0;
+    pointer-events: none;
 }
-
-.toggle1 {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.menuitem_second {
+    width: 120px;
+    height: 120px;
     position: absolute;
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    display: flex;
+    left: 0;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    transition: transform 1.25s;
-    z-index: 1450;
+    list-style: none;
+    transform-origin: 100px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(60px);
+    z-index: 2500;
+    opacity: 0;
+    pointer-events: none;
 }
-
 .menu a {
     top: 0;
     left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
 }
 
-.menu.active.left .menuitem {
-    transform: translateX(calc(50px * var(--i) + 150px));
+.menu.active.left .menuitem{
+    transform: translateX(calc(140px * var(--i) + 80px));
+    opacity: 1;
+    pointer-events: auto;
 }
-.menu.active.right .menuitem {
-    transform: translateX(calc(-50px * var(--i)));
+.menu.active.left .menuitem_second {
+    transform: translateX(calc(140px * var(--i) + 80px)) translateY(calc(160px * var(--j)));
+    opacity: 1;
+    pointer-events: auto;
 }
-
-.menuitem.active.left li {
-    transform:  translateY(calc(50px * var(--j)));
+.menu.active.right .menuitem{
+    transform: translateX(calc(-140px * var(--i)));
+    opacity: 1;
+    pointer-events: auto;
 }
-.menuitem.active.right li {
-    transform:  translateY(calc(-50px * var(--j)));
-}
-
-.menuitem li {
-    position: absolute;
-    list-style: none;
-    top: 0;
-    left: 0;
-    transform-origin: 100px;
-    transition: 0.5s;
-    transition-delay: calc(0.1s * var(--i));
+.menu.active.right .menuitem_second{
+    transform: translateX(calc(-140px * var(--i))) translateY(calc(-160px * var(--j)));
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .toggle {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    background: #fff;
+    width: 160px;
+    height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 10%;
     cursor: pointer;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     font-size: 2em;
     z-index: 4500;
     transition: transform 1.25s;
 }
-
-.menu.active .toggle {
-    transform: rotate(315deg);
+.award{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/award1.png");
+    background-position: center;
+    background-size: cover;
+}
+.design{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/design1.png");
+    background-position: center;
+    background-size: cover;
+}
+.education{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/education1.png");
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/home1.png");
+    background-position: center;
+    background-size: cover;
+}
+.hp{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/hp1.png");
+    background-position: center;
+    background-size: cover;
+}
+#menu{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/menu1.png");
+    background-position: center;
+    background-size: cover;
+}
+.parts{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/parts1.png");
+    background-position: center;
+    background-size: cover;
+}
+.project{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/project1.png");
+    background-position: center;
+    background-size: cover;
+}
+.safety{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/safety1.png");
+    background-position: center;
+    background-size: cover;
+}
+.team{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/team1.png");
+    background-position: center;
+    background-size: cover;
+}
+.wetlab{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/wetlab1.png");
+    background-position: center;
+    background-size: cover;
+}
+.model{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/model1.png");
+    background-position: center;
+    background-size: cover;
+}
+.iconsforindex{
+    top: 0;
+    left: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+}
+.iconsforindex a{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
 }
