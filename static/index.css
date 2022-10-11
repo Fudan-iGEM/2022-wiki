@@ -140,7 +140,7 @@ tr:hover {
     padding: 2%;
     border-radius:0px 10px 10px 0px;
     display: flex;transition:all 0.7s ease-in-out;
-    z-index: 1500;
+    /*z-index: 1500;*/
     color: white;
     font-family: Cinzel-medium,serif;
     /*transform: translate(50%, 50%);*/
