@@ -152,7 +152,7 @@ tr:hover {
 #landingpage.close ul{
     overflow: visible;
 }
-#landingpage.close ul li a .linkname{
+#landingpage.close ul li .linkname{
     opacity: 0;
     pointer-events: none;
 }
@@ -205,7 +205,7 @@ tr:hover {
     line-height: 1.5;
     display:flex;
 }
-#landingpage.close ul li .linkname{
+#landingpage.close ul li .anchor .linkname{
     opacity: 0;
     pointer-events: none;
 }
