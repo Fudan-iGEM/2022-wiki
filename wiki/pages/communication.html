@@ -1,4 +1,80 @@
-﻿<p>Even under the emergent pandemic for more than 4 months, we are still fortunate to participate in multiple communication events and have the chance to have deep conversations with many other iGEM teams. We have grown a lot from them, and these are our fruits and takeaways.</p>
+﻿{% extends "layout.html" %}
+
+{% block title %}Team{% endblock %}
+{% block lead %}On this page you can introduce your team members, instructors, and advisors.{% endblock %}
+{% block side_bar %}
+
+<!-- ADD HERE for SIDEBAR -->
+
+{% endblock %}
+{% block page_content %}
+
+<!-- ADJUST highlight pictures BELOW -->
+
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              A quick, efficient and powerful tool for building and designing new parts
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              Provide multiple ways for searching for previously designed parts
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              Visualization of the relationship between parts
+            </h1>
+          </div>
+        </div>
+          <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(https://static.igem.wiki/teams/4162/wiki/software/code.png)"></div>
+          <div class="container-carousel">
+            <h1>
+              Can be used across various platforms and no need for downloading and setting up the environment
+            </h1>
+          </div>
+        </div>
+
+      </div>
+      <a href="#mycarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+        <span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a href="#mycarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+        <span class="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div><!-- close col-md-8 -->
+</div>
+
+<!-- ADJUST PAGE CONTENT BELOW -->
+
+<div class="row">
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section">
+
+<p>Even under the emergent pandemic for more than 4 months, we are still fortunate to participate in multiple communication events and have the chance to have deep conversations with many other iGEM teams. We have grown a lot from them, and these are our fruits and takeaways.</p>
 <h2 id="ccic-sharing-and-communication">CCiC Sharing And Communication</h2>
 <p><strong>CCiC (Conference Of Chinese iGEMer Community)</strong> is a national summit initiated by Chinese iGEM teams and hosted by one university in China every year. It aims to provide a platform for China iGEM teams to <strong>share resources</strong> and <strong>promote mutual learning and communication</strong>.</p>
 <p>This year, the 9th CCiC is titled <strong>“Life Meets Everything”</strong>, which aims to focus on the magical power of interactions between lives, to care about the intimate communication between people, iGEMers and each other, and to support the development of synthetic biology in various fields, and finally to gain a sense of harmony in the philosophy of <strong>“Life Finds A Way”</strong>.</p>
@@ -46,3 +122,5 @@
 <p><img src="https://static.igem.wiki/teams/4162/wiki/communication/mutual-assistance-manual.png" alt=""></p>
 <p>插入pdf文件</p>
 
+  </div>
+</div>
