@@ -337,13 +337,9 @@ footer .footermenu ul li a{
     font-family: Cinzel-medium,serif !important;
 }
 @media (max-width: 400px) {
-    #landingpage.close li .submenu{
-        display: none;
-    }
     #landingpage{
-        width: 10%;
-    }
-    #landingpage.close{
-        width: 0;
+        display: none;
+        opacity: 0;
+        pointer-events: none;
     }
 }
