@@ -310,7 +310,7 @@ hr{
 }
 #reasons1 .reasons_word{
     margin-left: 10vw;
-    width: 30vw;
+    width: 40vw;
     padding: 15px;
 }
 #reasons2{
@@ -404,24 +404,25 @@ hr{
     width: 50vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 30vh;
-    margin-left: 52vw;
+    margin-top: 10vh;
+    margin-left: 45vw;
     max-width: 570px;
 }
 #women_men4{
-    margin-top: 5%;
+    margin-top: -5%;
     margin-right: 5%;
+    width: 180%;
 }
 #women_men4 .women_men_word{
     margin-top: 8%;
     width: 60%;
 }
 #women_men5{
-    margin-top: 55%;
-    margin-left: -100%;
+    margin-top: 45%;
+    margin-left: -74%;
 }
 #women_men5 .women_men_word{
-    width: 50%;
+    width: 90%;
 }
 
 @media(max-width: 767px){
@@ -480,18 +481,19 @@ hr{
     margin-left: 5vw;
 }
 #ideas2{
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: -20%;
     margin-left: 6%;
 }
 #ideas2 .ideas_word{
     margin-top: 8%;
+    width: 90%;
 }
 #ideas3{
     width: 40vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 52vh;
+    margin-top: 45vh;
     margin-left: 52vw;
     max-width: 570px;
 }
@@ -501,6 +503,7 @@ hr{
 }
 #ideas4 .ideas_word{
     margin-top: 8%;
+    width: 90%;
 }
 @media(max-width: 767px){
     .ideas_word{
@@ -535,7 +538,6 @@ hr{
 #conclusion{
     margin-top: 5%;
     width: 70%;
-    margin-left: 10%;
     background-color: #0c4128;
     color: white;
     padding: 15px;
