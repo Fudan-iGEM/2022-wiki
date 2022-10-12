@@ -67,11 +67,11 @@
           </li>
         <li><div class="anchor">
           <a class="dot-landingpage" data-scroll="content3" href="#conclusion">
-          <span class="linkname">Conclusion</span></a>
+          <span class="linkname">Summary</span></a>
           </div>
         <ul class="submenu blank">
             <li>
-                <a class="anchor linkname" href="#conclusion">Conclusion</a>
+                <a class="anchor linkname" href="#conclusion">Summary</a>
             </li>
         </ul>
         </li>
@@ -101,37 +101,47 @@
 <div class="row">
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
   <h2 id="overview">Overview</h2>
-  <p><strong>Co-expression</strong> is often achieved by <strong>co-transforming</strong> two or more plasmids, each carrying the gene of one subunit and a different selection marker, into the heterologous expression host. However, the number of plasmids used is not infinite, as transforming and maintaining more than four plasmids simultaneously is very challenging. <strong>Various detection methods should be used to observe the upstream product.</strong></p>
-<p>The <strong>uneven copy numbers</strong> of each plasmid make protein expression unpredictable. Another approach is to <strong>assemble multiple genes into a plasmid</strong> which genes are transcribed from multiple promoters (1) or a single promoter to produce long lines of cis mRNA (2).</p>
+  <p>Within a single-cell bacterial factory, exogenous genes are expressed to modify metabolites. <strong>Co-expression</strong> is often achieved by <strong>co-transforming</strong> two or more plasmids, each carrying the gene of one subunit and a different selection marker, into the heterologous expression host. However, the number of plasmids used is not infinite, and simultaneously maintaining more than four plasmids is very challenging.</p>
+<p>The <strong>uneven copy numbers</strong> of each plasmid make protein expression and metabolite production unpredictable. Another approach is to <strong>assemble multiple genes into one plasmid</strong> where genes are transcribed from multiple promoters (1) or a single promoter to produce long lines of cis mRNA (2).</p>
 <p>Polycistronic expression suffers from a major problem: translations of cistrons are severely unbalanced. The order of cistrons in the polycistronic mRNA has an unpredictable consequence on the levels of protein expression (3). <strong>Progressively lower expression was reported with more downstream cistron in the mRNA</strong> (4).</p>
-<p>The next step of validation is not until <strong>the phase target product is present and detected</strong>. We integrated a whole set of detection methods, which can be applied to different occasions for verification, especially <strong>linear response pathways</strong>.</p>
+<p>The must step to validate our/your engineering design works is not until <strong>the target product is present and detected</strong>. We integrated a whole set of measurement approaches to validate <a href="/fudan/parts">our parts</a>, which can be applied to other occasions as well.</p>
   </div>
+
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content1">
     <h2 id="verification">Verification</h2>
-<h3 id="pcr-to-confirm-the-successful-transformation-of-plasmids-into-e.coli">PCR to confirm the successful transformation of plasmids into E.coli</h3>
-<p>Before we verify protein expression we will test whether <strong>the target gene has been successfully transformed into the plasmids</strong>.</p>
+<h3 id="pcr-to-confirm-the-successful-transformation-of-plasmids-into-e.coli">PCR to confirm the successful transformation of plasmids into <i>E. coli</i></h3>
+<p>Before we verify protein expression we need to confirm whether <strong>the target gene has been successfully transformed into the plasmids</strong>.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/iyeb-dna.png" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure1.</strong> Agarose gel electrophoresis of PCR products, amplified from bacterial colonies/cultures.</p>
-<p>The first lane was loaded with a D2000 DNA ladder whose sizes were marked on the image. We chose Taq DNA polymerase for its low cost and high reliability, and we designed forward and reverse primers for each carotene synthesis enzyme (crt for short). The PCR reaction was composed of 2 μL 10x Taq polymerase buffer, 16 μL H2O, 0.5 μL Taq polymerase, 0.5 μL dNTP (10 mM each), 0.5 μL forward primer (10 mM), 0.1 μL reverse primer (10 mM), and 1 μL bacterial culture or 1 colony. Using the same forward primer, and different reverse primers, we were able to detect the composition of various crt genes. After PCR, the correct bacterial clones were sent for Sanger sequencing. Once verified, these clones would be used for further experiments.</p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 1.</strong> Agarose gel electrophoresis of PCR products, amplified from a bacterial colony.</p>
+<p>The first lane was loaded with a D2000 DNA ladder whose sizes were marked on the image. We chose Taq DNA polymerase for its low cost and high reliability, and we designed forward and reverse primers for each carotene synthesis enzyme (crt for short). The PCR reaction was composed of 2 μL 10x Taq polymerase buffer, 16 μL H2O, 0.5 μL Taq polymerase, 0.5 μL dNTP (10 mM each), 0.5 μL forward primer (10 mM), 0.5 μL reverse primer (10 mM), and 1 colony picked from the plate. Using the same forward primer, and different reverse primers, we were able to detect the composition of various crt genes. After PCR, the correct bacterial clones were sent for Sanger sequencing, which take 24-48 hours. While waiting, we start preparing the following experiments. Once the sequencing confirmed, we execute the next.</p>
+
 <h3 id="sds-page-to-confirm-the-successful-expression-of-proteins-and-the-effects-of-rbs-intensity-on-protein-expression">SDS-PAGE to confirm the successful expression of proteins and the effects of RBS intensity on protein expression</h3>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/3a1.png" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure2.</strong> SDS-PAGE results of protein extraction from lysates of bacterial.</p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 2.</strong> SDS-PAGE of whole cell lysate of bacterial cultures.</p>
 <p>Protein expression was induced in parallel cultures by IPTG. Bacterial cultures were monitored by OD600, and 5x10^7 cells were harvested by centrifugation and lysis in 1x SDS sample buffer. An equal amount (10 μL, 2x10^6 cells) of whole cell lysate was analyzed by SDS-PAGE (4~20% gradient gel, Tanon brand). Red arrows point to crtI protein. Green arrows point to crtY protein. Black arrows point to crtB protein. Yellow arrows point to crtE protein.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/b.png" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure3.</strong> We failed to see expression of the membrane protein BCMO from the protein gel map, so we turned to microscopy detection assay by tagging fluorescent protein downstream the target protein. This assay is indicated in 2.4 part of this page.</p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 3.</strong> We failed to see IPTG induced expression of the membrane protein BCMO on the protein gel, so we turned to microscopy by tagging fluorescent protein downstream the target protein, which is included <a href="#fluorescence-microscopy-to-confirm-the-successful-expression-of-membrane-proteins">on this page</a>.</p>
+
 <h3 id="color-changes-to-verify-β-carotene-production">Color changes to verify β-carotene production</h3>
-<p>As our intermediate product is the yellow β-carotene, we can confirm its presence simply by observing the color change in the whole system. It also served as the visual assay to tell whether the four crt enzymes cooperated effectively under the same or different types of RBS. No color change in the system along with the unequal protein expression level depicted in the protein gel map pushed us to adjust the strength of RBS in front of each enzyme. By enhancing RBS in the downstream and weakening it in the upstream, we successfully view the yellow products.</p>
+<p>As our intermediate product is the yellow β-carotene, we can confirm its presence simply by observing the color change in the bacterial pellet, sometime even the liquid bacterial culture. It served as the visual assay to tell whether the four crt enzymes cooperated effectively under the same or different types of RBS.</p>
+<p>No color change in the bacterial pellet along with the unequal protein expression induced by IPTG pushed us to adjust the strength of RBS in front of each enzyme. By enhancing RBS or weakening it, we successfully obtained the yellow products, as shown in <a href="http://parts.igem.org/Part:BBa_K4162117" target="_blank">BBa_K4162117</a> and <a href="http://parts.igem.org/Part:BBa_K4162118" target="_blank">BBa_K4162118</a>.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/beta-carotene.jpeg" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure4.</strong> Color change in the system with the intermediate product β-carotene.</p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 4.</strong> Bacterial pellets, after acetone extraction (in-complete), still bear the product β-carotene yellow.</p>
+
 <h3 id="fluorescence-microscopy-to-confirm-the-successful-expression-of-membrane-proteins">Fluorescence microscopy to confirm the successful expression of membrane proteins</h3>
-<p>Failure in observing the expression of membrane protein BCMO from SDS-PAGE pushed us to reflect and try to figure out which step went wrong. We thought it may be due to its low expression level after induction by IPTG in BL21(DE3) strain in the beginning, but we got the same disappointing   results of its leaky expression in DH5α which is reported to be a proper way of expressing BCMO(5). This situation set us thinking maybe it should be the assay’s fault. After consulting prof. Motoyuki Hattori, we knew that SDS-PAGE with CBB staining is not suitable for membrane protein expression detection. So we exchanged to this fluorescence microscopy assay.</p>
+<p>Failure in observing the expression of membrane protein BCMO from SDS-PAGE pushed us to reflect and try to figure out which step went wrong. We could not any band on the protein gel after induction by IPTG in BL21(DE3) strain, and we confirmed that we are using the same design as reported (5). This situation set us thinking maybe it should be the assay’s fault. After consulting Prof. Motoyuki Hattori, who has extensive knowledge in expressing, purifying membrane protein, we knew that SDS-PAGE with CBB staining is not suitable for membrane protein expression detection, which is always below the detection. So, we changed to this fluorescence microscopy assay.</p>
+
 <p><img src="" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure5.</strong> By tagging fluorescent protein to the target protein expressed by gene <em>ybbO</em>, we observed its expression under microscopy</p>
+
+<p style="font-size:0.8rem;color:grey"><strong>Figure 5.</strong> By tagging fluorescent protein <a href="http://parts.igem.org/Part:BBa_K4162001" target="_blank">StayGold</a> to the C terminus of gene <em>ybbO</em>, we observed its expression under microscope, and also confirm that adding IPTG could induce its expression.</p>
+
 <h3 id="hplc-for-detection-of-retinoids">HPLC for detection of retinoids</h3>
-<p>After we observed the color change of the system, we performed the following experiments. For quantitative detection, we applied HPLC to detect β-carotene and retinoids.</p>
+<p>After we observed the color change of the system, for quantitative detection and validation with chemical standards, we applied HPLC to detect β-carotene and retinoids.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/hplc.png" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure6.</strong> 3-7 (the figure above)compared with 3td7(the figure below), 3td7 had significantly more carotene (about a 20% increase). In addition, there are two peaks in the figure at 325nm between 2-4min, and the absorbance value of the two peaks of 3td7 in this period is also significantly higher than that of 3-7, which depicted <strong>the efficiency of TEARS</strong> in improving the production of retinol.</p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 6.</strong> Acetone extracted samples were subjected to HPLC (C18 column)as described previously (5), except we are using methanol:water = 96:4 as the moving phase. The extract from bacteria expressing CAG-MS2, BCMO, ybbO, crtYEBI (the panel above, short name 3-7) compared with the extract from bacteria expressing CAG-MS2, BCMO, ybbO-tdMCP, crtYEBI (the panel below, short name 3td7), there are two peaks in the figure between 2-4 minutes (where our standards appear <a href="https://mp.weixin.qq.com/s/81zY_LoMratSEOOy7JUaFw" target="_blank">as well others</a>, detected at 325 nm), the absorbance value of the two peaks of 3td7 in this period is significantly higher than that of 3-7, which depicted <strong>the efficiency of TEARS</strong> in improving the production of retinol.</p>
+
   </div>
+
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
     <h2 id="optimization">Optimization</h2>
 <h3 id="verify-that-adjusting-rbs-intensity-promotes-metabolism">Verify that adjusting RBS intensity promotes metabolism</h3>
@@ -146,7 +156,7 @@
 <p>To detect the expression of membrane proteins without affecting their activity, we tagged a segment of fluorescent protein behind the membrane proteins sequence. In this way, <strong>it is not necessary to lyse the bacteria and destroy the protein structure, and the conclusion that BCMO is successfully expressed can be obtained by observing the fluorescent substances under the microscope.</strong></p>
   </div>
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
-    <h2 id="conclusion">Conclusion</h2>
+    <h2 id="conclusion">Summary</h2>
 <p>We integrated a series of detection methods to <strong>solve the problem that the upstream reaction failure of polycistronic plasmids in the multi-plasmid co-transformation system may lead to the failure of the downstream reaction</strong>, so that the final product can not be obtained. We divided the reaction into several steps, through <strong>stage verification</strong>, step by step <strong>error correction and optimization</strong>, so as to promote the reaction step by step,  to ensure the work efficiency of the system and get the final product. On the basis of the detection results, the reaction was optimized  by introducing <strong>ribozyme</strong>, <strong>adjusting RBS strength</strong> and other parameters, and introducing <strong>TEARS</strong>, an enzyme enrichment tool, to <strong>increase the yield for further commercial use</strong> .</p>
   </div>
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content4">
