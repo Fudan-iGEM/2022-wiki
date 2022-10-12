@@ -297,7 +297,7 @@ hr{
     width: 80vw;
     min-width: auto;
     position: absolute;
-    margin-top: 35vw;
+    margin-top: 65vw;
     margin-left: 10vw;
 
 }
@@ -337,36 +337,38 @@ hr{
     margin-top: 8%;
 }
 @media(max-width: 767px){
-    #ideas1{
-    margin-top: 30vh;
-    margin-left: 10vw;
+    .women_men_word{
+        font-size: 1.3rem !important;
+    }
+    #women_men1{
+    margin-top: 10vh;
+    margin-left: 15vw;
 }
-#ideas1 .ideas_word{
+#women_men1 .women_men_word{
     margin-top: 5%;
     margin-left: 5%;
 }
-#ideas2{
+#women_men2{
     width: 60vw;
     min-width: auto;
     position: absolute;
     margin-top: 50vh;
     margin-left: 5vw;
 }
-#ideas3{
-    margin-right: 10vw;
-    margin-left: -20vw;
+#women_men3{
+    margin-left: 5vw;
     margin-top: 60vh;
 }
-#ideas3 .ideas_word{
+#women_men3 .women_men_word{
     margin-top: 50%;
     margin-left: 3%;
     margin-bottom: -60%;
 }
-#ideas4{
+#women_men4{
     width: 80vw;
     min-width: auto;
     position: absolute;
-    margin-top: 5vw;
+    margin-top: 65vw;
     margin-left: 10vw;
 
 }
