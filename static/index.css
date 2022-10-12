@@ -192,6 +192,9 @@ tr:hover {
     line-height: 1.5;
     display:flex;
 }
+#landingpage.close li a{
+    font-size: 0.1rem;
+}
 #landingpage.close li .submenu{
     position:absolute;
     left: 100%;
@@ -211,6 +214,9 @@ tr:hover {
     width: 300%;
     pointer-events: auto;
     transition: all 0.4s ease;
+}
+#landingpage.close li:hover .submenu:hover{
+    color: black;
 }
 #landingpage li .submenu .linkname{
     display: none;
