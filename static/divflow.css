@@ -501,34 +501,27 @@ hr{
         font-size: 1rem !important;
     }
     #ideas1{
-        margin-top: 10vh;
+        margin-top: 0vh;
         margin-left: 15vw;
-    }
-    #ideas1 .ideas_word{
-        margin-top: 5%;
-        margin-left: 5%;
+        min-width: auto;
+        width: 70vw;
     }
     #ideas2{
-        width: 60vw;
-        min-width: auto;
+        width: 70vw;
         position: absolute;
-        margin-top: 50vh;
+        margin-top: 20vh;
         margin-left: 5vw;
     }
     #ideas3{
         margin-left: 5vw;
         margin-top: 60vh;
-    }
-    #ideas3 .ideas_word{
-        margin-top: 50%;
-        margin-left: 3%;
-        margin-bottom: -60%;
+        min-width: auto;
+        width: 75vw;
     }
     #ideas4{
-        width: 80vw;
-        min-width: auto;
+        width: 70vw;
         position: absolute;
-        margin-top: 15vw;
+        margin-top: 85vw;
         margin-left: 10vw;
 
     }
@@ -541,6 +534,13 @@ hr{
     color: white;
     padding: 15px;
 }
+@media(max-width: 767px){
+    #conclusion{
+        font-size: 1rem !important;
+        width: 85%;
+    }
+}
+
 #pictures{
     height: unset;
 }
