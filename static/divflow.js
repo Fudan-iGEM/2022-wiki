@@ -32,7 +32,7 @@ tl4.from('#women_men1', 1, { x: -300, opacity: 0})
 tl4.from('#women_men2', 1, { x: -300, opacity: 0})
 tl4.from('#women_men3', 1, { x: 300, opacity: 0})
 tl4.from('#women_men4', 1, { x: 300, opacity: 0})
-tl5.from('#women_men5', 1, { x: -200, opacity: 0})
+tl4.from('#women_men5', 1, { x: -200, opacity: 0})
 
 tl5.from('#ideas1', 1, { x: -300, opacity: 0})
 tl5.from('#ideas2', 1, { x: -300, opacity: 0})
