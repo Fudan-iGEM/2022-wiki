@@ -217,8 +217,11 @@ tr:hover {
 }
 #landingpage.close li:hover .submenu li:hover{
     background-color: #f4efd1;
+}
+#landingpage.close li:hover .submenu li:hover .anchor{
     color: black;
 }
+
 #landingpage li .submenu .linkname{
     display: none;
 }
