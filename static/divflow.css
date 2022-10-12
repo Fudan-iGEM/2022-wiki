@@ -205,6 +205,33 @@ hr{
 #ideas4 .ideas_word{
     margin-top: 8%;
 }
+#pictures{
+    width: 100%;
+    height: 100%;
+}
+#pictures #pincontainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#slidecontainer{
+    width: 200%;
+    height: 100%;
+}
+#slidecontainer section{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ribozyme{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/ribozyme.jpg");
+}
+#tears{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/tears.jpg");
+}
 #menues{
     height: 50vh;
 }
