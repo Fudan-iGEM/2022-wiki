@@ -31,7 +31,7 @@ section{
 
 hr{
     height: 5px !important;
-    background-color: #0c4128;
+    background-color: #598364;
     border: 0 !important;
     margin: 0 !important;
 }
@@ -86,7 +86,7 @@ hr{
 }
 .health_words{
     width: 40vw;
-    background-color: #0c4128;
+    background-color: #598364;
     color: white;
     font-weight: 200;
     padding: 25px;
@@ -125,7 +125,7 @@ hr{
 }
 @media (max-width: 1400px) {
     .health_words{
-        background-color: #0c4128;
+        background-color: #598364;
         color: white;
         font-weight: 200;
         width: 65vw;
@@ -148,7 +148,7 @@ hr{
 
 
 #masks{
-    background-color: #0c4128;
+    background-color: #598364;
 }
 
 #mask1{
@@ -313,7 +313,7 @@ hr{
     }
 }
 .reasons_word{
-    background-color: #0c4128;
+    background-color: #598364;
     color: white;
     font-weight: 200;
 }
@@ -391,7 +391,7 @@ hr{
     }
 }
 .women_men_word{
-    background-color: #0c4128;
+    background-color: #598364;
     color: white;
     font-weight: 200;
 }
@@ -481,7 +481,7 @@ hr{
     }
 }
 .ideas_word{
-    background-color: #0c4128;
+    background-color: #598364;
     color: white;
     font-weight: 200;
 }
@@ -550,7 +550,7 @@ hr{
 #conclusion{
     margin-top: 5%;
     width: 70%;
-    background-color: #0c4128;
+    background-color: #598364;
     color: white;
     padding: 15px;
 }
