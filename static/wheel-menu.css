@@ -168,7 +168,7 @@
     height: 120px;
     border-radius: 10%;
 }
-@media(max-width = 500px){
+@media(max-width: 500px){
     .menu{
         display: none;
         opacity: 0;
