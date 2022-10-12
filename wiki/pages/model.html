@@ -18,11 +18,89 @@
 <!-- ADJUST PAGE CONTENT BELOW -->
 
 <div class="row">
-  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section">
-
-<p>start change here here here; if sidebar, then multiple div>div.section </p>
-
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
+<h2 id="introduction">Introduction</h2>
+<p>When designing the whole manufacturing process, we proposed that the enrichment of aldehyde reductase can be super effective in increasing productivity. Before putting this idea into practice, we wanted to verify the idea. Our diffusion model aims to determine whether the enrichment of the enzyme by phase separation is effective.</p>
+<p>The Diffusion model consists of two parts, <strong>the Cahn-Hilliard Equation</strong>, and <strong>the Michaelis-Menten Equation</strong>. The Cahn-Hilliard Equation simulates the phase separation process, while the Michaelis-Menten Equation allows us to calculate the reaction rate.</p>
   </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content1">
+  <h2 id="model-design">Model design</h2>
+<p>We first establish our model based on the Cahn-Hilliard Equation, which describes the differential equation of the phase separation process. During the phase separation process, regions rich in aldehyde reductase will have more and more aldehyde reductase. Thus, although the total concentration of the enzyme in the cell does not change, the number of small regions (fixed size) with high concentrations gradually increases over time.</p>
+<p>Next, with the stimulated concentration, we will be able to figure out a theoretical speed of enzyme reaction using the Michaelis-Menten Equation. With this equation, the reaction rate can be calculated at different substrate concentrations, which is an essential guide for both production and research.</p>
+  </div>
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
+<h2 id="assumption">Assumption</h2>
+<p>Without prejudice to the conclusions, we make the following assumptions in order to simplify our model：</p>
+<ol>
+<li>The reaction space is a two-dimensional rectangle.</li>
+<li>When aldehyde reductase concentrates and aggregates, the other components aggregate accordingly.</li>
+<li>A large overdose of substrate exists in the reaction system.</li>
+<li>At the beginning of the reaction, the product concentration is so tiny that the inverse reaction can be ignored.</li>
+<li>The steady-state assumption, i.e., as the reaction proceeds, the rate of complex formation gradually decreases, and decomposition accelerates, reaching equilibrium at a certain point with a constant concentration of complexes.</li>
+<li>The substrate concentration is uniformly distributed within the cell and is not affected by enzyme enrichment.</li>
+<li>The enzyme concentration is sufficiently large.</li>
+</ol>
+</div>
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
+  <h2 id="parameters">Parameters</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Parameter</th>
+<th align="center">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">c</span></span></span></span></span></td>
+<td align="center">concentration at a certain point</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.61508em; vertical-align: 0em;"></span><span class="mord mathnormal">t</span></span></span></span></span></td>
+<td align="center">time</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">M</span></span></span></span></span></td>
+<td align="center">mobility</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span></span></span></span></span></td>
+<td align="center">total free energy</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msqrt><mi>γ</mi></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{\gamma}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.04em; vertical-align: -0.33694em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.70306em;"><span class="svg-align" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="mord" style="padding-left: 0.833em;"><span class="mord mathnormal" style="margin-right: 0.05556em;">γ</span></span></span><span class="" style="top: -2.66306em;"><span class="pstrut" style="height: 3em;"></span><span class="hide-tail" style="min-width: 0.853em; height: 1.08em;"><svg width="400em" height="1.08em" viewBox="0 0 400000 1080" preserveAspectRatio="xMinYMin slice"><path d="M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z"></path></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.33694em;"><span class=""></span></span></span></span></span></span></span></span></span></td>
+<td align="center">the length of the transition regions between the domains</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>S</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[S]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right: 0.05764em;">S</span><span class="mclose">]</span></span></span></span></span></td>
+<td align="center">the substrate concentration</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>P</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[P]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span class="mclose">]</span></span></span></span></span></td>
+<td align="center">the product concentration</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{max}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.151392em;"><span class="" style="top: -2.55em; margin-left: -0.22222em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">ma</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span></td>
+<td align="center">the maximum reaction rate</td>
+</tr>
+<tr>
+<td align="center"><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>E</mi><msub><mo stretchy="false">]</mo><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">[E]_t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right: 0.05764em;">E</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.280556em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span></td>
+<td align="center">the total enzyme concentration</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 <!-- DO NOT TOUCH THE END BELOW-->
