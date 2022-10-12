@@ -178,7 +178,9 @@ hr{
 }
 #reasons2{
     margin-top: 30%;
-    margin-bottom: -20%;
+    margin-bottom: 20%;
+    min-width: 400px;
+    width: 40vw;
 }
 #reasons2 .reasons_word{
     margin-top: 8%;
