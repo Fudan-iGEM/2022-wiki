@@ -123,6 +123,7 @@ tr:hover {
 #landingpage ul{
     padding-left: 8%;
     overflow: auto;
+    width: 100%;
 }
 #landingpage.close ul{
     overflow: visible;
