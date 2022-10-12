@@ -162,10 +162,6 @@ hr{
 .reasons_word{
     background-color: #0c4128;
     color: white;
-}
-.reasons_word{
-    background-color: #0c4128;
-    color: white;
     font-size: 4rem;
     font-weight: 200;
 }
@@ -178,9 +174,7 @@ hr{
 }
 #reasons2{
     margin-top: 30%;
-    margin-bottom: 20%;
-    min-width: 400px;
-    width: 40vw;
+    margin-bottom: -20%;
 }
 #reasons2 .reasons_word{
     margin-top: 8%;
@@ -199,6 +193,7 @@ hr{
 #reasons4 .reasons_word{
     margin-top: 8%;
 }
+
 @media(max-width: 767px){
     #reasons1{
     margin-top: 30vh;
