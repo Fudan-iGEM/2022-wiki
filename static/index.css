@@ -207,6 +207,7 @@ tr:hover {
 #landingpage.close li:hover .submenu{
     top: -10px;
     opacity: 1;
+    width: 300%;
     pointer-events: auto;
     transition: all 0.4s ease;
 }
@@ -215,6 +216,7 @@ tr:hover {
 }
 #landingpage.close li .submenu .linkname{
     display: block;
+    opacity: 1;
 }
 #landingpage.close li .submenu .linkname{
     font-size: 1.2rem;
