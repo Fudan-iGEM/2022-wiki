@@ -110,6 +110,18 @@ hr{
     .health_words{
         width: 90vw;
     }
+    #health_words1{
+        margin-left: 8vw;
+        margin-top: 5vh;
+    }
+    #health_words2{
+        margin-left: 5vw;
+        margin-top: -1vh;
+    }
+    #health_words3{
+        margin-left: 7vw;
+        margin-top: -1vh;
+    }
 }
 @media (max-width: 1400px) {
     .health_words{
