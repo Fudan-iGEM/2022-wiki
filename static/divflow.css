@@ -92,7 +92,7 @@ hr{
 }
 @media(max-width: 767px){
     #mask1{
-        margin-top: 3%;
+        margin-top: 70%;
         display: flex;
         width: 60%vw;
         margin-left: 10%;
@@ -103,6 +103,9 @@ hr{
         display: block;
         color: white;
         margin-top: 50%;
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 #routes{
@@ -162,6 +165,11 @@ hr{
     font-size: 4rem;
     font-weight: 200;
 }
+@media(max-width: 767px){
+    .reasons_word{
+        font-size: 1.5rem;
+    }
+}
 #reasons1{
     margin-top: 10%;
 }
@@ -191,6 +199,38 @@ hr{
     margin-top: 0;
     margin-left: 50vw;
 
+}
+@media(max-width: 767px){
+    #reasons1{
+    margin-top: 10%;
+}
+#reasons1 .reasons_word{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#reasons2{
+    width: 30vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 5vw;
+}
+#reasons1{
+    margin-top: 10%;
+}
+#reasons3 .reasons_word{
+    margin-top: 50%;
+    margin-left: 3%;
+    margin-bottom: -60%;
+}
+#reasons4{
+    width: 40vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 50vw;
+
+}
 }
 .women_men_word{
     background-color: #0c4128;
