@@ -337,11 +337,11 @@ hr{
     }
     #reasons1{
         margin-top: 30vh;
-        margin-left: 10vw;
+        margin-left: 5vw;
     }
     #reasons1 .reasons_word{
         margin-top: 5%;
-        width: 60vw;
+        width: 90vw;
     }
     #reasons2{
         width: 60vw;
@@ -352,7 +352,7 @@ hr{
     }
     #reasons3{
         margin-right: 10vw;
-        margin-left: -20vw;
+        margin-left: -75vw;
         margin-top: 60vh;
     }
     #reasons3 .reasons_word{
