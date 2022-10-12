@@ -90,6 +90,7 @@ hr{
     color: white;
     font-weight: 200;
     padding: 25px;
+    opacity: 0.7;
 }
 #health_words1{
     margin-left: 8vw;
@@ -316,6 +317,7 @@ hr{
     background-color: #598364;
     color: white;
     font-weight: 200;
+    opacity: 0.7;
 }
 #reasons1{
     margin-top: 5%;
@@ -394,6 +396,7 @@ hr{
     background-color: #598364;
     color: white;
     font-weight: 200;
+    opacity: 0.7;
 }
 #women_men1{
     margin-top: 30vw;
@@ -430,7 +433,7 @@ hr{
     width: 60%;
 }
 #women_men5{
-    margin-top: 45%;
+    margin-top: 40%;
     margin-left: -74%;
 }
 #women_men5 .women_men_word{
@@ -484,6 +487,7 @@ hr{
     background-color: #598364;
     color: white;
     font-weight: 200;
+    opacity: 0.7;
 }
 #ideas1{
     width: 30vw;
