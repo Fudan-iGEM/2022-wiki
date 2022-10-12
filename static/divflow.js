@@ -16,6 +16,8 @@ const controller7 = new ScrollMagic.Controller();
 
 tl1.from('#mask1', 1, { y: 200, opacity: 0 });
 tl1.from('#mask2', 1, { y: 300, opacity: 0 });
+tl1.from('#mask3', 1, { y: 200, opacity: 0 });
+tl1.from('#mask4', 1, { y: 300, opacity: 0 });
 
 tl2.from('#route_word1', 1, { y: 600, opacity: 0 });
 tl2.from('#route_word2', 1, { y: 400, opacity: 0 });
@@ -30,11 +32,16 @@ tl4.from('#women_men1', 1, { x: -300, opacity: 0})
 tl4.from('#women_men2', 1, { x: -300, opacity: 0})
 tl4.from('#women_men3', 1, { x: 300, opacity: 0})
 tl4.from('#women_men4', 1, { x: 300, opacity: 0})
+tl5.from('#women_men5', 1, { x: -200, opacity: 0})
 
 tl5.from('#ideas1', 1, { x: -300, opacity: 0})
 tl5.from('#ideas2', 1, { x: -300, opacity: 0})
 tl5.from('#ideas3', 1, { x: 300, opacity: 0})
 tl5.from('#ideas4', 1, { x: 300, opacity: 0})
+
+tl6.from('#health_word1', 1, { y: -200, opacity: 0 });
+tl6.from('#health_word2', 1, { y: -400, opacity: 0 });
+tl6.from('#health_word3', 1, { y: -600, opacity: 0 });
 
 
 const scene1 = new ScrollMagic.Scene({
@@ -81,26 +88,7 @@ const scene5 = new ScrollMagic.Scene({
     .setPin("#ideas")
     .setTween(tl5)
     .addTo(controller5);
-// wait for document ready
-// init
-var controller = new ScrollMagic.Controller();
 
-// define movement of panels
-var wipeAnimation = new TimelineMax()
-    // animate to second panel
-    .to("#slidecontainer", 0.5, {z: -150})		// move back in 3D space
-    .to("#slidecontainer", 1,   {x: "-50%"})	// move in to first panel
-    .to("#slidecontainer", 0.5, {z: 0})				// move back to origin in 3D space;
-
-// create scene to pin and link animation
-new ScrollMagic.Scene({
-    triggerElement: "#pincontainer",
-    triggerHook: "onLeave",
-    duration: "500%"
-})
-    .setPin("#pincontainer")
-    .setTween(wipeAnimation)
-    .addTo(controller);
 
 function updatePercentage() {
     //percent.innerHTML = (tl.progress() *100 ).toFixed();
@@ -109,4 +97,5 @@ function updatePercentage() {
     tl3.progress();
     tl4.progress();
     tl5.progress();
+    tl6.progress();
 }
