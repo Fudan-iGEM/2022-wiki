@@ -39,9 +39,9 @@ tl5.from('#ideas2', 1, { x: -300, opacity: 0})
 tl5.from('#ideas3', 1, { x: 300, opacity: 0})
 tl5.from('#ideas4', 1, { x: 300, opacity: 0})
 
-tl6.from('#health_word1', 1, { y: -200, opacity: 0 });
-tl6.from('#health_word2', 1, { y: -400, opacity: 0 });
-tl6.from('#health_word3', 1, { y: -600, opacity: 0 });
+tl6.from('#health_words1', 1, { y: -200, opacity: 0 });
+tl6.from('#health_words2', 1, { y: -400, opacity: 0 });
+tl6.from('#health_words3', 1, { y: -600, opacity: 0 });
 
 
 const scene1 = new ScrollMagic.Scene({
@@ -88,6 +88,15 @@ const scene5 = new ScrollMagic.Scene({
     .setPin("#ideas")
     .setTween(tl5)
     .addTo(controller5);
+    
+const scene6 = new ScrollMagic.Scene({
+    triggerElement: "#data",
+    triggerHook: "onLeave",
+    duration: "100%"
+})
+    .setPin("#data")
+    .setTween(tl6)
+    .addTo(controller6);
 
 
 function updatePercentage() {
