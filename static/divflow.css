@@ -266,6 +266,9 @@ hr{
     margin-top: 8%;
 }
 @media(max-width: 767px){
+    .women_men_word{
+        font-size: 1.3rem !important;
+    }
     #women_men1{
     margin-top: 10vh;
     margin-left: 15vw;
