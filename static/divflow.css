@@ -337,34 +337,34 @@ hr{
     margin-top: 8%;
 }
 @media(max-width: 767px){
-    .women_men_word{
+    .ideas_word{
         font-size: 1.3rem !important;
     }
-    #women_men1{
+    #ideas1{
     margin-top: 10vh;
     margin-left: 15vw;
 }
-#women_men1 .women_men_word{
+#ideas1 .ideas_word{
     margin-top: 5%;
     margin-left: 5%;
 }
-#women_men2{
+#ideas2{
     width: 60vw;
     min-width: auto;
     position: absolute;
     margin-top: 50vh;
     margin-left: 5vw;
 }
-#women_men3{
+#ideas3{
     margin-left: 5vw;
     margin-top: 60vh;
 }
-#women_men3 .women_men_word{
+#ideas3 .ideas_word{
     margin-top: 50%;
     margin-left: 3%;
     margin-bottom: -60%;
 }
-#women_men4{
+#ideas4{
     width: 80vw;
     min-width: auto;
     position: absolute;
