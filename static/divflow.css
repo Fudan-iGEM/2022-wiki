@@ -163,7 +163,40 @@ hr{
     background-color: #0c4128;
     color: white;
 }
-
+.reasons_word{
+    background-color: #0c4128;
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+}
+#reasons1{
+    width: 30vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+#reasons2{
+    margin-top: 30%;
+    margin-bottom: -20%;
+}
+#reasons2 .reasons_word{
+    margin-top: 8%;
+}
+#reasons3{
+    width: 40vw;
+    min-width: 400px;
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 52vw;
+}
+#reasons4{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#reasons4 .reasons_word{
+    margin-top: 8%;
+}
 @media(max-width: 767px){
     #reasons1{
     margin-top: 30vh;
