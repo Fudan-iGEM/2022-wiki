@@ -239,6 +239,7 @@ tr:hover {
     position: fixed;
     top: 10%;
     left: 20%;
+    transition: all 0.7s ease;
 }
 #hide-button{
     background-color: #598364;
@@ -246,6 +247,7 @@ tr:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: all 0.7s ease;
 }
 #hide-button #close-sidebar{
     width: 20px;
@@ -254,6 +256,7 @@ tr:hover {
     background-position: center;
     background-size: cover;
     transform: rotate(90deg);
+    transition: all 0.7s ease;
 }
 #landingpage.close ~ #close-section{
     left: 10%;
