@@ -69,7 +69,7 @@ hr{
 }
 
 #mask1{
-    margin-top: 300px;
+    margin-top: 30%;
     display: block;
     max-height: 100%;
     position: absolute;
@@ -132,14 +132,14 @@ hr{
     width: 30vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 75vh;
+    margin-top: 60vh;
     margin-left: 5vw;
 }
 #reasons1{
     margin-top: 10%;
 }
 #reasons3 .reasons_word{
-    margin-top: 68%;
+    margin-top: 58%;
     margin-right: 3%;
     margin-bottom: -60%;
 }
@@ -175,7 +175,7 @@ hr{
     width: 40vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 55vh;
     margin-left: 52vw;
 }
 #women_men4{
@@ -209,7 +209,7 @@ hr{
     width: 40vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 55vh;
     margin-left: 52vw;
 }
 #ideas4{
