@@ -207,6 +207,7 @@ tr:hover {
 #landingpage.close li:hover .submenu{
     top: -10px;
     opacity: 1;
+    width: 300%;
     pointer-events: auto;
     transition: all 0.4s ease;
 }
@@ -215,6 +216,7 @@ tr:hover {
 }
 #landingpage.close li .submenu .linkname{
     display: block;
+    opacity: 1;
 }
 #landingpage.close li .submenu .linkname{
     font-size: 1.2rem;
@@ -237,6 +239,7 @@ tr:hover {
     position: fixed;
     top: 10%;
     left: 20%;
+    transition: all 0.7s ease;
 }
 #hide-button{
     background-color: #598364;
@@ -244,6 +247,7 @@ tr:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: all 0.7s ease;
 }
 #hide-button #close-sidebar{
     width: 20px;
@@ -252,6 +256,7 @@ tr:hover {
     background-position: center;
     background-size: cover;
     transform: rotate(90deg);
+    transition: all 0.7s ease;
 }
 #landingpage.close ~ #close-section{
     left: 10%;
