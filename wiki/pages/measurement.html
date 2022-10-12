@@ -145,37 +145,45 @@
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
     <h2 id="optimization">Optimization</h2>
 <h3 id="verify-that-adjusting-rbs-intensity-promotes-metabolism">Verify that adjusting RBS intensity promotes metabolism</h3>
-<p>In our project, we used ribozyme to build our crtEBIY biobrick. With the help of self-cleaving ribozyme, self-interaction of the polycistron can be nullified and the translation of each cistron can be basically dependent on the strength of its RBS.</p>
-<p>When the RBS strength of the four enzymes in the linear reaction was consistent, the results of the protein gel map showed that the expression of upstream proteins was higher than that of downstream proteins after IPTG induction, which was not in line with our expectation of  the equal consistent  level of the four enzymes. Moreover, the system was not yellowing, indicating that we do not have the ideal product β-carotene.</p>
-<p><strong>When we weakened the RBS strength of the upstream protein and increased the RBS strength of the downstream protein</strong>, the protein map showed similar expression levels of the four enzymes, and the solution turned yellow, indicating that we had obtained β-carotene.</p>
-<p>By <strong>combining protein mapping</strong> (Figure7.proof one) with <strong>the observation of system color changes</strong> (Figure4.proof two), we could verify the conclusion that <em><strong>adjusting the RBS strength of individual mono-cistrons in the presence of ribozyme in polycistronic plasmids could promote linear reactions and bacterial metabolism</strong></em>.</p>
+<p>In our project, we used ribozyme to separate our crtEBIY biobrick when it produced <i>in vivo</i>. With the help of self-cleaving ribozyme, self-interaction of the polycistron can be avoid and the translation of each cistron should be simply dependent on the strength of its upstream RBS.</p>
+
 <p><img src="https://static.igem.wiki/teams/4162/wiki/syj/d.png" alt=""></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure7.</strong> Proof one of efficiency of ribozyme.</p>
-<h3 id="membrane-protein-detection">Membrane protein detection</h3>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 7.</strong> Proof the efficiency of ribozyme-assisted polycistronic expression.</p>
+
+<p>When the RBS strength of the four enzymes in the our linear reaction was consistent, the results on the protein gel showed that the expression of upstream proteins (crtI and crtY) was higher than that of downstream proteins (crtE and crtB) after IPTG induction, which was not in line with our expectation of the equal consistent level of the four enzymes. Althrough we use the leaky expression of the promoter, IPTG result suggests that not only RBS but also the protein sequence affects the yield. Moreover, the bacteria pellet was not yellowing, indicating that we do not have the ideal product β-carotene.</p>
+
+<p><strong>When we weakened the RBS strength of one upstream enzyme (crtY)</strong>, the protein gel (Figure 8) showed the disappear of strong crtY band, and the bacterial culture as well as the pellet turned yellow, indicating that we had obtained β-carotene. Similar result was obtained when we <a href="http://parts.igem.org/Part:BBa_K4162118" target="_blank">enhanced</a> the expression of one downstream enzyme (crtE).</p>
+
+<p><img src="http://parts.igem.org/wiki/images/thumb/8/83/T--Fudan--Hi--117.png/800px-T--Fudan--Hi--117.png.jpeg" alt=""></p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 8.</strong> IPTG(-/+) = without/with 0.2 mM IPTG for 3-6 hours, adding IPTG to a bacteria culture with OD600 0.2-0.3. M: Protein molecular weight marker ladder. Lane 1~2: pET28 plasmids encoding crtEBIY without any tag were transformed into BL21(DE3) Rosetta strain, single clones (6b) were picked for liquid LB culture. Lane 3~12: pET28 plasmids encoding crtYEBI without any tag were transformed into BL21(DE3) Hi-Control strain, single clones (Hi-7, Hi-7a, Hi-7b, Hi-7c, Hi-7d) were picked for liquid LB culture. Lane 14~17: pET28 plasmids encoding crtB, crtE, crtI, crtY without any tag were transformed into BL21(DE3) Hi-Control strain, single clones (1B1, E1, I7, Y1) were picked for liquid LB culture. Protein expression was induced in parallel cultures by IPTG. Bacterial cultures were monitored by OD600, and 5x10^7 cells were harvested by centrifugation and lysis in 1x SDS sample buffer. Equal amount (10 μL, 2x10^6 cells) of whole cell lysate were analyzed by SDS-PAGE (4~20% gradient gel, Tanon brand). Red arrows point to crtI protein. Green arrows point to crtY protein. Black arrows point to crtB protein. Yellow arrows point to crtE protein.</p>
+
+<p>By <strong>combining protein gel</strong> with <strong>the observation of culture/pellet color changes</strong>, we could verify that <em><strong>adjusting the RBS strength of individual mono-cistrons in the presence of ribozyme in polycistronic plasmids could direct linear reactions to favrite metabolite production</strong></em>.</p>
+
+<!-- h3 id="membrane-protein-detection">Membrane protein detection</h3>
 <p>Initially we chose to detect the expression level of the membrane protein BCMO in DH5α  and Hi-control BL21(DE3) by SDS-PAGE with CBB staining. However, we came to realize that it is not suitable for membrane protein expression detection, attributed to the degradation of membrane proteins as they are separated from the membrane.</p>
-<p>To detect the expression of membrane proteins without affecting their activity, we tagged a segment of fluorescent protein behind the membrane proteins sequence. In this way, <strong>it is not necessary to lyse the bacteria and destroy the protein structure, and the conclusion that BCMO is successfully expressed can be obtained by observing the fluorescent substances under the microscope.</strong></p>
+<p>To detect the expression of membrane proteins without affecting their activity, we tagged a segment of fluorescent protein behind the membrane proteins sequence. In this way, <strong>it is not necessary to lyse the bacteria and destroy the protein structure, and the conclusion that BCMO is successfully expressed can be obtained by observing the fluorescent substances under the microscope.</strong></p -->
   </div>
+
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
     <h2 id="conclusion">Summary</h2>
-<p>We integrated a series of detection methods to <strong>solve the problem that the upstream reaction failure of polycistronic plasmids in the multi-plasmid co-transformation system may lead to the failure of the downstream reaction</strong>, so that the final product can not be obtained. We divided the reaction into several steps, through <strong>stage verification</strong>, step by step <strong>error correction and optimization</strong>, so as to promote the reaction step by step,  to ensure the work efficiency of the system and get the final product. On the basis of the detection results, the reaction was optimized  by introducing <strong>ribozyme</strong>, <strong>adjusting RBS strength</strong> and other parameters, and introducing <strong>TEARS</strong>, an enzyme enrichment tool, to <strong>increase the yield for further commercial use</strong> .</p>
+<p>We integrated a series of common but robust measurements to <strong>step-by-step verify and optimze our engineered bacteria</strong>. We verify the linear reaction step by step, and employ <strong>error correction and optimization</strong>, so as to drive bacterial metabolism to the direction we designed, to ensure the efficiency of the system and get the final product. On the basis of the detection results, the reaction was optimized by <strong>adjusting RBS strength</strong> and introducing <strong>TEARS</strong>, a recent published (6) bacterial enzyme enrichment tool, to <strong>increase the yield for further commercial use</strong>.</p>
   </div>
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content4">
     <h2 id="references">References</h2>
 <ol>
-<li>
-<p>Cheich, C., Kummel, D., Soumailakakis, D., Heinemann, U. and Bussow, K. (2007) Vectors for co-expression of an unrestricted number of proteins. Nucleic Acids Res, 35, e43.</p>
+<li>Cheich, C., Kummel, D., Soumailakakis, D., Heinemann, U. and Bussow, K. (2007) Vectors for co-expression of an unrestricted number of proteins. Nucleic Acids Res, 35, e43.
 </li>
-<li>
-<p>Tan, S., Kern, R.C. and Selleck, W. (2005) The pST44 polycistronic expression system for producing protein complexes in Escherichia coli. Protein Expr Purif, 40, 385-395.</p>
+<li>Tan, S., Kern, R.C. and Selleck, W. (2005) The pST44 polycistronic expression system for producing protein complexes in Escherichia coli. Protein Expr Purif, 40, 385-395.
 </li>
-<li>
-<p>Renaud-Gabardos, E., Hantelys, F., Morfoisse, F., Chaufour, X., Garmy-Susini, B. and Prats, A.C. (2015) Internal ribosome entry site-based vectors for combined gene therapy. World J Exp Med, 5, 11-20.</p>
+<li>Renaud-Gabardos, E., Hantelys, F., Morfoisse, F., Chaufour, X., Garmy-Susini, B. and Prats, A.C. (2015) Internal ribosome entry site-based vectors for combined gene therapy. World J Exp Med, 5, 11-20.
 </li>
-<li>
-<p>Kim, K.J., Kim, H.E., Lee, K.H., Han, W., Yi, M.J., Jeong, J. and Oh, B.H. (2004) Two-promoter vector is highly efficient for overproduction of protein complexes. Protein Sci, 13, 1698-1703.</p>
+<li>Kim, K.J., Kim, H.E., Lee, K.H., Han, W., Yi, M.J., Jeong, J. and Oh, B.H. (2004) Two-promoter vector is highly efficient for overproduction of protein complexes. Protein Sci, 13, 1698-1703.
 </li>
-<li>
-<p>Jang, H. J., Yoon, S. H., Ryu, H. K., Kim, J. H., Wang, C. L., Kim, J. Y., Oh, D. K., &amp; Kim, S. W. (2011). Retinoid production using metabolically engineered Escherichia coli with a two-phase culture system. Microbial cell factories, 10, 59.</p>
+<li>Jang, H. J., Yoon, S. H., Ryu, H. K., Kim, J. H., Wang, C. L., Kim, J. Y., Oh, D. K., &amp; Kim, S. W. (2011). Retinoid production using metabolically engineered Escherichia coli with a two-phase culture system. Microbial cell factories, 10, 59.
+</li>
+<li>Spatial engineering of E. coli with addressable phase-separated RNAs.
+Guo H, Ryan JC, Song X, Mallet A, Zhang M, Pabst V, Decrulle AL, Ejsmont P, Wintermute EH, Lindner AB.
+Cell, 2022 Sep 29;185(20):3823-3837. e23.
 </li>
 </ol>
   </div>
