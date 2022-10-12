@@ -104,8 +104,9 @@ hr{
         color: white;
         margin-top: 50%;
         width: 80%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10vw;
+        margin-right: 3vw;
+        right:0
     }
 }
 #routes{
@@ -238,10 +239,10 @@ hr{
     font-weight: 200;
 }
 #women_men1{
-    width: 60vw;
-    min-width: auto;
+    width: 30vw;
+    min-width: 400px;
     position: absolute;
-    margin-top: 50vh;
+    margin-top: 5vh;
     margin-left: 5vw;
 }
 #women_men2{
@@ -252,16 +253,20 @@ hr{
     margin-top: 8%;
 }
 #women_men3{
-    width: 80vw;
-    min-width: auto;
+    width: 40vw;
+    min-width: 400px;
     position: absolute;
-    margin-top: 5vw;
-    margin-left: 10vw;
+    margin-top: 46vh;
+    margin-left: 52vw;
 }
 #women_men4{
     margin-top: 5%;
     margin-right: 5%;
 }
+#women_men4 .women_men_word{
+    margin-top: 8%;
+}
+
 #women_men4 .women_men_word{
     margin-top: 8%;
 }
