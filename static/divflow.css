@@ -112,6 +112,7 @@ hr{
         font-weight: 200;
         width: 65vw;
         padding: 25px;
+        font-size: 1rem !important;
     }
     #health_words1{
         margin-left: 8vw;
