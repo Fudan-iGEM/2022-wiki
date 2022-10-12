@@ -163,33 +163,7 @@ hr{
     background-color: #0c4128;
     color: white;
 }
-@media(max-width: 767px){
-    .reasons_word{
-        font-size: 1.5rem !important;
-    }
-}
-#reasons1{
-    margin-top: 5%;
-}
-#reasons2{
-    width: 60vw;
-    min-width: 0;
-    position: absolute;
-    margin-top: 50vh;
-    margin-left: 5vw;
-}
-#reasons3 .reasons_word{
-    margin-top: 75vh;
-    margin-left: 3%;
-}
-#reasons4{
-    width: 55vw;
-    min-width: 0;
-    position: absolute;
-    margin-top: 80vh;
-    margin-left: 5vw;
 
-}
 @media(max-width: 767px){
     #reasons1{
     margin-top: 30vh;
