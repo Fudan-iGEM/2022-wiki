@@ -334,8 +334,13 @@ footer .footermenu ul li a{
     text-decoration: none;
     color: white;
 }
-@media(max-width: 500px){
+@media(max-width: 600px){
     #landingpage{
+        display: none;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #close-section{
         display: none;
         opacity: 0;
         pointer-events: none;
