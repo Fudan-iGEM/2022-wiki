@@ -102,13 +102,6 @@ tr:hover {
     /*line-height: 3.5;*/
     font-size: 1.2rem;
 }
-@media(max-width: 500px){
-    #landingpage{
-        display: none;
-        opacity: 0;
-        pointer-events: none;
-    }
-}
 
 
 #landingpage{
@@ -236,6 +229,35 @@ tr:hover {
     top:50%;
     transform: translateY(-50%);
 }
+#close-section{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+}
+#hide-button{
+    background-color: #598364;
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#hide-button #close-sidebar{
+    width: 20px;
+    height: 20px;
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/arrow-orange.png");
+    background-position: center;
+    background-size: cover;
+    transform: rotate(90deg);
+}
+#landingpage.close ~ #hide-button{
+    left: 10%;
+}
+#landingpage.close ~ #hide-button #close-sidebar{
+    transform: rotate(270deg);
+}
 .dot-landingpage{
     color: #fff;
     display: block;
@@ -295,7 +317,13 @@ footer .footermenu ul li a{
     text-decoration: none;
     color: white;
 }
-
+@media(max-width: 500px){
+    #landingpage{
+        display: none;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
 .section h1,h2,h3,h4,h5,h6 {
     font-family: Cinzel-medium,serif !important;
 }
