@@ -96,12 +96,13 @@ hr{
         display: flex;
         width: 60%vw;
         margin-left: 10%;
+        min-width: auto;
     }
     #mask2{
         position: relative;
         display: block;
         color: white;
-        margin-top: 20%;
+        margin-top: 50%;
     }
 }
 #routes{
