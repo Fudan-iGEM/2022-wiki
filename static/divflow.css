@@ -167,19 +167,15 @@ hr{
 }
 @media(max-width: 767px){
     .reasons_word{
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
 }
 #reasons1{
-    margin-top: 10%;
-}
-#reasons1 .reasons_word{
     margin-top: 5%;
-    margin-left: 5%;
 }
 #reasons2{
-    width: 30vw;
-    min-width: 400px;
+    width: 60vw;
+    min-width: auto;
     position: absolute;
     margin-top: 50vh;
     margin-left: 5vw;
@@ -202,7 +198,7 @@ hr{
 }
 @media(max-width: 767px){
     #reasons1{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 #reasons1 .reasons_word{
     margin-top: 5%;
