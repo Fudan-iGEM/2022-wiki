@@ -70,7 +70,13 @@ hr{
     opacity: 60%;
     max-width: 100%;
     max-height: 100%;
-}@media(min-width: 1400px){
+}
+@media(max-width: 767px){
+    #logo{
+        margin-top: 50%;
+    }
+}
+@media(min-width: 1400px){
     #data{
     height: 90vh;
 }
@@ -210,7 +216,7 @@ hr{
 }
 @media(max-width: 767px){
     #mask1{
-        margin-top: 10%;
+        margin-top: 24%;
         display: flex;
         width: 60vw;
         margin-left: 10%;
@@ -230,7 +236,7 @@ hr{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 60%;
+    margin-top: 70%;
     max-width: 500px;
     right: 5%;
     width: 70vw;
@@ -239,7 +245,7 @@ hr{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 80%;
+    margin-top: 120%;
     max-width: 500px;
     right: 9%;
     width: 80vw;
