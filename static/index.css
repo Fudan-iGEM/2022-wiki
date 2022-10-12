@@ -233,7 +233,9 @@ tr:hover {
     justify-content: center;
     align-items: center;
     display: block;
-    position: relative;
+    position: fixed;
+    top: 10%;
+    left: 20%;
 }
 #hide-button{
     background-color: #598364;
