@@ -103,26 +103,7 @@ hr{
     margin-left: 20vw;
     margin-top: 2vh;
 }
-@media (max-width: 767px) {
-    #data{
-        height: 130vh;
-    }
-    .health_words{
-        width: 90vw !important;
-    }
-    #health_words1{
-        margin-left: 8vw  !important;
-        margin-top: 5vh  !important;
-    }
-    #health_words2{
-        margin-left: 5vw  !important;
-        margin-top: -1vh  !important;
-    }
-    #health_words3{
-        margin-left: 7vw  !important;
-        margin-top: -1vh  !important;
-    }
-}
+
 @media (max-width: 1400px) {
     .health_words{
         background-color: #598364;
@@ -145,7 +126,26 @@ hr{
         margin-top: 4vh;
     }
 }
-
+@media (max-width: 767px) {
+    #data{
+        height: 130vh;
+    }
+    .health_words{
+        width: 90vw;
+    }
+    #health_words1{
+        margin-left: 8vw;
+        margin-top: 5vh;
+    }
+    #health_words2{
+        margin-left: 5vw;
+        margin-top: -1vh;
+    }
+    #health_words3{
+        margin-left: 7vw;
+        margin-top: -1vh;
+    }
+}
 
 #masks{
     background-color: #598364;
