@@ -236,6 +236,7 @@ tr:hover {
     border-radius: 10px 10px 10px 10px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 #hide-button #close-sidebar{
     width: 20px;
