@@ -97,7 +97,7 @@ menu.addEventListener("touchend", mouseUp);
 
 toggle.addEventListener("click", (e) =>{
     if (oldpositionx === menu.style.left&&
-    oldpositiony === menu.style.top){
+        oldpositiony === menu.style.top){
         if (menuitem.classList.contains('active')) {
 
 

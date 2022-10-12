@@ -1,10 +1,10 @@
-const tl1 = new TimelineMax({onUpdate:updatePercentage});
-const tl2 = new TimelineMax({onUpdate:updatePercentage});
-const tl3 = new TimelineMax({onUpdate:updatePercentage});
-const tl4 = new TimelineMax({onUpdate:updatePercentage});
-const tl5 = new TimelineMax({onUpdate:updatePercentage});
-const tl6 = new TimelineMax({onUpdate:updatePercentage});
-const tl7 = new TimelineMax({onUpdate:updatePercentage});
+let tl1 = new TimelineMax({onUpdate: updatePercentage});
+let tl2 = new TimelineMax({onUpdate: updatePercentage});
+let tl3 = new TimelineMax({onUpdate: updatePercentage});
+let tl4 = new TimelineMax({onUpdate: updatePercentage});
+let tl5 = new TimelineMax({onUpdate: updatePercentage});
+let tl6 = new TimelineMax({onUpdate: updatePercentage});
+let tl7 = new TimelineMax({onUpdate: updatePercentage});
 
 const controller1 = new ScrollMagic.Controller();
 const controller2 = new ScrollMagic.Controller();
@@ -14,12 +14,12 @@ const controller5 = new ScrollMagic.Controller();
 const controller6 = new ScrollMagic.Controller();
 const controller7 = new ScrollMagic.Controller();
 
-tl1.from('#mask1', 0.5, { y: -200, opacity: 0 });
-tl1.from('#mask2', 1, { y: -300, opacity: 0 }, '=-.5');
+tl1.from('#mask1', 1, { y: 200, opacity: 0 });
+tl1.from('#mask2', 1, { y: 300, opacity: 0 });
 
-tl2.from('#route_word1', 1, { y: -600, opacity: 0 });
-tl2.from('#route_word2', 1, { x: -400, opacity: 0 });
-tl2.from('#route_word3', 1, { x: -200, opacity: 0 });
+tl2.from('#route_word1', 1, { y: 600, opacity: 0 });
+tl2.from('#route_word2', 1, { y: 400, opacity: 0 });
+tl2.from('#route_word3', 1, { y: 200, opacity: 0 });
 
 tl3.from('#reasons1', 1, { x: -300, opacity: 0})
 tl3.from('#reasons2', 1, { x: -300, opacity: 0})
@@ -38,20 +38,20 @@ tl5.from('#ideas4', 1, { x: 300, opacity: 0})
 
 
 const scene1 = new ScrollMagic.Scene({
-    triggerElement: "#mask",
+    triggerElement: "#masks",
     triggerHook: "onLeave",
     duration: "100%"
 })
-    .setPin("#mask")
+    .setPin("#masks")
     .setTween(tl1)
-        .addTo(controller1);
+    .addTo(controller1);
 
 const scene2 = new ScrollMagic.Scene({
-    triggerElement: "#route_word",
+    triggerElement: "#routes",
     triggerHook: "onLeave",
     duration: "100%"
 })
-    .setPin("#route_word")
+    .setPin("#routes")
     .setTween(tl2)
     .addTo(controller2);
 
@@ -81,25 +81,32 @@ const scene5 = new ScrollMagic.Scene({
     .setPin("#ideas")
     .setTween(tl5)
     .addTo(controller5);
-    
-$(function () { // wait for document ready
-		// init
-		var controller = new ScrollMagic.Controller();
+// wait for document ready
+// init
+var controller = new ScrollMagic.Controller();
 
-		// define movement of panels
-		var wipeAnimation = new TimelineMax()
-			// animate to second panel
-			.to("#slidecontainer", 0.5, {z: -150})		// move back in 3D space
-			.to("#slidecontainer", 1,   {x: "-50%"})	// move in to first panel
-			.to("#slidecontainer", 0.5, {z: 0})				// move back to origin in 3D space;
+// define movement of panels
+var wipeAnimation = new TimelineMax()
+    // animate to second panel
+    .to("#slidecontainer", 0.5, {z: -150})		// move back in 3D space
+    .to("#slidecontainer", 1,   {x: "-50%"})	// move in to first panel
+    .to("#slidecontainer", 0.5, {z: 0})				// move back to origin in 3D space;
 
-		// create scene to pin and link animation
-		new ScrollMagic.Scene({
-				triggerElement: "#pincontainer",
-				triggerHook: "onLeave",
-				duration: "500%"
-			})
-			.setPin("#pincontainer")
-			.setTween(wipeAnimation)
-			.addTo(controller);
-	});
+// create scene to pin and link animation
+new ScrollMagic.Scene({
+    triggerElement: "#pincontainer",
+    triggerHook: "onLeave",
+    duration: "500%"
+})
+    .setPin("#pincontainer")
+    .setTween(wipeAnimation)
+    .addTo(controller);
+
+function updatePercentage() {
+    //percent.innerHTML = (tl.progress() *100 ).toFixed();
+    tl1.progress();
+    tl2.progress();
+    tl3.progress();
+    tl4.progress();
+    tl5.progress();
+}

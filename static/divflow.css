@@ -2,6 +2,8 @@ body{
     margin: 0;
     overflow-x: hidden;
     background-color: #f4efd1;
+    border: 0;
+    box-sizing: border-box;
 }
 section{
     font-size: 2rem;
@@ -17,21 +19,35 @@ section{
     height: 130vh;
     width: 100vw;
     display: flex;
+    box-sizing: border-box;
+    position: relative;
 }
 
 hr{
     height: 5px !important;
     background-color: #0c4128;
-    border: 0;
-    margin: 0;
+    border: 0 !important;
+    margin: 0 !important;
 }
 
 #heading{
-    background-image: url("heading.jpg");
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/home-page.png");
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+#circle1{
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/yuantubiao.png");
     background-position: center;
     background-size: cover;
     text-align: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 20vw;
 }
 #rester{
     display: flex;
@@ -44,18 +60,16 @@ hr{
 
 }
 #logo{
-    opacity: 60%;    
+    opacity: 60%;
     max-width: 100%;
     max-height: 100%;
 }
 #masks{
     background-color: #0c4128;
 }
-#mask{
 
-}
 #mask1{
-    margin-top: 500px;
+    margin-top: 300px;
     display: block;
     max-height: 100%;
     position: absolute;
@@ -69,7 +83,7 @@ hr{
     max-width: 500px;
     right: 5%;
 }
-#route{
+#routes{
     color: black;
     font-size: 3rem;
     height: 100vh;
