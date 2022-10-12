@@ -168,7 +168,7 @@ hr{
 }
 @media(max-width: 767px){
     #mask1{
-        margin-top: 70%;
+        margin-top: 10%;
         display: flex;
         width: 60vw;
         margin-left: 10%;
@@ -178,12 +178,30 @@ hr{
         position: relative;
         display: block;
         color: white;
-        margin-top: 50%;
+        margin-top: 30%;
         width: 80%;
         margin-left: 10vw;
         margin-right: 3vw;
         right:0
     }
+    #mask3{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 60%;
+    max-width: 500px;
+    right: 5%;
+    width: 70vw;
+}
+#mask4{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 80%;
+    max-width: 500px;
+    right: 9%;
+    width: 80vw;
+}
 }
 #routes{
     color: black;
