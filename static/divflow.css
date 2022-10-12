@@ -69,11 +69,11 @@ hr{
 }
 
 #mask1{
-    margin-top: 15%;
+    margin-top: 10%;
     display: block;
     max-height: 100%;
     position: absolute;
-    min-width: 750px;
+    min-width: 700px;
 }
 #mask2{
     position: absolute;
