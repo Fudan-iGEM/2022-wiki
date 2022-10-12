@@ -81,16 +81,7 @@ const scene5 = new ScrollMagic.Scene({
     .setPin("#ideas")
     .setTween(tl5)
     .addTo(controller5);
-
-const scene5 = new ScrollMagic.Scene({
-    triggerElement: "#animation4",
-    triggerHook: "onLeave",
-    duration: "100%"
-})
-    .setPin("#animation4")
-    .setTween(tl5)
-    .addTo(controller5);
-
+    
 $(function () { // wait for document ready
 		// init
 		var controller = new ScrollMagic.Controller();
