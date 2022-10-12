@@ -162,8 +162,6 @@ hr{
 .reasons_word{
     background-color: #0c4128;
     color: white;
-    font-size: 4rem;
-    font-weight: 200;
 }
 @media(max-width: 767px){
     .reasons_word{
@@ -180,20 +178,16 @@ hr{
     margin-top: 50vh;
     margin-left: 5vw;
 }
-#reasons1{
-    margin-top: 10%;
-}
 #reasons3 .reasons_word{
-    margin-top: 50%;
+    margin-top: 75vh;
     margin-left: 3%;
-    margin-bottom: -60%;
 }
 #reasons4{
-    width: 40vw;
-    min-width: 400px;
+    width: 55vw;
+    min-width: auto;
     position: absolute;
-    margin-top: 0;
-    margin-left: 50vw;
+    margin-top: 80vh;
+    margin-left: 5vw;
 
 }
 @media(max-width: 767px){
