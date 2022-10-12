@@ -7,7 +7,7 @@ body{
 }
 
 section{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 @media(max-width: 767px){
     section{
@@ -71,6 +71,59 @@ hr{
     max-width: 100%;
     max-height: 100%;
 }
+#data{
+    height: 90vh;
+}
+.health_words{
+    width: 40vw;
+    background-color: #0c4128;
+    color: white;
+    font-weight: 200;
+    padding: 25px;
+}
+#health_words1{
+    margin-left: 8vw;
+    margin-top: 5vh;
+}
+#health_words2{
+    margin-left: 40vw;
+    margin-top: 8vh;
+}
+#health_words3{
+    margin-left: 20vw;
+    margin-top: 4vh;
+}
+@media (max-width: 600px) {
+    #data{
+        height: 130vh;
+    }
+    .health_words{
+        width: 70vw;
+    }
+}
+@media (max-width: 1400px) {
+    .health_words{
+        background-color: #0c4128;
+        color: white;
+        font-weight: 200;
+        width: 45vw;
+        padding: 25px;
+    }
+    #health_words1{
+        margin-left: 8vw;
+        margin-top: 5vh;
+    }
+    #health_words2{
+        margin-left: 40vw;
+        margin-top: 8vh;
+    }
+    #health_words3{
+        margin-left: 20vw;
+        margin-top: 4vh;
+    }
+}
+
+
 #masks{
     background-color: #0c4128;
 }
@@ -86,7 +139,23 @@ hr{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 20%;
+    max-width: 500px;
+    margin-top: 10%;
+    left: 5%;
+}
+#mask3{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 15%;
+    max-width: 500px;
+    right: 5%;
+}
+#mask4{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 40%;
     max-width: 500px;
     right: 5%;
 }
@@ -94,7 +163,7 @@ hr{
     #mask1{
         margin-top: 70%;
         display: flex;
-        width: 60%vw;
+        width: 60vw;
         margin-left: 10%;
         min-width: auto;
     }
@@ -160,15 +229,16 @@ hr{
 .reasons_word{
     background-color: #0c4128;
     color: white;
-    font-size: 4rem;
     font-weight: 200;
 }
 #reasons1{
     margin-top: 10%;
 }
 #reasons1 .reasons_word{
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 30vw;
+    padding: 15px;
 }
 #reasons2{
     width: 30vw;
@@ -177,13 +247,15 @@ hr{
     margin-top: 50vh;
     margin-left: 5vw;
 }
-#reasons1{
+#reasons3{
     margin-top: 10%;
 }
 #reasons3 .reasons_word{
     margin-top: 50%;
     margin-right: 8%;
     margin-bottom: -40%;
+    padding: 15px;
+    width: 50vw;
 }
 #reasons4{
     width: 40vw;
@@ -199,66 +271,68 @@ hr{
         font-size: 1.3rem !important;
     }
     #reasons1{
-    margin-top: 30vh;
-    margin-left: 10vw;
-}
-#reasons1 .reasons_word{
-    margin-top: 5%;
-    margin-left: 5%;
-}
-#reasons2{
-    width: 60vw;
-    min-width: auto;
-    position: absolute;
-    margin-top: 50vh;
-    margin-left: 5vw;
-}
-#reasons3{
-    margin-right: 10vw;
-    margin-left: -20vw;
-    margin-top: 60vh;
-}
-#reasons3 .reasons_word{
-    margin-top: 50%;
-    margin-left: 3%;
-    margin-bottom: -60%;
-}
-#reasons4{
-    width: 80vw;
-    min-width: auto;
-    position: absolute;
-    margin-top: 5vw;
-    margin-left: 10vw;
+        margin-top: 30vh;
+        margin-left: 10vw;
+    }
+    #reasons1 .reasons_word{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #reasons2{
+        width: 60vw;
+        min-width: auto;
+        position: absolute;
+        margin-top: 50vh;
+        margin-left: 5vw;
+    }
+    #reasons3{
+        margin-right: 10vw;
+        margin-left: -20vw;
+        margin-top: 60vh;
+    }
+    #reasons3 .reasons_word{
+        margin-top: 50%;
+        margin-left: 3%;
+        margin-bottom: -60%;
+    }
+    #reasons4{
+        width: 80vw;
+        min-width: auto;
+        position: absolute;
+        margin-top: 5vw;
+        margin-left: 10vw;
 
-}
+    }
 }
 .women_men_word{
     background-color: #0c4128;
     color: white;
-    font-size: 4rem;
     font-weight: 200;
 }
 #women_men1{
+    margin-top: 30vw;
+    margin-left: 5vw;
+
+}
+#women_men2{
     width: 30vw;
     min-width: 400px;
     position: absolute;
     margin-top: 5vh;
     margin-left: 5vw;
 }
-#women_men2{
-    margin-top: 30%;
-    margin-bottom: -20%;
-}
-#women_men2 .women_men_word{
+#women_men1 .women_men_word{
     margin-top: 8%;
     margin-left: 6%;
+    width: 30vw;
 }
 #women_men3{
-    width: 40vw;
+    width: 50vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 46vh;
+    margin-top: 30vh;
     margin-left: 52vw;
+    max-width: 570px;
 }
 #women_men4{
     margin-top: 5%;
@@ -266,52 +340,56 @@ hr{
 }
 #women_men4 .women_men_word{
     margin-top: 8%;
+    width: 60%;
+}
+#women_men5{
+    margin-top: 55%;
+    margin-left: -100%;
+}
+#women_men5 .women_men_word{
+    width: 50%;
 }
 
-#women_men4 .women_men_word{
-    margin-top: 8%;
-}
 @media(max-width: 767px){
     .women_men_word{
         font-size: 1.3rem !important;
     }
     #women_men1{
-    margin-top: 10vh;
-    margin-left: 15vw;
-}
-#women_men1 .women_men_word{
-    margin-top: 5%;
-    margin-left: 5%;
-}
-#women_men2{
-    width: 60vw;
-    min-width: auto;
-    position: absolute;
-    margin-top: 50vh;
-    margin-left: 5vw;
-}
-#women_men3{
-    margin-left: 5vw;
-    margin-top: 60vh;
-}
-#women_men3 .women_men_word{
-    margin-top: 50%;
-    margin-left: 3%;
-    margin-bottom: -60%;
-}
-#women_men4{
-    width: 80vw;
-    min-width: auto;
-    position: absolute;
-    margin-top: 65vw;
-    margin-left: 10vw;
+        margin-top: 10vh;
+        margin-left: 15vw;
+    }
+    #women_men1 .women_men_word{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #women_men2{
+        width: 60vw;
+        min-width: auto;
+        position: absolute;
+        margin-top: 50vh;
+        margin-left: 5vw;
+    }
+    #women_men3{
+        margin-left: 5vw;
+        margin-top: 60vh;
+    }
+    #women_men3 .women_men_word{
+        margin-top: 50%;
+        margin-left: 3%;
+        margin-bottom: -60%;
+    }
+    #women_men4{
+        width: 80vw;
+        min-width: auto;
+        position: absolute;
+        margin-top: 65vw;
+        margin-left: 10vw;
 
-}
+    }
 }
 .ideas_word{
     background-color: #0c4128;
     color: white;
-    font-size: 4rem;
     font-weight: 200;
 }
 #ideas1{
@@ -322,7 +400,7 @@ hr{
     margin-left: 5vw;
 }
 #ideas2{
-    margin-top: 30%;
+    margin-top: 40%;
     margin-bottom: -20%;
     margin-left: 6%;
 }
@@ -335,6 +413,7 @@ hr{
     position: absolute;
     margin-top: 52vh;
     margin-left: 52vw;
+    max-width: 570px;
 }
 #ideas4{
     margin-top: 5%;
@@ -348,49 +427,69 @@ hr{
         font-size: 1.3rem !important;
     }
     #ideas1{
-    margin-top: 10vh;
-    margin-left: 15vw;
-}
-#ideas1 .ideas_word{
-    margin-top: 5%;
-    margin-left: 5%;
-}
-#ideas2{
-    width: 60vw;
-    min-width: auto;
-    position: absolute;
-    margin-top: 50vh;
-    margin-left: 5vw;
-}
-#ideas3{
-    margin-left: 5vw;
-    margin-top: 60vh;
-}
-#ideas3 .ideas_word{
-    margin-top: 50%;
-    margin-left: 3%;
-    margin-bottom: -60%;
-}
-#ideas4{
-    width: 80vw;
-    min-width: auto;
-    position: absolute;
-    margin-top: 15vw;
-    margin-left: 10vw;
+        margin-top: 10vh;
+        margin-left: 15vw;
+    }
+    #ideas1 .ideas_word{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #ideas2{
+        width: 60vw;
+        min-width: auto;
+        position: absolute;
+        margin-top: 50vh;
+        margin-left: 5vw;
+    }
+    #ideas3{
+        margin-left: 5vw;
+        margin-top: 60vh;
+    }
+    #ideas3 .ideas_word{
+        margin-top: 50%;
+        margin-left: 3%;
+        margin-bottom: -60%;
+    }
+    #ideas4{
+        width: 80vw;
+        min-width: auto;
+        position: absolute;
+        margin-top: 15vw;
+        margin-left: 10vw;
 
+    }
 }
+#conclusion{
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 10%;
+    background-color: #0c4128;
+    color: white;
+    padding: 15px;
 }
 #pictures{
-    width: 100%;
-    height: 100%;
+    height: unset;
 }
-
 #ribozyme{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/ribozyme.jpg");
+    background-position: center;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
 }
+
 #tears{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/tears.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
 }
-#menues{
-
+@media (max-width: 767px) {
+    #ribozyme,
+    #tears{
+        height: 30vh;
+    }
 }
