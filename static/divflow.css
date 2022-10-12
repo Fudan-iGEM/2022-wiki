@@ -70,9 +70,13 @@ hr{
     opacity: 60%;
     max-width: 100%;
     max-height: 100%;
+}@media(min-width: 1400px){
+    #data{
+    height: 90vh;
+}
 }
 #data{
-    height: 90vh;
+    height: 110vh;
 }
 .health_words{
     width: 40vw;
@@ -83,22 +87,22 @@ hr{
 }
 #health_words1{
     margin-left: 8vw;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 #health_words2{
     margin-left: 40vw;
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 #health_words3{
     margin-left: 20vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     #data{
         height: 130vh;
     }
     .health_words{
-        width: 70vw;
+        width: 90vw;
     }
 }
 @media (max-width: 1400px) {
@@ -106,7 +110,7 @@ hr{
         background-color: #0c4128;
         color: white;
         font-weight: 200;
-        width: 45vw;
+        width: 65vw;
         padding: 25px;
     }
     #health_words1{
@@ -129,35 +133,38 @@ hr{
 }
 
 #mask1{
-    margin-top: 10%;
+    margin-top: 5%;
     display: block;
     max-height: 100%;
     position: absolute;
-    min-width: 700px;
+    min-width: 600px;
 }
 #mask2{
     position: absolute;
     display: block;
     color: white;
     max-width: 500px;
-    margin-top: 10%;
+    margin-top: 5%;
     left: 5%;
+    width: 30vw;
 }
 #mask3{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 15%;
+    margin-top: 10%;
     max-width: 500px;
     right: 5%;
+    width: 30vw;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 40%;
+    margin-top: 25%;
     max-width: 500px;
-    right: 5%;
+    right: 9%;
+    width: 30vw;
 }
 @media(max-width: 767px){
     #mask1{
