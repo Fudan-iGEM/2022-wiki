@@ -173,7 +173,7 @@ hr{
 }
 #reasons2{
     width: 60vw;
-    min-width: auto;
+    min-width: 0;
     position: absolute;
     margin-top: 50vh;
     margin-left: 5vw;
@@ -184,7 +184,7 @@ hr{
 }
 #reasons4{
     width: 55vw;
-    min-width: auto;
+    min-width: 0;
     position: absolute;
     margin-top: 80vh;
     margin-left: 5vw;
@@ -294,23 +294,7 @@ hr{
     width: 100%;
     height: 100%;
 }
-#pictures #pincontainer{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-#slidecontainer{
-    width: 200%;
-    height: 100%;
-}
-#slidecontainer section{
-    height: 100%;
-    width: 50%;
-    float: left;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 #ribozyme{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/ribozyme.jpg");
 }
