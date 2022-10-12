@@ -5,6 +5,11 @@ body{
     border: 0;
     box-sizing: border-box;
 }
+@media(max-width: 767px){
+    section{
+        font-size: 1rem;
+    }
+}
 section{
     font-size: 2rem;
 }
@@ -48,6 +53,7 @@ hr{
     left: 0;
     width: 20vw;
     height: 20vw;
+    opacity: 50%;
 }
 #rester{
     display: flex;
@@ -67,7 +73,20 @@ hr{
 #masks{
     background-color: #0c4128;
 }
-
+@media(max-width: 767px){
+    #mask1{
+        margin-top: 3%;
+        display: flex;
+        width: 60%vw;
+        margin-left: 10%;
+    }
+    #mask2{
+        position: relative;
+        display: block;
+        color: white;
+        margin-top: 20%;
+    }
+}
 #mask1{
     margin-top: 10%;
     display: block;
