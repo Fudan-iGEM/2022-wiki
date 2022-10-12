@@ -147,6 +147,7 @@ tr:hover {
     color: white;
     font-size: 1rem;
     transition: all 0.3s ease;
+    display: flex;
 }
 #landingpage li.showmenu ion-icon.arrow{
     transform: rotate(-180deg);
