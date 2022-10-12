@@ -587,3 +587,6 @@ hr{
         height: 30vh;
     }
 }
+#menues{
+    height: fit-content;
+}
