@@ -4,9 +4,20 @@
 {% block lead %}This page contains information about the parts created by the team.{% endblock %}
 
 {% block side_bar %}
-
-<!-- ADD HERE for SIDEBAR -->
-
+<div id="landingpage" style="width:20%">
+          <ul>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content1" href="#basic-parts">
+                <span class="linkname">Basic parts</span></a>
+              </div>
+          </li>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content1" href="#composite-parts">
+                <span class="linkname">Composite parts</span></a>
+              </div>
+          </li>
+          </ul>
+</div>
 {% endblock %}
 {% block page_content %}
 
@@ -18,11 +29,534 @@
 <!-- ADJUST PAGE CONTENT BELOW -->
 
 <div class="row">
-  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section">
-
-<p>start change here here here; if sidebar, then multiple div>div.section </p>
-
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
+<p>In our project, over sixty parts were planned and 52 were obtained. Among them, there are 10 basic parts and 42 composite parts. We have sequencing verified all parts and tested most of the parts.</p>
   </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content1">
+<h2 id="basic-parts">Basic parts</h2>
+<p>Among the 10 basic parts designed this year, <a href="http://parts.igem.org/Part:BBa_K4162005">BBa_K4162005</a> (Hammerhead Ribozyme) is our favorite one.</p>
+<p>We construct a ribozyme-assisted polycistronic co-expression system (pRAP) by inserting ribozyme sequences between CDSs in a polycistron. In the pRAP system, the RNA sequences of hammerhead ribozyme conduct self-cleaving, and the polycistronic mRNA transcript is thus co-transcriptionally converted into individual mono-cistrons <em>in vivo</em>. Self-interaction of the polycistron can be nullified and each cistron can initiate translation with comparable efficiency. Besides, we can precisely manage this co-expression system by adjusting the RBS strength of individual mono-cistrons. In our project, we used ribozyme to build our crtEBIY biobrick.</p>
+<p>For more information, please click <a href="http://parts.igem.org/Part:BBa_K4162005">BBa_K4162005: Favorite Basic Part</a>.</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
+    <h1 id="composite-parts">Composite parts</h1>
+<p>Our favorite composite parts are <a href="http://parts.igem.org/Part:BBa_K4162117">BBa_K4162117</a> and <a href="http://parts.igem.org/Part:BBa_K4162117">BBa_K4162117</a>.</p>
+<p><strong>BBa_K4162117</strong>: This biobrick was created through overlapping PCR of <a href="http://parts.igem.org/Part:BBa_K4162020">BBa_K4162020</a> (ribozyme+J6_RBS+crtY), <a href="http://parts.igem.org/Part:BBa_K4162010">BBa_K4162010</a> (ribozyme+T7_RBS+crtE), <a href="http://parts.igem.org/Part:BBa_K4162013">BBa_K4162013</a> (ribozyme+T7_RBS+crtB) and <a href="http://parts.igem.org/Part:BBa_K4162016">BBa_K4162016</a> (ribozyme+T7_RBS+crtI). In this part, the RBS of crtEBI has equal intensity while the RBS of crtY is significantly weaker than the others. Because crtY catalyzes the last step of the carotenoid reaction chain, we guess the concentration of substrate catalyzed by this enzyme is significantly lower than for the first three steps of the reaction. To avoid the problem of flux imbalance in biosynthesis as well as to reduce unnecessary metabolic stress on cells, we intentionally weakened the RBS intensity of crtY.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/cww/yebi.png" alt=""></p>
+<p><strong>Figure 1.</strong> BBa_K4162117</p>
+<p><strong>BBa_K4162118</strong>: This biobrick was created through overlapping PCR of <a href="http://parts.igem.org/Part:BBa_K4162020">BBa_K4162020</a> (ribozyme+J6_RBS+crtY), <a href="http://parts.igem.org/Part:BBa_K4162010">BBa_K4162010</a> (ribozyme+T7_RBS+crtE), <a href="http://parts.igem.org/Part:BBa_K4162013">BBa_K4162013</a> (ribozyme+T7_RBS+crtB) and <a href="http://parts.igem.org/Part:BBa_K4162016">BBa_K4162016</a> (ribozyme+T7_RBS+crtI). In this part, the RBS of crtBIY has equal intensity while the RBS of crtE is significantly stronger than the others. Since crtE catalyzes the first step of the carotenoid reaction chain, increase the concentration of product catalyzed by this enzyme is beneficial for the remaining three steps. To avoid more serious flux imbalance problems, we boosted the RBS intensity of crtE only in this biobrick and explored whether the carotenoid production of the strain could be significantly enhanced.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/cww/ebiy.png" alt=""></p>
+<p><strong>Figure 2.</strong> BBa_K4162118</p>
+<p>Figures 3 and 4 show that transfected <em>E. coli</em> successfully expressed the target enzyme and yielded beta-carotene. In Figure 3, it can be seen that module YEBI corresponds to a darker orange color of the post-centrifugation precipitation compared to module YBEI(<a href="http://parts.igem.org/Part:BBa_K4162119">BBa_K4162119</a>), characterizing the superior carotenoid yielding ability of module YEBI. As shown in Figure 4, different clones of <em>E. coli</em> transformed with the same plasmid/construct were cultured using 96-well plates. After shaking culture overnight, the plate was spin at 4500 rpm for 30 minutes and bacteria was pelleted to the bottom of the wells. There is no clonal variation, showing stable expression of the individual mono-cistrons separated by ribozyme sequences (i.e., no trucated expression nor null function protein of downstream genes due to being placed under one promoter).</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/cww/117-119.jpg" alt="117-119.jpg (3840×2160) (igem.wiki)"></p>
+<p><strong>Figure 3.</strong> The centrifuge tubes containing module crtYEBI (first from the left) and module crtYBEI <a href="http://parts.igem.org/Part:BBa_K4162119">BBa_K4162119</a> (second from the left) contain visible yellow bacterial pellet.</p>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/cww/96a-117.jpg" alt="96a-117.jpg (3840×2160) (igem.wiki)"></p>
+<p><strong>Figure 4.</strong> <strong>96-well plate of module crtYEBI.</strong> Except for the blank control well marked in black, all clones growing different wells had similar beta-carotene content in the bacterial pellet.</p>
+<p>For more information, please click <a href="http://parts.igem.org/Part:BBa_K4162117">BBa K4162117: Favorite Composite Part </a> and <a href="http://parts.igem.org/Part:BBa_K4162118">BBa K4162118: Favorite Composite Part</a>.</p>
+  </div>
+<div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th align="center">Part Name</th>
+<th align="center">Description</th>
+<th align="center">Part Type</th>
+<th align="center">Designer(s)</th>
+<th align="center">Length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162001</td>
+<td align="center">StayGold = (n2)oxStayGold(c4)v2.0</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  711 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162002</td>
+<td align="center">linker between BCMO and StayGold, hydrophobic</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  54 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162003</td>
+<td align="center">ybbO coding for retinol dehydrogenase, codon optimized for E. coli</td>
+<td align="center">Coding</td>
+<td align="center">Yujian Song</td>
+<td align="center">Length:  810 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162004</td>
+<td align="center">Gene coding for BCMO from uncultured marine bacteria</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  828 bp</td>
+</tr>
+<tr>
+<td></td>
+<td>U</td>
+<td align="center">BBa_K4162005</td>
+<td align="center">Hammerhead ribozyme</td>
+<td align="center">RNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  57 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162006</td>
+<td align="center">T7_RBS</td>
+<td align="center">RBS</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  17 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162007</td>
+<td align="center">MCP</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  336 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162008</td>
+<td align="center">tdMCP</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  690 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162009</td>
+<td align="center">ribozyme + B0_RBS + crtE</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  991 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162010</td>
+<td align="center">ribozyme + T7_RBS + crtE</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  993 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162011</td>
+<td align="center">ribozyme + J6_RBS + crtE</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  981 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162012</td>
+<td align="center">ribozyme + B0_RBS + crtB</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1012 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162013</td>
+<td align="center">ribozyme + T7_RBS + crtB</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1014 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162014</td>
+<td align="center">ribozyme + J6_RBS + crtB</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1002 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162015</td>
+<td align="center">ribozyme + B0_RBS + crtI</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1561 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162016</td>
+<td align="center">ribozyme + T7_RBS + crtI</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1563 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162017</td>
+<td align="center">ribozyme + J6_RBS + crtI</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1551 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162018</td>
+<td align="center">ribozyme + B0_RBS + crtY</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1231 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162019</td>
+<td align="center">ribozyme + T7_RBS + crtY</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1233 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162020</td>
+<td align="center">ribozyme + J6_RBS + crtY</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1221 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162021</td>
+<td align="center">ribozyme+RBS+CDS module: crtIYEB</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  4896 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162022</td>
+<td align="center">ribozyme + T7_RBS + BCMO</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  909 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162023</td>
+<td align="center">ribozyme + T7_RBS + ybbO</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  891 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162024</td>
+<td align="center">ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1800 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162025</td>
+<td align="center">ribozyme + T7_RBS + ybbO + ribozyme + T7_RBS + BCMO</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1800 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162026</td>
+<td align="center">ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2508 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162027</td>
+<td align="center">ribozyme + T7_RBS + ybbO-tdMCP</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1599 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162028</td>
+<td align="center">ribozyme + T7_RBS + ybbO-tdMCP-EGFP</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2340 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162029</td>
+<td align="center">ribozyme + T7_RBS + BCMO + ribozyme + T7_RBS + ybbO-tdMCP-EGFP</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3249 bp</td>
+</tr>
+<tr>
+<td>Deleted</td>
+<td></td>
+<td align="center">BBa_K4162030</td>
+<td align="center">(n2)oxStayGold(c4)v2.0</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  711 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162031</td>
+<td align="center">ribozyme + T7_RBS + BCMO-StayGold</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  1674 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162032</td>
+<td align="center">ribozyme + T7_RBS + BCMO-StayGold + ribozyme + T7_RBS + ybbO</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2565 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162033</td>
+<td align="center">linker between gene ybbO and tdMCP</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  18 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162034</td>
+<td align="center">linker between tdMCP and EGFP</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  18 bp</td>
+</tr>
+<tr>
+<td>Deleted</td>
+<td></td>
+<td align="center">BBa_K4162035</td>
+<td align="center">linker between BCMO and StayGold</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  54 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162101</td>
+<td align="center">ribozyme+RBS+CDS module: crtIY</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2796 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162102</td>
+<td align="center">ribozyme+RBS+CDS module: crtEI</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2556 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162103</td>
+<td align="center">ribozyme+RBS+CDS module: crtBE</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2007 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162104</td>
+<td align="center">ribozyme+RBS+CDS module: crtEB</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2007 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162105</td>
+<td align="center">ribozyme+RBS+CDS module: crtYB</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2247 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162106</td>
+<td align="center">ribozyme+RBS+CDS module: crtIB</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2577 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162107</td>
+<td align="center">ribozyme+RBS+CDS module: crtEY</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  2226 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162108</td>
+<td align="center">ribozyme+RBS+CDS module: crtEBI</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3570 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162109</td>
+<td align="center">ribozyme+RBS+CDS module: crtIEB</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3570 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162110</td>
+<td align="center">ribozyme+RBS+CDS module: crtBEY</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3240 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162111</td>
+<td align="center">ribozyme+RBS+CDS module: crtBEI</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3570 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162112</td>
+<td align="center">ribozyme+RBS+CDS module: crtIYB</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3810 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162113</td>
+<td align="center">ribozyme+RBS+CDS module: crtEBY</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3240 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162114</td>
+<td align="center">ribozyme+RBS+CDS module: crtYEB</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3240 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162115</td>
+<td align="center">ribozyme+RBS+CDS module: crtYBE</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3240 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162116</td>
+<td align="center">ribozyme+RBS+CDS module: crtEIY</td>
+<td align="center">Coding</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  3789 bp</td>
+</tr>
+<tr>
+<td></td>
+<td>U</td>
+<td align="center">BBa_K4162117</td>
+<td align="center">ribozyme+RBS+CDS module: crtYEBI</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  4836 bp</td>
+</tr>
+<tr>
+<td></td>
+<td>U</td>
+<td align="center">BBa_K4162118</td>
+<td align="center">ribozyme+RBS+CDS module: crtEBIY</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length:  4848 bp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">BBa_K4162119</td>
+<td align="center">ribozyme+RBS+CDS module: crtYBEI</td>
+<td align="center">DNA</td>
+<td align="center">Weiwen Chen</td>
+<td align="center">Length: 4836 bp</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 <!-- DO NOT TOUCH THE END BELOW-->
