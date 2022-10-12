@@ -233,6 +233,41 @@ hr{
 #women_men4 .women_men_word{
     margin-top: 8%;
 }
+@media(max-width: 767px){
+    #women_men1{
+    margin-top: 30vh;
+    margin-left: 10vw;
+}
+#women_men1 .women_men_word{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#women_men2{
+    width: 60vw;
+    min-width: auto;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 5vw;
+}
+#women_men3{
+    margin-right: 10vw;
+    margin-left: -20vw;
+    margin-top: 60vh;
+}
+#women_men3 .women_men_word{
+    margin-top: 50%;
+    margin-left: 3%;
+    margin-bottom: -60%;
+}
+#women_men4{
+    width: 80vw;
+    min-width: auto;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 10vw;
+
+}
+}
 .ideas_word{
     background-color: #0c4128;
     color: white;
@@ -266,6 +301,41 @@ hr{
 }
 #ideas4 .ideas_word{
     margin-top: 8%;
+}
+@media(max-width: 767px){
+    #ideas1{
+    margin-top: 30vh;
+    margin-left: 10vw;
+}
+#ideas1 .ideas_word{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#ideas2{
+    width: 60vw;
+    min-width: auto;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 5vw;
+}
+#ideas3{
+    margin-right: 10vw;
+    margin-left: -20vw;
+    margin-top: 60vh;
+}
+#ideas3 .ideas_word{
+    margin-top: 50%;
+    margin-left: 3%;
+    margin-bottom: -60%;
+}
+#ideas4{
+    width: 80vw;
+    min-width: auto;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 10vw;
+
+}
 }
 #pictures{
     width: 100%;
