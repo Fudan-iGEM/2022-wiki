@@ -156,9 +156,6 @@ hr{
         margin-left: 10%;
     }
 }
-.route_word p{
-    text-align: center;
-}
 .reasons_word{
     background-color: #0c4128;
     color: white;
@@ -166,32 +163,34 @@ hr{
     font-weight: 200;
 }
 #reasons1{
+    margin-top: 10%;
+}
+#reasons1 .reasons_word{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#reasons2{
     width: 30vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 5vh;
+    margin-top: 50vh;
     margin-left: 5vw;
 }
-#reasons2{
-    margin-top: 30%;
-    margin-bottom: -20%;
+#reasons1{
+    margin-top: 10%;
 }
-#reasons2 .reasons_word{
-    margin-top: 8%;
+#reasons3 .reasons_word{
+    margin-top: 50%;
+    margin-left: 3%;
+    margin-bottom: -60%;
 }
-#reasons3{
+#reasons4{
     width: 40vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 46vh;
-    margin-left: 52vw;
-}
-#reasons4{
-    margin-top: 5%;
-    margin-right: 5%;
-}
-#reasons4 .reasons_word{
-    margin-top: 8%;
+    margin-top: 0;
+    margin-left: 50vw;
+
 }
 
 @media(max-width: 767px){
