@@ -194,6 +194,9 @@ hr{
 }
 
 @media(max-width: 767px){
+    .reasons_word{
+        font-size: 1.3rem !important;
+    }
     #reasons1{
     margin-top: 30vh;
     margin-left: 10vw;
@@ -235,10 +238,10 @@ hr{
     font-weight: 200;
 }
 #women_men1{
-    width: 30vw;
-    min-width: 400px;
+    width: 60vw;
+    min-width: auto;
     position: absolute;
-    margin-top: 5vh;
+    margin-top: 50vh;
     margin-left: 5vw;
 }
 #women_men2{
@@ -249,11 +252,11 @@ hr{
     margin-top: 8%;
 }
 #women_men3{
-    width: 40vw;
-    min-width: 400px;
+    width: 80vw;
+    min-width: auto;
     position: absolute;
-    margin-top: 46vh;
-    margin-left: 52vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
 }
 #women_men4{
     margin-top: 5%;
