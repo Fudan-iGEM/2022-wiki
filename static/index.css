@@ -229,9 +229,13 @@ tr:hover {
     top:50%;
     transform: translateY(-50%);
 }
+#close-section{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: relative;
+}
 #hide-button{
-    left: 20%;
-    top: 10%;
     background-color: #598364;
     border-radius: 10px 10px 10px 10px;
     justify-content: center;
