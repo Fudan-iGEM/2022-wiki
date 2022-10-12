@@ -4,9 +4,120 @@
 {% block lead %}Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.{% endblock %}
 
 {% block side_bar %}
-
-<!-- ADD HERE for SIDEBAR -->
-
+<div id="landingpage" style="width:20%">
+          <ul>
+          <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content" href="#introduction">
+          <span class="linkname">Introduction</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#introduction">Introduction</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content1" href="#model-design">
+          <span class="linkname">Model design</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#model-design">Model design</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content2" href="#assumption">
+          <span class="linkname">Assumption</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#assumption">Assumption</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content3" href="#parameters">
+          <span class="linkname">Parameters</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#parameters">Parameters</a>
+            </li>
+        </ul>
+        </li>
+        <li>
+            <div class="layer">
+              <div class="anchor">
+                <a class="dot-landingpage" data-scroll="content4" href="#model-establishment">
+                <span class="linkname">Model Establishment</span></a>
+                </div>
+              <img src="https://static.igem.wiki/teams/4162/wiki/arrow-orange.png" class="arrow" style="cursor:pointer"></img>
+            </div>
+        <ul class="submenu">
+            <li>
+                <a class="anchor linkname" href="#model-establishment">Model Establishment</a>
+            </li>
+            <li>
+                <a class="anchor" href="#the-cahn-hilliard-equation">The Cahn-Hilliard Equation</a>
+            </li>
+            <li>
+                <a class="anchor" href="#the-michaelis-menten-equation">The Michaelis-Menten Equation</a>
+            </li>
+        </ul>
+          </li>
+    <li>
+            <div class="layer">
+              <div class="anchor">
+                <a class="dot-landingpage" data-scroll="content5" href="#results">
+                <span class="linkname">Results</span></a>
+                </div>
+              <img src="https://static.igem.wiki/teams/4162/wiki/arrow-orange.png" class="arrow" style="cursor:pointer"></img>
+            </div>
+        <ul class="submenu">
+            <li>
+                <a class="anchor linkname" href="#results">Results</a>
+            </li>
+            <li>
+                <a class="anchor" href="#stimulation-of-enzyme-enrichment">Stimulation of enzyme enrichment</a>
+            </li>
+            <li>
+                <a class="anchor" href="#kinetics-of-enzyme-catalyzed-reactions">Kinetics of enzyme-catalyzed reactions</a>
+            </li>
+        </ul>
+          </li>
+<li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content6" href="#conclusion">
+          <span class="linkname">Conclusion</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#conclusion">Conclusion</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content7" href="#code-accessibility">
+          <span class="linkname">Code Accessibility</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#code-accessibility">Code Accessibility</a>
+            </li>
+        </ul>
+        </li>
+        <li><div class="anchor">
+          <a class="dot-landingpage" data-scroll="content8" href="#references">
+          <span class="linkname">References</span></a>
+          </div>
+        <ul class="submenu blank">
+            <li>
+                <a class="anchor linkname" href="#references">References</a>
+            </li>
+        </ul>
+        </li>
+          </ul>
+</div>
 {% endblock %}
 {% block page_content %}
 
@@ -119,7 +230,7 @@
 <p>We have uploaded our Matlab code to GitHub: <a href="https://github.com/Veronica00-alt/iGem_modeling">https://github.com/Veronica00-alt/iGem_modeling</a></p>
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content8">
-<h2 id="reference">Reference</h2>
+<h2 id="references">Reference</h2>
 <p>Hong, S. H., Ngo, H. P., Nam, H. K., Kim, K. R., Kang, L. W., &amp; Oh, D. K. (2016). Alternative Biotransformation of Retinal to Retinoic Acid or Retinol by an Aldehyde Dehydrogenase from Bacillus cereus. Applied and environmental microbiology, 82(13), 3940–3946. <a href="https://doi.org/10.1128/AEM.00848-16">https://doi.org/10.1128/AEM.00848-16</a></p>
 <p>Jang, H. J., Yoon, S. H., Ryu, H. K., Kim, J. H., Wang, C. L., Kim, J. Y., Oh, D. K., &amp; Kim, S. W. (2011). Retinoid production using metabolically engineered Escherichia coli with a two-phase culture system. <em>Microbial cell factories</em>, <em>10</em>, 59. <a href="https://doi.org/10.1186/1475-2859-10-59">https://doi.org/10.1186/1475-2859-10-59</a></p>
 <p>Li, G. W., Burkhardt, D., Gross, C., &amp; Weissman, J. S. (2014). Quantifying absolute protein synthesis rates reveals principles underlying allocation of cellular resources. <em>Cell</em>, <em>157</em>(3), 624–635. <a href="https://doi.org/10.1016/j.cell.2014.02.033">https://doi.org/10.1016/j.cell.2014.02.033</a></p>
