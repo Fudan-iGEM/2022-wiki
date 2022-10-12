@@ -192,21 +192,24 @@ hr{
 }
 @media(max-width: 767px){
     #reasons1{
-    margin-top: 5%;
+    margin-top: 30vh;
+    margin-left: 10vw;
 }
 #reasons1 .reasons_word{
     margin-top: 5%;
     margin-left: 5%;
 }
 #reasons2{
-    width: 30vw;
-    min-width: 400px;
+    width: 60vw;
+    min-width: auto;
     position: absolute;
     margin-top: 50vh;
     margin-left: 5vw;
 }
-#reasons1{
-    margin-top: 10%;
+#reasons3{
+    margin-right: 10vw;
+    margin-left: -20vw;
+    margin-top: 60vh;
 }
 #reasons3 .reasons_word{
     margin-top: 50%;
@@ -214,11 +217,11 @@ hr{
     margin-bottom: -60%;
 }
 #reasons4{
-    width: 40vw;
-    min-width: 400px;
+    width: 80vw;
+    min-width: auto;
     position: absolute;
-    margin-top: 0;
-    margin-left: 50vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
 
 }
 }
