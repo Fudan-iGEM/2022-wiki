@@ -173,7 +173,7 @@ hr{
         font-size: 1rem !important;
     }
     #mask1{
-        margin-top: 10%;
+        margin-top: 24%;
         display: flex;
         width: 60vw;
         margin-left: 10%;
@@ -193,7 +193,7 @@ hr{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 60%;
+    margin-top: 70%;
     max-width: 500px;
     right: 5%;
     width: 70vw;
@@ -202,7 +202,7 @@ hr{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 80%;
+    margin-top: 120%;
     max-width: 500px;
     right: 9%;
     width: 80vw;
@@ -288,7 +288,7 @@ hr{
 }
 @media(max-width: 767px){
     .route_word{
-        top: 15%;
+        top: 40%;
         margin-top: 2%;
         margin-right: 10%;
         margin-left: 10%;
@@ -338,8 +338,8 @@ hr{
         font-size: 1rem !important;
     }
     #reasons1{
-        margin-top: 30vh;
-        margin-left: 5vw;
+        margin-top: 0vh;
+        margin-left: -3vw;
     }
     #reasons1 .reasons_word{
         margin-top: 5%;
@@ -349,7 +349,7 @@ hr{
         width: 60vw;
         min-width: auto;
         position: absolute;
-        margin-top: 50vh;
+        margin-top: 24vh;
         margin-left: 5vw;
     }
     #reasons3{
@@ -367,7 +367,7 @@ hr{
         width: 80vw;
         min-width: auto;
         position: absolute;
-        margin-top: 5vw;
+        margin-top: 105vw;
         margin-left: 10vw;
 
     }
@@ -423,23 +423,25 @@ hr{
         font-size: 1rem !important;
     }
     #women_men1{
-        margin-top: 10vh;
-        margin-left: 15vw;
+        margin-top: 2vh;
+        margin-left: 8vw;
     }
     #women_men1 .women_men_word{
         margin-top: 5%;
         margin-left: 5%;
+        width: 70vw;
     }
     #women_men2{
         width: 60vw;
         min-width: auto;
         position: absolute;
-        margin-top: 50vh;
+        margin-top: 24vh;
         margin-left: 5vw;
     }
     #women_men3{
-        margin-left: 5vw;
-        margin-top: 60vh;
+        margin-left: 50vw;
+        margin-top: 75vh;
+        min-width: auto;
     }
     #women_men3 .women_men_word{
         margin-top: 50%;
@@ -447,12 +449,16 @@ hr{
         margin-bottom: -60%;
     }
     #women_men4{
-        width: 80vw;
-        min-width: auto;
+        width: 90vw;
+ 
         position: absolute;
-        margin-top: 65vw;
-        margin-left: 10vw;
+        margin-top: 43vh;
+        margin-left: -70vw;
 
+    }
+    #women_men5{
+        margin-left: -75%;
+        margin-top: 164%;
     }
 }
 .ideas_word{
@@ -492,7 +498,7 @@ hr{
 }
 @media(max-width: 767px){
     .ideas_word{
-        font-size: 1.3rem !important;
+        font-size: 1rem !important;
     }
     #ideas1{
         margin-top: 10vh;
