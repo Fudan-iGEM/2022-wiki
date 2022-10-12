@@ -267,8 +267,8 @@ hr{
 }
 @media(max-width: 767px){
     #women_men1{
-    margin-top: 30vh;
-    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-left: 15vw;
 }
 #women_men1 .women_men_word{
     margin-top: 5%;
@@ -282,8 +282,7 @@ hr{
     margin-left: 5vw;
 }
 #women_men3{
-    margin-right: 10vw;
-    margin-left: -20vw;
+    margin-left: 5vw;
     margin-top: 60vh;
 }
 #women_men3 .women_men_word{
