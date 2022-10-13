@@ -112,6 +112,13 @@ section{
     height: 20vw;
     opacity: 50%;
 }
+@media(max-width: 767px){
+    #circle1{
+    width: 20vw;
+    height: 20vw;   
+}
+}
+
 #rester{
     display: flex;
     justify-content: space-around;
@@ -125,6 +132,11 @@ section{
 @media(max-width: 767px){
     #heading{
         height: 215.3061rem;
+    }
+}
+@media(max-width: 767px){
+    #logo{
+        top: 70rem;
     }
 }
 #logo{
@@ -165,28 +177,10 @@ section{
     border-radius: 1rem 2rem 1rem 2rem;
 }
 
-@media (max-width: 1400px) {
-    .health_words{
-        background-color: #598364;
-        color: white;
-        font-weight: 200;
-    }
-    #health_words1{
-        margin-left: 8rem;
-        margin-top: 1.8125rem;
-    }
-    #health_words2{
-        margin-left: 32rem;
-        margin-top: 24.8125rem;
-    }
-    #health_words3{
-        margin-left: 20rem;
-        margin-top: 45.125rem;
-    }
-}
+
 @media (max-width: 767px) {
     #data{
-        height: 1rem;
+        height: 220rem;
     }
     .health_words{
         width: 80rem;
@@ -194,14 +188,17 @@ section{
     #health_words1{
         left: 8rem;
         top: 18rem;
+        width: 43rem;
     }
     #health_words2{
         left: 9rem;
         top: 20rem;
+        width: 50rem;
     }
     #health_words3{
-        left: 7rem;
+        left: 20rem;
         top: 40rem;
+        width: 45rem;        
     }
 }
 
