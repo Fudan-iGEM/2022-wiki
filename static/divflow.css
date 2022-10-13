@@ -348,6 +348,18 @@ section{
         justify-content: center;
         align-items: center;
     }
+    #route_word1 p{
+        font-size: 20rem;
+        font-weight: 800;
+    }
+    #route_word1 p{
+        font-size: 10rem;
+        font-weight: 600;
+    }
+    #route_word3 p{
+        font-size: 20rem;
+        font-weight: 800;
+    }
 #route_word1{
     position: relative;
     display: block;
