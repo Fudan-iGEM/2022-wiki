@@ -161,20 +161,19 @@ section{
         background-color: #598364;
         color: white;
         font-weight: 200;
-        width: 65rem;
         font-size: 1.3rem;
     }
     #health_words1{
         margin-left: 8rem;
-        margin-top: 24.8125rem;
+        margin-top: 1.8125rem;
     }
     #health_words2{
         margin-left: 32rem;
-        margin-top: 45.5rem;
+        margin-top: 24.8125rem;
     }
     #health_words3{
         margin-left: 20rem;
-        margin-top: 2.25rem;
+        margin-top: 45.125rem;
     }
 }
 @media (max-width: 767px) {
@@ -632,4 +631,5 @@ section{
 }
 #menues{
     height: fit-content;
+    min-height: 0rem;
 }
