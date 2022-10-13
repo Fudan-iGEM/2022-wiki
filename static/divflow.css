@@ -603,6 +603,7 @@ section{
     width: 70rem;
     background-color: #598364;
     color: white;
+    margin-bottom: 1.5rem;
 }
 @media(max-width: 767px){
     #conclusion{
