@@ -670,7 +670,6 @@ section{
 }
 @media(max-width: 767px){
     #conclusion{
-        font-size: 1rem !important;
         width: 85rem;
     }
 }
@@ -709,7 +708,8 @@ section{
     #menus .iconsforindex{
         min-width: 30rem;
     }
-}
-footer{
+    footer{
     font-size: 4rem;
+}  
+
 }
