@@ -332,7 +332,7 @@ section{
     text-align: center;
 }
 #route_word1{
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 800;
 }
 #route_word2{
@@ -340,7 +340,7 @@ section{
     font-weight: 600;
 }
 #route_word3{
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 800;
 }
 @media(max-width: 767px){
