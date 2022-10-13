@@ -379,11 +379,11 @@ relationships between parts.</p>
 <p>Under the structure of Neo4j, we manage to visualize the relationship between parts. Each node stands for a specific iGEM part in the database, while the line between nodes represents the cite and cited relationship or twin parts relationship. The number of citations and publication time of part are directly presented by the size and color of the nodes. The canvas outputs are interactive, allowing the user to zoom, drag nodes, and click nodes, etc. In addition, basic information of the clicked part is presented in a table on the side. For further information, the user may access the page of this part in the Registry of Standard Biological Parts directly, or obtain its sequence (if it exists).</p>
 <h3 id="cross-platform-compatibility">Cross-platform compatibility</h3>
 <p>In order to ensure a robust cross-platform approach for PartHub, we chose to develop a web-based user interaction module. It is also important to use universal features and interfaces when developing web applications in order to achieve good cross-platform performance. PartHub can be used on a PC (either Windows, Linux, or macOS), iPad, iPhone, or Android phone. The following browsers have been tested to work (this does not mean that the browsers not listed do not work):</p>
-<ul>
-<li>Chrome<img src="https://static.igem.wiki/teams/4162/wiki/software/chrome.svg" alt="chrome" height="64px" width="64px"></li>
-<li>Edge<img src="https://static.igem.wiki/teams/4162/wiki/software/edge.svg" alt="edge" height="64px" width="64px"></li>
-<li>Firefox<img src="https://static.igem.wiki/teams/4162/wiki/software/firefox.svg" alt="firefox" height="64px" width="64px"></li>
-<li>Safari<img src="https://static.igem.wiki/teams/4162/wiki/software/safari.svg" alt="safari" height="64px" width="64px"></li>
+<ul style="list-style:none;">
+<li><img src="https://static.igem.wiki/teams/4162/wiki/software/chrome.svg" alt="chrome" height="64px" width="64px"> Chrome</li>
+<li><img src="https://static.igem.wiki/teams/4162/wiki/software/edge.svg" alt="edge" height="64px" width="64px"> Edge</li>
+<li><img src="https://static.igem.wiki/teams/4162/wiki/software/firefox.svg" alt="firefox" height="64px" width="64px"> Firefox</li>
+<li><img src="https://static.igem.wiki/teams/4162/wiki/software/safari.svg" alt="safari" height="64px" width="64px"> Safari</li>
 </ul>
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content5">
@@ -404,7 +404,7 @@ relationships between parts.</p>
 function search(){
 			var kwd = document.getElementById("input_kwd").value;
 			var type = GetRadioValue("searchtype");
-			var url = `http://3.238.241.161:5000//sp?s=${kwd}&searchtype=${type}`;
+			var url = `http://3.238.241.161:5000/sp?s=${kwd}&searchtype=${type}`;
 			window.open(url);
 		};
 		function GetRadioValue(RadioName){
