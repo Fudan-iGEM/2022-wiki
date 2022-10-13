@@ -488,17 +488,17 @@ hr{
     max-width: 570px;
 }
 #women_men4{
-    margin-top: -5%;
+    margin-top: 0;
     margin-left: 0;
-    width: 40vw
+    width: 50vw
 }
 #women_men4 .women_men_word{
     margin-top: 8%;
-    width: 60%;
+    width: 109%;
 }
 #women_men5{
     margin-top: 35%;
-    margin-left: -130%;
+    margin-left: -21%;
 }
 #women_men5 .women_men_word{
     width: 90%;
@@ -573,7 +573,7 @@ hr{
     width: 40vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 45vh;
+    margin-top: 40vh;
     margin-left: 52vw;
     max-width: 570px;
 }
