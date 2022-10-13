@@ -134,7 +134,7 @@ section{
 }
 @media(max-width: 767px){
     #logo{
-        margin-top: 50%;
+        margin-top: 100rem;
     }
 }
 
@@ -164,8 +164,7 @@ section{
     position: absolute;
     border-radius: 1rem 2rem 1rem 2rem;
 }
-.health_words { padding:  1.8229rem }
-.route_word, .reasons_word, .women_men_word, .ideas_word, #conclusion { padding:  1.8229 }
+
 @media (max-width: 1400px) {
     .health_words{
         background-color: #598364;
@@ -187,22 +186,22 @@ section{
 }
 @media (max-width: 767px) {
     #data{
-        height: 130vh;
+        height: 1rem;
     }
     .health_words{
-        width: 90vw;
+        width: 80rem;
     }
     #health_words1{
-        margin-left: 8vw;
-        margin-top: 5vh;
+        left: 8rem;
+        top: 18rem;
     }
     #health_words2{
-        margin-left: 5vw;
-        margin-top: -1vh;
+        left: 9rem;
+        top: 20rem;
     }
     #health_words3{
-        margin-left: 7vw;
-        margin-top: -1vh;
+        left: 7rem;
+        top: 40rem;
     }
 }
 
@@ -244,54 +243,16 @@ section{
     right: 12rem;
     width: 30rem;
 }
-@media(max-width: 550px){
-    #masks{
-        font-size: 1.3rem !important;
-    }
+
+@media(max-width: 767px){
     #mask1{
         top: 13.5rem;
         display: flex;
         width: 60rem;
-        margin-left: 10%;
-        min-width: auto;
-    }
-    #mask2{
-        position: relative;
-        display: block;
-        color: white;
-        top: 5.625rem;
-        width: 80rem;
-        left: 10vw;
-    }
-    #mask3{
-    position: absolute;
-    display: block;
-    color: white;
-    top: 39.375rem;
-    max-width: 26.0417rem;
-    right: 5rem;
-    width: 70rem;
-}
-#mask4{
-    position: absolute;
-    display: block;
-    color: white;
-    top: 33.75rem;
-    max-width: 26.0417rem;
-    right: 9rem;
-    width: 80rem;
-}
-}
-@media(max-width: 767px){
-    #mask1{
-        margin-top: 13.5rem;
-        display: flex;
-        width: 60rem;
         left: 10rem;
         min-width: auto;
     }
     #mask2{
-        position: relative;
         display: block;
         color: white;
         top: 5.625rem;
@@ -302,7 +263,7 @@ section{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 70%;
+    top: 45rem;
     max-width: 26.0417rem;
     right: 5rem;
     width: 70rem;
@@ -323,11 +284,7 @@ section{
     font-size: 3rem;
     min-height: 50rem;
 }
-@media(max-width: 767px){
-    #routes{
-        font-size: 1.5rem;
-    }
-}
+
 #route1{
     width: 100rem;
     height: 50rem;
@@ -392,12 +349,37 @@ section{
     font-weight: 800;
 }
 @media(max-width: 767px){
-    .route_word{
-        top: 22.5rem;
-        margin-top: 1.125rem;
-        margin-right: 10rem;
-        margin-left: 10rem;
-    }
+#route_word1{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 11.25rem;
+    margin-right: 1.8229rem;
+    margin-left: 1.8229rem;
+    opacity: 70%;
+}
+#route_word2{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 44.25rem;
+    margin-right: 1.8229rem;
+    margin-left: 1.8229rem;
+    opacity: 70%;
+}
+#route_word3{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 77.25rem;
+    margin-right: 1.8229rem;
+    margin-left: 1.8229rem;
+    opacity: 70%;
+    
+}
 }
 .reasons_word{
     background-color: #598364;
@@ -546,7 +528,7 @@ section{
         width: 60rem;
         min-width: auto;
         position: absolute;
-        top: 51.9385;
+        top: 51.9385rem;
         left: 5rem;
     }
     #women_men3{
