@@ -81,7 +81,6 @@ menu{
 
 section{
     min-height: 73.125rem;
-    width: 100vw;
     display: flex;
     box-sizing: border-box;
     position: relative;
