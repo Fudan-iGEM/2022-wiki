@@ -36,7 +36,7 @@ def index():
                            __build__=__build__)
 
 @app.route('/<page>')
-def pages(page):
+def pages(page): # 2022-10-13
     return render_template(str(Path('pages')) + '/' + page.lower() + '.html',
                            __build__=__build__, datetime_str=datetime_str, datetime_tag=datetime_tag )
 
