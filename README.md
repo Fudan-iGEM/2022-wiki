@@ -61,7 +61,7 @@ To work locally with this project, you'll have to follow the steps below:
 #### Install
 ```bash
 git clone https://gitlab.igem.org/2022/fudan
-cd example
+cd fudan
 python3 -m venv venv
 . venv/bin/activate
 pip install -r dependencies.txt
