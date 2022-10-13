@@ -621,6 +621,7 @@ section{
 @media(max-width: 767px){
     .ideas_word{
         font-size: 1rem !important;
+        padding: 8rem;
     }
     #ideas1{
         top: 6.4923;
@@ -631,27 +632,29 @@ section{
     #ideas2{
         width: 70rem;
         position: absolute;
-        top: 43.2821;
+        top: 66.2821rem;
         left: 5rem;
     }
     #ideas2 .ideas_word{
         width: 60rem;
+        border-radius: 6rem 1rem 6rem 1rem;
     }
     #ideas3{
         left: 5rem;
-        top: 129.8462rem;
+        top: 92.8462rem;
         min-width: auto;
-        max-width: auto;
+        max-width: 200rem;
         width: 75rem;
     }
     #ideas4{
         position: absolute;
-        top: 183.9487rem;
+        top: 150.9487rem;
         left: 10rem;
 
     }
     #ideas4 .ideas_word{
         width: 70rem;
+        border-radius: 1rem 6rem 1rem 6rem;
     }
 }
 #pictures{
