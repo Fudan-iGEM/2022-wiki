@@ -314,7 +314,7 @@ section{
 #routes{
     color: black;
     font-size: 3rem;
-    min-height: 55rem;
+    min-height: 45rem;
 }
 @media(max-width: 767px){
     #routes{
