@@ -149,7 +149,7 @@ section{
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
     #logo{
-        top: 43.17rem;
+        top: 65rem;
     }
 }
 #logo{
@@ -190,7 +190,26 @@ section{
     position: absolute;
     border-radius: 1rem 2rem 1rem 2rem;
 }
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+    #health_words1{
+        left: 7rem;
+        top: 20rem;
+        width: 80rem;
+        padding: 8rem;
+    }
+    #health_words2{
+        left: -15rem;
+        top: 50rem;
+        width: 80rem;
+        padding: 8rem;
+    }
+    #health_words3{
+        left: -5rem;
+        top: 90 rem;
+        width: 80rem;  
+        padding: 8rem;      
+    }
+}
 
 @media (max-width: 767px) and (orientation: portrait){
     #data{
@@ -292,7 +311,40 @@ section{
     width: 80rem;
 }
 }
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+    #mask1{
+        top: 3rem;
+        display: flex;
+        width: 60rem;
+        left: 16rem;
+        min-width: auto;
+    }
+    #mask2{
+        display: block;
+        color: white;
+        top: 42.625rem;
+        width: 80rem;
+        left: 10rem;
+    }
+    #mask3{
+    position: absolute;
+    display: block;
+    color: white;
+    top: 42.625rem;
+    max-width: 26.0417rem;
+    right: 22rem;
+    width: 70rem;
+}
+#mask4{
+    position: absolute;
+    display: block;
+    color: white;
+    top: 125.375rem;
+    max-width: 60.0417rem;
+    right: 12rem;
+    width: 80rem;
+}
+}
 #routes{
     color: black;
     font-size: 3rem;
