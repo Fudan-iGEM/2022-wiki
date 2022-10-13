@@ -477,8 +477,9 @@ section{
     padding: 0.78125rem;
 }
 #women_men5{
-    top: 19.6875rem;
-    left: 21rem;
+    top: 30.6875rem;
+    left: 62rem;
+    position: absolute;
 }
 #women_men5 .women_men_word{
     width: 35rem;
