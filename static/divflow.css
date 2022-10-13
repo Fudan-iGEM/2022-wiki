@@ -131,7 +131,7 @@ section{
 }
 @media(min-width: 1400px){
     #data{
-    height: 90vh;
+    height: fit-content;
 }
 }
 .health_words{
