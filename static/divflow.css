@@ -624,7 +624,7 @@ section{
         padding: 8rem;
     }
     #ideas1{
-        top: 6.4923;
+        top: 6.4923rem;
         left: 15rem;
         min-width: auto;
         width: 70rem;
@@ -677,6 +677,7 @@ section{
 
 #pictures{
     height: fit-content;
+    font-size: 4rem !important;
 }
 #ribozyme{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/ribozyme.jpg");
