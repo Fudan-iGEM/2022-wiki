@@ -204,9 +204,8 @@ section{
 #mask1{
     top: 13.8125rem;
     display: block;
-    max-height: 100%;
     position: absolute;
-    width: 32.25rem;
+    width: 25.25rem;
 }
 #mask2{
     position: absolute;
