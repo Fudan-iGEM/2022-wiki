@@ -160,6 +160,7 @@ section{
     color: white;
     font-weight: 200;
     opacity: 0.7;
+    padding: 1rem;
 }
 #health_words1{
     margin-left: 8rem;
@@ -500,6 +501,7 @@ section{
 #women_men1 .women_men_word{
     padding: 1rem;
     width: 30vw;
+    padding: 1rem;
 }
 #women_men3{
     width: 50rem;
