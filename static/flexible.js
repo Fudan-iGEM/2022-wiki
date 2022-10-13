@@ -15,7 +15,7 @@
   // 将视窗分为多少份
   // set 1rem = viewWidth / 10
   function setRemUnit() {
-    var rem = docEl.clientWidth / 40;
+    var rem = docEl.clientWidth / 100;
     docEl.style.fontSize = rem + "px";
   }
 
