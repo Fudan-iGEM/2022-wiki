@@ -75,7 +75,7 @@ section{
 
 @media(max-width: 767px){
     section{
-        font-size: 1.3rem !important;
+        font-size: 1rem !important;
     }
 }
 menu{
