@@ -95,6 +95,9 @@ tr:hover {
   /*box-shadow:2px 2px 4px #ee994d;*/
   background: white;
 }
+#groupparts tr:hover {
+  cursor: pointer;
+}
 
 .carousel {
   padding: 20px;
