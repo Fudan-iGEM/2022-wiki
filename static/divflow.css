@@ -159,13 +159,13 @@ section{
 }
 #health_words2{
     margin-left: 40rem;
-    margin-top: 24.8125rem;
+    margin-top: 20.8125rem;
     position: absolute;
     border-radius: 2rem 1rem 2rem 1rem;
 }
 #health_words3{
     margin-left: 20rem;
-    margin-top: 45.125rem;
+    margin-top: 40.125rem;
     position: absolute;
     border-radius: 1rem 2rem 1rem 2rem;
 }
@@ -402,14 +402,14 @@ section{
 #reasons1 .reasons_word{
     left: 10rem;
     width: 40rem;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 3rem 1rem 3rem 1rem;
 }
 #reasons2{
     width: 30rem;
     min-width: 20.8333333rem;
     position: absolute;
-    top: 32.8125rem;
+    top: 28.8125rem;
     left: 5rem;
 }
 #reasons3{
@@ -488,7 +488,7 @@ section{
     left: 15rem;
 }
 #women_men1 .women_men_word{
-    padding: 1rem;
+    padding: 2rem;
     width: 30vw;
     border-radius: 1rem 3rem 1rem 3rem;
 }
@@ -507,7 +507,7 @@ section{
     position: absolute;
 }
 #women_men4 .women_men_word{
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 1rem 3rem 1rem 3rem;
 }
 #women_men5{
@@ -517,7 +517,7 @@ section{
 }
 #women_men5 .women_men_word{
     width: 35rem;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 3rem 1rem 3rem 1rem;
 }
 
