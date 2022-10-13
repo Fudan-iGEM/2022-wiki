@@ -122,6 +122,11 @@ section{
     margin-top: 13.625rem;
 
 }
+@media(max-width: 767px){
+    #rester{
+        height: 2.153061rem;
+    }
+}
 #logo{
     opacity: 60%;
     max-width: 100%;
