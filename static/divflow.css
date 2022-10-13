@@ -7,7 +7,7 @@ body{
 }
 
 section{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
   /*iPhone6/7/8*/
@@ -160,7 +160,7 @@ section{
     color: white;
     font-weight: 200;
     opacity: 0.7;
-    padding: 1rem;
+    padding: 2rem;
 }
 #health_words1{
     margin-left: 8rem;
