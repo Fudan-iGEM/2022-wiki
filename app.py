@@ -37,7 +37,7 @@ def index():
 
 @app.route('/<page>')
 def pages(page):
-    return render_template(str(Path('pages') / (page.lower() + '.html')),
+    return render_template(str(Path('pages')) + '/' + page.lower() + '.html',
                            __build__=__build__, datetime_str=datetime_str, datetime_tag=datetime_tag )
 
 
