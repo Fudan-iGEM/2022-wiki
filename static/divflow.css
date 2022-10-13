@@ -351,7 +351,7 @@ section{
         font-size: 20rem;
         font-weight: 800;
     }
-    #route_word1 p{
+    #route_word2 p{
         font-size: 10rem;
         font-weight: 600;
     }
@@ -364,7 +364,7 @@ section{
     display: block;
     left: 0;
     right: 0;
-    top: 40vh;
+    top: 35vh;
     margin-right: 1.8229rem;
     margin-left: 1.8229rem;
     opacity: 70%;
@@ -374,7 +374,7 @@ section{
     display: block;
     left: 0;
     right: 0;
-    top: 45rem;
+    top: 45vh;
     margin-top: 10rem;
     margin-right: 1.8229rem;
     margin-left: 1.8229rem;
@@ -385,7 +385,7 @@ section{
     display: block;
     left: 0;
     right: 0;
-    top: 50rem;
+    top: 55vh;
     margin-right: 1.8229rem;
     margin-left: 1.8229rem;
     opacity: 70%;
