@@ -456,7 +456,7 @@ section{
     left: 15rem;
 }
 #women_men1 .women_men_word{
- 
+    padding: 1rem;
     width: 30vw;
 }
 #women_men3{
@@ -474,15 +474,16 @@ section{
     position: absolute;
 }
 #women_men4 .women_men_word{
-    padding: 0.78125rem;
+    padding: 1rem;
 }
 #women_men5{
     top: 30.6875rem;
-    left: 62rem;
+    left: 44rem;
     position: absolute;
 }
 #women_men5 .women_men_word{
     width: 35rem;
+    padding: 1rem;
 }
 
 @media(max-width: 767px){
