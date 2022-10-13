@@ -80,10 +80,11 @@ document.addEventListener('DOMContentLoaded', function () {
   // $(window).on('resize', function () {
   function hideElement () {
     const wW = window.innerWidth;
-    if (wW < 768) { // #landingpage display: none;
-      document.querySelector("#landingpage").style.display = 'none';
-    } else {
-      document.querySelector("#landingpage").style.display = '';
+    const sidebar = document.querySelector("#landingpage");
+    if (sidebar !== null && wW < 768) { // #landingpage display: none;
+      sidebar.style.display = 'none';
+    } else if (sidebar !== null) {
+      sidebar.style.display = '';
     }
     if (wW < 992) { // footer menu
       document.querySelector("#hideWhen992").style.display = 'none';
