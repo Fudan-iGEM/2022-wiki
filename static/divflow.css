@@ -345,33 +345,35 @@ section{
     }
     #route1{
         height: 220rem;
+        justify-content: center;
+        align-items: center;
     }
 #route_word1{
-    position: absolute;
+    position: relative;
     display: block;
     left: 0;
     right: 0;
-    top: 11.25rem;
     margin-right: 1.8229rem;
     margin-left: 1.8229rem;
     opacity: 70%;
 }
 #route_word2{
-    position: absolute;
+    position: relative;
     display: block;
     left: 0;
     right: 0;
     top: 44.25rem;
+    margin-top: 10rem;
     margin-right: 1.8229rem;
     margin-left: 1.8229rem;
     opacity: 70%;
 }
 #route_word3{
-    position: absolute;
+    position: relative;
     display: block;
     left: 0;
     right: 0;
-    top: 77.25rem;
+    margin-top: 10rem;
     margin-right: 1.8229rem;
     margin-left: 1.8229rem;
     opacity: 70%;
