@@ -526,6 +526,9 @@ section{
         top: 138.5026rem;
     }
 }
+#ideas{
+    min-height: 53.125rem;
+}
 .ideas_word{
     background-color: #598364;
     color: white;
