@@ -19,7 +19,7 @@
     align-items: center;
     list-style: none;
     transform-origin: 5.20833333333333333rem;
-    transition: 0.1s;
+    transition: 0.08s;
     transition-delay: calc(0.08s * var(--i));
     transform: rotate(0deg) translateX(3.5rem);
     z-index: 2500;
@@ -35,7 +35,7 @@
     align-items: center;
     list-style: none;
     transform-origin: 5.20833333333333333rem;
-    transition: 0.1s;
+    transition: 0.08s;
     transition-delay: calc(0.08s * var(--i));
     transform: rotate(0deg) translateX(3.5rem);
     z-index: 2500;
