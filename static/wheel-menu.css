@@ -1,6 +1,6 @@
 .menu {
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +11,8 @@
 }
 
 .menuitem {
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     position: absolute;
     left: 0;
     justify-content: center;
@@ -27,8 +27,8 @@
     pointer-events: none;
 }
 .menuitem_second {
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     position: absolute;
     left: 0;
     justify-content: center;
@@ -48,36 +48,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 10%;
 }
 
 .menu.active.left .menuitem{
-    transform: translateX(calc(6rem * var(--i) + 3.125rem));
+    transform: translateX(calc(8rem * var(--i) + 5rem));
     opacity: 1;
     pointer-events: auto;
 }
 .menu.active.left .menuitem_second {
-    transform: translateX(calc(6rem * var(--i) + 3.125rem)) translateY(calc(6rem * var(--j)));
+    transform: translateX(calc(8rem * var(--i) + 5rem)) translateY(calc(6rem * var(--j)));
     opacity: 1;
     pointer-events: auto;
 }
 .menu.active.right .menuitem{
-    transform: translateX(calc(-6rem * var(--i)));
+    transform: translateX(calc(-8rem * var(--i)));
     opacity: 1;
     pointer-events: auto;
 }
 .menu.active.right .menuitem_second{
-    transform: translateX(calc(-6rem * var(--i))) translateY(calc(-6rem * var(--j)));
+    transform: translateX(calc(-8rem * var(--i))) translateY(calc(-8rem * var(--j)));
     opacity: 1;
     pointer-events: auto;
 }
 
 .toggle {
     position: absolute;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 7rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
