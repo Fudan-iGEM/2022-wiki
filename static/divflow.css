@@ -262,7 +262,6 @@ section{
         width: 80rem;
         left: 10rem;
     }
-    #mask2 .mask
     #mask3{
     position: absolute;
     display: block;
@@ -276,7 +275,7 @@ section{
     position: absolute;
     display: block;
     color: white;
-    top: 122.375rem;
+    top: 125.375rem;
     max-width: 60.0417rem;
     right: 22rem;
     width: 80rem;
@@ -465,7 +464,7 @@ section{
     #reasons3{
         
         left: 6rem;
-        top: 129.8462rem;
+        top: 115.8462rem;
     }
     #reasons3 .reasons_word{
         width: 90rem;
@@ -555,7 +554,7 @@ section{
     #women_men3{
         width: 70rem;
         left: 20rem;
-        top: 162.3077rem;
+        top: 150.3077rem;
         min-width: auto;
         max-width: 200rem;
     }
