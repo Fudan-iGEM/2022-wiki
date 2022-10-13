@@ -1,5 +1,5 @@
 from os import path
-from pathlib import Path
+####from pathlib import Path
 
 from flask import Flask, render_template
 from flask_frozen import Freezer
@@ -37,8 +37,8 @@ def index():
 
 @app.route('/<page>')
 def pages(page):
-    return render_template(str(Path('pages') / (page.lower() + '.html')),
-                               __build__=__build__, datetime_str=datetime_str, datetime_tag=datetime_tag)
+    return render_template('pages' + str(page.lower()) + '.html',
+                           __build__=__build__, datetime_str=datetime_str, datetime_tag=datetime_tag)
 
 #@app.route('/<newpage>')
 #
