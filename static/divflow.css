@@ -632,6 +632,9 @@ section{
 
     }
 }
+#pictures{
+    background-color: #fcf6e6;
+}
 #conclusion{
     top: 2.8125rem;
     width: 70rem;
