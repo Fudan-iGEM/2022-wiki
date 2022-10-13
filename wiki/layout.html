@@ -73,13 +73,16 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location = url;
     });
   }
-  const part = document.querySelector("#groupparts").querySelectorAll("td");
-  for (i = 0; i < part.length; i++) {
-    if (part[i].textContent.indexOf('BBa_') === 0) {
-      const url = 'http://parts.igem.org/Part:' + part[i].textContent;
-      part[i].parentNode.addEventListener('click', () => {
-        window.location = url;
-      });
+  const ppart = document.querySelector("#groupparts");
+  if (ppart !== null) {
+    const part = ppart.querySelectorAll("td");
+    for (i = 0; i < part.length; i++) {
+      if (part[i].textContent.indexOf('BBa_') === 0) {
+        const url = 'http://parts.igem.org/Part:' + part[i].textContent;
+        part[i].parentNode.addEventListener('click', () => {
+          window.location = url;
+        });
+      }
     }
   }
 
