@@ -253,7 +253,7 @@ section{
     #mask2{
         display: block;
         color: white;
-        top: 5.625rem;
+        top: 63.625rem;
         width: 80rem;
         left: 10rem;
     }
@@ -261,16 +261,16 @@ section{
     position: absolute;
     display: block;
     color: white;
-    top: 45rem;
+    top: 60rem;
     max-width: 26.0417rem;
-    right: 5rem;
+    right: 22rem;
     width: 70rem;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    top: 39.375rem;
+    top: 122.375rem;
     max-width: 26.0417rem;
     right: 9rem;
     width: 80rem;
@@ -347,6 +347,9 @@ section{
     font-weight: 800;
 }
 @media(max-width: 767px){
+    #routes{
+        height: 220rem;
+    }
 #route_word1{
     position: absolute;
     display: block;
