@@ -169,7 +169,6 @@ class DevicePixelRatio {
 		}
 	}
 }
-export default DevicePixelRatio;
 
 
 
