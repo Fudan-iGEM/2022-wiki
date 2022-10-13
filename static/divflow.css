@@ -148,12 +148,12 @@ section{
 }
 #health_words2{
     margin-left: 40rem;
-    margin-top: 2.8125rem;
+    margin-top: 24.8125rem;
     position: absolute;
 }
 #health_words3{
     margin-left: 20rem;
-    margin-top: 1.125rem;
+    margin-top: 45.125rem;
     position: absolute;
 }
 .health_words { padding:  1.8229rem }
@@ -168,11 +168,11 @@ section{
     }
     #health_words1{
         margin-left: 8rem;
-        margin-top: 2.8125rem;
+        margin-top: 24.8125rem;
     }
     #health_words2{
         margin-left: 32rem;
-        margin-top: 4.5rem;
+        margin-top: 45.5rem;
     }
     #health_words3{
         margin-left: 20rem;
@@ -202,6 +202,7 @@ section{
 
 #masks{
     background-color: #598364;
+    height: 56.25rem;
 }
 
 #mask1{
