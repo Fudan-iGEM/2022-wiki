@@ -192,13 +192,13 @@ section{
         padding: 3rem;
     }
     #health_words2{
-        left: -10rem;
+        left: -30rem;
         top: 40rem;
         width: 80rem;
         padding: 3rem;
     }
     #health_words3{
-        left: 5rem;
+        left: -5rem;
         top: 79rem;
         width: 80rem;  
         padding: 3rem;      
@@ -249,7 +249,7 @@ section{
         height: 220rem;
     }
     #mask1{
-        top: 13.5rem;
+        top: 4.5rem;
         display: flex;
         width: 60rem;
         left: 16rem;
@@ -258,15 +258,16 @@ section{
     #mask2{
         display: block;
         color: white;
-        top: 63.625rem;
+        top: 42.625rem;
         width: 80rem;
         left: 10rem;
     }
+    #mask2 .mask
     #mask3{
     position: absolute;
     display: block;
     color: white;
-    top: 65rem;
+    top: 42.625rem;
     max-width: 26.0417rem;
     right: 22rem;
     width: 70rem;
@@ -446,7 +447,7 @@ section{
         padding: 5rem;
     }
     #reasons1{
-        top: 22rem;
+        top: 10rem;
         left: 6rem;
         position: absolute;
     }
@@ -459,7 +460,7 @@ section{
         min-width: auto;
         position: absolute;
         top: 51.9385rem;
-        eft: 5rem;
+        left: 5rem;
     }
     #reasons3{
         
@@ -536,7 +537,7 @@ section{
         padding: 3rem;
     }
     #women_men1{
-        top: 14.3282rem;
+        top: 8.3282rem;
         left: 8rem;
     }
     #women_men1 .women_men_word{
@@ -553,7 +554,7 @@ section{
     }
     #women_men3{
         width: 70rem;
-        left: 50rem;
+        left: 20rem;
         top: 162.3077rem;
         min-width: auto;
         max-width: 200rem;
@@ -632,8 +633,8 @@ section{
     #ideas2{
         width: 70rem;
         position: absolute;
-        top: 66.2821rem;
-        left: 5rem;
+        top: 54.2821rem;
+        left: 17rem;
     }
     #ideas2 .ideas_word{
         width: 60rem;
