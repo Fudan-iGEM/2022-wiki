@@ -216,7 +216,7 @@ section{
         height: 220rem;
     }
     #health_words1{
-        left: 7rem;
+        left: 3rem;
         top: 10rem;
         width: 80rem;
         padding: 8rem;
@@ -322,7 +322,7 @@ section{
         display: block;
         color: white;
         top: 1.625rem;
-        width: 80rem;
+        width: 70rem;
         left: 10rem;
     }
     #mask3{
