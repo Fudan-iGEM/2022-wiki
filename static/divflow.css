@@ -684,3 +684,6 @@ section{
     height: fit-content;
     min-height: 0rem;
 }
+footer{
+    font-size: 1rem;
+}
