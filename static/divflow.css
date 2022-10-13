@@ -222,18 +222,18 @@ section{
     position: absolute;
     display: block;
     color: white;
-    top: 10rem;
+    top: 8rem;
     max-width: 26.042rem;
-    right: 5rem;
+    right: 20rem;
     width: 30rem;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    top: 14.0625rem;
+    top: 33.0625rem;
     max-width: 26.042rem;
-    right: 9rem;
+    right: 12rem;
     width: 30rem;
 }
 @media(max-width: 550px){
