@@ -489,8 +489,8 @@ hr{
 }
 #women_men4{
     margin-top: -5%;
-    margin-right: 5%;
-    width: 180%;
+    margin-left: 0;
+    width: 40vw
 }
 #women_men4 .women_men_word{
     margin-top: 8%;
@@ -498,7 +498,7 @@ hr{
 }
 #women_men5{
     margin-top: 35%;
-    margin-left: -90%;
+    margin-left: -130%;
 }
 #women_men5 .women_men_word{
     width: 90%;
