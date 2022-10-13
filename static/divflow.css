@@ -90,6 +90,7 @@ section{
 @media(max-width: 767px){
     section{
         height: 220rem;
+        font-size: 5rem;
     }
 }
 #heading{
@@ -186,13 +187,13 @@ section{
     }
     #health_words1{
         left: 17rem;
-        top: 22rem;
+        top: 33rem;
         width: 43rem;
         padding: 3rem;
     }
     #health_words2{
         left: -10rem;
-        top: 50rem;
+        top: 57rem;
         width: 50rem;
         padding: 3rem;
     }
@@ -442,7 +443,7 @@ section{
 
 @media(max-width: 767px){
     .reasons_word{
-        font-size: 1rem !important;
+        padding: 5rem;
     }
     #reasons1{
         top: 22rem;
@@ -556,6 +557,7 @@ section{
         left: 50rem;
         top: 162.3077rem;
         min-width: auto;
+        max-width: 200rem;
     }
     #women_men4{
         width: 90rem;
@@ -637,7 +639,7 @@ section{
     }
     #ideas2 .ideas_word{
         width: 60rem;
-        border-radius: 6rem 1rem 6rem 1rem;
+        border-radius: 4rem 2rem 4rem 2rem;
     }
     #ideas3{
         left: 5rem;
@@ -654,7 +656,7 @@ section{
     }
     #ideas4 .ideas_word{
         width: 70rem;
-        border-radius: 1rem 6rem 1rem 6rem;
+        border-radius: 2rem 4rem 2rem 4rem;
     }
 }
 #pictures{
@@ -705,6 +707,11 @@ section{
     height: fit-content;
     min-height: 0rem;
 }
+@media (max-width: 767px) {
+    #menus iconsforindex{
+        min-width: 30rem;
+    }
+}
 footer{
-    font-size: 1rem;
+    font-size: 5rem;
 }
