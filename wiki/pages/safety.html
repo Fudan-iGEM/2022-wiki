@@ -6,8 +6,31 @@
 {% block lead %}Describe all the safety issues of your project.{% endblock %}
 
 {% block side_bar %}
-
-<!-- ADD HERE for SIDEBAR -->
+<div id="landingpage" style="width:20%">
+          <ul>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content" href="#overview">
+                <span class="linkname">Overview</span></a>
+              </div>
+          </li>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content1" href="#safety-in-laboratory">
+                <span class="linkname">Safety in Laboratory</span></a>
+              </div>
+          </li>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content2" href="#safety-in-design">
+                <span class="linkname">Safety in Design</span></a>
+              </div>
+          </li>
+          <li><div class="anchor">
+                <a class="dot-landingpage" data-scroll="content3" href="#safety-in-implementation">
+                <span class="linkname">Safety in Implementation</span></a>
+              </div>
+          </li>
+          </ul>
+</div>
+          
 
 {% endblock %}
 {% block page_content %}
@@ -20,10 +43,34 @@
 <!-- ADJUST PAGE CONTENT BELOW -->
 
 <div class="row">
-  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section">
-
-<p>start change here here here; if sidebar, then multiple div>div.section </p>
-
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
+<h2 id="overview">Overview</h2>
+<p>Safety is always of massive essence to any lab. This year, Team Fudan analyzed possible risks encountered during our whole project and listed following contents from three aspects.</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content1">
+  <h2 id="safety-in-laboratory">Safety in Laboratory</h2>
+<p>According to Chinese legislation and school’s regulations, we formed our specific lab safety rules as follows.</p>
+<ul>
+<li>Safety first, prevention first.</li>
+<li>The one in charge is the one to be responsible.</li>
+<li>PI should inform every student of detailed instructions.</li>
+<li>A duty system is needed and the last one to leave the lab should make sure all vents are shut down and windows are opened.</li>
+<li>People in the laboratory have to wear a lab coat, appropriate clothes, covered shoes and gloves.</li>
+<li>The opening date must be recorded for all enzymes, antibodies, and chemical reagents. Large-sized chemical reagents should have corresponding sample spoons. If sterile, please mark it.</li>
+<li>During sterilization, the liquid shouldn’t exceed 2/3 of the volume; otherwise, it may cause gushing or burst, possibly contaminating surrounding samples or hurting people.</li>
+<li>Caps should be rescrewed when the sterilized liquid inside reaches room temperature.</li>
+<li>The central laboratory should be maintained at the appropriate temperature (25-28 degrees); if necessary, please turn on the air; laboratories with the dedicated outdoor air system (DOAS) shouldn’t open windows. If ventilation, please watch out for insects and dust.</li>
+<li>All consumables and equipment should be labeled.</li>
+</ul>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content2">
+  <h2 id="safety-in-design">Safety in Design</h2>
+<p>According to our background research, bio-synthesis has advantages like yielding fewer intermediates and costing fewer chemicals over the traditional method. Fewer unpredictable substances mean lower potential toxicity and less contamination. And we’re obliged to firmly follow related instructions when we were disposing of requisite chemicals.</p>
+  </div>
+  <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
+  <h2 id="safety-in-implementation">Safety in Implementation</h2>
+<p>In our project, only two strains of <em>E. Coli</em> were selected and they both met the biological standard in iGEM. The DH5α strain was used for colony; while the BL21 starin was used for further expression and ultimate production. To extract our final product, retinol, we applied acetone extraction, which could kill bacteria. Besides, centrifugation was also used to extract intracellular retinol, which definitely destroyed bacteria and  no lives could survive. Following steps can be reviewed <a href="https://2022.igem.wiki/fudan/experiments">here</a>.</p>
+<p>Despite this, refinements still can be expected, since the fewer chemicals are used, the better the whole procedure is.  As we proposed in <a href="https://2022.igem.wiki/fudan/description">Description</a>, CRBP is the ideal resolution, which can transport retinol outside cells with higher efficiency and transportation rate, thus decreasing the acetone use.</p>
   </div>
 </div>
 
