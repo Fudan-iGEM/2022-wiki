@@ -501,7 +501,7 @@ section{
 #women_men1 .women_men_word{
     padding: 1rem;
     width: 30vw;
-    padding: 1rem;
+    border-radius: 1rem 3rem 1rem 3rem;
 }
 #women_men3{
     width: 50rem;
@@ -519,6 +519,7 @@ section{
 }
 #women_men4 .women_men_word{
     padding: 1rem;
+    border-radius: 1rem 3rem 1rem 3rem;
 }
 #women_men5{
     top: 48.6875rem;
@@ -528,6 +529,7 @@ section{
 #women_men5 .women_men_word{
     width: 35rem;
     padding: 1rem;
+    border-radius: 3rem 1rem 3rem 1rem;
 }
 
 @media(max-width: 767px){
@@ -603,6 +605,7 @@ section{
 #ideas2 .ideas_word{
     width: 33rem;
     padding: 1rem;
+    border-radius: 1rem 3rem 1rem 3rem;
 }
 #ideas3{
     width: 40rem;
@@ -620,6 +623,7 @@ section{
 #ideas4 .ideas_word{
     padding: 1rem;
     width: 27rem;
+    border-radius: 3rem 2rem 3rem 2rem;
 }
 @media(max-width: 767px){
     .ideas_word{
