@@ -544,6 +544,7 @@ section{
 #ideas2{
     top: 36.875rem;
     left: 11rem;
+    position: absolute;
 }
 #ideas2 .ideas_word{
     width: 33rem;
@@ -560,6 +561,7 @@ section{
 #ideas4{
     top: 12.8125rem;
     right: 20rem;
+    position: absolute;
 }
 #ideas4 .ideas_word{
     padding: 1rem;
