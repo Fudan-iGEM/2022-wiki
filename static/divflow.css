@@ -149,11 +149,13 @@ section{
     margin-left: 40rem;
     margin-top: 24.8125rem;
     position: absolute;
+    border-radius: 2rem 1rem 2rem 1rem;
 }
 #health_words3{
     margin-left: 20rem;
     margin-top: 45.125rem;
     position: absolute;
+    border-radius: 1rem 2rem 1rem 2rem;
 }
 .health_words { padding:  1.8229rem }
 .route_word, .reasons_word, .women_men_word, .ideas_word, #conclusion { padding:  1.8229 }
