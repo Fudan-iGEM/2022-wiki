@@ -37,7 +37,9 @@ def index():
 
 @app.route('/<page>')
 def pages(page):
-    return render_template(str(Path('pages')) + '/' + page.lower() + '.html',
+    '''return render_template(str(Path('pages')) + '/' + page.lower() + '.html',
+                           __build__=__build__)'''
+    return render_template('pages/' + page.lower() + '.html',
                            __build__=__build__)
 
 # Main Function, Runs at http://0.0.0.0:8080
