@@ -108,3 +108,6 @@ function updatePercentage() {
     tl5.progress();
     tl6.progress();
 }
+$(document).ready(function () {
+new DevicePixelRatio().init();
+});
