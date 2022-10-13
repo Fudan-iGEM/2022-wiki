@@ -10,19 +10,8 @@ section{
     font-size: 1.5rem;
 }
 
-  /*iPhone6/7/8*/
-  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
-    /* .属性名{
-      ...样式
-    } */
-  }
 
-  /*iPhone6/7/8 Plus*/
-  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 3) {
-    /* .属性名{
-      ...样式
-    } */
-  }
+
 
   /*iPhone X*/
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
@@ -87,7 +76,7 @@ section{
     position: relative;
     height: max-content;
 }
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     section{
         height: 220rem;
         font-size: 4rem;
@@ -115,7 +104,7 @@ section{
     height: 20vw;
     opacity: 50%;
 }
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     #circle1{
     width: 20vw;
     height: 20vw;   
@@ -182,7 +171,7 @@ section{
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: portrait){
     #data{
         height: 220rem;
     }
@@ -245,7 +234,7 @@ section{
     width: 30rem;
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     #masks{
         height: 220rem;
     }
@@ -345,7 +334,7 @@ section{
     font-size: 6rem;
     font-weight: 800;
 }
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     #routes{
         height: 220rem;
     }
@@ -442,7 +431,7 @@ section{
 
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     .reasons_word{
         padding: 8rem;
     }
@@ -532,7 +521,7 @@ section{
     border-radius: 3rem 1rem 3rem 1rem;
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     .women_men_word{
         padding: 8rem;
     }
@@ -625,7 +614,7 @@ section{
     width: 27rem;
     border-radius: 3rem 2rem 3rem 2rem;
 }
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     .ideas_word{
         padding: 8rem;
     }
@@ -674,7 +663,7 @@ section{
     opacity: 0.7;
     padding-top: 3.5rem;
 }
-@media(max-width: 767px){
+@media(max-width: 767px) and (orientation: portrait){
     #conclusion{
         width: 85rem;
     }
@@ -700,7 +689,7 @@ section{
     background-repeat: no-repeat;
     height: 33.75rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: portrait){
     #ribozyme,
     #tears{
         height: 64.9231rem;
@@ -710,7 +699,7 @@ section{
     height: fit-content;
     min-height: 0rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: portrait){
     #menus .iconsforindex{
         min-width: 30rem;
     }
