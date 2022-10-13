@@ -321,9 +321,9 @@ section{
 }
 #route1{
     margin: 5rem;
-    left: 8rem;
-    right: 8rem;
-    width: 100rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    width: 84rem;
     height: 61.875rem;
     background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/vc-background.png");
     background-position: center;
