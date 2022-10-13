@@ -186,21 +186,21 @@ section{
         height: 220rem;
     }
     #health_words1{
-        left: 17rem;
-        top: 33rem;
-        width: 43rem;
+        left: 7rem;
+        top: 10rem;
+        width: 80rem;
         padding: 3rem;
     }
     #health_words2{
         left: -10rem;
-        top: 57rem;
-        width: 50rem;
+        top: 40rem;
+        width: 80rem;
         padding: 3rem;
     }
     #health_words3{
-        left: 16rem;
+        left: 5rem;
         top: 79rem;
-        width: 45rem;  
+        width: 80rem;  
         padding: 3rem;      
     }
 }
