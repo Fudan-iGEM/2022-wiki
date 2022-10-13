@@ -245,6 +245,9 @@ section{
 }
 
 @media(max-width: 767px){
+    #masks{
+        height: 220rem;
+    }
     #mask1{
         top: 13.5rem;
         display: flex;
