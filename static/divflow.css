@@ -72,12 +72,6 @@ section{
     } */
   }
 
-
-@media(max-width: 767px){
-    section{
-        font-size: 1rem !important;
-    }
-}
 menu{
     position: absolute;
     left: 5%;
@@ -86,18 +80,11 @@ menu{
 }
 
 section{
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     display: flex;
     box-sizing: border-box;
     position: relative;
-}
-
-hr{
-    height: 5px !important;
-    background-color: #598364;
-    border: 0 !important;
-    margin: 0 !important;
 }
 
 #heading{
@@ -106,7 +93,9 @@ hr{
     background-size: cover;
     text-align: center;
     justify-content: center;
+    height: 56.25rem;
 }
+
 #circle1{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/circle.png");
     background-position: center;
@@ -127,7 +116,7 @@ hr{
     left: 0;
     right: 0;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 13.625rem;
 
 }
 #logo{
@@ -145,49 +134,49 @@ hr{
     height: 90vh;
 }
 }
-#data{
-    height: 110vh;
-}
 .health_words{
-    width: 40vw;
+    width: 40rem;
     background-color: #598364;
     color: white;
     font-weight: 200;
     opacity: 0.7;
 }
 #health_words1{
-    margin-left: 8vw;
-    margin-top: 3vh;
+    margin-left: 8rem;
+    margin-top: 1.6875rem;
+    position: absolute;
 }
 #health_words2{
-    margin-left: 40vw;
-    margin-top: 5vh;
+    margin-left: 40rem;
+    margin-top: 24.8125rem;
+    position: absolute;
 }
 #health_words3{
-    margin-left: 20vw;
-    margin-top: 2vh;
+    margin-left: 20rem;
+    margin-top: 45.125rem;
+    position: absolute;
 }
-.health_words { padding:  25px }
-.route_word, .reasons_word, .women_men_word, .ideas_word, #conclusion { padding:  15px }
+.health_words { padding:  1.8229rem }
+.route_word, .reasons_word, .women_men_word, .ideas_word, #conclusion { padding:  1.8229 }
 @media (max-width: 1400px) {
     .health_words{
         background-color: #598364;
         color: white;
         font-weight: 200;
-        width: 65vw;
+        width: 65rem;
         font-size: 1.3rem;
     }
     #health_words1{
-        margin-left: 8vw;
-        margin-top: 5vh;
+        margin-left: 8rem;
+        margin-top: 24.8125rem;
     }
     #health_words2{
-        margin-left: 32vw;
-        margin-top: 8vh;
+        margin-left: 32rem;
+        margin-top: 45.5rem;
     }
     #health_words3{
-        margin-left: 20vw;
-        margin-top: 4vh;
+        margin-left: 20rem;
+        margin-top: 2.25rem;
     }
 }
 @media (max-width: 767px) {
@@ -213,51 +202,51 @@ hr{
 
 #masks{
     background-color: #598364;
+    height: 56.25rem;
 }
 
 #mask1{
-    margin-top: 5%;
+    top: 2.8125rem;
     display: block;
     max-height: 100%;
     position: absolute;
-    min-width: 600px;
+    min-width: 31.25rem;
 }
 #mask2{
     position: absolute;
     display: block;
     color: white;
-    max-width: 500px;
-    margin-top: 5%;
-    left: 5%;
-    width: 30vw;
+    max-width: 26.042rem;
+    top: 5rem;
+    left: 5rem;
+    width: 30rem;
 }
 #mask3{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 10%;
-    max-width: 500px;
-    right: 5%;
-    width: 30vw;
+    top: 10rem;
+    max-width: 26.042rem;
+    right: 5rem;
+    width: 30rem;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 25%;
-    max-width: 500px;
-    right: 9%;
-    width: 30vw;
+    top: 14.0625rem;
+    max-width: 26.042rem;
+    right: 9rem;
+    width: 30rem;
 }
 @media(max-width: 550px){
     #masks{
-        height: 130vh;
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
     }
     #mask1{
-        margin-top: 24%;
+        top: 13.5rem;
         display: flex;
-        width: 60vw;
+        width: 60rem;
         margin-left: 10%;
         min-width: auto;
     }
@@ -265,73 +254,68 @@ hr{
         position: relative;
         display: block;
         color: white;
-        margin-top: 10%;
-        width: 80%;
-        margin-left: 10vw;
-        margin-right: 3vw;
-        right:0
+        top: 5.625rem;
+        width: 80rem;
+        left: 10vw;
     }
     #mask3{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 70%;
-    max-width: 500px;
-    right: 5%;
-    width: 70vw;
+    top: 39.375rem;
+    max-width: 26.0417rem;
+    right: 5rem;
+    width: 70rem;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 120%;
-    max-width: 500px;
-    right: 9%;
-    width: 80vw;
+    top: 33.75rem;
+    max-width: 26.0417rem;
+    right: 9rem;
+    width: 80rem;
 }
 }
 @media(max-width: 767px){
     #mask1{
-        margin-top: 24%;
+        margin-top: 13.5rem;
         display: flex;
-        width: 60vw;
-        margin-left: 10%;
+        width: 60rem;
+        left: 10rem;
         min-width: auto;
     }
     #mask2{
         position: relative;
         display: block;
         color: white;
-        margin-top: 10%;
-        width: 80%;
-        margin-left: 10vw;
-        margin-right: 3vw;
-        right:0
+        top: 5.625rem;
+        width: 80rem;
+        left: 10rem;
     }
     #mask3{
     position: absolute;
     display: block;
     color: white;
     margin-top: 70%;
-    max-width: 500px;
-    right: 5%;
-    width: 70vw;
+    max-width: 26.0417rem;
+    right: 5rem;
+    width: 70rem;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    margin-top: 120%;
-    max-width: 500px;
-    right: 9%;
-    width: 80vw;
+    top: 39.375rem;
+    max-width: 26.0417rem;
+    right: 9rem;
+    width: 80rem;
 }
 }
 
 #routes{
     color: black;
     font-size: 3rem;
-    height: 100vh;
 }
 @media(max-width: 767px){
     #routes{
@@ -339,32 +323,32 @@ hr{
     }
 }
 #route1{
-    margin: 5%;
-    margin-left: 8%;
-    margin-right: 8%;
-    width: 100vw;
+    margin: 5rem;
+    left: 8rem;
+    right: 8rem;
+    width: 100rem;
     background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/vc-background.png");
     background-position: center;
     background-size: cover;
     align-content: center;
     justify-content: center;
+    position: absolute;
 }
 @media(max-width: 767px){
     #route1{
-        margin: 5%;
+        margin: 5rem;
         margin-left: 0;
         margin-right: 0;
     }
 }
 .route_word{
-    position: relative;
+    position: absolute;
     display: block;
     left: 0;
     right: 0;
-    top: 20%;
-    margin-top: 5%;
-    margin-right: 35px;
-    margin-left: 35px;
+    top: 11.25rem;
+    margin-right: 1.8229rem;
+    margin-left: 1.8229rem;
     background-color: white;
     opacity: 70%;
 }
@@ -373,10 +357,10 @@ hr{
 }
 @media(max-width: 767px){
     .route_word{
-        top: 40%;
-        margin-top: 2%;
-        margin-right: 10%;
-        margin-left: 10%;
+        top: 22.5rem;
+        margin-top: 1.125rem;
+        margin-right: 10rem;
+        margin-left: 10rem;
     }
 }
 .reasons_word{
@@ -386,34 +370,33 @@ hr{
     opacity: 0.7;
 }
 #reasons1{
-    margin-top: 5%;
+    top: 2.8125rem;
+    position: absolute;
 }
 #reasons1 .reasons_word{
-    margin-left: 10vw;
-    width: 40vw;
+    left: 10rem;
+    width: 40rem;
 }
 #reasons2{
-    width: 30vw;
-    min-width: 400px;
+    width: 30rem;
+    min-width: 20.8333333rem;
     position: absolute;
-    margin-top: 45vh;
-    margin-left: 5vw;
+    top: 25.3125.rem;
+    left: 5rem;
 }
 #reasons3{
-    margin-top: 10%;
+    top: 5.625rem;
+    position: absolute;
 }
 #reasons3 .reasons_word{
-    margin-top: 50%;
-    margin-right: 8%;
-    margin-bottom: -40%;
-    width: 40vw;
+    width: 40rem;
 }
 #reasons4{
-    width: 40vw;
-    min-width: 400px;
+    width: 40rem;
+    min-width: 20.833333rem;
     position: absolute;
-    margin-top: 0;
-    margin-left: 50vw;
+    top: 0;
+    left: 50rem;
 
 }
 
@@ -422,8 +405,9 @@ hr{
         font-size: 1rem !important;
     }
     #reasons1{
-        margin-top: 0vh;
-        margin-left: -3vw;
+        top: 0;
+        left: -3rem;
+        position: absolute;
     }
     #reasons1 .reasons_word{
         margin-top: 5%;
@@ -433,26 +417,23 @@ hr{
         width: 60vw;
         min-width: auto;
         position: absolute;
-        margin-top: 24vh;
-        margin-left: 5vw;
+        top: 51.9385rem;
+        eft: 5rem;
     }
     #reasons3{
-        margin-right: 10vw;
-        margin-left: -75vw;
-        margin-top: 60vh;
+        
+        left: 75rem;
+        top: 129.8462rem;
     }
     #reasons3 .reasons_word{
-        margin-top: 50%;
-        margin-left: 3%;
-        margin-bottom: -60%;
-        width: 70vw;
+        
     }
     #reasons4{
-        width: 80vw;
+        width: 80rem;
         min-width: auto;
         position: absolute;
-        margin-top: 105vw;
-        margin-left: 10vw;
+        top: 151.4872rem;
+        left: 10rem;
 
     }
 }
@@ -463,45 +444,45 @@ hr{
     opacity: 0.7;
 }
 #women_men1{
-    margin-top: 30vw;
-    margin-left: 5vw;
+    top: 61.9231rem;
+    left: 5rem;
+    position: absolute;
 
 }
 #women_men2{
     width: 30vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 5vh;
-    margin-left: 5vw;
+    top: 5rem;
+    left: 5rem;
 }
 #women_men1 .women_men_word{
-    margin-top: 8%;
-    margin-left: 6%;
+ 
     width: 30vw;
 }
 #women_men3{
-    width: 50vw;
-    min-width: 400px;
+    width: 50rem;
+    min-width: 20.83333rem;
     position: absolute;
-    margin-top: 10vh;
-    margin-left: 45vw;
-    max-width: 570px;
+    top: 5.625rem;
+    left: 45rem;
+    max-width: 29.6875rem;
 }
 #women_men4{
-    margin-top: 0;
-    margin-left: 0;
-    width: 50vw
+    top: 0;
+    left: 0;
+    width: 50rem;
 }
 #women_men4 .women_men_word{
-    margin-top: 8%;
-    width: 109%;
+    top: 4.5rem;
+    width: 40rem;
 }
 #women_men5{
-    margin-top: 35%;
-    margin-left: -21%;
+    top: 19.6875rem;
+    left: 21rem;
 }
 #women_men5 .women_men_word{
-    width: 90%;
+    width: 35rem;
 }
 
 @media(max-width: 767px){
@@ -509,42 +490,41 @@ hr{
         font-size: 1rem !important;
     }
     #women_men1{
-        margin-top: 2vh;
-        margin-left: 8vw;
+        top: 4.3282rem;
+        left: 8rem;
     }
     #women_men1 .women_men_word{
-        margin-top: 5%;
-        margin-left: 5%;
-        width: 70vw;
+        top: 10.8205rem;
+        left: 5rem;
+        width: 70rem;
     }
     #women_men2{
-        width: 60vw;
+        width: 60rem;
         min-width: auto;
         position: absolute;
-        margin-top: 24vh;
-        margin-left: 5vw;
+        top: 51.9385;
+        left: 5rem;
     }
     #women_men3{
-        margin-left: 50vw;
-        margin-top: 75vh;
+        margin-left: 50rem;
+        top: 162.3077rem;
         min-width: auto;
     }
     #women_men3 .women_men_word{
-        margin-top: 50%;
-        margin-left: 3%;
-        margin-bottom: -60%;
+        top: 108.2051rem;
+        left: 3rem;
     }
     #women_men4{
-        width: 90vw;
+        width: 90rem;
  
         position: absolute;
-        margin-top: 43vh;
-        margin-left: 10vw;
+        top: 93.0564rem;
+        left: 10rem;
 
     }
     #women_men5{
-        margin-left: -75%;
-        margin-top: 164%;
+        left: 5rem;
+        top: 138.5026rem;
     }
 }
 .ideas_word{
@@ -554,82 +534,80 @@ hr{
     opacity: 0.7;
 }
 #ideas1{
-    width: 30vw;
-    min-width: 400px;
+    width: 30rem;
+    min-width: 20.833333rem;
     position: absolute;
-    margin-top: 5vh;
-    margin-left: 5vw;
+    top: 2.8125rem;
+    left: 5rem;
 }
 #ideas2{
-    margin-top: 30%;
-    margin-bottom: -20%;
-    margin-left: 6%;
+    top: 16.875rem;
+    left: 6rem;
 }
 #ideas2 .ideas_word{
-    margin-top: 8%;
-    width: 90%;
+    width: 40rem;
 }
 #ideas3{
-    width: 40vw;
-    min-width: 400px;
+    width: 40rem;
+    min-width: 20.83333333rem;
     position: absolute;
-    margin-top: 40vh;
-    margin-left: 52vw;
-    max-width: 570px;
+    top: 22.5rem;
+    left: 52rem;
+    max-width: 29.6875rem;
 }
 #ideas4{
-    margin-top: 5%;
-    margin-right: 5%;
+    top: 2.8125rem;
+    right: 5rem;
 }
 #ideas4 .ideas_word{
-    margin-top: 8%;
-    width: 90%;
+ 
+    width: 35rem;
 }
 @media(max-width: 767px){
     .ideas_word{
         font-size: 1rem !important;
     }
     #ideas1{
-        margin-top: 0vh;
-        margin-left: 15vw;
+        top: 6.4923;
+        left: 15rem;
         min-width: auto;
-        width: 70vw;
+        width: 70rem;
     }
     #ideas2{
-        width: 70vw;
+        width: 70rem;
         position: absolute;
-        margin-top: 20vh;
-        margin-left: 5vw;
+        top: 43.2821;
+        left: 5rem;
     }
     #ideas3{
-        margin-left: 5vw;
-        margin-top: 60vh;
+        left: 5rem;
+        top: 129.8462rem;
         min-width: auto;
-        width: 75vw;
+        width: 75rem;
     }
     #ideas4{
-        width: 70vw;
+        width: 70rem;
         position: absolute;
-        margin-top: 85vw;
-        margin-left: 10vw;
+        top: 183.9487rem;
+        left: 10rem;
 
     }
 }
 #conclusion{
-    margin-top: 5%;
-    width: 70%;
+    top: 2.8125rem;
+    width: 70rem;
     background-color: #598364;
     color: white;
 }
 @media(max-width: 767px){
     #conclusion{
         font-size: 1rem !important;
-        width: 85%;
+        width: 85rem;
     }
 }
 
 #pictures{
-    height: unset;
+    height: fit-content;
 }
 #ribozyme{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/ribozyme.jpg");
@@ -637,7 +615,7 @@ hr{
     background-size: contain;
     max-width: 100%;
     max-height: 100%;
-    height: 60vh;
+    height: 33.75rem;
     background-repeat: no-repeat;
 }
 
@@ -646,12 +624,12 @@ hr{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 33.75rem;
 }
 @media (max-width: 767px) {
     #ribozyme,
     #tears{
-        height: 30vh;
+        height: 64.9231rem;
     }
 }
 #menues{
