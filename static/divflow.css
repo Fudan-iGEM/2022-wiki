@@ -5,7 +5,9 @@ body{
     border: 0;
     box-sizing: border-box;
 }
-
+.container{
+    max-width: 1920px;
+}
 section{
     font-size: 2rem;
 }
