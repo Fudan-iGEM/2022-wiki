@@ -189,19 +189,19 @@ section{
         left: 7rem;
         top: 10rem;
         width: 80rem;
-        padding: 3rem;
+        padding: 8rem;
     }
     #health_words2{
         left: -30rem;
         top: 40rem;
         width: 80rem;
-        padding: 3rem;
+        padding: 8rem;
     }
     #health_words3{
         left: -5rem;
         top: 79rem;
         width: 80rem;  
-        padding: 3rem;      
+        padding: 8rem;      
     }
 }
 
@@ -443,7 +443,7 @@ section{
 
 @media(max-width: 767px){
     .reasons_word{
-        padding: 5rem;
+        padding: 8rem;
     }
     #reasons1{
         top: 10rem;
@@ -530,10 +530,10 @@ section{
 
 @media(max-width: 767px){
     .women_men_word{
-        padding: 5rem;
+        padding: 8rem;
     }
     .women_men_word p{
-        padding: 3rem;
+        padding: 8rem;
     }
     #women_men1{
         top: 8.3282rem;
