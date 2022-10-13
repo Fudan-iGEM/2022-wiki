@@ -205,7 +205,7 @@ section{
     top: 13.8125rem;
     display: block;
     position: absolute;
-    width: 25.25rem;
+    width: 60.25rem;
 }
 #mask2{
     position: absolute;
@@ -464,8 +464,8 @@ section{
     width: 50rem;
     min-width: 20.83333rem;
     position: absolute;
-    top: 37.625rem;
-    left: 40rem;
+    top: 23.625rem;
+    left: 50rem;
     max-width: 29.6875rem;
 }
 #women_men4{
@@ -478,7 +478,7 @@ section{
     padding: 1rem;
 }
 #women_men5{
-    top: 30.6875rem;
+    top: 48.6875rem;
     left: 44rem;
     position: absolute;
 }
