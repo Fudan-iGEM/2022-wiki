@@ -199,13 +199,13 @@ section{
     }
     #health_words2{
         left: -20rem;
-        top: 50rem;
-        width: 80rem;
+        top: 22rem;
+        width: 75rem;
         padding: 8rem;
     }
     #health_words3{
-        left: -25rem;
-        top: 90 rem;
+        left: -10rem;
+        top: 50rem;
         width: 80rem;  
         padding: 8rem;      
     }
@@ -250,7 +250,6 @@ section{
     position: absolute;
     display: block;
     color: white;
-    max-width: 26.042rem;
     top: 5rem;
     left: 5rem;
     width: 30rem;
