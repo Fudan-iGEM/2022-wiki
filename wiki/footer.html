@@ -18,7 +18,7 @@
           </div>          
         </div>
       </div>
-      <div class="row justify-content-end">
+      <div class="row justify-content-end" id="hideWhen992">
           <div class="col-lg-2 col-xs-4 footermenu">
               <h4 style="color:#f4efd1">Project</h4>
               <ul style="padding-left:1em;">
@@ -26,7 +26,6 @@
             <li><a href="{{ url_for('pages', page='experiments') }}">Experiments</a></li>
             <li><a href="{{ url_for('pages', page='notebook') }}">Notebook</a></li>
             <li><a href="{{ url_for('pages', page='proof-of-concept') }}">Proof&nbsp;of&nbsp;concept</a></li>
-            <li><a href="{{ url_for('pages', page='software') }}">Software</a></li>
               </ul>
           </div>
           <div class="col-lg-2 col-xs-4 footermenu">
@@ -35,8 +34,8 @@
             <li><a href="https://video.igem.org/w/5iD5aPZDNkiiezQcNeH42o" target="_blank">Promotion</a></li>
             <li><a href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
             <li><a href="{{ url_for('pages', page='implementation') }}">Implementation</a></li>
-            <li><a href="{{ url_for('pages', page='safety') }}">Safety</a></li>
-
+            <!-- li><a href="{{ url_for('pages', page='safety') }}">Safety</a></li -->
+            <li><a href="{{ url_for('pages', page='software') }}">Software</a></li>
               </ul>
           </div>
           <div class="col-lg-2 col-xs-4 footermenu">
@@ -84,8 +83,9 @@
     <div class="row mt-4">
       <div class="col">
         <p class="mb-0"><small style="color:grey">&copy; 2022 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license" style="color:grey">Creative Commons Attribution 4.0 International license</a>.</small></p>
-        <p><small style="color:grey">The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/fudan" target="_blank" style="color:grey">gitlab.igem.org/2022/fudan</a>. This page was updated on
-        <time datetime="{{ datetime_tag }}">{{ datetime_str }}</time>.
+        <p><small style="color:grey">The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/fudan" target="_blank" style="color:grey">gitlab.igem.org/2022/fudan</a>.
+        <br/>This page was written by <span id="page_author">the Team</span>,
+             updated on <time datetime="{{ datetime_tag }}">{{ datetime_str }}</time>.
         </small></p>
       </div>
     </div>

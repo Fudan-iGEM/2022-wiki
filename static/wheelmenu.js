@@ -1,3 +1,5 @@
+$(document).ready(function () { // ONLY CALL AFTER READY
+
 let toggle = document.querySelector('.toggle')
 let menu = document.querySelector('.menu')
 let menuitem = document.querySelector('.menuitem')
@@ -87,15 +89,15 @@ const snapToSide = (e) => {
     }
 };
 
-menu.addEventListener("mousedown", mouseDown);
+if (menu !== null) {
+  menu.addEventListener("mousedown", mouseDown);
+  menu.addEventListener("mouseup", mouseUp);
+  menu.addEventListener("touchstart", mouseDown);
+  menu.addEventListener("touchend", mouseUp);
+}
 
-menu.addEventListener("mouseup", mouseUp);
-
-menu.addEventListener("touchstart", mouseDown);
-
-menu.addEventListener("touchend", mouseUp);
-
-toggle.addEventListener("click", (e) =>{
+if (toggle !== null) {
+  toggle.addEventListener("click", (e) =>{
     if (oldpositionx === menu.style.left&&
         oldpositiony === menu.style.top){
         if (menuitem.classList.contains('active')) {
@@ -109,9 +111,8 @@ toggle.addEventListener("click", (e) =>{
             menu.classList.toggle('active');
         }
     }
-})
-
-toggle.addEventListener("touchend", (e) =>{
+  })
+  toggle.addEventListener("touchend", (e) =>{
     if (oldpositionx === menu.style.left&&
         oldpositiony === menu.style.top){
         if (menuitem.classList.contains('active')) {
@@ -123,10 +124,7 @@ toggle.addEventListener("touchend", (e) =>{
             menu.classList.toggle('active');
         }
     }
-})
+  })
+}
 
-
-
-
-
-
+}); // ONLY CALL AFTER READY

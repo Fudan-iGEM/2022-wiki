@@ -24,6 +24,9 @@ code {
   background-color: #f4efd1;
   color: #598364;
 }
+strong {
+  font-weight: bold !important;
+}
 table {
   max-width: 100%;
   margin: 10px auto;

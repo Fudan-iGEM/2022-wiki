@@ -1,20 +1,4 @@
 $(document).ready(function () {
-  // footer, div > a
-  $(document).delegate('div.logos', 'click', function () {
-    window.location = $(this).find('a').attr('href');
-  });
-
-  // #landingpage  display: none;
-  $(window).on('resize', function () {
-    const win = $(this);
-    if (win.width() <= 768) {
-      $('#landingpage').hide();
-    } else {
-      $('#landingpage').show();
-    }
-  });
-
-  // sidebar
   $(window).on('scroll', function () {
     const link = $('.dot-landingpage');
     const top = $(window).scrollTop();
@@ -38,10 +22,11 @@ $(document).ready(function () {
       arrowParent.classList.toggle("showmenu");
     });
   }
-  const sidebar = document.querySelector("#landingpage");
-  const sidebarBtn = document.querySelector("#close-sidebar");
-  console.log(sidebarBtn);
-  sidebarBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("close");
-  });
+  // SIDEBAR NO HIDE
+  //const sidebar = document.querySelector("#landingpage");
+  //const sidebarBtn = document.querySelector("#close-sidebar");
+  //console.log(sidebarBtn);
+  //sidebarBtn.addEventListener("click", ()=>{
+  //  sidebar.classList.toggle("close");
+  //}); // SIDEBAR NO HIDE
 });

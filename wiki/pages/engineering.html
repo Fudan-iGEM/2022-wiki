@@ -1,4 +1,6 @@
 {% extends "layout.html" %}
+
+{% block author_name %}the Team{% endblock %}
   
 {% block title %}Engineering Success{% endblock %}
 {% block lead %}Demonstrate engineering success in a part of your project by going through at least one iteration of the engineering design cycle.{% endblock %}
@@ -67,12 +69,12 @@
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content">
 <p>In the process of building single-cell factory, we encountered several problems in <a href="/fudan/parts">Parts</a> design and experiments, and tried to solve them following iterations of the <strong>DBTL</strong> cycle (Design, Build, Test, Learn).</p>
 
-<h2 id="ribozyme-assisted-polycistronic-co-expression-system-prap">Ribozyme-assisted polycistronic co-expression system (pRAP)</h2>
+<h2 id="ribozyme-assisted-polycistronic-co-expression-system-prap">Ribozyme-assisted polycistronic co-expression</h2>
 <h3 id="cycle-1">Cycle 1</h3>
 
 <h4 id="design">Design</h4>
 <p>As many researches indicate, the major problem of polycistronic vectors, which contain two or more target genes under one promoter, is the much lower expression of the downstream genes compared with that of the first gene next to the promoter (Kim, Kyung-Jin et al. 2004). The tail of the coding sequence (CDS) can interfere with the head of the ribosome binding site (RBS), which can hinder RBS from combining to ribosomes. Such shortage occurred when we assembled crtEBIY sequentially only to find incomplete expressions of our target proteins.</p>
-<p>To optimize the crt biobrick, we adopted hammerhead ribozyme <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162005">BBa_K4162005</a> to construct a ribozyme-assisted polycistronic co-expression system (pRAP). Through inserting ribozyme sequences between crtEBIY, the polycistronic mRNA transcript is thus co-transcriptionally converted into individual mono-cistrons which have comparable translation efficiency. By building this system, we expected that the self-interaction of the polycistron can be avoid.</p>
+<p>To optimize the crt biobrick, we adopted hammerhead ribozyme <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162005">BBa_K4162005</a> to construct a ribozyme-assisted polycistronic co-expression BioBricks. Through inserting ribozyme sequences between crtEBIY, the polycistronic mRNA transcript is thus co-transcriptionally converted into individual mono-cistrons which have comparable translation efficiency. By building this system, we expected that the self-interaction of the polycistron can be avoid.</p>
 
 <h4 id="build">Build</h4>
 <p>We first assemble four basic modules: <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162010">BBa K4162010</a> (ribozyme + T7_RBS + crtE), <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162013">BBa_K4162013</a> (ribozyme + T7_RBS + crtB), <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162016">BBa_K4162016</a> (ribozyme + T7_RBS + crtI) and <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162019">BBa_K4162019</a> (ribozyme + T7_RBS + crtY). Next, we apply overlapping PCR to assemble 2-3 random basic modules. Finally, we obtained several biobricks composed of four basic modules assembled in different orders.</p>
@@ -87,7 +89,7 @@
 <p style="font-size:0.8rem;color:grey"><strong>Figure 3.</strong> IPTG(-/+) = without/with 0.2 mM IPTG for 3-6 hours, adding IPTG to a bacteria culture with OD600 0.2-0.3. M: Protein molecular weight marker ladder. Lane 4~16: pET28 plasmids encoding crtBEI separated by self-cleaving ribozyme, crtI, crtEI, crtB, crtEB, crtIYEB separated by self-cleaving ribozyme without any tag were transformed into BL21(DE3) HI-Control strain, single clones (BEI/1I7/1EI/1B1/EB5/EB6/IYEBa) were picked for liquid LB culture. Lane 1~2: pET28 plasmids encoding BCMO-ybbO-tdMCP-EGFP were transformed into BL21(DE3) HI-Control strain, single clones (2BY14tG14) were picked for liquid LB culture. Lane 3~4: pET28 plasmids encoding BCMO-ybbO were transformed into BL21(DE3) HI-Control strain, single clones (BY14hi) were picked for liquid LB culture. Protein expression was induced in parallel cultures by IPTG. Bacterial cultures were monitored by OD600, and 5x10^7 cells were harvested by centrifugation and lysis in 1x SDS sample buffer. Equal amount (10 μL, 2x10^6 cells) of whole cell lysate were analyzed by SDS-PAGE (4~20% gradient gel, Tanon brand). Red arrows point to crtI protein. Green arrows point to crtY protein. Black arrows point to crtB protein. Yellow arrows point to crtE protein.</p>
 
 <h4 id="learn">Learn</h4>
-<p>The pRAP system we constructed successfully enabled the expression of each enzyme contained in the crt polycistron in comparable proportions. However, if one wants to precisely manage the proportion of expression products of individual CDSs in this polycistron, it is not enough to separate the CDSs by ribozyme sequences. Besides, the stablility of expression among clones cannot be confirmed by electrophoresis experiments.</p>
+<p>We constructed successfully enabled the expression of each enzyme contained in the crt polycistron in comparable proportions. However, if one wants to precisely manage the proportion of expression products of individual CDSs in this polycistron, it is not enough to separate the CDSs by ribozyme sequences. Besides, the stablility of expression among clones cannot be confirmed by electrophoresis experiments.</p>
 
 <h3 id="cycle-2">Cycle 2</h3>
 <h4 id="design-1">Design</h4>
@@ -113,7 +115,7 @@
 <p><img src="https://static.igem.wiki/teams/4162/wiki/cww/96a-117.jpg" alt="96a-117.jpg (3840×2160) (igem.wiki)"></p>
 <p style="font-size:0.8rem;color:grey"><strong>Figure 8.</strong> <strong>96-well plate of module <a target="_blank" href="http://parts.igem.org/Part:BBa_K4162117">crtYEBI</a>.</strong> Except for the blank control well marked in black, all clones growing different wells had similar &beta;-carotene content in the bacterial pellet.</p>
 <h4 id="learn-1">Learn</h4>
-<p>Multiple cis-trans substrates assembled using nucleases have excellent stablility of expression among clones. And we saw the possibility to manage the pRAP system by adjusting the stength of RBS.</p>
+<p>Multiple cis-trans substrates assembled using nucleases have excellent stablility of expression among clones. And we saw the possibility to manage individual cistron by adjusting the stength of its upstream RBS.</p>
   </div>
   <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content1">
   <h2 id="application-of-hplc-in-product-detection">Apply HPLC to detect &beta;-carotene and retinol</h2>
@@ -132,13 +134,13 @@ Chromatographic column: C18; mobile phase: carotene methanol:acetonitrile 70:30;
 <p>We modified the protocol according to the instrument.</p>
 <h4 id="build-3">Build</h4>
 <p>New protocol: Agilent liquid chromatograph (HPLC-DAD); column C18 (250mm); column temperature 30°C; mobile phase methanol:water = 96:4; flow rate 0.8 mL/min; detection wavelength 325nm.<br>
-The protocol is from <a href="https://mp.weixin.qq.com/s/81zY_LoMratSEOOy7JUaFw">Boulder Research (Guangzhou) Biotechnology Co</a>.</p>
+The protocol is from <a target="_blank" href="https://mp.weixin.qq.com/s/81zY_LoMratSEOOy7JUaFw">Boulder Research (Guangzhou) Biotechnology Co</a>.</p>
 <h3 id="test-3">Test</h3>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/cww/beta.png" alt="beta.png (1071×336) (igem.wiki)"></p>
 <p style="font-size:0.8rem;color:grey"><strong>Figure 9.</strong> 1:10 dilution of methanolic saturated solution of &beta;-carotene.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/cww/3-7.png" alt="3-7.png (1075×353) (igem.wiki)"></p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/cww/3td7.png" alt="3td7.png (1075×362) (igem.wiki)"></p>
-<p style="font-size:0.8rem;color:grey"><strong>Figure 10.</strong> Acetone extracted samples were subjected to HPLC (C18 column)as described previously. The extract from bacteria expressing CAG-MS2, BCMO, ybbO, crtYEBI (the panel above, short name 3-7) compared with the extract from bacteria expressing CAG-MS2, BCMO, ybbO-tdMCP, crtYEBI (the panel below, short name 3td7), there are two peaks in the figure between 2-4 minutes (where our standards appear <a href="https://mp.weixin.qq.com/s/81zY_LoMratSEOOy7JUaFw">as well others</a>, detected at 325 nm), the absorbance value of the two peaks of 3td7 in this period is significantly higher than that of 3-7.</p>
+<p style="font-size:0.8rem;color:grey"><strong>Figure 10.</strong> Acetone extracted samples were subjected to HPLC (C18 column)as described previously. The extract from bacteria expressing CAG-MS2, BCMO, ybbO, crtYEBI (the panel above, short name 3-7) compared with the extract from bacteria expressing CAG-MS2, BCMO, ybbO-tdMCP, crtYEBI (the panel below, short name 3td7), there are two peaks in the figure between 2-4 minutes (where our standards appear <a target="_blank" href="https://mp.weixin.qq.com/s/81zY_LoMratSEOOy7JUaFw">as well others</a>, detected at 325 nm), the absorbance value of the two peaks of 3td7 in this period is significantly higher than that of 3-7.</p>
 <h3 id="learn-3">Learn</h3>
 <p>Clear results can be obtained for the amount of &beta;-carotene converted. Without a standard, the appropriate chromatographic separation and identification of retinol remains to challenging.</p>
   </div>

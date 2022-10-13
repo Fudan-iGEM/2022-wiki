@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename = 'index.css') }}?v={{ __build__ }}">
 
     <title>{% block title %}{% endblock %} | Fudan - iGEM 2022</title>
+    <meta name="author" content="{% block author_name %}{% endblock %}" />
 </head>
 <body>
   <!-- Navigation -->
@@ -44,7 +45,71 @@
   <!-- ionicons.esm.js ionicons.js -->
 
   <script src="{{ url_for('static', filename = 'wheelmenu.js') }}?v={{ __build__ }}"></script>
-  <script src="{{ url_for('static', filename = 'loading.js') }}?v={{ __build__ }}"></script>
-  <script src="{{ url_for('static', filename = 'landingpage.js') }}?v={{ __build__ }}"></script>
+  <!-- loading.js landingpage.js -->
+  <script>
+  window.addEventListener('load', () => {
+    setTimeout(function () {
+      const loader = document.querySelector('.loader');
+      if (loader !== null) {
+        loader.classList.add('loader--hidden');
+        loader.addEventListener('transitionend', () => {
+          try {
+            document.body.removeChild(loader);
+          } catch (err) {
+            console.log('loading.js', err);
+          }
+        });
+      }
+    }, 1000);
+  });
+
+  $(document).ready(function () {
+    // footer, div > a
+    $(document).delegate('div.logos', 'click', function () {
+      window.location = $(this).find('a').attr('href');
+    });
+
+    $('#page_author').text( $('meta[name=author]').attr('content') );
+
+    // sidebar arrow
+    const arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+      arrow[i].addEventListener("click", (e)=>{
+        //console.log(arrow)
+        const arrowParent = e.target.parentElement.parentElement; // selecting main parent of arrow
+        arrowParent.classList.toggle("showmenu");
+      });
+    }
+
+    $(window).on('resize', function () {
+      const win = $(this);
+      if (win.width() < 768) { // #landingpage  display: none;
+        $('#landingpage').hide();
+      } else {
+        $('#landingpage').show();
+      }
+      if (win.width() < 992) { // footer menu
+        $('#hideWhen992').hide();
+      } else {
+        $('#hideWhen992').show();
+      }
+    });
+
+    $(window).on('scroll', function () {
+      const link = $('.dot-landingpage');
+      const top = $(window).scrollTop();
+      $('.section').each(function () {
+        const id = $(this).attr('id');
+        //console.log(id)
+        const height = $(this).height();
+        const offset = $(this).offset().top - 150;
+        if (top >= offset && top < offset + height) {
+          link.removeClass('active');
+          $('#landingpage').find('[data-scroll="' + id + '"]').addClass('active');
+        }
+      });
+    });
+  });
+  </script>
 </body>
 </html>
