@@ -192,19 +192,19 @@ section{
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
     #health_words1{
-        left: 7rem;
-        top: 20rem;
+        left: 3rem;
+        top: 5rem;
         width: 80rem;
-        padding: 8rem;
+        padding: 4rem;
     }
     #health_words2{
-        left: -15rem;
+        left: -20rem;
         top: 50rem;
         width: 80rem;
         padding: 8rem;
     }
     #health_words3{
-        left: -5rem;
+        left: -25rem;
         top: 90 rem;
         width: 80rem;  
         padding: 8rem;      
@@ -315,14 +315,14 @@ section{
     #mask1{
         top: 3rem;
         display: flex;
-        width: 60rem;
+        width: 42rem;
         left: 16rem;
         min-width: auto;
     }
     #mask2{
         display: block;
         color: white;
-        top: 42.625rem;
+        top: 1.625rem;
         width: 80rem;
         left: 10rem;
     }
