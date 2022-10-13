@@ -552,12 +552,10 @@ section{
         left: 5rem;
     }
     #women_men3{
+        width: 80rem;
         left: 50rem;
         top: 162.3077rem;
         min-width: auto;
-    }
-    #women_men3 .women_men_word{
-        border-radius: 3rem 2rem 3rem 2rem;
     }
     #women_men4{
         width: 90rem;
