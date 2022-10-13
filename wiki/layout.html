@@ -108,14 +108,15 @@ document.addEventListener('DOMContentLoaded', function () {
   hideElement();
   window.addEventListener('resize', hideElement);
 
+  const sidebarDebug = false;
+
   // sidebar arrow
-  const debug = false;
   const arrow = document.querySelectorAll(".arrow");
   for (i = 0; i < arrow.length; i++) {
-    debug && console.log('arrow', arrow[i]);
+    sidebarDebug && console.log('arrow', arrow[i]);
     arrow[i].addEventListener('click', (e) => {
       const arrowParent = e.target.parentElement.parentElement; // selecting main parent of arrow
-      debug && console.log(arrowParent );
+      sidebarDebug && console.log(arrowParent );
       arrowParent.classList.toggle("showmenu");
     });
   }
@@ -140,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const docElem = document.documentElement;
     for (i = 0; i < section.length; i++) {
       const id = section[i].getAttribute('id');
-      debug && console.log('showSubmenu', id);
+      sidebarDebug && console.log('showSubmenu', id);
       const height = section[i].getBoundingClientRect().height;
       const offset = section[i].getBoundingClientRect().top + top - docElem.clientTop - 150;
       if (top >= offset && top < (offset + height)) {
