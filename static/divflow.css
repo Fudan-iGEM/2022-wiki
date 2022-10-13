@@ -202,11 +202,11 @@ section{
 }
 
 #mask1{
-    top: 2.8125rem;
+    top: 13.8125rem;
     display: block;
     max-height: 100%;
     position: absolute;
-    min-width: 31.25rem;
+    width: 32.25rem;
 }
 #mask2{
     position: absolute;
