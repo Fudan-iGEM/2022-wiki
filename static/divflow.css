@@ -538,31 +538,32 @@ section{
     width: 30rem;
     min-width: 20.833333rem;
     position: absolute;
-    top: 2.8125rem;
-    left: 5rem;
+    top: 7.8125rem;
+    left: 11rem;
 }
 #ideas2{
-    top: 16.875rem;
-    left: 6rem;
+    top: 36.875rem;
+    left: 11rem;
 }
 #ideas2 .ideas_word{
-    width: 40rem;
+    width: 33rem;
+    padding: 1rem;
 }
 #ideas3{
     width: 40rem;
     min-width: 20.83333333rem;
     position: absolute;
-    top: 22.5rem;
-    left: 52rem;
+    top: 34.5rem;
+    left: 56rem;
     max-width: 29.6875rem;
 }
 #ideas4{
-    top: 2.8125rem;
-    right: 5rem;
+    top: 12.8125rem;
+    right: 20rem;
 }
 #ideas4 .ideas_word{
- 
-    width: 35rem;
+    padding: 1rem;
+    width: 27rem;
 }
 @media(max-width: 767px){
     .ideas_word{
