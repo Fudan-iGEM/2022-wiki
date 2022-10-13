@@ -80,7 +80,7 @@ menu{
 }
 
 section{
-    height: fit-content;
+    height: 56.25rem;
     width: 100vw;
     display: flex;
     box-sizing: border-box;
@@ -129,11 +129,8 @@ section{
         margin-top: 50%;
     }
 }
-@media(min-width: 1400px){
-    #data{
-    height: fit-content;
-}
-}
+
+
 .health_words{
     width: 40rem;
     background-color: #598364;
