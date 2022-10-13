@@ -7,8 +7,72 @@ body{
 }
 
 section{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
+  /*iPhone6/7/8*/
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /*iPhone6/7/8 Plus*/
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 3) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /*iPhone X*/
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /*移动端竖屏 css*/
+  @media only screen and (orientation: portrait) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /*移动端横屏 css*/
+  @media only screen and (orientation: landscape) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /* 判断ipad */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /* ipad横屏 */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /* ipad竖屏 */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+  /* 判断iphone5 */ /* 横屏竖屏判断方法与ipad一样 */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    /* .属性名{
+      ...样式
+    } */
+  }
+
+
 @media(max-width: 767px){
     section{
         font-size: 1.3rem !important;
@@ -304,6 +368,9 @@ hr{
     background-color: white;
     opacity: 70%;
 }
+.route_word p{
+    text-align: center;
+}
 @media(max-width: 767px){
     .route_word{
         top: 40%;
@@ -329,7 +396,7 @@ hr{
     width: 30vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 50vh;
+    margin-top: 45vh;
     margin-left: 5vw;
 }
 #reasons3{
@@ -421,17 +488,17 @@ hr{
     max-width: 570px;
 }
 #women_men4{
-    margin-top: -5%;
-    margin-right: 5%;
-    width: 180%;
+    margin-top: 0;
+    margin-left: 0;
+    width: 50vw
 }
 #women_men4 .women_men_word{
     margin-top: 8%;
-    width: 60%;
+    width: 109%;
 }
 #women_men5{
-    margin-top: 40%;
-    margin-left: -74%;
+    margin-top: 35%;
+    margin-left: -21%;
 }
 #women_men5 .women_men_word{
     width: 90%;
@@ -506,7 +573,7 @@ hr{
     width: 40vw;
     min-width: 400px;
     position: absolute;
-    margin-top: 45vh;
+    margin-top: 40vh;
     margin-left: 52vw;
     max-width: 570px;
 }
