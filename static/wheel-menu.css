@@ -19,8 +19,8 @@
     align-items: center;
     list-style: none;
     transform-origin: 5.20833333333333333rem;
-    transition: 0.5s;
-    transition-delay: calc(0.1s * var(--i));
+    transition: 0.1s;
+    transition-delay: calc(0.05s * var(--i));
     transform: rotate(0deg) translateX(3.5rem);
     z-index: 2500;
     opacity: 0;
@@ -35,8 +35,8 @@
     align-items: center;
     list-style: none;
     transform-origin: 5.20833333333333333rem;
-    transition: 0.5s;
-    transition-delay: calc(0.1s * var(--i));
+    transition: 0.1s;
+    transition-delay: calc(0.05s * var(--i));
     transform: rotate(0deg) translateX(3.5rem);
     z-index: 2500;
     opacity: 0;
@@ -85,7 +85,6 @@
     cursor: pointer;
     box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.15);
     z-index: 4500;
-    transition: transform 1.25s;
 }
 .award{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/award1.png");
