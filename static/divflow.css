@@ -9,6 +9,7 @@ body{
 section{
     font-size: 2rem;
 }
+
   /*iPhone6/7/8*/
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
     /* .属性名{
@@ -86,7 +87,11 @@ section{
     position: relative;
     height: max-content;
 }
-
+@media(max-width: 767px){
+    section{
+        height: 220rem;
+    }
+}
 #heading{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/home-page.png");
     background-position: top;
@@ -440,8 +445,8 @@ section{
         font-size: 1rem !important;
     }
     #reasons1{
-        top: 0;
-        left: -3rem;
+        top: 22rem;
+        left: 6rem;
         position: absolute;
     }
     #reasons1 .reasons_word{
@@ -457,11 +462,11 @@ section{
     }
     #reasons3{
         
-        left: 75rem;
+        left: 6rem;
         top: 129.8462rem;
     }
     #reasons3 .reasons_word{
-        
+        width: 90rem;
     }
     #reasons4{
         width: 80rem;
@@ -525,9 +530,10 @@ section{
 @media(max-width: 767px){
     .women_men_word{
         font-size: 1rem !important;
+        padding: 5rem;
     }
     #women_men1{
-        top: 4.3282rem;
+        top: 14.3282rem;
         left: 8rem;
     }
     #women_men1 .women_men_word{
@@ -535,6 +541,7 @@ section{
         left: 5rem;
         width: 70rem;
     }
+
     #women_men2{
         width: 60rem;
         min-width: auto;
