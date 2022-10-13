@@ -211,7 +211,7 @@
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/parthub-workflow-withbg.png" alt="parthub-workflow.png (2125×1063) (igem.wiki)"></p>
 <ol>
 <li>
-<p>Visit PartHub, for example, <a href="http://3.238.241.161:5000/">http://3.238.241.161:5000/</a>. The page returned should be:</p>
+<p>Visit PartHub, for example, <a href="http://3.238.241.161:5000/">http://3.238.241.161:5000/</a>. The website is supposed to be like this:</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/homepage.gif" alt="homepage.gif (1145×758) (igem.wiki)"></p>
 </li>
 <li>
@@ -235,8 +235,8 @@
 </tr>
 <tr>
 <td align="center">Name</td>
-<td align="center">The id of the part (e.g. BBa_xxxxxxxx). It is fine to enter a search term with or without BBa_.</td>
-<td align="center">GFP</td>
+<td align="center">The name of the part in Registry of Standard Biological Parts.</td>
+<td align="center">superfolder GFP coding sequence</td>
 <td align="center"><a href="http://3.238.241.161:5000/sp?s=GFP&amp;searchtype=name">Click me</a></td>
 </tr>
 <tr>
@@ -264,7 +264,7 @@
 <td align="center"><a href="http://3.238.241.161:5000/sp?s=carotene&amp;searchtype=contents">Click me</a></td>
 </tr>
 </tbody>
-</table><p>All searches here are case-insensitive and support partial match retrieval. In addition, PartHub supports boolean search with multiple search terms (The format of the boolean search with multiple search terms should be xxx AND xxx or xxx OR xxx).</p>
+</table><p>Our search engine is case-insensitive and support partial match retrieval. In addition, PartHub supports boolean search with multiple search terms (The format of the boolean search with multiple search terms should be xxx AND xxx or xxx OR xxx).</p>
 <p>What’s more, PartHub supports fuzzy search. For example, if you want to search for <em>beta AND carotene</em> but you accidentally type in <em>bata AND carotene</em>, PartHub will automatically do the fuzzy search for you and the result will be:</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/fuzzysearch.png" alt="fuzzysearch.png (2880×1800) (igem.wiki)"></p>
 </li>
@@ -272,9 +272,11 @@
 <p>View sorted searching results (you can choose certain sorting order). PartHub provides several ways to sort the results, like Most cited, Best match, etc. In this way, users can organize the result in order to their needs. Sorting by Recommended is a weighted sort that considers various aspects of suitability and can be used in situations where users are unsure which sort is more appropriate for their needs.</p>
 </li>
 <li>
-<p>Click on a specific part you are interested in and visualize the relationship network of this part. The page is as follows:</p>
+<p>Click on a specific part you are interested in to visualize the relationship network of this part. The page is as follows:</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/software/graph.gif" alt="graph.gif (1145×758) (igem.wiki)"></p>
-<p>This relationship network is interactive, you can scroll to zoom the canvas and drag to move the nodes. Click to display the part details and double click to go to the part page. You can drag nodes to change the layout of the canvas. On this page, you can also get the sequence of this part directly.</p>
+<p>This relationship network is interactive, you can scroll to zoom the canvas and drag to move the nodes. Click to display the part details and double click to go to the part page. On this page, you can also get the sequence of this part directly.</p>
+</li>
+</ol>
 <h3 id="for-developers">For developers</h3>
 <p>The source code is on <a href="https://gitlab.igem.org/2022/software-tools/fudan">GitLab</a>.</p>
 <p>The system requirements to deploy PartHub are as follows:</p>
@@ -314,15 +316,16 @@
 <td>Broadband Internet connection</td>
 </tr>
 </tbody>
-</table></li>
+</table>
+<ol>
 <li>
 <p>The <code>DataBase</code> file contains code to import data into the database.</p>
 </li>
 <li>
-<p>The <code>WebCrawler</code> file contains code to get data from the Registry of Standard Biological Parts. If you want to update the data for a new year, replace the year in <a href="https://gitlab.igem.org/2022/software-tools/fudan/-/blob/main/WebCrawler/software_ver0.4.py#L679">line 679</a> of <code>software_ver0.4.py</code> with the year you want to get the data for. Then you can run <code>MergeCSVFiles.py</code> to get the new <code>all_collections.csv</code>. Then run <code>Preprocessing.py</code> to get <code>all_collections_filted.csv</code>. After uploading the data via <code>LoadCSVFile.py</code>, you are done updating the data in PartHub. If you are just getting a year’s worth of data, you can run it on a PC with more than 8 core CPUs(Remember to switch the appropriate number of threads in <code>software_ver0.4.py</code>), but if you want to get multiple years of data, we recommend you to run on a higher performance computer.</p>
+<p>The <code>WebCrawler</code> file contains code to get data from the Registry of Standard Biological Parts. If you want to update the data for a new year, replace the year in <a href="https://gitlab.igem.org/2022/software-tools/fudan/-/blob/main/WebCrawler/software_ver0.4.py#L679">line 679</a> of <code>software_ver0.4.py</code> with the year you want to get the data for. Then you can run <code>MergeCSVFiles.py</code> to get the new <code>all_collections.csv</code>. Then run <code>Preprocessing.py</code> to get <code>all_collections_filted.csv</code>. After uploading the data via <code>LoadCSVFile.py</code>, you are able to use PartHub with updated data. We recommend you to run it on a PC with more than 8 core CPUs for getting data of just one year, and on a higher performance computer for getting multiple years of data. Remember to switch the appropriate number of threads in <code>software_ver0.4.py</code> for better performance.</p>
 </li>
 <li>
-<p>The <code>.py</code> files are PartHub’s back-end code. The role of each code has been commented in the file.</p>
+<p>The back-end code of PartHub is written in Python (<code>.py</code> files). The role of each part of the code has been commented in the file.</p>
 </li>
 <li>
 <p>The <code>static</code> file contains static files(images and JavaScript files). The <code>templates</code> file contains front-end HTML files.</p>
@@ -332,15 +335,16 @@
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content3">
 <h2 id="contribution-to-the-igem-community">Contribution to the iGEM community</h2>
 <p>Since PartHub contains information on almost all of the Registry of Standard Biological Parts from 2004 onwards, PartHub can be useful for teams with multiple tracks. In the Design-Build-Test-Learn(DBTL)  biological engineering pipeline, PartHub can provide support for all iGEMers in every phase.</p>
-<p>During the designing, PartHub can help designers find and focus on sequences, engineering approaches, workflows, componentry, and organisms of interest. In the build phase, PartHub can help you build a combinatorial assembly of DNA-encoded componentry using the previous biobricks of iGEM. You can get some useful protocols in the test phase through PartHub. When organizing and examining data and experiences from the DBT phase to learn, the relationships between the parts that PartHub provides you with can provide you with direction to enlighten the next step of improvement.</p>
-<p>The first users of PartHub were Team Fudan's teammates responsible for the part. They replaced the search engine in the Registry of Standard Biological Parts with PartHub this year, which significantly improved the efficiency of their part search (for more details please visit our <a href="/fudan/parts#support-from-parthub">parts</a> page). In addition, we introduced PartHub to the community in slack's iGEM 2022 Global and received positive feedback:</p>
+<p>During the designing, PartHub can help designers find and focus on sequences, engineering approaches, workflows, componentry, and organisms of interest. In the build phase, PartHub can help you build a combinatorial assembly of DNA-encoded componentry using the previous biobricks of iGEM. You can get some useful protocols in the test phase through PartHub. In the learn phase, when organizing and examining data from the design / build / test phase, you may be enlightened on the next step of improvement by the PartHub-provided
+relationships between parts.</p>
+<p>The first users of PartHub were Team Fudan's teammates responsible for the part. They tried out our PartHub, and found it significantly improved the efficiency of their part search compared to the search engine in the Registry of Standard Biological Parts. Eventually they replaced the search engine in the Registry of Standard Biological Parts with PartHub. (for more details please visit our <a href="/fudan/parts#support-from-parthub">parts</a> page). In addition, we introduced PartHub to the community in slack's iGEM 2022 Global and received positive feedback:</p>
 <img src="https://static.igem.wiki/teams/4162/wiki/software/feedback.png" alt="feedback.png (2880×1800) (igem.wiki)">
 </div>
 
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content4">
 <h2 id="design-and-implementation">Design and implementation</h2>
 <h3 id="web-crawler">Web Crawler</h3>
-<p>To get data of parts from Registry of Standard Biological Parts, the Web Crawler based on the <a href="https://www.selenium.dev/">selenium</a> framework was developed. The information of the parts in the Registry of Standard Biological Parts is standardized, hence the information can be obtained by crawling through the elements of the fixed XPath. We ended up deploying the Web Crawler on a Windows-based server (Linux is also supported). A high-performance computer is recommended due to the vast number of pages on Registry of Standard Biological Parts(It is not suggested to use a PC to run the web crawler), and it’s especially recommended for HPC platforms. The following is our computer configuration:</p>
+<p>To get data of parts from Registry of Standard Biological Parts, the Web Crawler based on the <a href="https://www.selenium.dev/">selenium</a> framework was developed. The information of the parts in the Registry of Standard Biological Parts is standardized, hence the information can be obtained by crawling through the elements of the fixed XPath. We ended up deploying the Web Crawler on a Windows-based server (Linux is also supported). A high-performance computer or computing group, especially HPC platforms, is recommended to run the web crawler due to the vast number of pages on Registry of Standard Biological Parts. Laptop might be not suitable for this heavy-load work. The following is our computer configuration:</p>
 
 <table>
 <thead>
@@ -363,16 +367,16 @@
 <td>NVIDIA® GeForce GTX1050 Ti</td>
 </tr>
 </tbody>
-</table><p>Additionally, since the Web Crawler supports inputting a range of years to crawl data, it just needs to crawl the most recent year’s data for merging with each year’s update to achieve continuous updates of the parts stored in PartHub.</p>
+</table><p>Additionally, in order to keep the parts stored in PartHub updated, you can get data from multiple years in a row with the Web Crawler, or you can also crawl the most recent year's data and merge it with former data.</p>
 <p>Finally, after merging each year’s collection and data cleaning, we will save the collected data to a .csv file, which will include information such as the part number and name, content, citation, etc.</p>
 <h3 id="deployment-of-parthub">Deployment of PartHub</h3>
-<p>The acquired .csv file will be loaded to establish nodes for each part, construct a relationship network of parts with citations and twin parts relationships, creating a <a href="https://neo4j.com/">Neo4j</a> database. For querying Neo4j databases afterwards, the <a href="https://neo4j.com/developer/cypher/?ref=cypher-web-page">Cypher</a> language, which is an efficient database query language, is required. To facilitate data transmission between the back-end and the database, <a href="https://py2neo.org/2021.1/#">py2neo</a> is applied to gain database access to the back-end.</p>
-<p>PartHub’s back-end is based on python, and a public PartHub is currently working on the server of AWS (Amazon Web Services) with the configuration of t3.xlarge. Private deployment of PartHub or public deployment of mirrored PartHub is warmly welcomed.</p>
+<p>The acquired <code>.csv</code> file will be loaded to establish nodes for each part, construct a relationship network of parts with citations and twin parts relationships, creating a <a href="https://neo4j.com/">Neo4j</a> database. For querying Neo4j databases afterwards, the <a href="https://neo4j.com/developer/cypher/?ref=cypher-web-page">Cypher</a> language, which is an efficient database query language, is required. To facilitate data transmission between the back-end and the database, <a href="https://py2neo.org/2021.1/#">py2neo</a> is applied to gain database access to the back-end.</p>
+<p>PartHub’s back-end is based on Python, and a public PartHub is currently working on the server of AWS (Amazon Web Services) with the configuration of t3.xlarge. Private deployment of PartHub or public deployment of mirrored PartHub is warmly welcomed.</p>
 <h3 id="search-logic">Search logic</h3>
-<p>There are options for what to search, which based on the different features in Registry of Standard Biological Parts. PartHub provides search optimizations such as support for complementary sequence search, fuzzy search, and search result sorting.PartHub provides search optimizations such as support for complementary sequence search, fuzzy search, boolean search with multiple search terms so that users can combine users search terms with and or relations. For the search results, each search result represents a part, and the basic information is neatly listed, click on the title to draw the relationship network tree related to this part as the center, which can find a large number of connections between parts that can not be found in the iGEM built-in search engine.</p>
+<p>There are options for what to search, which based on the different features in Registry of Standard Biological Parts. PartHub provides search optimizations such as support for complementary sequence search, fuzzy search, and search result sorting. Boolean search with multiple terms combined with <em>AND / OR</em> relations is also available. As for the search results, each entry represents a part, and the basic information is neatly listed nearby. Click on the title to view the relationship network tree related to this part, and you will find a large number of connections between parts which can not be found in the iGEM built-in search engine.</p>
 <p>Also, PartHub provides several ways to sort the results, like Most cited, Best match, etc. In this way, users can organize the result in order to their needs. Sorting by Recommended is a weighted sort that considers various aspects of suitability and can be used in situations where users are unsure which sort is more appropriate for their needs.</p>
 <h3 id="visualization-of-relationship-between-parts">Visualization of relationship between parts</h3>
-<p>Under the structure of Neo4j, we manage to visualize the relationship between parts. Each node stands for a specific iGEM part in the database, while the line between nodes represents the cite and cited relationship or twin parts relationship. The number of citations and publication time of part are directly presented by the size and color of the nodes. The canvas outputs are interactive, allowing the user to zoom, drag nodes, and click nodes, etc. In addition, the necessary information is presented in a table on the side, and if the part is of interest to the user, he can directly access its page in the Registry of Standard Biological Parts or directly obtain its sequence (if it exists).</p>
+<p>Under the structure of Neo4j, we manage to visualize the relationship between parts. Each node stands for a specific iGEM part in the database, while the line between nodes represents the cite and cited relationship or twin parts relationship. The number of citations and publication time of part are directly presented by the size and color of the nodes. The canvas outputs are interactive, allowing the user to zoom, drag nodes, and click nodes, etc. In addition, basic information of the clicked part is presented in a table on the side. For further information, the user may access the page of this part in the Registry of Standard Biological Parts directly, or obtain its sequence (if it exists).</p>
 <h3 id="cross-platform-compatibility">Cross-platform compatibility</h3>
 <p>In order to ensure a robust cross-platform approach for PartHub, we chose to develop a web-based user interaction module. It is also important to use universal features and interfaces when developing web applications in order to achieve good cross-platform performance. PartHub can be used on a PC (either Windows, Linux, or macOS), iPad, iPhone, or Android phone. The following browsers have been tested to work (this does not mean that the browsers not listed do not work):</p>
 <ul>
