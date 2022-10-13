@@ -89,7 +89,6 @@ hr{
     background-color: #598364;
     color: white;
     font-weight: 200;
-    padding: 25px;
     opacity: 0.7;
 }
 #health_words1{
@@ -104,14 +103,14 @@ hr{
     margin-left: 20vw;
     margin-top: 2vh;
 }
-
+.health_words { padding:  25px }
+.route_word, .reasons_word, .women_men_word, .ideas_word, #conclusion { padding:  15px }
 @media (max-width: 1400px) {
     .health_words{
         background-color: #598364;
         color: white;
         font-weight: 200;
         width: 65vw;
-        padding: 25px;
         font-size: 1.3rem;
     }
     #health_words1{
@@ -325,7 +324,6 @@ hr{
 #reasons1 .reasons_word{
     margin-left: 10vw;
     width: 40vw;
-    padding: 15px;
 }
 #reasons2{
     width: 30vw;
@@ -341,7 +339,6 @@ hr{
     margin-top: 50%;
     margin-right: 8%;
     margin-bottom: -40%;
-    padding: 15px;
     width: 40vw;
 }
 #reasons4{
@@ -556,7 +553,6 @@ hr{
     width: 70%;
     background-color: #598364;
     color: white;
-    padding: 15px;
 }
 @media(max-width: 767px){
     #conclusion{
