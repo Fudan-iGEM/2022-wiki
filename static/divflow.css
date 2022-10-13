@@ -634,18 +634,24 @@ section{
         top: 43.2821;
         left: 5rem;
     }
+    #ideas2 .ideas_word{
+        width: 60rem;
+    }
     #ideas3{
         left: 5rem;
         top: 129.8462rem;
         min-width: auto;
+        max-width: auto;
         width: 75rem;
     }
     #ideas4{
-        width: 70rem;
         position: absolute;
         top: 183.9487rem;
         left: 10rem;
 
+    }
+    #ideas4 .ideas_word{
+        width: 70rem;
     }
 }
 #pictures{
