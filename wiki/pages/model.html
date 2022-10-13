@@ -202,28 +202,24 @@
 <h2 id="results">Results</h2>
 <h3 id="stimulation-of-enzyme-enrichment">Stimulation of enzyme enrichment</h3>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/model/phase-separation.gif" alt=""></p>
-<p><strong>Figure 1. The kinematic simulation of phase separation.</strong>
-    <span style="font-size:0.8rem;color:grey"></span></p>
-<p>It is illustrated in the Figure 2 that the phase separation can be simulated by solving the Cahn-Hilliard equation. The black part of the image represents the enzyme molecules that gradually cluster over time.</p>
+<span style="font-size:0.8rem;color:grey"><p><strong>Figure 1. The kinematic simulation of phase separation (animation).</strong> Each black dot in the figure represents an enzyme particle, while the rectangle stands for the cytoplasm in the bacteria.</p></span>
+<p><img src="https://static.igem.wiki/teams/4162/wiki/model/phase-separation-pic.png" alt=""></p>
+<span style="font-size:0.8rem;color:grey"><p><strong>Figure 2. The kinematic simulation of phase separation.</strong> <strong>a</strong>, the figure is captured at the beginning of phase separation (t=0). <strong>b</strong>,the figure is captured at the end. Each black dot in the figure represents an enzyme particle, while the rectangle stands for the cytoplasm in the bacteria.</p></span>
+<p>It is illustrated in the Figure1 and Figure2 that the phase separation can be simulated by solving the Cahn-Hilliard equation. The black part of the image represents the enzyme molecules that gradually cluster over time.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/model/concentration.svg" alt=""></p>
-<p><strong>Figure 2. Concentration changes in small areas.</strong>
-   <span style="font-size:0.8rem;color:grey"></span></p>
-<p>The x-axis represents the enzyme concentration in the divided small region, while the y-axis represents the percentage of small regions at that concentration. The different colors of the curves refer to different time points.</p>
+<span style="font-size:0.8rem;color:grey"><p><strong>Figure 3. Concentration changes in small areas.</strong> The x-axis represents the enzyme concentration in the divided small region, while the y-axis represents the percentage of small regions at that concentration. The different colors of the curves refer to different time points.</p></span>
 <p>We divided the whole reaction area into ten by ten small areas and calculated the percentage of black in each small area. As shown in the graph, more small areas acquired high enzyme concentrations as time passed. In the beginning stage (blue curve), the percentage of black was around 50% in most regions.</p>
 <p>Then, we take a percentage of 50 as the average concentration (0.01mM) and consider 0.011mM as the maximum solubility concentration of the enzyme. Therefore, we adjust the reasonable concentration of each tiny area according to the threshold value.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/model/model/fig4.svg" alt=""></p>
-<p><strong>Figure 3. The concentration of soluble enzymes in the cell.</strong>
-   <span style="font-size:0.8rem;color:grey"></span></p>
-<p>After the phase change coalescence occurs, the total amount of enzyme remains unchanged. Since there is an upper limit of soluble enzymes, the concentration of <strong>soluble enzymes in the cytoplasm decreases</strong> after the phase change occurs.</p>
-<p>Meanwhile, enzyme concentration in phase change particles is not limited by solubility, thus increasing gradually. In the bigger picture, <strong>the total amount of enzyme increases.</strong></p>
+<span style="font-size:0.8rem;color:grey"><p><strong>Figure 4. The concentration of soluble enzymes in the cell.</strong> The x-axis represents the enzyme concentration in the divided small region, while the y-axis represents the percentage of small regions at that concentration. The blue, orange and green curve stands for reaction with no phase separation, phase separation and phase separation with maximum solubility respectively.</p></span>
+<p>After the phase change coalescence occurs, the total amount of enzyme remains unchanged. Since there is an upper limit of soluble enzymes, the concentration of <strong>soluble enzymes in the cytoplasm decreases</strong> after the phase change occurs. Meanwhile, enzyme concentration in phase change particles is not limited by solubility, thus increasing gradually. In the bigger picture, <strong>the total amount of enzyme increases.</strong></p>
 <p>The enzyme on the phase change particle can still catalyze the reaction. Since these enzymes of high concentration are wrapped in the particle, they will not stress the cell, <strong>ensuring continuous production of the enzymes</strong>.</p>
 <h3 id="kinetics-of-enzyme-catalyzed-reactions">Kinetics of enzyme-catalyzed reactions</h3>
-<p>After calculating the equation using actual data, it is clear from the diagram that the enzyme is saturated with the substrate under the average concentration. The reaction rate curve with ten times the average concentration (blue curve) far exceeds others, demonstrating that the high enzyme concentration significantly boosts the reaction.</p>
-<p>The final results imply that enzyme enrichment is essential within the context of our design. The phase separation of enzymes will significantly boost our production rate.</p>
 <p><img src="https://static.igem.wiki/teams/4162/wiki/model/mm.svg" alt=""></p>
-<p><strong>Figure 4. Response curve of the Michaelis-Menten equation.</strong>
-   <span style="font-size:0.8rem;color:grey"></span></p>
+<span style="font-size:0.8rem;color:grey"><p><strong>Figure 5. Response curve of the Michaelis-Menten equation.</strong> The x-axis represents the substrate concentration, while the y-axis represents the reaction rate. The blue, orange and green curve stands for reaction with phase separation at high enzyme concentration, phase separation at low concentration and with no phase separation.</p></span>
+<p>After calculating the equation using actual data, it is clear from the diagram (Figure5) that the enzyme is saturated with the substrate under the average concentration. The reaction rate curve with ten times the average concentration (blue curve) far exceeds others, demonstrating that the high enzyme concentration significantly boosts the reaction. The final result implies that enzyme enrichment is essential within the context of our design. The phase separation of enzymes will significantly boost our production rate.</p>
 <p>In our model, we successfully simulated the phase separation, i.e., enzyme enrichment, and visualized it. Secondly, we proved our hypothesis that enzyme enrichment is vital in enhancing reaction rate.</p>
+<p>It is important to note that a relatively high enzyme concentration is required to achieve this effect, which involves overexpressing enzyme-related genes. Later in our practical wet experiments, we followed the modeling conclusions and overexpressed the enzyme.</p>
 </div>
 <div class="offset-md-3 col-md-7 col-sm-12 my-lg-5 content section" id="content6">
 <h2 id="conclusion">Conclusion</h2>
