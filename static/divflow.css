@@ -367,7 +367,8 @@ section{
     opacity: 0.7;
 }
 #reasons1{
-    top: 2.8125rem;
+    top: 9.3125rem;
+    left: 5rem;
     position: absolute;
 }
 #reasons1 .reasons_word{
@@ -378,11 +379,12 @@ section{
     width: 30rem;
     min-width: 20.8333333rem;
     position: absolute;
-    top: 25.3125.rem;
+    top: 32.8125rem;
     left: 5rem;
 }
 #reasons3{
-    top: 5.625rem;
+    top: 38.625rem;
+    left: 48rem;
     position: absolute;
 }
 #reasons3 .reasons_word{
@@ -392,8 +394,8 @@ section{
     width: 40rem;
     min-width: 20.833333rem;
     position: absolute;
-    top: 0;
-    left: 50rem;
+    top:2rem;
+    left: 47rem;
 
 }
 
@@ -441,17 +443,17 @@ section{
     opacity: 0.7;
 }
 #women_men1{
-    top: 61.9231rem;
-    left: 5rem;
+    top: 28.9231rem;
+    left: 7rem;
     position: absolute;
 
 }
 #women_men2{
     width: 30vw;
-    min-width: 400px;
+    min-width: 20.8333333rem;
     position: absolute;
-    top: 5rem;
-    left: 5rem;
+    top: 7rem;
+    left: 15rem;
 }
 #women_men1 .women_men_word{
  
@@ -461,22 +463,23 @@ section{
     width: 50rem;
     min-width: 20.83333rem;
     position: absolute;
-    top: 5.625rem;
-    left: 45rem;
+    top: 37.625rem;
+    left: 40rem;
     max-width: 29.6875rem;
 }
 #women_men4{
-    top: 0;
-    left: 0;
+    top: 8rem;
+    left: 40rem;
     width: 50rem;
+    position: absolute;
 }
 #women_men4 .women_men_word{
-    top: 4.5rem;
-    width: 40rem;
+    padding: 0.78125rem;
 }
 #women_men5{
-    top: 19.6875rem;
-    left: 21rem;
+    top: 30.6875rem;
+    left: 62rem;
+    position: absolute;
 }
 #women_men5 .women_men_word{
     width: 35rem;
