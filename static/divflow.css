@@ -407,6 +407,7 @@ section{
     left: 10rem;
     width: 40rem;
     padding: 1rem;
+    border-radius: 3rem 1rem 3rem 1rem;
 }
 #reasons2{
     width: 30rem;
@@ -423,6 +424,7 @@ section{
 #reasons3 .reasons_word{
     width: 40rem;
     padding: 1rem;
+    border-radius: 1rem 3rem 1rem 3rem;
 }
 #reasons4{
     width: 40rem;
