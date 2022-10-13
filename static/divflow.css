@@ -90,7 +90,7 @@ section{
 @media(max-width: 767px){
     section{
         height: 220rem;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 #heading{
@@ -530,7 +530,6 @@ section{
 
 @media(max-width: 767px){
     .women_men_word{
-        font-size: 1rem !important;
         padding: 5rem;
     }
     .women_men_word p{
@@ -708,10 +707,10 @@ section{
     min-height: 0rem;
 }
 @media (max-width: 767px) {
-    #menus iconsforindex{
+    #menus .iconsforindex{
         min-width: 30rem;
     }
 }
 footer{
-    font-size: 5rem;
+    font-size: 4rem;
 }
