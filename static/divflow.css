@@ -93,6 +93,7 @@ section{
     background-size: cover;
     text-align: center;
     justify-content: center;
+    height: 56.25rem;
 }
 
 #circle1{
@@ -115,7 +116,7 @@ section{
     left: 0;
     right: 0;
     position: absolute;
-    margin-top: 50.625rem;
+    margin-top: 15.625rem;
 
 }
 #logo{
