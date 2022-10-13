@@ -80,11 +80,12 @@ menu{
 }
 
 section{
-    height: 56.25rem;
+    min-height: 56.25rem;
     width: 100vw;
     display: flex;
     box-sizing: border-box;
     position: relative;
+    height: max-content;
 }
 
 #heading{
