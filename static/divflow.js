@@ -4,7 +4,6 @@ let tl3 = new TimelineMax({onUpdate: updatePercentage});
 let tl4 = new TimelineMax({onUpdate: updatePercentage});
 let tl5 = new TimelineMax({onUpdate: updatePercentage});
 let tl6 = new TimelineMax({onUpdate: updatePercentage});
-let tl7 = new TimelineMax({onUpdate: updatePercentage});
 
 const controller1 = new ScrollMagic.Controller();
 const controller2 = new ScrollMagic.Controller();
@@ -98,6 +97,16 @@ const scene6 = new ScrollMagic.Scene({
     .setTween(tl6)
     .addTo(controller6);
 
+
+var tween = TweenMax.fromTo(".menu", 1,
+								{left: 0},
+								{left: 100, repeat: 20, yoyo: true, ease: Circ.easeInOut}
+							);
+
+	// build scene
+	var scene = new ScrollMagic.Scene({triggerElement: "#data", duration: 200})
+					.setTween(tween) // add indicators (requires plugin)
+					.addTo(controller7);
 
 function updatePercentage() {
     //percent.innerHTML = (tl.progress() *100 ).toFixed();
