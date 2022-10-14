@@ -9,6 +9,8 @@
     left: 0;
     position: fixed;
     cursor: move;
+    background-color: gray;
+    opacity: 0.5;
 }
 
 .menuitem {
