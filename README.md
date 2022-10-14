@@ -5,6 +5,11 @@ ID 4162
 
 Our society has been under massive academic and work pressure recently. However, as the most exterior health indicator, skin loses the care that it should have according to research indicating that over 40% of people have worsened skin health due to a work-life imbalance and a lack of skincare awareness during the pandemic. Our project Rester centers on Vitamin A, an effective skincare reagent but with possible side effects. Our modified cell factories featuring phase separation and enzyme anchoring contain the reaction route of beta-carotene, retinal, and retinol through consecutive enzymatic reactions with appropriate efficiency. It would underlie the production of Vitamin A derivatives that overcome the instability and hazard issues of typical Vitamin A forms in skincare products. This biomanufacturing plan helps people with heavy stress and skincare queries raise their proper skincare awareness, ease their financial burden of skincare, and ultimately regain confidence in their careers and life.
 
+# Code validation
+* semistandard \*.js
+* https://html5.validator.nu
+* https://jigsaw.w3.org/css-validator/
+
 # Note from HQ
 
 This repository **MUST** contain all coding assets to generate your team's wiki (HTML, CSS, JavaScript, TypeScript, Python, etc).
