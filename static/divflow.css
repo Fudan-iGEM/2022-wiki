@@ -509,8 +509,8 @@ section{
 }
 
 @media(max-width: 767px) and (orientation: portrait){
-    .reasons_word{
-        padding: 8rem;
+    .reasons_word p{
+        padding: 4rem;
     }
     #reasons1{
         top: 10rem;
@@ -906,5 +906,7 @@ section{
     footer{
     font-size: 4rem;
 }  
-
+}
+.iconsforindex{
+    margin-top: 5rem;
 }
