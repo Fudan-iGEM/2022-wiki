@@ -93,10 +93,16 @@ document.addEventListener('DOMContentLoaded', function () {
   function hideElement () {
     const wW = window.innerWidth;
     const sidebar = document.querySelector("#landingpage");
+    const highlight = document.querySelector("#mycarousel");
     if (sidebar !== null && wW < 768) { // #landingpage display: none;
       sidebar.style.display = 'none';
     } else if (sidebar !== null) {
       sidebar.style.display = '';
+    }
+    if (highlight !== null && wW < 768) {
+      highlight.style.display = 'none';
+    } else if (highlight !== null) {
+      highlight.style.display = '';
     }
     if (wW < 992) { // footer menu
       document.querySelector("#hideWhen992").style.display = 'none';
