@@ -263,7 +263,7 @@ section{
         height: 150rem;
     }
     #mask1{
-        top: 15rem;
+        top: 33rem;
         display: flex;
         width: 42rem;
         left: 16rem;
@@ -272,7 +272,7 @@ section{
     #mask2{
         display: block;
         color: white;
-        top: 1.625rem;
+        top: 10.625rem;
         width: 70rem;
         left: 10rem;
     }
@@ -280,16 +280,16 @@ section{
     position: absolute;
     display: block;
     color: white;
-    top: 42.625rem;
-    max-width: 26.0417rem;
-    right: 22rem;
-    width: 70rem;
+    top: 70.625rem;
+    left: 7rem;
+    
+    width: 52rem;
 }
 #mask4{
     position: absolute;
     display: block;
     color: white;
-    top: 125.375rem;
+    top: 96.375rem;
     max-width: 60.0417rem;
     right: 12rem;
     width: 80rem;
