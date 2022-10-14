@@ -84,9 +84,9 @@
     align-items: center;
     border-radius: 10%;
     cursor: pointer;
-    box-shadow: 0 0 0.3rem #333;
+    box-shadow: 0 0 0.3rem gray;
     z-index: 4500;
-    background-color: gray;
+    background-color: white;
     opacity: 0.5;
 }
 .award{
