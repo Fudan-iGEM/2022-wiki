@@ -139,22 +139,25 @@ section{
     border-radius: 1rem 2rem 1rem 2rem;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+    #data{
+        height: 150rem;
+    }
     #health_words1{
-        left: 3rem;
+        left: -5rem;
         top: 5rem;
         width: 80rem;
         padding: 4rem;
     }
     #health_words2{
-        left: -20rem;
-        top: 22rem;
+        left: -30rem;
+        top: 2rem;
         width: 75rem;
         padding: 8rem;
     }
     #health_words3{
-        left: -10rem;
+        left: -18rem;
         top: 50rem;
-        width: 80rem;  
+        width: 75rem;  
         padding: 8rem;      
     }
 }
@@ -177,7 +180,7 @@ section{
     }
     #health_words3{
         left: -5rem;
-        top: 79rem;
+        top: 59rem;
         width: 80rem;  
         padding: 8rem;      
     }
