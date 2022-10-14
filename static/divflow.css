@@ -10,58 +10,6 @@ section{
     font-size: 1.5rem;
 }
 
-
-
-
-  /*iPhone X*/
-  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
-  /*移动端竖屏 css*/
-  @media only screen and (orientation: portrait) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
-  /*移动端横屏 css*/
-  @media only screen and (orientation: landscape) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
-  /* 判断ipad */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
-  /* ipad横屏 */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
-  /* ipad竖屏 */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
-  /* 判断iphone5 */ /* 横屏竖屏判断方法与ipad一样 */
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    /* .属性名{
-      ...样式
-    } */
-  }
-
 menu{
     position: absolute;
     left: 5%;
@@ -311,8 +259,11 @@ section{
 }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+    #masks{
+        height: 150rem;
+    }
     #mask1{
-        top: 3rem;
+        top: 15rem;
         display: flex;
         width: 42rem;
         left: 16rem;
