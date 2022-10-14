@@ -417,6 +417,7 @@ section{
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
     #routes{
         height: 150rem;
+        margin: 0;
     }
     #route1{
         height: 150rem;
@@ -466,6 +467,10 @@ section{
     margin-left: 0;
     opacity: 70%;
     
+}
+.route_word{
+    width: 90rem;
+    margin-left: 5rem;
 }
 }
 .reasons_word{
@@ -564,30 +569,22 @@ section{
         width: 30rem;
         min-width: auto;
         position: absolute;
-        top: 79.9385rem;
+        top: 70.9385rem;
         left: 5rem;
     }
     #reasons3{
         
-        left: 48rem;
+        left: 40rem;
         top: 77.625rem;
     }
     #reasons3 .reasons_word{
         width: 32rem;
     }
     #reasons4{
-        width: 35rem;
+        width: 40rem;
         min-width: auto;
         position: absolute;
-        top: 42.4872rem;
-        left: 47rem;
-
-    }
-    #reasons4{
-        width: 30rem;
-        min-width: auto;
-        position: absolute;
-        top: 67.4872rem;
+        top: 40.4872rem;
         left: 47rem;
 
     }
@@ -702,7 +699,7 @@ section{
         padding: 4rem;
     }
     #women_men1{
-        top: 56.3282rem;
+        top: 35.3282rem;
         left: 7rem;
     }
     #women_men1 .women_men_word{
@@ -714,20 +711,20 @@ section{
         width: 30rem;
         min-width: auto;
         position: absolute;
-        top: 20rem;
-        left: 15rem;
+        top: 6rem;
+        left: 8rem;
     }
     #women_men3{
-        width: 50rem;
-        left: 48rem;
-        top: 14.3077rem;
+        width: 45rem;
+        left: 43rem;
+        top: 8rem;
         min-width: auto;
         max-width: 200rem;
     }
     #women_men4{
         width: 50rem;
         position: absolute;
-        top: 50rem;
+        top: 38rem;
         left: 47rem;
 
     }
