@@ -104,7 +104,7 @@ var tween = TweenMax.fromTo(".menu", 1,
 							);
 
 	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#data", duration: 200})
+	var scene = new ScrollMagic.Scene({triggerElement: "#data", duration: 1000})
 					.setTween(tween) // add indicators (requires plugin)
 					.addTo(controller7);
 
