@@ -59,7 +59,7 @@
     pointer-events: auto;
 }
 .menu.active.left .menuitem_second {
-    transform: translateX(calc(8rem * var(--i) + 5rem)) translateY(calc(6rem * var(--j)));
+    transform: translateX(calc(8rem * var(--i) + 5rem)) translateY(calc(8rem * var(--j)));
     opacity: 1;
     pointer-events: auto;
 }
