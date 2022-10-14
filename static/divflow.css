@@ -276,7 +276,7 @@ section{
         display: block;
         color: white;
         top: 10.625rem;
-        width: 70rem;
+        width:60rem;
         left: 10rem;
     }
     #mask3{
@@ -292,10 +292,10 @@ section{
     position: absolute;
     display: block;
     color: white;
-    top: 70.375rem;
+    top: 68.375rem;
     max-width: 60.0417rem;
     right: 12rem;
-    width: 45rem;
+    width: 30rem;
 }
 }
 #routes{
