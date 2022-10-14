@@ -4,6 +4,7 @@ let tl3 = new TimelineMax({onUpdate: updatePercentage});
 let tl4 = new TimelineMax({onUpdate: updatePercentage});
 let tl5 = new TimelineMax({onUpdate: updatePercentage});
 let tl6 = new TimelineMax({onUpdate: updatePercentage});
+let tl7 = new TimelineMax();
 
 const controller1 = new ScrollMagic.Controller();
 const controller2 = new ScrollMagic.Controller();
@@ -42,6 +43,7 @@ tl6.from('#health_words1', 1, { y: -200, opacity: 0 });
 tl6.from('#health_words2', 1, { y: -400, opacity: 0 });
 tl6.from('#health_words3', 1, { y: -600, opacity: 0 });
 
+tl7.from('.menu', 1, { X: 300})
 
 const scene1 = new ScrollMagic.Scene({
     triggerElement: "#masks",
@@ -97,16 +99,14 @@ const scene6 = new ScrollMagic.Scene({
     .setTween(tl6)
     .addTo(controller6);
 
+const scene7 = new ScrollMagic.Scene({
+    triggerElement: "#data",
+    triggerHook: "onLeave",
+    duration: "100%"
+})
+    .setTween(tl7)
+    .addTo(controller7);
 
-var tween = TweenMax.fromTo(".menu", 1,
-								{left: 0},
-								{left: 100, repeat: 20, yoyo: true, ease: Circ.easeInOut}
-							);
-
-	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#data", duration: 1000})
-					.setTween(tween) // add indicators (requires plugin)
-					.addTo(controller7);
 
 function updatePercentage() {
     //percent.innerHTML = (tl.progress() *100 ).toFixed();
@@ -116,4 +116,5 @@ function updatePercentage() {
     tl4.progress();
     tl5.progress();
     tl6.progress();
+    tl7.progress();
 }
