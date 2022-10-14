@@ -37,7 +37,7 @@ section{
     }
 }
 #heading{
-    background-image: url("https://static.igem.wiki/teams/4162/wiki/home-page.png");
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/home-page-tiny.png");
     background-position: top;
     background-size: cover;
     text-align: center;
@@ -46,7 +46,7 @@ section{
 }
 
 #circle1{
-    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/circle.png");
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/circle-tiny.png");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -307,7 +307,7 @@ section{
 #route1{
     width: 100rem;
     height: 50rem;
-    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/vc-background.png");
+    background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/vc-background-tiny.png");
     background-position: center;
     background-size: cover;
     align-content: center;
