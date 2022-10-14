@@ -367,16 +367,16 @@ section{
         align-items: center;
     }
     #route_word1 p{
-        font-size: 20rem;
-        font-weight: 800;
-    }
-    #route_word2 p{
-        font-size: 10rem;
+        font-size: 15rem;
         font-weight: 600;
     }
+    #route_word2 p{
+        font-size: 7rem;
+        font-weight: 400;
+    }
     #route_word3 p{
-        font-size: 20rem;
-        font-weight: 800;
+        font-size: 15rem;
+        font-weight: 600;
     }
 #route_word1{
     position: absolute;
