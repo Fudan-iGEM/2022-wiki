@@ -4,7 +4,7 @@ let tl3 = new TimelineMax({onUpdate: updatePercentage});
 let tl4 = new TimelineMax({onUpdate: updatePercentage});
 let tl5 = new TimelineMax({onUpdate: updatePercentage});
 let tl6 = new TimelineMax({onUpdate: updatePercentage});
-let tl7 = new TimelineMax();
+let tl7 = new TimelineMax({onUpdate: updatePercentage});
 
 const controller1 = new ScrollMagic.Controller();
 const controller2 = new ScrollMagic.Controller();
@@ -43,7 +43,7 @@ tl6.from('#health_words1', 1, { y: -200, opacity: 0 });
 tl6.from('#health_words2', 1, { y: -400, opacity: 0 });
 tl6.from('#health_words3', 1, { y: -600, opacity: 0 });
 
-tl7.from('.menu', 1, { X: 300})
+tl7.from('.menu', 1, { X: 300, opacity: 0})
 
 const scene1 = new ScrollMagic.Scene({
     triggerElement: "#masks",
