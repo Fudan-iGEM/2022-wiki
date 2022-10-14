@@ -145,20 +145,20 @@ section{
     #health_words1{
         left: -5rem;
         top: 5rem;
-        width: 80rem;
+        width: 70rem;
         padding: 4rem;
     }
     #health_words2{
-        left: -30rem;
-        top: 2rem;
-        width: 75rem;
-        padding: 8rem;
+        left: -20rem;
+        top: 7rem;
+        width: 65rem;
+        padding: 4rem;
     }
     #health_words3{
         left: -18rem;
-        top: 50rem;
-        width: 75rem;  
-        padding: 8rem;      
+        top: 2rem;
+        width: 70rem;  
+        padding: 4rem;      
     }
 }
 
