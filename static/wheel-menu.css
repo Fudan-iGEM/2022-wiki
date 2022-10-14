@@ -9,8 +9,6 @@
     left: 0;
     position: fixed;
     cursor: move;
-    background-color: gray;
-    opacity: 0.5;
 }
 
 .menuitem {
@@ -86,8 +84,10 @@
     align-items: center;
     border-radius: 10%;
     cursor: pointer;
-    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0.3rem #333;
     z-index: 4500;
+    background-color: gray;
+    opacity: 0.5;
 }
 .award{
     background-image: url("https://static.igem.wiki/teams/4162/wiki/index/index/award1.png");
