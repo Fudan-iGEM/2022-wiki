@@ -141,6 +141,7 @@ section{
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
     #data{
         height: 150rem;
+        padding: 1rem;
     }
     #health_words1{
         left: -5rem;
@@ -156,7 +157,7 @@ section{
     }
     #health_words3{
         left: -18rem;
-        top: 10rem;
+        top: 20rem;
         width: 70rem;  
         padding: 4rem;      
     }
