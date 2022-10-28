@@ -20,7 +20,7 @@ fff.write('| | | Part Name | Description | Part Type | Designer(s) | Length |\n'
 fff.write('|----|----|----|----|----|----|----|\n')
 
 for zz in z:
-    part_name = 'BBa_K4162%s' % str(zz).zfill(3)
+    part_name = 'BBa_K4162%s' % str(zz).zfill(3) # Team Fudan 2022iGEM
     if not os.path.isfile('parts-html/%s.txt' % part_name):
         print('init:\t', part_name)
         driver.get("http://parts.igem.org/cgi/partsdb/part_info.cgi?part_name=%s" % part_name)
@@ -66,5 +66,6 @@ for zz in z:
     print('\n\n')
 
 fff.close()
-print('CAUTION: will support update and diff later, right now only for init')
+print('CAUTION: not support update or diff, only for init')
+print('Check with http://parts.igem.org/cgi/partsdb/pgroup.cgi?pgroup=iGEM2022&group=Fudan')
 driver.quit()
